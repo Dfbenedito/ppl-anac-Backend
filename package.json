@@ -1,0 +1,15 @@
+{
+  "name": "anac-ppl-backend",
+  "version": "1.0.0",
+  "description": "API ANAC PPL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5"
+  }
+}
