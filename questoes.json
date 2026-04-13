@@ -1,1 +1,38 @@
-
+[
+  {
+    "id": 1,
+    "materia": "Meteorologia",
+    "enunciado": "O vento é definido pela sua direção e velocidade. A direção do vento é indicada pelo lado de onde ele:",
+    "alternativas": {
+      "A": "Sopra",
+      "B": "Se dirige",
+      "C": "Gira",
+      "D": "Nasce"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 2,
+    "materia": "Regulamentos",
+    "enunciado": "A altitude mínima de voo sobre áreas congestionadas de cidades é:",
+    "alternativas": {
+      "A": "300m acima do obstáculo mais alto num raio de 600m",
+      "B": "500ft acima do solo",
+      "C": "1000ft acima do obstáculo mais alto num raio de 2000ft",
+      "D": "600m acima do nível do mar"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "id": 3,
+    "materia": "Navegação",
+    "enunciado": "A variação magnética é a diferença entre o norte:",
+    "alternativas": {
+      "A": "Verdadeiro e o norte magnético",
+      "B": "Magnético e o norte da proa",
+      "C": "Verdadeiro e o norte da bússola",
+      "D": "Magnético e o norte geográfico"
+    },
+    "resposta_correta": "A"
+  }
+]
