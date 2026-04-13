@@ -2,10 +2,22 @@ const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const cors = require('cors');
+const https = require('https');
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+// Agente HTTPS que ignora erros de certificado (comum em sites gov.br)
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+
+// Headers simulando um navegador real
+const headers = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'pt-BR,pt;q=0.9',
+  'Connection': 'keep-alive',
+};
 
 app.get('/', (req, res) => {
   res.json({ status: 'API ANAC PPL online!' });
@@ -13,7 +25,12 @@ app.get('/', (req, res) => {
 
 app.get('/questoes', async (req, res) => {
   try {
-    const { data } = await axios.get('https://sistemas.anac.gov.br/bancodequestoes/default.asp');
+    const { data } = await axios.get('https://sistemas.anac.gov.br/bancodequestoes/default.asp', {
+      httpsAgent,
+      headers,
+      timeout: 20000, // 20 segundos
+    });
+
     const $ = cheerio.load(data);
     const questoes = [];
 
