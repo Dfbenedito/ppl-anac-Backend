@@ -258,3 +258,252 @@
     }
   ]
 }
+    {
+      "id": 3,
+      "titulo": "Nuvens e Precipitação",
+      "aula": {
+        "introducao": "O reconhecimento e a interpretação dos tipos de nuvens é uma das habilidades mais importantes do piloto. Nuvens são indicadores visuais das condições atmosféricas e dos riscos presentes no voo.",
+        "subtitulos": [
+          {
+            "titulo": "Classificação das Nuvens por Altitude",
+            "conteudo": "As nuvens são classificadas em famílias de acordo com a altitude de sua base:\n\n• **Nuvens Altas** (acima de 20.000ft):\n  - Cirrus (Ci): Filamentos finos de gelo, sem precipitação\n  - Cirrocumulus (Cc): Pequenos flocos brancos em camadas\n  - Cirrostratus (Cs): Véu fino causando halo solar/lunar\n\n• **Nuvens Médias** (6.500ft a 20.000ft):\n  - Altocumulus (Ac): Blocos ou rolos brancos/cinza\n  - Altostratus (As): Camada cinza uniforme, sol visível como através de vidro fosco\n\n• **Nuvens Baixas** (abaixo de 6.500ft):\n  - Stratus (St): Camada uniforme, teto baixo, garoa\n  - Stratocumulus (Sc): Camada irregular com massas arredondadas\n  - Nimbostratus (Ns): Camada densa e escura, chuva/neve contínua\n\n• **Nuvens de Desenvolvimento Vertical**:\n  - Cumulus (Cu): Base plana, topos em couve-flor, indica convecção\n  - Cumulonimbus (Cb): A mais perigosa, se estende da troposfera à tropopausa"
+          },
+          {
+            "titulo": "Cumulonimbus — A Nuvem Mais Perigosa",
+            "conteudo": "O Cumulonimbus (Cb) é a nuvem de maior perigo para a aviação:\n\n• **Estrutura**: Base escura em baixa altitude, topo em forma de bigorna (anvil) na tropopausa, pode atingir 60.000ft\n\n• **Riscos associados**:\n  - Turbulência severa a extrema (dentro e fora da nuvem)\n  - Granizo (pode ocorrer até 20 milhas do Cb)\n  - Raios e descargas elétricas\n  - Windshear e microbusts\n  - Icing severo\n  - Precipitação intensa\n  - Tornados e trombas d'água\n\n• **Regra de ouro**: Nunca voar dentro de um Cb. Contornar por pelo menos **20NM** do topo da bigorna.\n\n• **Fases do Cb**: Cumulus (desenvolvimento) → Madura (mais perigosa, correntes ascendentes e descendentes simultâneas) → Dissipação (correntes descendentes dominam)"
+          },
+          {
+            "titulo": "Tipos de Precipitação",
+            "conteudo": "• **Chuva (RA)**: Gotas de água com diâmetro > 0,5mm\n• **Garoa/Chuvisco (DZ)**: Gotas muito finas, associada a Stratus\n• **Neve (SN)**: Cristais de gelo, visibilidade muito reduzida\n• **Granizo (GR)**: Pedras de gelo, extremamente perigoso para aeronaves\n• **Chuva Engelante (FZRA)**: Chuva que congela ao contato com superfícies abaixo de 0°C — formação rápida de gelo na aeronave\n• **Neve Granulada (GS)**: Pellets de neve/gelo\n\n**Intensidade da precipitação**:\n- Leve (–): Visibilidade > 1000m\n- Moderada (sem símbolo): Visibilidade 500m–1000m\n- Forte (+): Visibilidade < 500m"
+          },
+          {
+            "titulo": "Formação de Gelo na Aeronave (Icing)",
+            "conteudo": "O acúmulo de gelo é um dos maiores perigos da aviação:\n\n• **Condições necessárias**: Temperatura entre -40°C e 0°C com gotículas de água líquida sub-resfriada presentes\n\n• **Tipos de gelo**:\n  - **Gelo Claro (Clear/Glaze Ice)**: Mais perigoso. Forma-se entre 0°C e -10°C. Duro, transparente, difícil de remover, adere firmemente\n  - **Gelo Branco/Opaco (Rime Ice)**: Entre -10°C e -20°C. Poroso, quebradiço, mais fácil de remover\n  - **Gelo Misto (Mixed Ice)**: Combinação dos dois tipos\n\n• **Efeitos do gelo**:\n  - Aumenta o peso da aeronave\n  - Deforma o perfil aerodinâmico (reduz sustentação, aumenta arrasto)\n  - Pode bloquear pitot, motor e superfícies de controle\n  - Pode causar perda de controle\n\n• **Icing mais intenso**: Normalmente entre -5°C e -10°C em nuvens com grande quantidade de água líquida"
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 21,
+          "pergunta": "Qual nuvem representa o maior perigo para a aviação?",
+          "alternativas": ["Cirrus", "Altostratus", "Cumulonimbus", "Nimbostratus"],
+          "resposta_correta": 2,
+          "explicacao": "O Cumulonimbus é a nuvem mais perigosa, associada a turbulência severa, granizo, raios, windshear e icing intenso."
+        },
+        {
+          "id": 22,
+          "pergunta": "Qual a distância mínima recomendada para contornar um Cumulonimbus?",
+          "alternativas": ["5NM", "10NM", "20NM", "50NM"],
+          "resposta_correta": 2,
+          "explicacao": "Recomenda-se contornar um Cb por pelo menos 20NM do topo da bigorna, pois granizo e turbulência severa podem ocorrer fora da nuvem."
+        },
+        {
+          "id": 23,
+          "pergunta": "O Nimbostratus está associado a:",
+          "alternativas": [
+            "Turbulência severa e granizo",
+            "Chuva ou neve contínua e teto baixo",
+            "Tempo bom e visibilidade ótima",
+            "Raios e trovoadas"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Nimbostratus é uma nuvem espessa e escura que produz chuva ou neve contínua com teto baixo e visibilidade reduzida."
+        },
+        {
+          "id": 24,
+          "pergunta": "Em qual faixa de temperatura ocorre o gelo claro (clear ice), o mais perigoso?",
+          "alternativas": ["-30°C a -20°C", "-20°C a -10°C", "0°C a -10°C", "+5°C a 0°C"],
+          "resposta_correta": 2,
+          "explicacao": "O gelo claro (clear/glaze ice) forma-se entre 0°C e -10°C. É o mais perigoso por ser duro, transparente e de difícil remoção."
+        },
+        {
+          "id": 25,
+          "pergunta": "Nuvens Cirrus são compostas por:",
+          "alternativas": [
+            "Gotículas de água líquida",
+            "Cristais de gelo",
+            "Água líquida e gelo",
+            "Vapor d'água puro"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Cirrus são nuvens altas compostas por cristais de gelo, formando filamentos finos. Não produzem precipitação."
+        },
+        {
+          "id": 26,
+          "pergunta": "Qual fase do Cumulonimbus é considerada a mais perigosa?",
+          "alternativas": [
+            "Fase cumulus (inicial)",
+            "Fase madura",
+            "Fase de dissipação",
+            "Todas são igualmente perigosas"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A fase madura é a mais perigosa, pois há correntes ascendentes e descendentes simultâneas de grande intensidade, com granizo, raios e turbulência severa."
+        },
+        {
+          "id": 27,
+          "pergunta": "Qual o perigo específico da chuva engelante (FZRA)?",
+          "alternativas": [
+            "Reduz a visibilidade apenas",
+            "Congela ao contato com superfícies abaixo de 0°C, formando gelo rapidamente",
+            "Causa turbulência severa",
+            "Danifica apenas os motores"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A chuva engelante congela instantaneamente ao contato com superfícies com temperatura abaixo de 0°C, causando rápido acúmulo de gelo na aeronave."
+        },
+        {
+          "id": 28,
+          "pergunta": "O granizo pode ocorrer até que distância de um Cumulonimbus?",
+          "alternativas": ["5 milhas", "10 milhas", "20 milhas", "50 milhas"],
+          "resposta_correta": 2,
+          "explicacao": "O granizo pode ser ejetado pelo Cb e cair até 20 milhas de distância da nuvem, tornando perigosa qualquer proximidade com um Cb ativo."
+        },
+        {
+          "id": 29,
+          "pergunta": "Qual nuvem baixa produz garoa e teto muito baixo, sem trovoadas?",
+          "alternativas": ["Cumulus", "Cumulonimbus", "Stratus", "Altocumulus"],
+          "resposta_correta": 2,
+          "explicacao": "Stratus é uma nuvem baixa em camada uniforme associada a teto muito baixo e garoa (drizzle), sem atividade convectiva ou elétrica."
+        },
+        {
+          "id": 30,
+          "pergunta": "Qual o efeito do acúmulo de gelo no perfil alar da aeronave?",
+          "alternativas": [
+            "Aumenta a sustentação e reduz o arrasto",
+            "Não afeta o desempenho aerodinâmico",
+            "Reduz a sustentação e aumenta o arrasto",
+            "Apenas aumenta o peso sem afetar a aerodinâmica"
+          ],
+          "resposta_correta": 2,
+          "explicacao": "O gelo deforma o perfil aerodinâmico da asa, reduzindo a sustentação, aumentando o arrasto e podendo causar perda de controle."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Vento, Turbulência e Cisalhamento",
+      "aula": {
+        "introducao": "O vento é um dos fatores meteorológicos que mais diretamente afeta a operação das aeronaves. Compreender sua origem, comportamento e os fenômenos associados é fundamental para a segurança de voo.",
+        "subtitulos": [
+          {
+            "titulo": "Origem e Comportamento do Vento",
+            "conteudo": "O vento é causado pela diferença de pressão atmosférica entre duas regiões. O ar se move de alta pressão para baixa pressão.\n\n• **Lei de Buys-Ballot**: No hemisfério sul, de costas para o vento, a baixa pressão está à sua esquerda e a alta à sua direita. (No hemisfério norte, é o oposto)\n\n• **Vento Geral (Free Stream Wind)**: Vento em altitude, não afetado pelo atrito com o solo.\n\n• **Vento de Superfície**: Afetado pelo atrito com o terreno, geralmente mais fraco e variável que o vento em altitude.\n\n• **Ventos Alísios**: Ventos regulares de leste nas regiões tropicais, causados pela circulação geral da atmosfera.\n\n• **Jato Subtropical (Jet Stream)**: Corrente de ar em alta altitude (30.000–40.000ft), velocidade > 60kt, influencia rotas de voos de longa distância."
+          },
+          {
+            "titulo": "Efeitos do Vento na Operação da Aeronave",
+            "conteudo": "• **Vento de Proa (Headwind)**: Aumenta a velocidade aerodinâmica sem aumentar a velocidade solo. Reduz a distância de decolagem e pouso. É o mais favorável.\n\n• **Vento de Cauda (Tailwind)**: Reduz a velocidade aerodinâmica em relação ao solo. Aumenta a distância de decolagem e pouso. Limite máximo de cauda geralmente 10kt para operações normais.\n\n• **Vento Cruzado (Crosswind)**: Requer técnica específica de pouso (crab ou slip). Cada aeronave tem um limite máximo de vento cruzado demonstrado.\n\n• **Componente de Vento**: Em provas ANAC é frequentemente exigido calcular a componente de proa/cauda e cruzado usando trigonometria ou tabelas."
+          },
+          {
+            "titulo": "Turbulência",
+            "conteudo": "Turbulência é a variação irregular do movimento do ar. Classificada por intensidade:\n\n• **Leve**: Leve variação de atitude/altitude. Passageiros podem se mover levemente.\n• **Moderada**: Variações mais intensas. Passageiros sentem pressão dos cintos.\n• **Severa**: Variações bruscas e grandes. Objetos soltos se movem violentamente.\n• **Extrema**: Aeronave fora de controle momentaneamente. Raramente encontrada.\n\n**Tipos de turbulência**:\n- **Convectiva**: Causada por Cb e correntes de convecção térmicas\n- **Mecânica/Orográfica**: Causada pelo vento passando sobre terreno irregular, montanhas\n- **CAT (Clear Air Turbulence)**: Turbulência em céu claro, associada ao Jet Stream. Sem aviso visual. Perigosa pois não pode ser vista pelo piloto\n- **Wake Turbulence (Turbulência de Esteira)**: Gerada por vórtices de ponta de asa de aeronaves pesadas. Perigosa para aeronaves leves"
+          },
+          {
+            "titulo": "Cisalhamento de Vento (Wind Shear)",
+            "conteudo": "Wind shear é a variação súbita de velocidade e/ou direção do vento em curta distância.\n\n• **Tipos**:\n  - Horizontal: Variação de direção/intensidade em plano horizontal\n  - Vertical: Variação entre diferentes altitudes (mais perigoso)\n\n• **Microburst**: Tipo violento de wind shear descendente associado a Cb. Corrente descendente que atinge o solo e se espalha horizontalmente. O piloto encontra vento de proa, depois corrente descendente, depois vento de cauda — perda drástica de sustentação.\n\n• **Fases do Microburst**:\n  1. Entrada: Vento de proa forte → aumento de IAS e altitude\n  2. Centro: Corrente descendente → queda de altitude\n  3. Saída: Vento de cauda → queda de IAS e altitude\n\n• **Alertas de Wind Shear**: PIREP, SIGMET, LLWS (Low Level Wind Shear) alerts. Altitude crítica: abaixo de 1.500ft AGL.\n\n• **Procedimento**: Se wind shear for reportado na aproximação, executar go-around imediatamente."
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 31,
+          "pergunta": "Qual tipo de vento é mais favorável para decolagem e pouso?",
+          "alternativas": ["Vento de cauda", "Vento cruzado", "Vento de proa", "Vento calmo"],
+          "resposta_correta": 2,
+          "explicacao": "O vento de proa (headwind) aumenta a velocidade aerodinâmica sem aumentar a velocidade solo, reduzindo a distância necessária de decolagem e pouso."
+        },
+        {
+          "id": 32,
+          "pergunta": "O que é CAT (Clear Air Turbulence)?",
+          "alternativas": [
+            "Turbulência dentro de nuvens de trovoada",
+            "Turbulência em céu claro associada ao Jet Stream, sem aviso visual",
+            "Turbulência causada por montanhas",
+            "Turbulência leve em aproximação final"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "CAT é turbulência em céu claro, geralmente associada ao Jet Stream, que não pode ser detectada visualmente ou pelo radar meteorológico. É detectada por PIREP."
+        },
+        {
+          "id": 33,
+          "pergunta": "O que é um Microburst?",
+          "alternativas": [
+            "Vento suave de montanha",
+            "Corrente descendente violenta associada a Cb que causa wind shear severo",
+            "Trovoada de pequena extensão",
+            "Turbulência mecânica sobre o mar"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Microburst é uma corrente descendente intensa associada ao Cb. Ao atingir o solo, cria wind shear severo com transição de vento de proa para cauda em poucos segundos."
+        },
+        {
+          "id": 34,
+          "pergunta": "A turbulência de esteira (wake turbulence) é gerada por:",
+          "alternativas": [
+            "Motores a jato em aceleração",
+            "Vórtices de ponta de asa de aeronaves, especialmente as pesadas",
+            "Correntes convectivas térmicas",
+            "Vento cruzado intenso"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Wake turbulence é gerada pelos vórtices que se formam nas pontas das asas durante o voo, sendo mais intensa em aeronaves pesadas em configuração limpa e baixa velocidade."
+        },
+        {
+          "id": 35,
+          "pergunta": "Durante um microburst na aproximação, a sequência correta que o piloto experimenta é:",
+          "alternativas": [
+            "Vento de cauda → corrente ascendente → vento de proa",
+            "Vento de proa → corrente descendente → vento de cauda",
+            "Corrente descendente → vento de proa → vento de cauda",
+            "Vento cruzado → turbulência → vento calmo"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "No microburst: primeiro vento de proa (IAS aumenta), depois corrente descendente (altitude cai), depois vento de cauda (IAS cai drasticamente). A fase final é a mais perigosa."
+        },
+        {
+          "id": 36,
+          "pergunta": "Segundo a Lei de Buys-Ballot no hemisfério sul, de costas para o vento, a baixa pressão está:",
+          "alternativas": ["À direita", "À esquerda", "À frente", "Atrás"],
+          "resposta_correta": 1,
+          "explicacao": "No hemisfério sul, pela Lei de Buys-Ballot, de costas para o vento a baixa pressão está à esquerda (no hemisfério norte seria à direita)."
+        },
+        {
+          "id": 37,
+          "pergunta": "Qual o limite típico de vento de cauda para operações normais de decolagem e pouso?",
+          "alternativas": ["5kt", "10kt", "20kt", "15kt"],
+          "resposta_correta": 1,
+          "explicacao": "O limite típico de vento de cauda para operações normais é de 10kt. Acima disso, as distâncias de decolagem e pouso aumentam significativamente."
+        },
+        {
+          "id": 38,
+          "pergunta": "A turbulência orográfica é causada por:",
+          "alternativas": [
+            "Correntes convectivas sobre o mar",
+            "Vento passando sobre terreno irregular ou montanhas",
+            "Diferenças de temperatura entre massas de ar",
+            "Jatos de alta altitude"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Turbulência orográfica (ou mecânica) é causada pelo vento soprando sobre terreno acidentado, montanhas ou obstáculos, criando redemoinhos e rotores perigosos."
+        },
+        {
+          "id": 39,
+          "pergunta": "Abaixo de qual altitude o Low Level Wind Shear (LLWS) é considerado crítico?",
+          "alternativas": ["500ft AGL", "1.000ft AGL", "1.500ft AGL", "3.000ft AGL"],
+          "resposta_correta": 2,
+          "explicacao": "O LLWS é considerado crítico abaixo de 1.500ft AGL, pois nessa fase (decolagem/pouso) a aeronave tem pouca altitude para recuperação."
+        },
+        {
+          "id": 40,
+          "pergunta": "Se wind shear severo for reportado na aproximação, o piloto deve:",
+          "alternativas": [
+            "Continuar a aproximação com mais velocidade",
+            "Executar go-around imediatamente",
+            "Reduzir a potência e estabilizar",
+            "Aumentar o ângulo de descida"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Diante de wind shear severo reportado na aproximação, o procedimento correto é executar go-around imediatamente e aguardar condições melhores ou desviar para alternante."
+        }
+      ]
+    }
