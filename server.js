@@ -18,10 +18,19 @@ app.get('/questoes', (req, res) => {
 
 // Retorna questões por matéria
 app.get('/questoes/:materia', (req, res) => {
-  const materia = req.params.materia.toLowerCase();
-  const filtradas = questoes.filter(q =>
-    q.materia.toLowerCase().includes(materia)
-  );
+  const materia = req.params.materia
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, ''); // remove acentos da busca
+
+  const filtradas = questoes.filter(q => {
+    const materiaSemAcento = q.materia
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, ''); // remove acentos do JSON
+    return materiaSemAcento.includes(materia);
+  });
+
   res.json({ total: filtradas.length, questoes: filtradas });
 });
 
