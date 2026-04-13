@@ -813,3 +813,429 @@
         }
       ]
     }
+  "questionario_final": {
+    "titulo": "Questionário Final — Meteorologia Aeronáutica",
+    "descricao": "Avaliação completa cobrindo todos os módulos. 30 questões de nível ANAC.",
+    "questoes": [
+      {
+        "id": 1,
+        "modulo_referencia": 1,
+        "dificuldade": "media",
+        "pergunta": "Um piloto está operando em um aeródromo a 3.000ft de elevação, temperatura de 35°C. A temperatura ISA para essa altitude é 9°C. Qual é o desvio ISA?",
+        "alternativas": [
+          "ISA−26",
+          "ISA+26",
+          "ISA+9",
+          "ISA−9"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Desvio ISA = Temperatura real − Temperatura ISA. 35°C − 9°C = ISA+26. Temperatura ISA a 3.000ft = 15 − (2×3) = 9°C."
+      },
+      {
+        "id": 2,
+        "modulo_referencia": 1,
+        "dificuldade": "dificil",
+        "pergunta": "A altitude densidade (Density Altitude) é significativamente mais alta que a altitude de pressão quando:",
+        "alternativas": [
+          "A temperatura está abaixo do padrão ISA",
+          "A temperatura está acima do padrão ISA",
+          "A pressão está acima de 1013,25 hPa",
+          "A umidade relativa é baixa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Density Altitude = Pressure Altitude + [120 × (OAT − ISA Temp)]. Quando a temperatura real está acima da ISA, a altitude densidade é maior, representando pior desempenho da aeronave."
+      },
+      {
+        "id": 3,
+        "modulo_referencia": 2,
+        "dificuldade": "media",
+        "pergunta": "Temperatura 28°C, ponto de orvalho 25°C. Qual a altitude estimada da base das nuvens?",
+        "alternativas": [
+          "600ft",
+          "1.200ft",
+          "2.400ft",
+          "400ft"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Base (ft) = (Temp − Dew Point) × 400 = (28 − 25) × 400 = 3 × 400 = 1.200ft."
+      },
+      {
+        "id": 4,
+        "modulo_referencia": 2,
+        "dificuldade": "facil",
+        "pergunta": "Qual condição favorece a formação de nevoeiro de radiação?",
+        "alternativas": [
+          "Vento forte, céu nublado e alta temperatura",
+          "Vento calmo, céu claro, spread pequeno e noite longa",
+          "Ar quente sobre superfície oceânica fria",
+          "Frente fria passando pela região"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O nevoeiro de radiação requer: noite clara (sem nuvens), vento calmo ou fraco (< 5kt), spread ≤ 3°C e noites longas. O solo irradia calor e resfria o ar próximo ao ponto de orvalho."
+      },
+      {
+        "id": 5,
+        "modulo_referencia": 2,
+        "dificuldade": "media",
+        "pergunta": "Uma inversão de temperatura em baixa altitude pode causar:",
+        "alternativas": [
+          "Trovoadas intensas e turbulência severa",
+          "Aprisionamento de poluentes e nevoeiro persistente abaixo da inversão",
+          "Boa visibilidade e tempo estável em todas as altitudes",
+          "Formação de gelo em alta altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inversão de temperatura cria uma tampa de ar quente que impede a dispersão vertical do ar frio abaixo, aprisionando umidade e poluentes, favorecendo nevoeiro e visibilidade reduzida."
+      },
+      {
+        "id": 6,
+        "modulo_referencia": 3,
+        "dificuldade": "facil",
+        "pergunta": "Qual a sequência correta das fases de desenvolvimento de um Cumulonimbus?",
+        "alternativas": [
+          "Madura → Cumulus → Dissipação",
+          "Cumulus → Madura → Dissipação",
+          "Dissipação → Cumulus → Madura",
+          "Cumulus → Dissipação → Madura"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Cb passa por três fases: Cumulus (desenvolvimento, apenas correntes ascendentes), Madura (mais perigosa, correntes ascendentes e descendentes simultâneas, granizo e raios) e Dissipação (correntes descendentes dominam)."
+      },
+      {
+        "id": 7,
+        "modulo_referencia": 3,
+        "dificuldade": "media",
+        "pergunta": "Um piloto observa uma nuvem com base escura a baixa altitude e topo em forma de bigorna. Qual a ação correta?",
+        "alternativas": [
+          "Voar sob a nuvem para evitar o icing em altitude",
+          "Contornar por pelo menos 20NM e nunca penetrar a nuvem",
+          "Voar acima do topo da nuvem",
+          "Atravessar rapidamente a nuvem para minimizar o tempo de exposição"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A nuvem descrita é um Cumulonimbus. A regra de ouro é nunca penetrar um Cb e contornar por no mínimo 20NM do topo da bigorna, pois granizo e turbulência severa ocorrem fora da nuvem."
+      },
+      {
+        "id": 8,
+        "modulo_referencia": 3,
+        "dificuldade": "dificil",
+        "pergunta": "Em qual situação o risco de icing é MAIOR para a aeronave?",
+        "alternativas": [
+          "Voando em ar seco a −30°C",
+          "Voando em nuvens entre −5°C e −10°C com grande quantidade de água líquida",
+          "Voando acima da tropopausa em cirrus",
+          "Voando em ar quente e úmido a +20°C"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O icing mais intenso ocorre entre −5°C e −10°C em nuvens com grande concentração de gotículas de água líquida sub-resfriada. Abaixo de −40°C a água congela completamente e o risco é menor."
+      },
+      {
+        "id": 9,
+        "modulo_referencia": 4,
+        "dificuldade": "media",
+        "pergunta": "Um piloto reporta CAT severa em FL350. Qual a causa mais provável?",
+        "alternativas": [
+          "Cumulonimbus na rota",
+          "Cisalhamento de vento associado ao Jet Stream",
+          "Turbulência de esteira de aeronave à frente",
+          "Frente fria em superfície"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CAT (Clear Air Turbulence) em altitudes de cruzeiro (FL350) é tipicamente causada pelo cisalhamento de vento associado ao Jet Stream. Não há indicação visual ou no radar meteorológico."
+      },
+      {
+        "id": 10,
+        "modulo_referencia": 4,
+        "dificuldade": "dificil",
+        "pergunta": "Durante a aproximação, o IAS aumenta subitamente, seguido de queda de altitude e depois queda abrupta do IAS. O piloto está experienciando:",
+        "alternativas": [
+          "Turbulência de esteira",
+          "Microburst",
+          "CAT",
+          "Turbulência orográfica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sequência clássica do microburst: vento de proa (IAS aumenta) → corrente descendente (altitude cai) → vento de cauda (IAS cai drasticamente). A ação correta é go-around imediato com máxima potência."
+      },
+      {
+        "id": 11,
+        "modulo_referencia": 4,
+        "dificuldade": "media",
+        "pergunta": "Por que a wake turbulence é mais perigosa durante pouso e decolagem de aeronaves leves atrás de aeronaves pesadas?",
+        "alternativas": [
+          "O vento em superfície dissipa os vórtices rapidamente",
+          "Os vórtices são mais intensos em baixa velocidade e baixa altitude, sem espaço para recuperação",
+          "A turbulência de esteira só afeta aeronaves do mesmo porte",
+          "Os vórtices sobem rapidamente após a geração"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os vórtices de wake turbulence são mais intensos quando a aeronave pesada está em baixa velocidade (pouso/decolagem). Em baixa altitude, a aeronave leve atrás tem pouco espaço para recuperação se entrar nos vórtices."
+      },
+      {
+        "id": 12,
+        "modulo_referencia": 5,
+        "dificuldade": "media",
+        "pergunta": "Decodifique o grupo de vento: 24025G40KT",
+        "alternativas": [
+          "Vento de 240° a 25 nós com rajadas de 40 nós",
+          "Vento de 240° a 40 nós com rajadas de 25 nós",
+          "Vento de 25° a 240 nós",
+          "Vento variável de 25 a 40 nós"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "240 = direção de procedência (240°), 25 = velocidade média (25kt), G = gusts (rajadas), 40 = velocidade das rajadas (40kt). Portanto: vento de 240° a 25 nós com rajadas de 40 nós."
+      },
+      {
+        "id": 13,
+        "modulo_referencia": 5,
+        "dificuldade": "dificil",
+        "pergunta": "METAR: OVC005 — Qual é o teto e qual regra de voo é indicada?",
+        "alternativas": [
+          "Teto 5.000ft, condições VMC",
+          "Teto 500ft, condições IMC, voo IFR necessário",
+          "Teto 500ft, condições VMC com cuidado",
+          "Sem teto definido, OVC não define teto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "OVC005 = Overcast (8/8) a 500ft. OVC é teto (ceiling). Com teto de 500ft, as condições são IMC (Instrument Meteorological Conditions), exigindo voo IFR."
+      },
+      {
+        "id": 14,
+        "modulo_referencia": 5,
+        "dificuldade": "media",
+        "pergunta": "No TAF, PROB40 TEMPO 1416/1420 significa:",
+        "alternativas": [
+          "Certeza de condição temporária entre 16h e 20h do dia 14",
+          "40% de probabilidade de condição temporária entre 16Z e 20Z do dia 14",
+          "Mudança permanente com 40% de chance a partir das 16Z",
+          "Condição durando 40 minutos entre 16Z e 20Z"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "PROB40 = probabilidade de 40%, TEMPO = temporário (duração < 60min, < 50% do período), 1416/1420 = período do dia 14 às 16Z até o dia 14 às 20Z."
+      },
+      {
+        "id": 15,
+        "modulo_referencia": 5,
+        "dificuldade": "facil",
+        "pergunta": "Qual a diferença entre BR e FG no METAR?",
+        "alternativas": [
+          "BR é chuva leve e FG é chuva forte",
+          "BR é névoa (1000m–5000m) e FG é nevoeiro (< 1000m)",
+          "BR é bruma seca e FG é fumaça",
+          "BR é neve leve e FG é neve forte"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "BR (Mist) = névoa com visibilidade entre 1000m e 5000m. FG (Fog) = nevoeiro com visibilidade inferior a 1000m. A distinção é importante para operações de pouso e decolagem."
+      },
+      {
+        "id": 16,
+        "modulo_referencia": 5,
+        "dificuldade": "dificil",
+        "pergunta": "Um METAR contém: 120V180 após o grupo de vento. O que isso indica?",
+        "alternativas": [
+          "Velocidade do vento entre 120kt e 180kt",
+          "Direção do vento variando entre 120° e 180°",
+          "Vento de 120° girando para 180° permanentemente",
+          "Rajadas de vento entre 120° e 180°"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O grupo XxxVXxx indica variação de direção do vento. 120V180 significa que o vento está variando entre 120° e 180°. Reportado quando a variação é ≥ 60° e a velocidade > 3kt."
+      },
+      {
+        "id": 17,
+        "modulo_referencia": 6,
+        "dificuldade": "media",
+        "pergunta": "Qual a principal diferença entre os fenômenos associados a uma frente fria versus uma frente quente?",
+        "alternativas": [
+          "Frente fria traz tempo bom e frente quente traz mau tempo",
+          "Frente fria traz chuvas intensas e rápidas com Cb; frente quente traz chuva contínua e moderada com estratiformes",
+          "Frente fria traz nevoeiro e frente quente traz granizo",
+          "Ambas produzem os mesmos fenômenos meteorológicos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Frente fria: ar frio avança, ar quente sobe rapidamente → Cb, chuvas intensas e breves, trovoadas. Frente quente: ar quente sobe gradualmente → nuvens estratiformes, chuva contínua e moderada por longo período."
+      },
+      {
+        "id": 18,
+        "modulo_referencia": 6,
+        "dificuldade": "facil",
+        "pergunta": "A Massa Tropical Continental (mTc) que atua no Brasil é caracterizada por:",
+        "alternativas": [
+          "Fria e úmida, trazendo frentes polares",
+          "Quente e seca, atuando principalmente no interior",
+          "Quente e úmida, causando chuvas no litoral",
+          "Fria e seca, causando geadas no sul"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Massa Tropical Continental (mTc) origina-se no interior do continente sul-americano, sendo quente e seca. Predomina no interior do Brasil, especialmente durante o inverno no Centro-Oeste."
+      },
+      {
+        "id": 19,
+        "modulo_referencia": 6,
+        "dificuldade": "dificil",
+        "pergunta": "Um piloto planeja voar sobre uma cordilheira com vento forte perpendicular às montanhas e observa nuvens lenticulares. Qual o principal risco?",
+        "alternativas": [
+          "Icing severo dentro das nuvens lenticulares apenas",
+          "Ondas de montanha com turbulência severa e rotores violentos a sotavento",
+          "Nevoeiro de advecção no vale",
+          "Trovoadas orográficas apenas no lado barlavento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Nuvens lenticulares indicam ondas de montanha (mountain waves). Os rotores a sotavento podem causar turbulência extrema e perda de controle. O piloto deve desviar ou aumentar significativamente a altitude."
+      },
+      {
+        "id": 20,
+        "modulo_referencia": 6,
+        "dificuldade": "media",
+        "pergunta": "Uma Linha de Instabilidade (LI) é considerada mais perigosa que uma trovoada isolada porque:",
+        "alternativas": [
+          "Produz apenas granizo, sem turbulência",
+          "É uma faixa de Cb organizados que pode se estender por centenas de quilômetros, dificultando o desvio",
+          "Dura menos tempo que uma trovoada isolada",
+          "Está sempre associada a frentes quentes"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Linha de Instabilidade é uma faixa de Cb organizados que pode ter centenas de quilômetros de extensão, tornando impossível ou muito difícil o desvio, além de combinar todos os riscos dos Cb."
+      },
+      {
+        "id": 21,
+        "modulo_referencia": 1,
+        "dificuldade": "dificil",
+        "pergunta": "Uma aeronave decola de um aeródromo a 5.000ft de elevação com temperatura de 38°C. Qual é o efeito esperado no desempenho?",
+        "alternativas": [
+          "Desempenho normal pois a temperatura compensa a altitude",
+          "Altitude densidade muito elevada, distância de decolagem maior, subida mais lenta e menor carga útil",
+          "Melhor desempenho dos motores pelo ar mais frio em altitude",
+          "Desempenho idêntico ao nível do mar com temperatura padrão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aeródromo elevado (5.000ft) + temperatura alta (38°C, muito acima da ISA de −5°C para 5.000ft = ISA+43) resulta em altitude densidade extremamente alta, degradando severamente o desempenho."
+      },
+      {
+        "id": 22,
+        "modulo_referencia": 2,
+        "dificuldade": "media",
+        "pergunta": "O piloto ajusta o altímetro para QNH 1005 hPa. Comparado a um QNH de 1013 hPa, o altímetro vai indicar:",
+        "alternativas": [
+          "Altitude menor que a real",
+          "Altitude maior que a real",
+          "A mesma altitude",
+          "O altímetro trava com QNH abaixo de 1013 hPa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com pressão baixa (1005 hPa < 1013 hPa), o altímetro indicará altitude maior que a real. A aeronave estará mais baixa do que indica o altímetro — situação perigosa em aproximação para terreno elevado."
+      },
+      {
+        "id": 23,
+        "modulo_referencia": 3,
+        "dificuldade": "media",
+        "pergunta": "Qual nuvem de nível médio pode indicar a aproximação de uma frente quente e possível deterioração das condições?",
+        "alternativas": [
+          "Stratocumulus",
+          "Altostratus e Cirrostratus",
+          "Cumulus",
+          "Nimbostratus"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sequência clássica de aproximação de frente quente é: Cirrus → Cirrostratus → Altostratus → Nimbostratus (com chuva). Cirrostratus e Altostratus são os primeiros sinais de deterioração."
+      },
+      {
+        "id": 24,
+        "modulo_referencia": 4,
+        "dificuldade": "facil",
+        "pergunta": "Para minimizar a wake turbulence ao pousar atrás de uma aeronave pesada, o piloto deve:",
+        "alternativas": [
+          "Pousar antes do ponto de toque da aeronave pesada",
+          "Pousar além do ponto de toque da aeronave pesada e manter espaçamento mínimo",
+          "Reduzir a velocidade ao máximo na final",
+          "Pousar na pista paralela sempre"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os vórtices tendem a descer e se afastar da linha central. Pousar além do ponto de toque da aeronave pesada evita a região de maior concentração dos vórtices, reduzindo o risco."
+      },
+      {
+        "id": 25,
+        "modulo_referencia": 5,
+        "dificuldade": "dificil",
+        "pergunta": "Analise o METAR parcial: SBBH 131700Z 09012KT 3000 TSRA BKN010CB OVC025 22/21 Q1008. Quais são os principais riscos operacionais?",
+        "alternativas": [
+          "Apenas vento cruzado moderado",
+          "Trovoada ativa com chuva forte, teto baixo de 1.000ft com Cb, visibilidade 3000m e QNH baixo",
+          "Condições CAVOK com vento leve",
+          "Apenas baixa visibilidade sem outros riscos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "TSRA = trovoada com chuva, BKN010CB = teto de 1.000ft com Cumulonimbus (extremamente perigoso), OVC025 = nublado a 2.500ft, visibilidade 3.000m reduzida, spread de 1°C (22/21) favorecendo nevoeiro. Condições IMC severas."
+      },
+      {
+        "id": 26,
+        "modulo_referencia": 5,
+        "dificuldade": "media",
+        "pergunta": "O que diferencia um SPECI de um METAR regular?",
+        "alternativas": [
+          "SPECI é emitido apenas para aeroportos internacionais",
+          "SPECI é um relatório especial emitido fora do horário regular quando há mudança significativa nas condições",
+          "SPECI tem validade de 24 horas como o TAF",
+          "SPECI só reporta condições de vento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "SPECI (Special) é um METAR especial emitido fora dos horários regulares quando ocorre mudança meteorológica significativa, como queda abrupta de visibilidade, teto baixo ou início de trovoada."
+      },
+      {
+        "id": 27,
+        "modulo_referencia": 6,
+        "dificuldade": "dificil",
+        "pergunta": "Um SIGMET reporta cinzas vulcânicas na rota de cruzeiro. Qual a ação correta?",
+        "alternativas": [
+          "Atravessar a região rapidamente para minimizar exposição",
+          "Desviar completamente da área afetada, pois cinzas vulcânicas podem causar falha de motor e danos graves à aeronave",
+          "Reduzir altitude para abaixo da camada de cinzas e continuar",
+          "Aumentar a potência dos motores para atravessar mais rápido"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Cinzas vulcânicas são extremamente abrasivas e podem causar falha total dos motores (obstrução e erosão das pás de turbina), além de danos ao sistema elétrico e janelas. O desvio completo é obrigatório."
+      },
+      {
+        "id": 28,
+        "modulo_referencia": 3,
+        "dificuldade": "media",
+        "pergunta": "Por que o gelo claro (clear ice) é mais perigoso que o gelo branco (rime ice)?",
+        "alternativas": [
+          "O gelo branco é mais pesado e volumoso",
+          "O gelo claro é duro, transparente, adere firmemente e deforma mais o perfil aerodinâmico",
+          "O gelo claro forma-se mais rapidamente que o branco",
+          "O gelo branco bloqueia o pitot e o gelo claro não"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O gelo claro (0°C a −10°C) é transparente (difícil de visualizar), extremamente duro, adere firmemente à superfície e cobre toda a asa de forma irregular, distorcendo gravemente o perfil aerodinâmico."
+      },
+      {
+        "id": 29,
+        "modulo_referencia": 1,
+        "dificuldade": "facil",
+        "pergunta": "Por que o ar úmido prejudica mais o desempenho da aeronave que o ar seco na mesma temperatura e pressão?",
+        "alternativas": [
+          "O ar úmido é mais denso que o ar seco",
+          "O vapor d'água substitui moléculas mais pesadas de N₂ e O₂, tornando o ar menos denso",
+          "O ar úmido aumenta a resistência aerodinâmica",
+          "O ar úmido reduz a temperatura dos motores"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vapor d'água (massa molecular 18) é mais leve que N₂ (28) e O₂ (32). Ao substituir essas moléculas, o ar úmido fica menos denso, reduzindo a sustentação e o desempenho do motor."
+      },
+      {
+        "id": 30,
+        "modulo_referencia": 6,
+        "dificuldade": "dificil",
+        "pergunta": "Um piloto planeja um voo VFR e o METAR do aeródromo de destino indica: BKN008 OVC015. O TAF prevê BECMG em 2 horas para OVC003 FZFG. Qual a decisão correta?",
+        "alternativas": [
+          "Partir imediatamente pois as condições atuais permitem VFR",
+          "Não partir ou desviar para alternante, pois OVC003 FZFG indica teto de 300ft com nevoeiro engelante, tornando o destino IMC severo",
+          "Partir e acelerar para chegar antes da deterioração",
+          "Partir pois BECMG pode não ocorrer exatamente no horário"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "OVC003 = teto de 300ft (IMC severo). FZFG = nevoeiro engelante (formação rápida de gelo). Mesmo que as condições atuais permitam VFR, a previsão BECMG é permanente. Partir colocaria o piloto em risco de ficar sem opção de pouso. Decisão correta: não partir ou usar alternante."
+      }
+    ]
+  }
