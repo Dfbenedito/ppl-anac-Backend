@@ -507,3 +507,309 @@
         }
       ]
     }
+    {
+      "id": 5,
+      "titulo": "METAR, TAF e Informações Meteorológicas Aeronáuticas",
+      "aula": {
+        "introducao": "METAR e TAF são os principais documentos meteorológicos utilizados na aviação. Saber decodificá-los com precisão é exigência obrigatória em provas ANAC e essencial para o planejamento seguro de voos.",
+        "subtitulos": [
+          {
+            "titulo": "METAR — Meteorological Aerodrome Report",
+            "conteudo": "O METAR é o relatório de condições meteorológicas observadas em um aeródromo em um momento específico. Emitido normalmente a cada 30 ou 60 minutos.\n\n**Estrutura do METAR**:\n```\nMETAR SBGR 121200Z 18015KT 140V220 9999 FEW030 SCT060 BKN090 25/18 Q1013 NOSIG\n```\n\n• **METAR** → Tipo do relatório (SPECI = relatório especial fora do horário)\n• **SBGR** → Indicativo ICAO do aeródromo (Guarulhos)\n• **121200Z** → Dia 12, hora 1200 UTC (Z = Zulu = UTC)\n• **18015KT** → Vento de 180° a 15 nós\n• **140V220** → Direção variando entre 140° e 220°\n• **9999** → Visibilidade ≥ 10km\n• **FEW030** → Poucas nuvens a 3.000ft\n• **SCT060** → Nuvens esparsas a 6.000ft\n• **BKN090** → Nublado (broken) a 9.000ft\n• **25/18** → Temperatura 25°C / Ponto de orvalho 18°C\n• **Q1013** → QNH 1013 hPa\n• **NOSIG** → Sem mudanças significativas previstas nas próximas 2 horas"
+          },
+          {
+            "titulo": "Cobertura de Nuvens no METAR",
+            "conteudo": "A cobertura de nuvens é expressa em oitavos do céu (oktas):\n\n| Sigla | Nome | Cobertura |\n|-------|------|----------|\n| SKC | Sky Clear | 0/8 — Céu limpo |\n| FEW | Few | 1/8 a 2/8 |\n| SCT | Scattered | 3/8 a 4/8 |\n| BKN | Broken | 5/8 a 7/8 |\n| OVC | Overcast | 8/8 — Totalmente nublado |\n| NSC | No Significant Cloud | Sem nuvem significativa |\n\n**Teto (Ceiling)**: Primeira camada BKN ou OVC. É a referência para regras de voo IFR/VFR.\n\n**Condições especiais**:\n• **CB** após cobertura = Cumulonimbus presente (ex: FEW020CB)\n• **TCU** após cobertura = Towering Cumulus presente\n• **VV** = Visibilidade vertical (teto indefinido com neblina/fumaça)"
+          },
+          {
+            "titulo": "Visibilidade e Fenômenos no METAR",
+            "conteudo": "**Visibilidade**:\n• Expressa em metros (até 9999m) ou **9999** (≥10km)\n• **CAVOK**: Ceiling And Visibility OK — Visibilidade ≥10km, sem nuvem abaixo de 5.000ft ou MSA, sem precipitação, trovoada ou CB\n• Visibilidade mínima pode aparecer com direção: ex. **4000NE** = 4000m a nordeste\n\n**Fenômenos meteorológicos (Weather Present)**:\n\n| Código | Fenômeno |\n|--------|----------|\n| RA | Chuva |\n| DZ | Garoa/Chuvisco |\n| SN | Neve |\n| GR | Granizo |\n| FG | Nevoeiro (visibilidade < 1000m) |\n| BR | Névoa (visibilidade 1000m–5000m) |\n| HZ | Névoa seca (fumaça/poeira) |\n| TS | Trovoada |\n| SH | Pancadas (shower) |\n| FZ | Engelante (freezing) |\n| MI | Raso (shallow) |\n| BC | Bancos |\n\n**Prefixos de intensidade**:\n• **(–)** = Leve | **(sem símbolo)** = Moderado | **(+)** = Forte\n\nExemplos:\n• **–RA** = Chuva leve\n• **+TSRA** = Trovoada com chuva forte\n• **FZFG** = Nevoeiro engelante"
+          },
+          {
+            "titulo": "TAF — Terminal Aerodrome Forecast",
+            "conteudo": "O TAF é a previsão meteorológica para um aeródromo, com validade de 24 ou 30 horas.\n\n**Estrutura do TAF**:\n```\nTAF SBGR 121100Z 1212/1312 18012KT 9999 SCT030\n  TEMPO 1214/1218 18020G35KT 4000 TSRA BKN015CB\n  BECMG 1220/1222 22008KT 9999 FEW025\n```\n\n• **TAF** → Tipo do relatório\n• **SBGR** → Indicativo ICAO\n• **121100Z** → Emitido dia 12 às 1100Z\n• **1212/1312** → Válido do dia 12 às 12Z até dia 13 às 12Z\n• **18012KT** → Vento de 180° a 12 nós\n• **9999** → Visibilidade ≥10km\n• **SCT030** → Nuvens esparsas a 3.000ft\n\n**Grupos de mudança**:\n| Grupo | Significado |\n|-------|-------------|\n| **BECMG** | Mudança gradual e permanente (becoming) |\n| **TEMPO** | Condição temporária, duração < 60min, ocorrência < 50% do período |\n| **PROB30** | Probabilidade de 30% |\n| **PROB40** | Probabilidade de 40% |\n| **FM** | From — mudança rápida e permanente a partir de horário |\n| **AT** | At — condição em horário específico |"
+          },
+          {
+            "titulo": "Outros Documentos Meteorológicos",
+            "conteudo": "• **SIGMET**: Informação sobre fenômenos meteorológicos significativos en-route (CB, turbulência severa, icing severo, cinzas vulcânicas, ciclones tropicais)\n\n• **AIRMET**: Fenômenos de menor intensidade que o SIGMET, relevantes para aeronaves de pequeno porte (turbulência moderada, icing moderado, visibilidade reduzida)\n\n• **PIREP (UA)**: Relatório meteorológico feito por pilotos em voo. Informação em tempo real sobre turbulência, icing, CB, vento e temperatura em altitude.\n\n• **SIGWX Chart**: Carta de tempo significativo. Representa graficamente fenômenos meteorológicos em altitude (FL100 a FL450).\n\n• **Wind and Temperature Aloft Chart**: Carta de vento e temperatura em altitude. Usada para planejamento de rota, consumo de combustível e tempo de voo.\n\n• **ATIS**: Serviço automático de informação terminal. Broadcast contínuo com QNH, vento, visibilidade, teto e pista em uso. Identificado por letras (ATIS Alpha, Bravo, etc.)."
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 41,
+          "pergunta": "O que significa CAVOK em um METAR?",
+          "alternativas": [
+            "Teto abaixo de 1.500ft e visibilidade < 5km",
+            "Visibilidade ≥10km, sem nuvem abaixo de 5.000ft e sem precipitação significativa",
+            "Céu totalmente encoberto com chuva",
+            "Condições de voo IFR obrigatório"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "CAVOK (Ceiling And Visibility OK) indica visibilidade ≥10km, nenhuma nuvem abaixo de 5.000ft ou MSA, e ausência de precipitação, trovoada ou CB."
+        },
+        {
+          "id": 42,
+          "pergunta": "No METAR, o grupo BKN é definido como teto quando:",
+          "alternativas": [
+            "É a camada mais alta reportada",
+            "É a primeira camada BKN ou OVC reportada",
+            "A cobertura é FEW ou SCT",
+            "A visibilidade é inferior a 5km"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O teto (ceiling) é definido pela primeira camada BKN (5/8 a 7/8) ou OVC (8/8) reportada no METAR, sendo a referência para operações IFR/VFR."
+        },
+        {
+          "id": 43,
+          "pergunta": "O que significa o grupo TEMPO em um TAF?",
+          "alternativas": [
+            "Mudança gradual e permanente nas condições",
+            "Condição temporária com duração menor que 60 minutos, ocorrendo menos de 50% do período",
+            "Mudança rápida e permanente a partir de determinado horário",
+            "Probabilidade de 40% de ocorrência"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "TEMPO indica uma condição temporária, com duração de cada ocorrência inferior a 60 minutos e probabilidade de ocorrência menor que 50% do período indicado."
+        },
+        {
+          "id": 44,
+          "pergunta": "Decodifique: METAR SBBR 151800Z 36010KT — O vento está soprando de:",
+          "alternativas": [
+            "Sul (180°) a 10 nós",
+            "Norte (360°) a 10 nós",
+            "Leste (090°) a 10 nós",
+            "Oeste (270°) a 10 nós"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "36010KT significa vento de 360° (Norte) a 10 nós. A direção do vento no METAR indica a procedência (de onde vem)."
+        },
+        {
+          "id": 45,
+          "pergunta": "O que é um SIGMET?",
+          "alternativas": [
+            "Previsão de 24h para aeródromo específico",
+            "Informação sobre fenômenos meteorológicos significativos en-route como CB, turbulência severa e cinzas vulcânicas",
+            "Relatório de piloto sobre condições em voo",
+            "Boletim de vento em altitude"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "SIGMET é uma informação meteorológica sobre fenômenos significativos en-route que podem afetar a segurança de todas as aeronaves, como CB, turbulência severa, icing severo e cinzas vulcânicas."
+        },
+        {
+          "id": 46,
+          "pergunta": "No METAR, o código FG indica:",
+          "alternativas": [
+            "Névoa com visibilidade entre 1000m e 5000m",
+            "Nevoeiro com visibilidade inferior a 1000m",
+            "Fumaça industrial",
+            "Chuva engelante"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "FG significa Fog (nevoeiro), com visibilidade inferior a 1000m. BR indica Mist (névoa) com visibilidade entre 1000m e 5000m."
+        },
+        {
+          "id": 47,
+          "pergunta": "No TAF, o grupo BECMG indica:",
+          "alternativas": [
+            "Condição temporária de curta duração",
+            "Mudança gradual e permanente nas condições previstas",
+            "Probabilidade de 40% de ocorrência",
+            "Mudança instantânea a partir de horário específico"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "BECMG (Becoming) indica uma mudança gradual e permanente nas condições meteorológicas, que ocorrerá dentro do período de tempo especificado."
+        },
+        {
+          "id": 48,
+          "pergunta": "O que é PIREP?",
+          "alternativas": [
+            "Previsão meteorológica para aerovias",
+            "Relatório meteorológico em tempo real feito por pilotos em voo",
+            "Carta de tempo significativo em altitude",
+            "Sistema automático de observação em aeródromo"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "PIREP (Pilot Report) é um relatório meteorológico feito por pilotos em voo, fornecendo informações em tempo real sobre turbulência, icing, CB, vento e temperatura."
+        },
+        {
+          "id": 49,
+          "pergunta": "No METAR, o que significa +TSRA?",
+          "alternativas": [
+            "Trovoada com chuva leve",
+            "Trovoada com chuva forte",
+            "Trovoada moderada sem chuva",
+            "Chuva forte sem trovoada"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "TS = trovoada, RA = chuva, (+) = forte. Portanto +TSRA significa trovoada com chuva forte."
+        },
+        {
+          "id": 50,
+          "pergunta": "O ATIS é identificado por letras do alfabeto (Alpha, Bravo...). Quando o piloto deve obter novo ATIS?",
+          "alternativas": [
+            "Somente antes da decolagem",
+            "Quando a letra do ATIS recebido for diferente da informada pelo controle",
+            "A cada 30 minutos automaticamente",
+            "Somente em condições IMC"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O piloto deve obter novo ATIS quando a letra informada pelo controle de tráfego for diferente da que possui, indicando que as condições foram atualizadas."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Massas de Ar, Frentes e Fenômenos Perigosos",
+      "aula": {
+        "introducao": "O entendimento das massas de ar, sistemas frontais e fenômenos meteorológicos perigosos é essencial para a tomada de decisão do piloto, especialmente no planejamento de rotas e na avaliação de riscos.",
+        "subtitulos": [
+          {
+            "titulo": "Massas de Ar",
+            "conteudo": "Uma massa de ar é um grande volume de ar com propriedades homogêneas (temperatura, umidade) adquiridas na região de origem.\n\n**Classificação por temperatura**:\n• **Polar (P)**: Originada em altas latitudes, fria\n• **Tropical (T)**: Originada em baixas latitudes, quente\n• **Ártica (A)**: Extremamente fria, originada no Ártico\n\n**Classificação por umidade**:\n• **Continental (c)**: Seca, originada sobre continentes\n• **Marítima (m)**: Úmida, originada sobre oceanos\n\n**Massas de ar no Brasil**:\n• **mTa** (Massa Tropical Atlântica): Quente e úmida, traz chuvas ao litoral\n• **mTc** (Massa Tropical Continental): Quente e seca, atua no interior\n• **mPa** (Massa Polar Atlântica): Fria, responsável por frentes frias no sul\n• **mEc** (Massa Equatorial Continental): Quente e úmida, Amazônia"
+          },
+          {
+            "titulo": "Sistemas Frontais",
+            "conteudo": "Uma frente é a interface entre duas massas de ar com características diferentes.\n\n• **Frente Fria**: Massa de ar frio avança sobre massa de ar quente. O ar frio, mais denso, força o ar quente a subir rapidamente. Caracterizada por:\n  - Nuvens cumuliformes (Cb)\n  - Chuvas intensas e trovoadas de curta duração\n  - Queda brusca de temperatura após a passagem\n  - Mudança rápida de direção do vento (giro horário no hemisfério sul)\n  -   - Simbologia no mapa: linha com semicírculos
+
+• **Frente Oclusa**: Frente fria alcança a frente quente, levantando o ar quente do solo. Combina características de ambas as frentes. A mais complexa e extensa.
+
+• **Frente Estacionária**: Frente que não avança nem recua. Pode permanecer por dias, causando chuvas persistentes na mesma região. Simbologia: alternância de triângulos e semicírculos."
+          },
+          {
+            "titulo": "Trovoadas (Thunderstorms)",
+            "conteudo": "Trovoadas são fenômenos meteorológicos extremamente perigosos para a aviação, sempre associados ao Cumulonimbus.\n\n**Tipos de trovoadas**:\n• **Trovoada de Massa de Ar**: Ocorre em dias quentes por convecção local. Isolada, de curta duração (1-2h), comum no interior do Brasil.\n• **Trovoada Frontal**: Associada a frentes frias. Mais intensa, organizada em linha (linha de instabilidade), pode durar horas.\n• **Trovoada Orográfica**: Causada pela elevação forçada do ar sobre montanhas.\n\n**Riscos das trovoadas**:\n• Turbulência severa a extrema\n• Granizo (GR)\n• Windshear e microbursts\n• Raios e descargas elétricas\n• Icing severo\n• Precipitação intensa\n• Reducão drástica de visibilidade\n\n**Linha de Instabilidade (LI)**: Faixa de Cb organizados ao longo de uma linha, geralmente à frente de uma frente fria. Extremamente perigosa, pode se estender por centenas de quilômetros."
+          },
+          {
+            "titulo": "Nevoeiro — Tipos e Formação",
+            "conteudo": "O nevoeiro é nuvem ao nível do solo com visibilidade inferior a 1000m. É um dos fenômenos mais perigosos para operações de pouso e decolagem.\n\n**Tipos de nevoeiro**:\n\n• **Nevoeiro de Radiação**: Mais comum. Forma-se em noites claras de vento calmo, quando o solo irradia calor e esfria o ar próximo ao ponto de orvalho. Dissipa com o aquecimento do dia.\n\n• **Nevoeiro de Advecção**: Formado quando ar quente e úmido passa sobre superfície fria (mar ou terra). Persiste por mais tempo que o de radiação. Comum em costas litorâneas.\n\n• **Nevoeiro de Vapor**: Ar frio passa sobre água quente. Parece fumaça sobre a água.\n\n• **Nevoeiro Orográfico**: Formado quando ar úmido é forçado a subir sobre montanhas e resfria até o ponto de orvalho.\n\n• **Nevoeiro de Precipitação**: Chuva quente cai em ar frio, evaporando e saturando o ar.\n\n**Condições favoráveis ao nevoeiro de radiação**:\n- Spread ≤ 3°C\n- Vento calmo ou fraco (< 5kt)\n- Céu limpo (sem nuvens para irradiar calor de volta)\n- Noite longa (inverno)"
+          },
+          {
+            "titulo": "Outros Fenômenos Perigosos",
+            "conteudo": "• **Tempestade de Areia/Poeira (DS/SS)**: Reduz drasticamente a visibilidade. Causa danos abrasivos à aeronave e pode obstruir filtros de motor.\n\n• **Névoa Seca (HZ)**: Partículas de poeira ou fumaça em suspensão. Reduz a visibilidade sem precipitação. Comum em períodos secos no Brasil.\n\n• **Tromba d'Água / Tornado**: Coluna de ar em rotação. Extremamente perigoso. Nunca deve ser sobrevoado ou aproximado.\n\n• **Ondas de Montanha (Mountain Waves)**: Oscilações de ar a sotavento de montanhas. Podem causar turbulência severa e rotor turbulento abaixo das ondas. Identificadas por nuvens lenticulares.\n\n• **Inversão de Subsidência**: Camada de ar quente que aprisiona poluentes e umidade abaixo. Cria teto artificial que pode dificultar operações VFR.\n\n• **Geada (FZDZ / FZFG)**: Deposição de gelo em superfícies. Crítica para aeronaves estacionadas — operação com geada na asa é proibida (conceito 'clean aircraft')."
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 51,
+          "pergunta": "Qual massa de ar é responsável pelas frentes frias no sul do Brasil?",
+          "alternativas": [
+            "Massa Tropical Atlântica (mTa)",
+            "Massa Polar Atlântica (mPa)",
+            "Massa Equatorial Continental (mEc)",
+            "Massa Tropical Continental (mTc)"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A Massa Polar Atlântica (mPa) é fria e origina-se em altas latitudes do Atlântico Sul, sendo responsável pelas frentes frias que atingem o sul e sudeste do Brasil."
+        },
+        {
+          "id": 52,
+          "pergunta": "Uma frente fria é caracterizada por:",
+          "alternativas": [
+            "Nuvens estratiformes e chuva contínua por longo período",
+            "Nuvens cumuliformes, trovoadas e queda brusca de temperatura",
+            "Tempo estável e visibilidade excelente",
+            "Vento calmo e nebulosidade leve"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A frente fria é caracterizada por nuvens cumuliformes (Cb), chuvas intensas e trovoadas de curta duração, seguidas de queda brusca de temperatura e mudança de direção do vento."
+        },
+        {
+          "id": 53,
+          "pergunta": "O nevoeiro de radiação se forma principalmente:",
+          "alternativas": [
+            "Em dias quentes com vento forte",
+            "Em noites claras com vento calmo e spread pequeno",
+            "Sobre o oceano com ar frio",
+            "Em regiões montanhosas com chuva"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O nevoeiro de radiação se forma em noites claras, com vento calmo ou fraco, quando o solo irradia calor e esfria o ar próximo até o ponto de orvalho."
+        },
+        {
+          "id": 54,
+          "pergunta": "O que é uma Linha de Instabilidade (LI)?",
+          "alternativas": [
+            "Uma frente fria estacionária",
+            "Faixa de Cumulonimbus organizados em linha, geralmente à frente de frente fria",
+            "Zona de vento calmo entre dois anticiclones",
+            "Camada de inversão de temperatura"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A Linha de Instabilidade é uma faixa de Cb organizados ao longo de centenas de quilômetros, geralmente à frente de uma frente fria. É extremamente perigosa para a aviação."
+        },
+        {
+          "id": 55,
+          "pergunta": "Nuvens lenticulares são indicativas de:",
+          "alternativas": [
+            "Trovoadas em desenvolvimento",
+            "Ondas de montanha com possível turbulência severa",
+            "Nevoeiro em formação",
+            "Frente quente se aproximando"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Nuvens lenticulares (em forma de lente) se formam nas cristas das ondas de montanha (mountain waves), indicando turbulência severa e rotores perigosos nas regiões a sotavento."
+        },
+        {
+          "id": 56,
+          "pergunta": "O conceito 'clean aircraft' refere-se a:",
+          "alternativas": [
+            "Aeronave lavada antes do voo",
+            "Proibição de decolagem com qualquer contaminação (gelo, neve, geada) nas superfícies",
+            "Aeronave sem cargas externas",
+            "Inspeção de limpeza do motor"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O conceito 'clean aircraft' proíbe a decolagem com qualquer contaminação (gelo, neve, geada ou água congelada) nas superfícies críticas como asas, estabilizadores e superfícies de controle."
+        },
+        {
+          "id": 57,
+          "pergunta": "Uma frente quente está associada a:",
+          "alternativas": [
+            "Nuvens cumuliformes e trovoadas intensas",
+            "Nuvens estratiformes extensas e chuva contínua moderada",
+            "Queda brusca de temperatura e vento forte",
+            "Tempo bom e visibilidade excelente"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A frente quente produz nuvens estratiformes extensas com chuva contínua e moderada por longo período, pois o ar quente sobe gradualmente sobre o ar frio."
+        },
+        {
+          "id": 58,
+          "pergunta": "Qual tipo de trovoada é mais organizada e intensa, associada a sistemas frontais?",
+          "alternativas": [
+            "Trovoada de massa de ar",
+            "Trovoada orográfica",
+            "Trovoada frontal",
+            "Trovoada de advecção"
+          ],
+          "resposta_correta": 2,
+          "explicacao": "A trovoada frontal é associada a frentes frias, mais intensa e organizada em linha (linha de instabilidade), podendo durar muitas horas e se estender por grandes distâncias."
+        },
+        {
+          "id": 59,
+          "pergunta": "O nevoeiro de advecção difere do nevoeiro de radiação porque:",
+          "alternativas": [
+            "Dissipa rapidamente com o nascer do sol",
+            "Persiste por mais tempo e ocorre quando ar quente úmido passa sobre superfície fria",
+            "Só ocorre em regiões montanhosas",
+            "É causado pela irradiação do solo à noite"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O nevoeiro de advecção forma-se quando ar quente e úmido passa sobre superfície fria, persistindo por mais tempo que o de radiação, pois não depende do ciclo dia/noite para se dissolver."
+        },
+        {
+          "id": 60,
+          "pergunta": "Uma frente estacionária é caracterizada por:",
+          "alternativas": [
+            "Rápida passagem com chuva intensa e breve",
+            "Permanecer na mesma região por dias causando chuvas persistentes",
+            "Ausência total de nuvens e precipitação",
+            "Ventos fortíssimos e trovoadas severas"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A frente estacionária não avança nem recua significativamente, podendo permanecer sobre uma região por dias, causando chuvas prolongadas e persistentes."
+        }
+      ]
+    }
