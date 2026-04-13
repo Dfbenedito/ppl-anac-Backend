@@ -1,5 +1,260 @@
 {
   "materia": "Meteorologia Aeronáutica",
   "descricao": "Estudo das condições atmosféricas que afetam a aviação",
-  "topicos": []
+  "modulos": [
+    {
+      "id": 1,
+      "titulo": "Atmosfera e Atmosfera Padrão Internacional (ISA)",
+      "aula": {
+        "introducao": "A atmosfera é a camada gasosa que envolve a Terra e é fundamental para a aviação. Conhecer sua estrutura, composição e comportamento é essencial para qualquer piloto.",
+        "subtitulos": [
+          {
+            "titulo": "Camadas da Atmosfera",
+            "conteudo": "A atmosfera é dividida em camadas:\n\n• **Troposfera**: Do nível do mar até ~36.000ft (11km). É onde ocorre todo o tempo meteorológico. A temperatura diminui com a altitude.\n\n• **Tropopausa**: Limite entre troposfera e estratosfera. Temperatura estável em torno de -56,5°C.\n\n• **Estratosfera**: De 36.000ft até ~160.000ft. Temperatura começa a aumentar. Onde operam aeronaves supersônicas e jatos de alta altitude.\n\n• **Mesosfera, Termosfera e Exosfera**: Camadas superiores sem relevância direta para a aviação convencional."
+          },
+          {
+            "titulo": "Atmosfera Padrão Internacional (ISA)",
+            "conteudo": "A ISA (International Standard Atmosphere) é um modelo de referência definido pela ICAO para padronizar cálculos de desempenho e altitude:\n\n• **Pressão ao nível do mar**: 1013,25 hPa (29,92 inHg)\n• **Temperatura ao nível do mar**: 15°C (59°F)\n• **Densidade**: 1,225 kg/m³\n• **Gradiente de temperatura**: -2°C a cada 1.000ft (ou -6,5°C/km)\n• **Tropopausa**: 36.089ft com temperatura de -56,5°C\n\nQualquer desvio dessas condições afeta diretamente o desempenho da aeronave."
+          },
+          {
+            "titulo": "Altitude Densidade e Altitude de Pressão",
+            "conteudo": "• **Altitude de Pressão (Pressure Altitude)**: Altitude indicada quando o altímetro é ajustado para 1013,25 hPa. Usada para cálculos de desempenho e voo em nível de voo (FL).\n\n• **Altitude Densidade (Density Altitude)**: Altitude de pressão corrigida pela temperatura. É a altitude que a aeronave 'sente'. Quanto maior a altitude densidade, pior o desempenho (motor, sustentação, hélice).\n\n• **Altitude Densidade Alta**: Ocorre em dias quentes, alta altitude e baixa pressão. Exige pistas mais longas, menor carga útil e subida mais lenta.\n\n• **Fórmula simplificada**: Density Altitude = Pressure Altitude + (120 × (OAT − ISA Temp))"
+          },
+          {
+            "titulo": "Composição da Atmosfera",
+            "conteudo": "A atmosfera é composta por:\n\n• **Nitrogênio (N₂)**: ~78%\n• **Oxigênio (O₂)**: ~21%\n• **Argônio e outros gases**: ~1%\n• **Vapor d'água**: Variável (0% a 4%)\n\nO vapor d'água é responsável pela formação de nuvens, precipitação e reduz a densidade do ar (ar úmido é menos denso que ar seco, piorando o desempenho)."
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 1,
+          "pergunta": "Qual é a temperatura padrão ISA ao nível do mar?",
+          "alternativas": ["0°C", "25°C", "15°C", "-15°C"],
+          "resposta_correta": 2,
+          "explicacao": "A ISA define 15°C como temperatura padrão ao nível do mar, conforme estabelecido pela ICAO."
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual é a pressão padrão ISA ao nível do mar?",
+          "alternativas": ["1000 hPa", "1013,25 hPa", "1020 hPa", "995 hPa"],
+          "resposta_correta": 1,
+          "explicacao": "A pressão padrão da ISA é 1013,25 hPa (equivalente a 29,92 inHg)."
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual é o gradiente de temperatura padrão na troposfera?",
+          "alternativas": ["-1°C/1000ft", "-3°C/1000ft", "-2°C/1000ft", "-4°C/1000ft"],
+          "resposta_correta": 2,
+          "explicacao": "Na troposfera, a temperatura diminui 2°C a cada 1.000ft de altitude segundo a ISA."
+        },
+        {
+          "id": 4,
+          "pergunta": "Em que camada da atmosfera ocorre todo o tempo meteorológico significativo?",
+          "alternativas": ["Estratosfera", "Mesosfera", "Troposfera", "Termosfera"],
+          "resposta_correta": 2,
+          "explicacao": "A troposfera é a camada mais baixa da atmosfera e é onde se formam as nuvens, chuvas, ventos e todos os fenômenos meteorológicos relevantes para a aviação."
+        },
+        {
+          "id": 5,
+          "pergunta": "O que é Altitude Densidade (Density Altitude)?",
+          "alternativas": [
+            "Altitude indicada no altímetro ajustado para 1013,25 hPa",
+            "Altitude de pressão corrigida pela temperatura real",
+            "Altitude acima do nível do mar",
+            "Altitude mínima de segurança de voo"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Density Altitude é a altitude de pressão corrigida pela temperatura real (OAT). Representa a altitude que a aeronave 'sente' em termos de desempenho."
+        },
+        {
+          "id": 6,
+          "pergunta": "Um dia quente com alta altitude de aeródromo resulta em:",
+          "alternativas": [
+            "Melhor desempenho do motor",
+            "Menor distância de decolagem",
+            "Alta altitude densidade e pior desempenho",
+            "Maior eficiência da hélice"
+          ],
+          "resposta_correta": 2,
+          "explicacao": "Dias quentes aumentam a altitude densidade, reduzindo a densidade do ar e consequentemente o desempenho do motor, sustentação e eficiência da hélice."
+        },
+        {
+          "id": 7,
+          "pergunta": "Qual a altitude da tropopausa segundo a ISA?",
+          "alternativas": ["20.000ft", "36.089ft", "45.000ft", "25.000ft"],
+          "resposta_correta": 1,
+          "explicacao": "A tropopausa está a 36.089ft (aproximadamente 11km) segundo a ISA, onde a temperatura estabiliza em -56,5°C."
+        },
+        {
+          "id": 8,
+          "pergunta": "Por que o ar úmido é menos denso que o ar seco?",
+          "alternativas": [
+            "O vapor d'água é mais pesado que o nitrogênio e o oxigênio",
+            "O vapor d'água (H₂O) substitui moléculas mais pesadas de N₂ e O₂, reduzindo a densidade",
+            "A umidade aumenta a pressão atmosférica",
+            "O ar úmido contém mais oxigênio"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "O vapor d'água (massa molecular 18) substitui moléculas de N₂ (28) e O₂ (32), tornando o ar úmido menos denso, o que piora o desempenho da aeronave."
+        },
+        {
+          "id": 9,
+          "pergunta": "A Altitude de Pressão (Pressure Altitude) é obtida quando:",
+          "alternativas": [
+            "O altímetro é ajustado para a QNH local",
+            "O altímetro é ajustado para 1013,25 hPa",
+            "O altímetro é ajustado para 0 hPa",
+            "O altímetro indica altitude acima do solo"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A altitude de pressão é lida no altímetro quando ajustado para 1013,25 hPa (padrão ISA), sendo usada para cálculos de desempenho e para voos em níveis de voo (FL)."
+        },
+        {
+          "id": 10,
+          "pergunta": "Qual percentual aproximado de oxigênio existe na atmosfera?",
+          "alternativas": ["10%", "21%", "78%", "50%"],
+          "resposta_correta": 1,
+          "explicacao": "A atmosfera é composta por aproximadamente 78% de nitrogênio e 21% de oxigênio, sendo este essencial para a combustão nos motores e para a respiração."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Temperatura, Pressão e Umidade",
+      "aula": {
+        "introducao": "Temperatura, pressão e umidade são as três variáveis fundamentais da meteorologia. Entender como interagem é essencial para prever fenômenos e garantir segurança de voo.",
+        "subtitulos": [
+          {
+            "titulo": "Temperatura",
+            "conteudo": "A temperatura é medida em °C, °F ou Kelvin (K = °C + 273).\n\n• **Inversão de temperatura**: Ocorre quando a temperatura aumenta com a altitude (ao contrário do normal). Pode aprisionar poluentes, causar nevoeiro persistente e criar camadas estáveis que dificultam a convecção.\n\n• **OAT (Outside Air Temperature)**: Temperatura real do ar externo, fundamental para cálculos de desempenho.\n\n• **ISA Deviation**: Diferença entre a temperatura real e a temperatura ISA para aquela altitude. Ex: ISA+10 significa 10°C acima do padrão."
+          },
+          {
+            "titulo": "Pressão Atmosférica",
+            "conteudo": "A pressão atmosférica é o peso da coluna de ar acima de um ponto. Diminui com a altitude.\n\n• **QNH**: Pressão ajustada para o nível do mar, usada para indicar altitude verdadeira acima do nível do mar. É a referência para pousos e decolagens.\n\n• **QFE**: Pressão no nível do aeródromo. O altímetro ajustado para QFE indica altitude acima do aeródromo (zero ao pousar).\n\n• **QNE**: Ajuste para 1013,25 hPa. Usado em níveis de voo (FL).\n\n• **Alta pressão (Anticiclone)**: Associado a tempo bom, estável, ventos fracos.\n\n• **Baixa pressão (Ciclone/Depressão)**: Associado a mau tempo, instabilidade, ventos fortes."
+          },
+          {
+            "titulo": "Umidade e Ponto de Orvalho",
+            "conteudo": "• **Umidade Relativa**: Quantidade de vapor d'água no ar em relação ao máximo que o ar pode conter naquela temperatura. Expressa em %.\n\n• **Ponto de Orvalho (Dew Point)**: Temperatura na qual o ar, ao ser resfriado, atinge 100% de umidade relativa e o vapor começa a condensar.\n\n• **Spread**: Diferença entre temperatura e ponto de orvalho. Spread pequeno (≤3°C) indica alta probabilidade de formação de nevoeiro ou nuvens baixas.\n\n• **Condensação**: Quando o ar sobe e esfria até atingir o ponto de orvalho, forma-se nuvens. A altitude de base das nuvens pode ser estimada por:\n\nBase (ft) = (Temp − Dew Point) × 400"
+          },
+          {
+            "titulo": "Estabilidade Atmosférica",
+            "conteudo": "• **Atmosfera Estável**: O ar resfria mais rápido que o gradiente adiabático. Inibe a convecção. Associada a nuvens estratiformes, precipitação contínua, visibilidade reduzida, turbulência leve.\n\n• **Atmosfera Instável**: O ar sobe continuamente pois é mais quente que o ambiente. Favorece a convecção. Associada a nuvens cumuliformes, trovoadas, turbulência severa, boa visibilidade (entre nuvens).\n\n• **Gradiente Adiabático Seco (DALR)**: 3°C/1000ft — taxa de resfriamento de ar seco em ascensão.\n\n• **Gradiente Adiabático Saturado (SALR)**: ~1,5°C/1000ft — taxa de resfriamento de ar saturado (com condensação)."
+          }
+        ]
+      },
+      "questoes": [
+        {
+          "id": 11,
+          "pergunta": "O que é QNH?",
+          "alternativas": [
+            "Pressão ajustada para o nível do aeródromo",
+            "Pressão ajustada para o nível do mar",
+            "Pressão padrão de 1013,25 hPa",
+            "Temperatura ao nível do mar"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "QNH é a pressão atmosférica ajustada ao nível do mar. O altímetro ajustado para QNH indica a altitude verdadeira acima do nível do mar."
+        },
+        {
+          "id": 12,
+          "pergunta": "Um spread (Temp − Dew Point) de 2°C indica:",
+          "alternativas": [
+            "Ar extremamente seco",
+            "Alta probabilidade de nevoeiro ou nuvens baixas",
+            "Atmosfera instável com trovoadas",
+            "Boa visibilidade garantida"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Spread pequeno (≤3°C) indica que o ar está próximo da saturação, com alta probabilidade de formação de nevoeiro ou nuvens de teto baixo."
+        },
+        {
+          "id": 13,
+          "pergunta": "Uma área de alta pressão (anticiclone) está associada a:",
+          "alternativas": [
+            "Mau tempo e trovoadas",
+            "Ventos fortes e instabilidade",
+            "Tempo estável e bom",
+            "Nevoeiro intenso sempre"
+          ],
+          "resposta_correta": 2,
+          "explicacao": "Áreas de alta pressão (anticiclones) são associadas a tempo estável, bom tempo e ventos fracos, pois o ar subsidente inibe a formação de nuvens."
+        },
+        {
+          "id": 14,
+          "pergunta": "A base das nuvens pode ser estimada pela fórmula:",
+          "alternativas": [
+            "(Temp − Dew Point) × 200",
+            "(Temp − Dew Point) × 400",
+            "(Temp + Dew Point) × 400",
+            "(Temp − Dew Point) × 600"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "A fórmula aproximada para estimar a base das nuvens é: Base (ft) = (Temperatura − Ponto de Orvalho) × 400."
+        },
+        {
+          "id": 15,
+          "pergunta": "O que é inversão de temperatura?",
+          "alternativas": [
+            "Temperatura diminuindo com a altitude normalmente",
+            "Temperatura aumentando com a altitude, ao contrário do normal",
+            "Temperatura constante em todas as altitudes",
+            "Temperatura abaixo de 0°C em altitude"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Inversão de temperatura ocorre quando a temperatura aumenta com a altitude, ao contrário do gradiente normal. Pode causar aprisionamento de poluentes e nevoeiro persistente."
+        },
+        {
+          "id": 16,
+          "pergunta": "Qual o gradiente adiabático seco (DALR)?",
+          "alternativas": ["1°C/1000ft", "1,5°C/1000ft", "3°C/1000ft", "2°C/1000ft"],
+          "resposta_correta": 2,
+          "explicacao": "O gradiente adiabático seco (DALR) é de 3°C por 1000ft. É a taxa de resfriamento de uma parcela de ar seco em ascensão."
+        },
+        {
+          "id": 17,
+          "pergunta": "Atmosfera instável está associada a:",
+          "alternativas": [
+            "Nuvens estratiformes e chuva contínua",
+            "Nuvens cumuliformes, trovoadas e turbulência",
+            "Nevoeiro e visibilidade reduzida",
+            "Vento calmo e tempo estável"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Atmosfera instável favorece a convecção intensa, formando nuvens cumuliformes, trovoadas e turbulência severa."
+        },
+        {
+          "id": 18,
+          "pergunta": "O altímetro ajustado para QFE indica:",
+          "alternativas": [
+            "Altitude acima do nível do mar",
+            "Altitude acima do aeródromo (zero ao pousar)",
+            "Altitude de pressão padrão",
+            "Altitude densidade"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "Com QFE, o altímetro indica zero quando a aeronave está no solo do aeródromo, mostrando a altura acima do aeródromo."
+        },
+        {
+          "id": 19,
+          "pergunta": "ISA+15 significa que a temperatura real está:",
+          "alternativas": [
+            "15°C abaixo do padrão ISA para aquela altitude",
+            "15°C acima do padrão ISA para aquela altitude",
+            "A 15.000ft de altitude",
+            "Com pressão 15 hPa acima do padrão"
+          ],
+          "resposta_correta": 1,
+          "explicacao": "ISA+15 significa que a temperatura Outside Air Temperature (OAT) está 15°C acima da temperatura ISA padrão para aquela altitude."
+        },
+        {
+          "id": 20,
+          "pergunta": "Qual a taxa de resfriamento do ar saturado em ascensão (SALR)?",
+          "alternativas": ["3°C/1000ft", "2°C/1000ft", "~1,5°C/1000ft", "4°C/1000ft"],
+          "resposta_correta": 2,
+          "explicacao": "O gradiente adiabático saturado (SALR) é de aproximadamente 1,5°C/1000ft, menor que o DALR (3°C/1000ft) pois a condensação libera calor latente."
+        }
+      ]
+    }
+  ]
 }
