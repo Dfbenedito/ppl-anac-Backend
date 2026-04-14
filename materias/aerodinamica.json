@@ -1,5 +1,1298 @@
-{
-  "materia": "Aerodinâmica",
-  "descricao": "Estudo das forças que atuam sobre a aeronave em voo",
-  "topicos": []
-}
+[
+  {
+    "id": 1,
+    "titulo": "Atmosfera e Propriedades do Ar",
+    "aula": {
+      "introducao": "A atmosfera é a camada gasosa que envolve a Terra e é o meio no qual as aeronaves operam. O conhecimento das propriedades do ar e do comportamento atmosférico é fundamental para entender como a aeronave gera sustentação, como os motores funcionam e como as condições ambientais afetam o desempenho do voo.",
+      "subtitulos": [
+        {
+          "titulo": "Composição e Camadas da Atmosfera",
+          "conteudo": "A atmosfera terrestre é composta principalmente por:\n\n• **Nitrogênio (N₂)**: 78%\n• **Oxigênio (O₂)**: 21%\n• **Outros gases (Argônio, CO₂, etc.)**: 1%\n\n**Camadas atmosféricas:**\n\n| Camada | Altitude | Característica |\n|--------|----------|----------------|\n| **Troposfera** | 0 a ~36.000 pés (11 km) | Onde ocorre o tempo meteorológico; temperatura diminui com a altitude |\n| **Tropopausa** | ~36.000 pés | Limite entre troposfera e estratosfera; temperatura constante |\n| **Estratosfera** | 36.000 a ~160.000 pés | Temperatura aumenta com altitude; onde voa a maioria das aeronaves de alta altitude |\n| **Mesosfera** | Acima da estratosfera | Temperatura diminui novamente |\n| **Ionosfera** | ~50 a 400 km | Reflete ondas de rádio HF |\n\n**Importância para a aviação:**\n• A maioria dos voos ocorre na **troposfera**\n• A tropopausa marca o limite superior prático para voos comerciais\n• Acima da tropopausa há menor turbulência e ausência de fenômenos meteorológicos"
+        },
+        {
+          "titulo": "Atmosfera Padrão Internacional (ISA)",
+          "conteudo": "A ISA (International Standard Atmosphere) é um modelo de referência que define condições padrão ao nível do mar:\n\n**Condições ISA ao nível do mar:**\n• **Temperatura**: 15°C (288,15 K)\n• **Pressão**: 1013,25 hPa (29,92 inHg)\n• **Densidade**: 1,225 kg/m³\n• **Velocidade do som**: 661 nós (340 m/s)\n\n**Gradiente de temperatura na troposfera:**\n• A temperatura diminui **2°C a cada 1.000 pés** (lapse rate padrão)\n• Ou **6,5°C por quilômetro**\n• A -56,5°C (tropopausa) a temperatura se estabiliza\n\n**Gradiente de pressão:**\n• A pressão diminui com o aumento da altitude\n• Aproximadamente **1 hPa por 27 pés** nas camadas baixas\n• A pressão reduz pela metade a cada ~18.000 pés\n\n**Desvios da ISA:**\n• ISA+10 → temperatura 10°C acima do padrão\n• ISA-5 → temperatura 5°C abaixo do padrão\n• Desvios afetam densidade, desempenho do motor e da aeronave"
+        },
+        {
+          "titulo": "Propriedades do Ar",
+          "conteudo": "As principais propriedades do ar que afetam o voo são:\n\n**1. Densidade (ρ — rho):**\n• Massa de ar por unidade de volume (kg/m³)\n• Diminui com o aumento da altitude, temperatura e umidade\n• **Ar denso** → maior sustentação e maior arrasto\n• **Ar rarefeito** → menor sustentação e menor desempenho\n\n**2. Pressão:**\n• Força exercida pelo ar por unidade de área\n• Diminui com a altitude\n• Base de funcionamento do altímetro\n\n**3. Temperatura:**\n• Diminui com a altitude na troposfera\n• Afeta a densidade e a velocidade do som\n• Influencia o desempenho do motor\n\n**4. Viscosidade:**\n• Resistência do ar ao cisalhamento\n• Responsável pela camada limite sobre as superfícies aerodinâmicas\n• Aumenta com a temperatura\n\n**5. Umidade:**\n• Vapor d'água reduz a densidade do ar\n• Ar úmido é menos denso que ar seco à mesma temperatura e pressão\n• Reduz o desempenho da aeronave e do motor\n\n**Relação entre as propriedades:**\nSeguindo a **Lei dos Gases Perfeitos**: $$P = \\rho \\cdot R \\cdot T$$\nOnde P = pressão, ρ = densidade, R = constante do gás, T = temperatura absoluta"
+        },
+        {
+          "titulo": "Altitude Densidade e Altitude Pressão",
+          "conteudo": "Dois conceitos fundamentais para o desempenho da aeronave:\n\n**Altitude de Pressão (Pressure Altitude):**\n• Altitude indicada quando o altímetro está ajustado para **1013,25 hPa** (QNE)\n• Referência padrão para os Níveis de Voo (FL)\n• FL100 = 10.000 pés de altitude de pressão\n\n**Altitude Densidade (Density Altitude):**\n• Altitude na atmosfera padrão onde a densidade atual do ar seria encontrada\n• É a altitude de pressão **corrigida pela temperatura**\n• **Fórmula simplificada**: Altitude Densidade = Altitude de Pressão + (120 × (OAT - ISA))\n• Onde OAT = temperatura atual e ISA = temperatura padrão para aquela altitude\n\n**Efeitos da alta altitude densidade:**\n• Maior corrida de decolagem necessária\n• Menor taxa de subida\n• Maior distância de pouso\n• Menor desempenho do motor\n• Menor eficiência das hélices\n\n**Fatores que AUMENTAM a altitude densidade:**\n• Alta temperatura (dia quente)\n• Alta umidade\n• Baixa pressão (dia de baixa pressão)\n• Aeródromo em altitude elevada\n\n**Exemplo prático:**\nAeródromo a 2.000 pés, temperatura 35°C (ISA = 11°C nessa altitude):\nAltitude Densidade = 2.000 + 120 × (35 - 11) = 2.000 + 2.880 = **4.880 pés**\nA aeronave se comporta como se estivesse a 4.880 pés!"
+        },
+        {
+          "titulo": "Teorema de Bernoulli e Venturi",
+          "conteudo": "O Teorema de Bernoulli é a base física da geração de sustentação:\n\n**Teorema de Bernoulli:**\n'Em um fluxo de fluido não viscoso e incompressível, a soma da pressão estática, pressão dinâmica e pressão gravitacional é constante ao longo de uma linha de fluxo.'\n\n$$P_{estatica} + \\frac{1}{2}\\rho V^2 = constante$$\n\nOnde:\n• P = pressão estática\n• ρ = densidade do ar\n• V = velocidade do fluxo\n\n**Princípio fundamental:**\n• Quando a velocidade do ar **aumenta** → a pressão **diminui**\n• Quando a velocidade do ar **diminui** → a pressão **aumenta**\n\n**Efeito Venturi:**\n• Em um tubo com secção variável, o ar acelera nas seções estreitas\n• A pressão cai nas seções de maior velocidade\n• Aplicação direta no perfil alar: ar mais rápido no extradorso gera pressão menor\n\n**Pressão dinâmica (q):**\n$$q = \\frac{1}{2}\\rho V^2$$\n\n• Base do sistema de medição de velocidade (tubo de Pitot)\n• Quanto maior a velocidade ou densidade, maior a pressão dinâmica\n• Afeta diretamente a sustentação e o arrasto"
+        },
+        {
+          "titulo": "Velocidade do Som e Número de Mach",
+          "conteudo": "A velocidade do som é relevante na aerodinâmica de alta velocidade:\n\n**Velocidade do som:**\n• Depende da temperatura do ar: $$a = \\sqrt{\\gamma \\cdot R \\cdot T}$$\n• Na ISA ao nível do mar: **661 nós (340 m/s)**\n• Diminui com a altitude (temperatura menor)\n• Na tropopausa: ~573 nós\n\n**Número de Mach:**\n$$M = \\frac{V}{a}$$\nOnde V = velocidade da aeronave e a = velocidade do som local\n\n**Classificação por Mach:**\n| Regime | Mach | Características |\n|--------|------|-----------------|\n| **Subsônico** | M < 0,75 | Escoamento abaixo da velocidade do som |\n| **Transônico** | 0,75 < M < 1,2 | Regiões subsônicas e supersônicas coexistem |\n| **Supersônico** | 1,2 < M < 5 | Escoamento acima da velocidade do som |\n| **Hipersônico** | M > 5 | Regime extremo |\n\n**VMO/MMO:**\n• VMO: velocidade máxima operacional (em knots)\n• MMO: número de Mach máximo operacional\n• Exceder esses limites pode causar flutter, buffet e perda de controle"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A composição aproximada da atmosfera terrestre em oxigênio é:",
+        "alternativas": [
+          "78%",
+          "21%",
+          "1%",
+          "50%"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A atmosfera é composta por aproximadamente 78% de nitrogênio e 21% de oxigênio."
+      },
+      {
+        "id": 2,
+        "pergunta": "Na ISA ao nível do mar, a temperatura padrão é:",
+        "alternativas": [
+          "0°C",
+          "15°C",
+          "20°C",
+          "-56,5°C"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na atmosfera padrão ISA, a temperatura ao nível do mar é de 15°C (288,15 K)."
+      },
+      {
+        "id": 3,
+        "pergunta": "O gradiente de temperatura padrão (lapse rate) na troposfera é:",
+        "alternativas": [
+          "1°C a cada 1.000 pés",
+          "2°C a cada 1.000 pés",
+          "5°C a cada 1.000 pés",
+          "Temperatura constante"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O lapse rate padrão na troposfera é de 2°C por 1.000 pés de aumento de altitude."
+      },
+      {
+        "id": 4,
+        "pergunta": "A pressão padrão ISA ao nível do mar é:",
+        "alternativas": [
+          "1000,00 hPa",
+          "1013,25 hPa",
+          "1020,00 hPa",
+          "999,00 hPa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A pressão padrão ISA ao nível do mar é 1013,25 hPa (equivalente a 29,92 inHg)."
+      },
+      {
+        "id": 5,
+        "pergunta": "A altitude densidade é a altitude de pressão corrigida por:",
+        "alternativas": [
+          "Umidade relativa do ar",
+          "Temperatura atual em relação à ISA",
+          "Velocidade do vento",
+          "Altitude do aeródromo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A altitude densidade é a altitude de pressão corrigida pela temperatura — reflete a densidade real do ar."
+      },
+      {
+        "id": 6,
+        "pergunta": "Uma alta altitude densidade resulta em:",
+        "alternativas": [
+          "Melhor desempenho da aeronave e menor corrida de decolagem",
+          "Pior desempenho, maior corrida de decolagem e menor taxa de subida",
+          "Maior sustentação e melhor eficiência do motor",
+          "Menor distância de pouso necessária"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Alta altitude densidade significa ar menos denso — menos sustentação, menos potência, pior desempenho geral."
+      },
+      {
+        "id": 7,
+        "pergunta": "Segundo o Teorema de Bernoulli, quando a velocidade do ar aumenta:",
+        "alternativas": [
+          "A pressão também aumenta proporcionalmente",
+          "A pressão diminui",
+          "A densidade aumenta",
+          "A temperatura aumenta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pelo Teorema de Bernoulli, velocidade maior implica pressão menor — princípio fundamental da sustentação."
+      },
+      {
+        "id": 8,
+        "pergunta": "A velocidade do som na ISA ao nível do mar é aproximadamente:",
+        "alternativas": [
+          "500 nós",
+          "661 nós",
+          "750 nós",
+          "340 nós"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na ISA ao nível do mar (15°C), a velocidade do som é aproximadamente 661 nós (340 m/s)."
+      },
+      {
+        "id": 9,
+        "pergunta": "O ar úmido comparado ao ar seco nas mesmas condições de temperatura e pressão é:",
+        "alternativas": [
+          "Mais denso, gerando mais sustentação",
+          "Menos denso, reduzindo o desempenho da aeronave",
+          "Igual em densidade",
+          "Mais denso apenas em altitudes elevadas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vapor d'água é mais leve que o nitrogênio e o oxigênio — ar úmido é menos denso e reduz o desempenho."
+      },
+      {
+        "id": 10,
+        "pergunta": "A camada atmosférica onde ocorrem os fenômenos meteorológicos e onde voa a maioria das aeronaves é:",
+        "alternativas": [
+          "Estratosfera",
+          "Troposfera",
+          "Mesosfera",
+          "Ionosfera"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A troposfera (0 a ~36.000 pés) é onde ocorre o tempo meteorológico e onde a maioria dos voos acontece."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Forças que Atuam no Voo",
+    "aula": {
+      "introducao": "Durante o voo, quatro forças fundamentais atuam sobre a aeronave: sustentação, peso, tração e arrasto. O equilíbrio entre essas forças determina o estado de voo da aeronave — se sobe, desce, acelera ou voa em regime constante. O piloto controla essas forças por meio dos comandos de voo e da potência do motor.",
+      "subtitulos": [
+        {
+          "titulo": "As Quatro Forças do Voo",
+          "conteudo": "As quatro forças que atuam em uma aeronave em voo são:\n\n**1. SUSTENTAÇÃO (Lift — L):**\n• Força aerodinâmica perpendicular ao vetor velocidade\n• Gerada principalmente pelas asas\n• Opõe-se ao peso\n• Direção: para cima (em voo nivelado)\n\n**2. PESO (Weight — W):**\n• Força gravitacional que atua sobre a massa total da aeronave\n• Atua sempre verticalmente para baixo\n• Ponto de aplicação: **centro de gravidade (CG)**\n• Constante em magnitude durante o voo (exceto consumo de combustível)\n\n**3. TRAÇÃO (Thrust — T):**\n• Força propulsora gerada pelo motor/hélice ou turbina\n• Opõe-se ao arrasto\n• Direção: ao longo do eixo longitudinal da aeronave\n• Controlada pelo piloto pela alavanca de potência\n\n**4. ARRASTO (Drag — D):**\n• Força aerodinâmica paralela ao vetor velocidade, oposta ao movimento\n• Resistência que o ar oferece ao movimento da aeronave\n• Deve ser vencido pela tração\n\n**Equilíbrio de forças:**\n\n| Estado de Voo | Condição |\n|---------------|----------|\n| Voo nivelado constante | L = W e T = D |\n| Subida | L = W e T > D |\n| Descida | L = W e T < D |\n| Aceleração | T > D |\n| Desaceleração | D > T |"
+        },
+        {
+          "titulo": "Equação da Sustentação",
+          "conteudo": "A sustentação é calculada pela equação fundamental:\n\n$$L = C_L \\cdot \\frac{1}{2} \\cdot \\rho \\cdot V^2 \\cdot S$$\n\nOnde:\n• **L** = Sustentação (N)\n• **CL** = Coeficiente de sustentação (adimensional)\n• **ρ** = Densidade do ar (kg/m³)\n• **V** = Velocidade da aeronave (m/s)\n• **S** = Área da asa (m²)\n\n**Fatores que aumentam a sustentação:**\n• ↑ Coeficiente de sustentação (CL) — maior ângulo de ataque, uso de flaps\n• ↑ Velocidade (V) — efeito quadrático: dobrar a velocidade quadruplica a sustentação\n• ↑ Densidade (ρ) — ar mais denso (baixa altitude, baixa temperatura)\n• ↑ Área da asa (S) — flaps aumentam a área efetiva\n\n**Relação velocidade-sustentação:**\nSe a velocidade for reduzida à metade, a sustentação cai para ¼.\nPara manter L constante com menor velocidade, o piloto deve aumentar o ângulo de ataque (aumentar CL).\n\n**CL máximo:**\n• Ocorre no ângulo de ataque crítico\n• Acima do ângulo crítico → estol (perda de sustentação)"
+        },
+        {
+          "titulo": "Ângulo de Ataque",
+          "conteudo": "O ângulo de ataque (AoA — Angle of Attack) é fundamental para entender a geração de sustentação:\n\n**Definição:**\n• Ângulo entre a **corda do perfil alar** e o **vetor velocidade relativa do ar** (relwind)\n• NÃO é o ângulo entre a aeronave e o horizonte (esse é o ângulo de arfagem)\n\n**Relação AoA x Sustentação:**\n• Aumentar o AoA → aumenta o CL → aumenta a sustentação\n• Até o **ângulo de ataque crítico** (~15° a 20° dependendo do perfil)\n• Acima do ângulo crítico → ocorre o **estol** → sustentação cai abruptamente\n\n**Relação AoA x Velocidade:**\n• Em voo nivelado, reduzir a velocidade exige aumentar o AoA para manter L = W\n• Velocidade de estol = velocidade na qual o AoA crítico é atingido\n\n**Indicação de AoA:**\n• Aeronaves modernas possuem indicadores de AoA\n• O sistema de proteção de estol (pusher/stick shaker) atua antes do ângulo crítico\n\n**Ângulos importantes:**\n• **Ângulo de incidência**: ângulo fixo entre a corda da asa e o eixo longitudinal da aeronave\n• **Ângulo de ataque zero lift**: ângulo no qual CL = 0 (geralmente negativo em perfis cambados)\n• **Ângulo crítico**: AoA máximo antes do estol"
+        },
+        {
+          "titulo": "Centro de Pressão e Centro Aerodinâmico",
+          "conteudo": "Dois pontos de referência importantes na aerodinâmica das asas:\n\n**Centro de Pressão (CP):**\n• Ponto onde a resultante das forças aerodinâmicas atua sobre o perfil\n• Move-se com a variação do ângulo de ataque\n• Avança (para a frente) quando o AoA aumenta em perfis simétricos\n• Instabilidade: variação do CP complica o equilíbrio da aeronave\n\n**Centro Aerodinâmico (CA):**\n• Ponto em torno do qual o coeficiente de momento de arfagem é constante\n• Localizado a aproximadamente **25% da corda** (1/4 de corda)\n• Não se move com a variação do AoA\n• Referência preferencial para análise de estabilidade\n\n**Centro de Gravidade (CG):**\n• Ponto onde o peso total da aeronave age\n• Determinado pelo carregamento (combustível, passageiros, carga)\n• Deve estar dentro dos **limites de CG** publicados\n• CG muito à frente → aeronave estável mas pesada nos comandos\n• CG muito atrás → aeronave instável e perigosa\n\n**Momento de arfagem:**\n• A diferença entre a posição do CG e do CA gera momentos de arfagem\n• O estabilizador horizontal equilibra esses momentos\n• $$M = F \\cdot d$$ onde d é o braço de momento"
+        },
+        {
+          "titulo": "Razão Sustentação/Arrasto (L/D)",
+          "conteudo": "A razão L/D (lift-to-drag ratio) é um dos parâmetros mais importantes da aerodinâmica:\n\n**Definição:**\n$$\\frac{L}{D} = \\frac{C_L}{C_D}$$\n\n**Significado:**\n• Mede a eficiência aerodinâmica da aeronave\n• L/D = 10 significa que para cada 10 N de sustentação, gera 1 N de arrasto\n• Quanto maior o L/D, mais eficiente é a aeronave\n\n**L/D máximo (L/D max):**\n• Ocorre em um ângulo de ataque específico\n• Corresponde ao **melhor ângulo de planeio** (Vmd — velocidade de mínimo arrasto)\n• Voo em L/D máximo → maior autonomia de voo\n• Em planeio sem motor → maior distância percorrida\n\n**Velocidades importantes relacionadas a L/D:**\n• **Vmd (Velocidade de mínimo arrasto)**: onde L/D é máximo\n• **Vmp (Velocidade de mínima potência)**: menor potência necessária para manutenção do voo\n• Vmd > Vmp\n\n**Valores típicos de L/D máximo:**\n• Planadores de competição: 40:1 a 60:1\n• Aeronaves de transporte: 15:1 a 20:1\n• Aviação geral: 8:1 a 14:1\n• Aeronaves de caça: 4:1 a 9:1"
+        },
+        {
+          "titulo": "Voo em Curva e Fator de Carga",
+          "conteudo": "Durante manobras, a sustentação necessária e as cargas na estrutura aumentam:\n\n**Fator de carga (n):**\n$$n = \\frac{L}{W}$$\n\n• Em voo nivelado: n = 1 (1 G)\n• Em curva: n > 1\n• Representa quantas vezes a aeronave está suportando seu próprio peso\n\n**Fator de carga em curva:**\n$$n = \\frac{1}{\\cos(\\phi)}$$\n\nOnde φ é o ângulo de inclinação lateral (bank angle)\n\n| Ângulo de Inclinação | Fator de Carga |\n|---------------------|----------------|\n| 0° | 1,0 G |\n| 30° | 1,15 G |\n| 45° | 1,41 G |\n| 60° | 2,0 G |\n| 75° | 3,86 G |\n| 80° | 5,76 G |\n\n**Velocidade de estol em curva:**\n$$Vs_{curva} = Vs_{nivelado} \\times \\sqrt{n}$$\n\nExemplo: Aeronave com Vs = 60 nós em curva de 60° (n = 2):\n$$Vs_{curva} = 60 \\times \\sqrt{2} = 60 \\times 1,41 = 84,9 \\text{ nós}$$\n\n**Limites de fator de carga (categorias FAR/RBAC):**\n• **Categoria Normal**: +3,8 G / -1,52 G\n• **Categoria Utilitária**: +4,4 G / -1,76 G\n• **Categoria Acrobática**: +6,0 G / -3,0 G"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "Em voo nivelado e constante, a relação entre as quatro forças é:",
+        "alternativas": [
+          "Sustentação > Peso e Tração > Arrasto",
+          "Sustentação = Peso e Tração = Arrasto",
+          "Sustentação < Peso e Tração = Arrasto",
+          "Todas as forças são iguais entre si"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em voo nivelado e constante, L = W (sustentação equilibra o peso) e T = D (tração equilibra o arrasto)."
+      },
+      {
+        "id": 12,
+        "pergunta": "O ângulo de ataque é definido como o ângulo entre:",
+        "alternativas": [
+          "O eixo longitudinal da aeronave e o horizonte",
+          "A corda do perfil alar e o vetor velocidade relativa do ar",
+          "A envergadura da asa e o eixo longitudinal",
+          "O plano da asa e o eixo vertical"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ângulo de ataque é entre a corda do perfil e o vetor do vento relativo (relwind) — não confundir com ângulo de arfagem."
+      },
+      {
+        "id": 13,
+        "pergunta": "Na equação de sustentação, se a velocidade dobrar, a sustentação:",
+        "alternativas": [
+          "Dobra",
+          "Quadruplica",
+          "Aumenta 8 vezes",
+          "Permanece igual"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sustentação é proporcional a V² — se V dobrar, V² quadruplica, logo a sustentação quadruplica."
+      },
+      {
+        "id": 14,
+        "pergunta": "O centro aerodinâmico de um perfil alar está localizado aproximadamente em:",
+        "alternativas": [
+          "50% da corda",
+          "25% da corda (1/4 de corda)",
+          "No bordo de ataque",
+          "No bordo de fuga"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O centro aerodinâmico está a ~25% da corda e tem a propriedade de não se mover com variações do ângulo de ataque."
+      },
+      {
+        "id": 15,
+        "pergunta": "Em uma curva com inclinação de 60°, o fator de carga é:",
+        "alternativas": [
+          "1,41 G",
+          "2,0 G",
+          "1,15 G",
+          "3,86 G"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em curva de 60°: n = 1/cos(60°) = 1/0,5 = 2,0 G."
+      },
+      {
+        "id": 16,
+        "pergunta": "A velocidade de estol em curva comparada ao voo nivelado é:",
+        "alternativas": [
+          "Igual, pois depende apenas do perfil alar",
+          "Maior, pois a sustentação necessária é maior",
+          "Menor, pois o fator de carga reduz a velocidade mínima",
+          "Depende apenas do ângulo de inclinação, não da velocidade"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em curva, o fator de carga aumenta — é necessária mais sustentação, portanto o estol ocorre a velocidade maior."
+      },
+      {
+        "id": 17,
+        "pergunta": "O voo em L/D máximo proporciona:",
+        "alternativas": [
+          "Maior taxa de subida possível",
+          "Maior distância de planeio e maior eficiência aerodinâmica",
+          "Menor consumo de combustível em qualquer regime",
+          "Maior velocidade de cruzeiro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Voar em L/D máximo significa máxima eficiência aerodinâmica — maior distância de planeio sem motor."
+      },
+      {
+        "id": 18,
+        "pergunta": "O limite de fator de carga positivo para aeronaves na categoria Normal é:",
+        "alternativas": [
+          "+2,5 G",
+          "+3,8 G",
+          "+4,4 G",
+          "+6,0 G"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aeronaves certificadas na categoria Normal suportam até +3,8 G de fator de carga positivo."
+      },
+      {
+        "id": 19,
+        "pergunta": "O CG muito atrás dos limites torna a aeronave:",
+        "alternativas": [
+          "Mais estável e fácil de controlar",
+          "Instável e perigosa, podendo ser incontrolável",
+          "Mais pesada nos comandos de profundor",
+          "Mais eficiente aerodinamicamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG muito atrás reduz a estabilidade longitudinal — a aeronave pode se tornar incontrolável."
+      },
+      {
+        "id": 20,
+        "pergunta": "Durante uma subida, a relação entre as forças é:",
+        "alternativas": [
+          "L > W e T = D",
+          "L = W e T > D",
+          "L > W e T > D",
+          "L = W e T = D"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na subida: L = W (sustentação equilibra o peso verticalmente) e T > D (tração excede o arrasto para acelerar verticalmente)."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Perfil Alar e Sustentação",
+    "aula": {
+      "introducao": "O perfil alar (aerofólio) é a seção transversal da asa e é responsável pela geração de sustentação. Sua geometria determina as características aerodinâmicas da aeronave, como velocidade de estol, eficiência em cruzeiro e comportamento em manobras. Entender a anatomia do perfil e os mecanismos de geração de sustentação é essencial para qualquer piloto.",
+      "subtitulos": [
+        {
+          "titulo": "Anatomia do Perfil Alar",
+          "conteudo": "O perfil alar possui elementos geométricos específicos que definem suas características:\n\n**Elementos principais:**\n\n• **Bordo de ataque (Leading Edge)**: parte frontal arredondada do perfil, onde o ar se divide\n• **Bordo de fuga (Trailing Edge)**: parte traseira do perfil, onde os fluxos superior e inferior se reencontram\n• **Corda (Chord)**: linha reta que une o bordo de ataque ao bordo de fuga\n• **Comprimento de corda (c)**: distância entre bordo de ataque e bordo de fuga\n• **Extradorso (Upper Surface)**: superfície superior do perfil\n• **Intradorso (Lower Surface)**: superfície inferior do perfil\n• **Linha de curvatura média (Camber Line)**: linha equidistante entre extradorso e intradorso\n• **Espessura máxima**: maior distância entre extradorso e intradorso\n\n**Parâmetros de classificação:**\n\n| Parâmetro | Descrição |\n|-----------|-----------|\n| **Cambagem (Camber)** | Curvatura da linha de curvatura média em relação à corda |\n| **Espessura relativa** | Razão entre espessura máxima e comprimento de corda |\n| **Posição da espessura máxima** | Localização em % da corda |\n| **Raio do bordo de ataque** | Curvatura do bordo de ataque |\n\n**Perfis simétricos vs. cambados:**\n• **Perfil simétrico**: linha de curvatura coincide com a corda — CL = 0 para AoA = 0°\n• **Perfil cambado**: linha de curvatura acima da corda — gera sustentação mesmo com AoA = 0°\n• Aeronaves acrobáticas usam perfis simétricos\n• Aeronaves civis usam perfis cambados para maior eficiência"
+        },
+        {
+          "titulo": "Geração de Sustentação",
+          "conteudo": "A sustentação é gerada por dois mecanismos complementares:\n\n**1. Diferença de pressão (Efeito Bernoulli):**\n• O ar que passa pelo extradorso percorre um caminho mais longo e curvo\n• Por continuidade, acelera mais que o ar do intradorso\n• Velocidade maior no extradorso → pressão menor (Bernoulli)\n• Velocidade menor no intradorso → pressão maior\n• A diferença de pressão gera uma força resultante para cima\n\n**2. Deflexão do escoamento (3ª Lei de Newton):**\n• O perfil alar deflete o fluxo de ar para baixo\n• Por ação e reação, o ar empurra o perfil para cima\n• Contribui significativamente para a sustentação total\n\n**Distribuição de pressão no perfil:**\n• Ponto de estagnação: no bordo de ataque, onde V = 0 e P é máxima\n• Pico de velocidade: no extradorso, próximo ao bordo de ataque\n• Ponto de pressão mínima: onde a velocidade é máxima no extradorso\n• Gradiente de pressão adverso: região após o pico onde a pressão aumenta novamente\n\n**Camada limite:**\n• Fina camada de ar próxima à superfície onde ocorre a transição de velocidade zero (na superfície) até a velocidade do escoamento livre\n• **Laminar**: escoamento ordenado, menor atrito\n• **Turbulenta**: escoamento desordenado, maior atrito mas mais resistente à separação\n• A transição laminar → turbulenta ocorre naturalmente ao longo do perfil"
+        },
+        {
+          "titulo": "Tipos de Perfis Alares",
+          "conteudo": "Os perfis alares são classificados conforme sua aplicação e características:\n\n**Perfis NACA (National Advisory Committee for Aeronautics):**\nSistema de numeração que codifica as características geométricas:\n\n• **NACA 4 dígitos** (ex: NACA 2412):\n  - 1º dígito: cambagem máxima em % da corda (2%)\n  - 2º dígito: posição da cambagem máxima em 1/10 da corda (40%)\n  - 3º e 4º: espessura máxima em % da corda (12%)\n\n• **NACA 5 dígitos**: maior sustentação com bordo de ataque mais à frente\n• **NACA 6 dígitos (laminar)**: prolongamento do escoamento laminar para menor arrasto\n\n**Classificação por aplicação:**\n\n| Tipo | Características | Aplicação |\n|------|-----------------|----------|\n| **Baixa velocidade** | Alta cambagem, espessura moderada | Aviação geral, ultraleves |\n| **Alta sustentação** | Cambagem acentuada | Aeronaves de carga |\n| **Laminar** | Espessura máxima centralizada | Cruzeiro eficiente |\n| **Supercrítico** | Bordo de fuga mais espesso, extrados achatado | Aviação comercial transônica |\n| **Simétrico** | Sem cambagem | Acrobacia, empenagem |\n\n**Perfis supercríticos:**\n• Desenvolvidos para voo transônico\n• Atrasam o aparecimento de ondas de choque\n• Permitem voo em Mach mais elevado com menor arrasto\n• Usados em aeronaves como Boeing 737, Airbus A320"
+        },
+        {
+          "titulo": "Dispositivos de Alta Sustentação",
+          "conteudo": "Os dispositivos de alta sustentação são superfícies móveis que aumentam o CL máximo, permitindo voo mais lento e seguro em decolagem e pouso:\n\n**FLAPS:**\nSuperfícies móveis no bordo de fuga que aumentam cambagem e/ou área da asa.\n\n| Tipo | Características | ΔCL | ΔCD |\n|------|-----------------|-----|-----|\n| **Simples (Plain)** | Rotação simples do bordo de fuga | Moderado | Moderado |\n| **Partido (Split)** | Apenas o intradorso desce | Moderado | Alto |\n| **Fendido (Slotted)** | Fenda permite aceleração do ar | Alto | Moderado |\n| **Fowler** | Desliza para trás e desce — aumenta área e cambagem | Muito alto | Baixo/Moderado |\n| **Fowler duplo/triplo** | Múltiplos segmentos | Máximo | Variável |\n\n**Efeito dos flaps:**\n• Aumentam CL máximo → menor velocidade de estol\n• Aumentam o arrasto → auxilia frenagem no pouso\n• Permitem aproximação mais íngreme com menor velocidade\n• Aumentam a sustentação na decolagem (deflexão menor que no pouso)\n\n**SLATS (Bordo de Ataque):**\n• Superfícies que se estendem do bordo de ataque\n• Criam uma fenda que energiza o escoamento do extradorso\n• Aumentam o ângulo de ataque crítico → menor velocidade de estol\n• Muito eficientes para operação em baixa velocidade\n\n**SPOILERS:**\n• Painéis que se elevam do extradorso\n• Perturbam o escoamento, reduzindo sustentação\n• Usados como frenos aerodinâmicos (air brakes) e para auxílio de aileron\n\n**LEADING EDGE FLAPS (Droop Nose):**\n• Toda a seção do bordo de ataque desce\n• Aumenta a curvatura efetiva do perfil"
+        },
+        {
+          "titulo": "Estol — Teoria e Características",
+          "conteudo": "O estol é a perda de sustentação causada pela separação do escoamento do extradorso:\n\n**Mecanismo do estol:**\n1. Com o aumento do AoA, o gradiente de pressão adverso no extradorso aumenta\n2. A camada limite perde energia e não consegue acompanhar o perfil\n3. O escoamento se **separa** do extradorso\n4. A distribuição de pressão colapsa — CL cai abruptamente\n5. O arrasto aumenta drasticamente\n\n**Características do estol:**\n• Ocorre sempre no **ângulo de ataque crítico** (independente da velocidade, altitude ou peso)\n• A velocidade de estol (Vs) aumenta com: maior peso, maior fator de carga, maior altitude\n• Sinais de aproximação do estol:\n  - Buffet (vibração) na estrutura\n  - Stick shaker (vibrador do manche)\n  - Alarme sonoro de estol\n  - Perda de eficiência dos comandos\n  - Horn de estol\n\n**Tipos de estol por região da asa:**\n\n| Tipo | Início | Característica |\n|------|--------|----------------|\n| **Raiz → ponta** | Na raiz (positivo) | Ailerons efetivos até o final; preferível |\n| **Ponta → raiz** | Na ponta (negativo) | Perda de aileron; perigoso — tendência à tombada |\n\n**Recuperação do estol:**\n1. Reduzir o AoA (empurrar o manche)\n2. Aplicar potência máxima\n3. Nivelar as asas com leme (se necessário)\n4. Recuperar a altitude após atingir velocidade segura\n\n**Estol secundário:**\n• Estol que ocorre durante a recuperação do primeiro\n• Causado por recuperação muito abrupta"
+        },
+        {
+          "titulo": "Vórtices de Ponta de Asa e Turbulência de Esteira",
+          "conteudo": "Os vórtices de ponta de asa são um fenômeno tridimensional importante para a segurança:\n\n**Formação dos vórtices:**\n• No intradorso há maior pressão que no extradorso\n• Na ponta da asa, o ar do intradorso 'escapa' para o extradorso\n• Isso cria um vórtice helicoidal que se desprende de cada ponta de asa\n• Os vórtices giram para dentro (entre as asas) e para cima nas extremidades\n\n**Consequências dos vórtices:**\n• Criam **arrasto induzido** (componente do arrasto)\n• Geram **turbulência de esteira (wake turbulence)**\n• Representam perigo para aeronaves menores que seguem de perto\n\n**Turbulência de esteira (Wake Turbulence):**\n• Vórtices gerados por aeronaves maiores (principalmente na configuração de pouso e decolagem)\n• Intensidade proporcional ao peso da aeronave geradora\n• Podem causar rolamento incontrolável em aeronaves menores\n• Descem e se afastam lateralmente após a geração\n\n**Precauções:**\n• Manter separação mínima de acordo com a categoria da aeronave à frente\n• Ao pousar atrás de aeronave maior: pousar antes do ponto de toque dela ou em pista paralela\n• Ao decolar atrás de aeronave maior: decolar antes do ponto de rotação dela\n• Vento cruzado pode deslocar os vórtices sobre a pista\n\n**Redução do arrasto induzido:**\n• Winglets (pequenas superfícies na ponta da asa)\n• Maior alongamento da asa (maior envergadura relativa)\n• Menor fator de carga"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "A linha de curvatura média (camber line) de um perfil alar é:",
+        "alternativas": [
+          "A linha que une o bordo de ataque ao bordo de fuga",
+          "A linha equidistante entre o extradorso e o intradorso",
+          "A linha de máxima espessura do perfil",
+          "A linha paralela ao escoamento livre"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A linha de curvatura média é equidistante entre o extradorso e o intradorso, definindo a cambagem do perfil."
+      },
+      {
+        "id": 22,
+        "pergunta": "Um perfil cambado gera sustentação com ângulo de ataque zero porque:",
+        "alternativas": [
+          "A espessura do perfil gera pressão diferencial automaticamente",
+          "A curvatura do extradorso acelera o ar mesmo sem inclinação, gerando menor pressão acima",
+          "O intradorso plano gera mais pressão que o extradorso em qualquer condição",
+          "O bordo de ataque arredondado desvia o escoamento para cima"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A cambagem faz com que o extradorso seja mais curvo que o intradorso, acelerando o ar acima mesmo com AoA = 0°."
+      },
+      {
+        "id": 23,
+        "pergunta": "O flap tipo Fowler é mais eficiente que o flap simples porque:",
+        "alternativas": [
+          "Gera mais arrasto, auxiliando a frenagem no pouso",
+          "Desliza para trás aumentando a área da asa além de aumentar a cambagem",
+          "É acionado automaticamente pelo sistema de controle de voo",
+          "Funciona em conjunto com os slats do bordo de ataque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O flap Fowler desliza para trás (aumentando a área alar) e desce (aumentando a cambagem), maximizando o CL."
+      },
+      {
+        "id": 24,
+        "pergunta": "O estol ocorre quando:",
+        "alternativas": [
+          "A velocidade da aeronave cai abaixo de um valor fixo",
+          "O ângulo de ataque excede o ângulo crítico e o escoamento se separa do extradorso",
+          "O motor perde potência e a tração diminui",
+          "O peso da aeronave supera a sustentação máxima possível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O estol é causado pela separação do escoamento no extradorso ao se exceder o ângulo de ataque crítico — não depende de velocidade fixa."
+      },
+      {
+        "id": 25,
+        "pergunta": "O padrão de estol mais seguro em uma asa é aquele que:",
+        "alternativas": [
+          "Começa na ponta da asa, mantendo eficiência do leme",
+          "Começa na raiz da asa, mantendo os ailerons efetivos até o final",
+          "Ocorre simultaneamente em toda a envergadura",
+          "Começa no bordo de fuga e progride para o bordo de ataque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Estol iniciando na raiz é preferível pois os ailerons (nas pontas) permanecem efetivos, mantendo o controle lateral."
+      },
+      {
+        "id": 26,
+        "pergunta": "Os vórtices de ponta de asa são responsáveis por gerar:",
+        "alternativas": [
+          "Arrasto de forma (profile drag)",
+          "Arrasto induzido e turbulência de esteira",
+          "Sustentação adicional nas pontas",
+          "Redução do ângulo de ataque efetivo na raiz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os vórtices de ponta de asa geram arrasto induzido e são a origem da turbulência de esteira (wake turbulence)."
+      },
+      {
+        "id": 27,
+        "pergunta": "Os slats (dispositivos do bordo de ataque) aumentam a segurança em baixa velocidade porque:",
+        "alternativas": [
+          "Aumentam a área da asa, gerando mais sustentação bruta",
+          "Energizam o escoamento do extradorso, aumentando o ângulo de ataque crítico",
+          "Reduzem o arrasto de forma, permitindo maior velocidade",
+          "Desviam o escoamento para o intradorso, aumentando a pressão abaixo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os slats criam uma fenda que injeta ar de alta energia no extradorso, retardando a separação e aumentando o AoA crítico."
+      },
+      {
+        "id": 28,
+        "pergunta": "No perfil NACA 2412, o número 12 indica:",
+        "alternativas": [
+          "A posição da cambagem máxima em % da corda",
+          "A espessura máxima do perfil em % da corda",
+          "A cambagem máxima em % da corda",
+          "O número de série da família NACA"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No sistema NACA 4 dígitos, os dois últimos algarismos indicam a espessura máxima em % da corda (12%)."
+      },
+      {
+        "id": 29,
+        "pergunta": "A recuperação correta de um estol consiste em:",
+        "alternativas": [
+          "Aplicar potência máxima e puxar o manche para recuperar altitude",
+          "Reduzir o ângulo de ataque (empurrar o manche), aplicar potência e nivelar as asas",
+          "Reduzir a potência e manter o ângulo de arfagem atual",
+          "Recolher os flaps imediatamente e manter a altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A recuperação do estol exige: reduzir o AoA (empurrar), aplicar potência e nivelar as asas — nessa ordem de prioridade."
+      },
+      {
+        "id": 30,
+        "pergunta": "Os winglets nas pontas das asas têm como principal função:",
+        "alternativas": [
+          "Aumentar a sustentação nas pontas da asa",
+          "Reduzir o arrasto induzido causado pelos vórtices de ponta de asa",
+          "Melhorar a estabilidade direcional da aeronave",
+          "Aumentar a área alar sem aumentar a envergadura"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os winglets reduzem o arrasto induzido ao diminuir a intensidade dos vórtices de ponta de asa, melhorando a eficiência."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Arrasto e Eficiência Aerodinâmica",
+    "aula": {
+      "introducao": "O arrasto é a força aerodinâmica que se opõe ao movimento da aeronave. Para voar de forma eficiente, é necessário entender os diferentes tipos de arrasto, como eles se comportam com a variação da velocidade e quais medidas podem ser tomadas para minimizá-los. A eficiência aerodinâmica é o fator que determina o consumo de combustível, o alcance e a autonomia do voo.",
+      "subtitulos": [
+        {
+          "titulo": "Tipos de Arrasto",
+          "conteudo": "O arrasto total de uma aeronave é composto por dois grandes grupos:\n\n**ARRASTO PARASITA (Parasite Drag):**\nNão está relacionado à geração de sustentação. Aumenta com o quadrado da velocidade.\n\n**1. Arrasto de Forma (Form/Pressure Drag):**\n• Causado pela diferença de pressão entre a frente e a traseira do corpo\n• Quanto mais 'aerodinâmico' o formato, menor o arrasto de forma\n• Separação do escoamento gera regiões de baixa pressão atrás do corpo\n• Reduzido por perfis aerodinâmicos (fuselagem fusiforme, carenagens)\n\n**2. Arrasto de Atrito (Skin Friction Drag):**\n• Causado pelo atrito viscoso entre o ar e a superfície da aeronave\n• Proporcional à área molhada (área total em contato com o ar)\n• Escoamento laminar → menor atrito\n• Escoamento turbulento → maior atrito\n• Reduzido por superfícies lisas e polidas\n\n**3. Arrasto de Interferência (Interference Drag):**\n• Gerado na junção de superfícies (asa-fuselagem, estabilizador-fuselagem)\n• Os escoamentos locais se interferem, gerando turbulência adicional\n• Reduzido por carenagens (fillets) nas junções\n\n**ARRASTO INDUZIDO (Induced Drag):**\n• Consequência direta da geração de sustentação\n• Causado pelos vórtices de ponta de asa\n• **Aumenta com o aumento do ângulo de ataque**\n• **Diminui com o aumento da velocidade** (relação inversa ao arrasto parasita)\n• Maior em baixas velocidades e altos ângulos de ataque"
+        },
+        {
+          "titulo": "Equação do Arrasto e Comportamento com a Velocidade",
+          "conteudo": "A equação fundamental do arrasto é análoga à da sustentação:\n\n$$D = C_D \\cdot \\frac{1}{2} \\cdot \\rho \\cdot V^2 \\cdot S$$\n\nOnde:\n• **D** = Arrasto total (N)\n• **CD** = Coeficiente de arrasto total\n• **ρ** = Densidade do ar\n• **V** = Velocidade\n• **S** = Área de referência da asa\n\n**Decomposição do coeficiente de arrasto:**\n$$C_D = C_{D0} + C_{Di}$$\n\nOnde:\n• **CD0** = Coeficiente de arrasto parasita (constante com AoA)\n• **CDi** = Coeficiente de arrasto induzido (varia com AoA²)\n\n**Comportamento com a velocidade:**\n\n| Tipo de Arrasto | Relação com V | Comportamento |\n|-----------------|---------------|---------------|\n| Arrasto Parasita | ∝ V² | Dobra quando V dobra → quadruplica |\n| Arrasto Induzido | ∝ 1/V² | Reduz quando V aumenta |\n| Arrasto Total | Curva em U | Mínimo em velocidade específica |\n\n**Velocidade de mínimo arrasto (Vmd):**\n• Ponto onde arrasto parasita = arrasto induzido\n• Corresponde ao L/D máximo\n• Velocidade ótima para máximo alcance (em planeio)\n• Abaixo desta velocidade: arrasto induzido domina\n• Acima desta velocidade: arrasto parasita domina"
+        },
+        {
+          "titulo": "Curva Polar de Arrasto",
+          "conteudo": "A curva polar de arrasto representa graficamente a relação entre CL e CD:\n\n**Polar de Lilienthal (CL x CD):**\n• Eixo vertical: CL (coeficiente de sustentação)\n• Eixo horizontal: CD (coeficiente de arrasto)\n• Cada ponto representa um ângulo de ataque diferente\n• A curva sobe e dobra para a direita com o aumento do AoA\n\n**Pontos notáveis na polar:**\n• **L/D máximo**: tangente da origem à curva polar\n• **CL máximo**: ponto mais alto da curva (ângulo crítico)\n• **Arrasto mínimo**: ponto mais à esquerda da curva\n\n**Polar de velocidades (Vz x V):**\n• Usada em planadores para otimizar o voo de cross-country\n• Eixo vertical: taxa de afundamento (Vz)\n• Eixo horizontal: velocidade horizontal (V)\n• Tangente da origem → melhor ângulo de planeio (L/D máximo)\n• Ponto mais alto da curva → menor afundamento (Vmp)\n\n**Deslocamento da polar com flaps:**\n• Flaps deslocam toda a polar para cima e para a direita\n• Maior CL máximo disponível\n• Maior arrasto em toda a faixa\n• Menor L/D máximo (pior eficiência, mas mais sustentação)"
+        },
+        {
+          "titulo": "Arrasto Induzido e Alongamento da Asa",
+          "conteudo": "O arrasto induzido está diretamente relacionado à geometria da asa:\n\n**Fórmula do coeficiente de arrasto induzido:**\n$$C_{Di} = \\frac{C_L^2}{\\pi \\cdot e \\cdot AR}$$\n\nOnde:\n• **CL** = Coeficiente de sustentação\n• **e** = Fator de eficiência de Oswald (0 < e ≤ 1)\n• **AR** = Alongamento da asa (Aspect Ratio)\n\n**Alongamento da asa (AR — Aspect Ratio):**\n$$AR = \\frac{b^2}{S} = \\frac{b}{\\bar{c}}$$\n\nOnde b = envergadura e S = área da asa\n\n**Influência do alongamento:**\n\n| Tipo de Asa | AR típico | Arrasto Induzido | Aplicação |\n|-------------|-----------|------------------|-----------|\n| Planador | 20 a 40 | Muito baixo | Máxima eficiência |\n| Transporte civil | 8 a 12 | Baixo | Cruzeiro eficiente |\n| Aviação geral | 6 a 9 | Moderado | Uso geral |\n| Caça supersônico | 2 a 4 | Alto | Alta velocidade |\n\n**Formas de asa em planta:**\n• **Retangular**: fácil de fabricar, estola na raiz primeiro (positivo)\n• **Elíptica**: distribuição ideal de sustentação, menor arrasto induzido\n• **Trapezoidal**: compromisso entre eficiência e praticidade\n• **Enflechada (swept)**: atrasa efeitos compressíveis em alta velocidade\n• **Delta**: baixo AR, adequada para supersônico\n\n**Diedro e anadiedro:**\n• **Diedro**: pontas da asa acima da raiz → aumenta estabilidade lateral\n• **Anadiedro**: pontas abaixo da raiz → diminui estabilidade lateral (usado em aeronaves de alta asa estável)"
+        },
+        {
+          "titulo": "Aerodinâmica Transônica e Ondas de Choque",
+          "conteudo": "Quando a velocidade se aproxima do som, surgem fenômenos aerodinâmicos especiais:\n\n**Número de Mach Crítico (Mcrit):**\n• Velocidade da aeronave na qual o escoamento local em algum ponto do extradorso atinge Mach 1\n• Acima do Mcrit: surgem ondas de choque locais\n• Em aeronaves comerciais: Mcrit ≈ 0,75 a 0,82\n\n**Ondas de choque:**\n• Descontinuidades abruptas na pressão, temperatura e densidade\n• Causam aumento brusco do arrasto (arrasto de onda — wave drag)\n• Podem causar separação do escoamento atrás da onda\n• Fenômeno chamado de **buffet transônico**\n\n**Drag Divergence Mach Number (MDD):**\n• Mach no qual o arrasto começa a aumentar rapidamente\n• Ligeiramente acima do Mcrit\n• Limite prático de velocidade para aeronaves subsônicas\n\n**Efeitos dos perfis enflechados:**\n• A componente normal ao bordo de ataque é reduzida\n• A velocidade efetiva 'vista' pelo perfil é V × cos(λ)\n• Onde λ é o ângulo de enflechamento\n• Aeronaves com asa enflechada 35° têm Mcrit mais alto\n\n**Soluções para voo transônico:**\n• **Perfis supercríticos**: extrados achatado, bordo de fuga mais espesso\n• **Asa enflechada**: atrasa a compressibilidade\n• **Area Rule (Regra de Whitcomb)**: fuselagem afina na região da asa\n• **Winglets**: reduzem arrasto induzido sem aumentar envergadura"
+        },
+        {
+          "titulo": "Potência Necessária e Potência Disponível",
+          "conteudo": "A relação entre potência necessária e disponível determina o desempenho da aeronave:\n\n**Potência necessária (Pn):**\n$$P_n = D \\times V$$\n\n• Potência necessária para vencer o arrasto total a cada velocidade\n• Curva em forma de 'banheira' — mínimo em velocidade intermediária\n• **Velocidade de mínima potência (Vmp)**: menor Pn — máxima autonomia em voo motorizado\n• Vmp < Vmd\n\n**Potência disponível (Pd):**\n• Potência que o motor/hélice pode fornecer\n• Para motores a hélice: praticamente constante em diferentes velocidades\n• Para turbojatos: potência disponível aumenta com a velocidade\n\n**Pontos de operação:**\n\n| Condição | Descrição |\n|----------|-----------|\n| **Voo nivelado** | Pd = Pn |\n| **Subida** | Pd > Pn — excesso de potência |\n| **Descida** | Pd < Pn |\n| **Velocidade máxima** | Pd = Pn (na velocidade mais alta) |\n| **Teto absoluto** | Pd = Pn apenas em um único ponto |\n\n**Excesso de potência:**\n$$P_{excesso} = P_{disponivel} - P_{necessaria}$$\n\n• Determina a taxa de subida máxima\n• $$Taxa\\ de\\ Subida = \\frac{P_{excesso}}{W}$$\n\n**Alcance e autonomia:**\n• **Máximo alcance**: voar na velocidade de L/D máximo (Vmd)\n• **Máxima autonomia**: voar na velocidade de mínima potência (Vmp)\n• Em turbojatos, as velocidades ótimas são diferentes das de hélice"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "O arrasto induzido é gerado principalmente por:",
+        "alternativas": [
+          "O atrito do ar com a superfície da fuselagem",
+          "Os vórtices de ponta de asa como consequência da geração de sustentação",
+          "A irregularidade das superfícies externas da aeronave",
+          "A diferença de pressão entre a frente e a traseira da fuselagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arrasto induzido é gerado pelos vórtices de ponta de asa, criados pela diferença de pressão entre intradorso e extradorso."
+      },
+      {
+        "id": 32,
+        "pergunta": "Como o arrasto induzido se comporta com o aumento da velocidade?",
+        "alternativas": [
+          "Aumenta com o quadrado da velocidade",
+          "Diminui com o aumento da velocidade",
+          "Permanece constante independente da velocidade",
+          "Aumenta linearmente com a velocidade"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arrasto induzido é proporcional a 1/V² — diminui quando a velocidade aumenta, ao contrário do arrasto parasita."
+      },
+      {
+        "id": 33,
+        "pergunta": "A velocidade de mínimo arrasto (Vmd) corresponde ao ponto onde:",
+        "alternativas": [
+          "O arrasto parasita é zero",
+          "O arrasto parasita é igual ao arrasto induzido e o L/D é máximo",
+          "O arrasto induzido é zero",
+          "A potência necessária é mínima"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na Vmd, arrasto parasita = arrasto induzido, o arrasto total é mínimo e a razão L/D é máxima."
+      },
+      {
+        "id": 34,
+        "pergunta": "Uma asa com maior alongamento (Aspect Ratio) gera:",
+        "alternativas": [
+          "Maior arrasto induzido e menor eficiência",
+          "Menor arrasto induzido e maior eficiência aerodinâmica",
+          "Maior arrasto parasita mas menor arrasto induzido",
+          "Igual arrasto induzido, independente do alongamento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Maior AR reduz o arrasto induzido — por isso planadores têm asas muito longas e estreitas."
+      },
+      {
+        "id": 35,
+        "pergunta": "O Número de Mach Crítico (Mcrit) é definido como:",
+        "alternativas": [
+          "O Mach no qual a aeronave atinge velocidade supersônica",
+          "O Mach da aeronave no qual o escoamento local em algum ponto atinge Mach 1",
+          "O Mach máximo operacional (MMO) publicado no FCOM",
+          "O Mach no qual o arrasto de onda começa a aumentar rapidamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Mcrit é a velocidade da aeronave na qual o escoamento local em algum ponto (geralmente no extradorso) primeiro atinge Mach 1."
+      },
+      {
+        "id": 36,
+        "pergunta": "O arrasto de interferência é causado por:",
+        "alternativas": [
+          "Escoamento turbulento sobre superfícies rugosas",
+          "Interação dos escoamentos na junção de superfícies como asa e fuselagem",
+          "Vórtices gerados nas pontas das asas",
+          "Diferença de pressão entre bordo de ataque e bordo de fuga"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arrasto de interferência surge na junção de superfícies (asa-fuselagem) onde os escoamentos se interferem mutuamente."
+      },
+      {
+        "id": 37,
+        "pergunta": "Para obter máxima autonomia em voo motorizado com motor a hélice, deve-se voar na:",
+        "alternativas": [
+          "Velocidade de mínimo arrasto (Vmd)",
+          "Velocidade de mínima potência (Vmp)",
+          "Velocidade máxima de cruzeiro",
+          "Velocidade de máxima sustentação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A máxima autonomia (maior tempo no ar) é obtida na Vmp — menor potência necessária, menor consumo por unidade de tempo."
+      },
+      {
+        "id": 38,
+        "pergunta": "Os perfis supercríticos são usados em aeronaves de transporte comercial porque:",
+        "alternativas": [
+          "Geram maior sustentação em baixas velocidades",
+          "Atrasam o aparecimento de ondas de choque, permitindo voo em Mach mais elevado",
+          "Reduzem o arrasto de atrito em todas as velocidades",
+          "Permitem maior deflexão dos flaps durante a decolagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Perfis supercríticos têm extrados achatado que atrasa a formação de ondas de choque, aumentando o Mcrit."
+      },
+      {
+        "id": 39,
+        "pergunta": "O diedro positivo das asas tem como principal efeito:",
+        "alternativas": [
+          "Redução do arrasto induzido",
+          "Aumento da estabilidade lateral da aeronave",
+          "Aumento da sustentação máxima",
+          "Melhoria do desempenho em voo transônico"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O diedro positivo (pontas acima da raiz) aumenta a estabilidade lateral — quando a aeronave inclina, gera força restauradora."
+      },
+      {
+        "id": 40,
+        "pergunta": "A taxa de subida máxima de uma aeronave é determinada pelo:",
+        "alternativas": [
+          "L/D máximo disponível naquela altitude",
+          "Excesso de potência disponível sobre a potência necessária",
+          "Empuxo máximo do motor dividido pelo peso total",
+          "Coeficiente de sustentação máximo do perfil alar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A taxa de subida = excesso de potência / peso. Quanto maior o excesso de potência, maior a taxa de subida."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Estabilidade e Controle da Aeronave",
+    "aula": {
+      "introducao": "A estabilidade é a tendência de uma aeronave de retornar à condição de voo original após ser perturbada. O controle é a capacidade do piloto de alterar intencionalmente essa condição. O equilíbrio entre estabilidade e controlabilidade é um dos principais desafios do projeto aeronáutico — uma aeronave muito estável é difícil de manobrar, enquanto uma muito instável é perigosa. Compreender esses conceitos é essencial para a operação segura.",
+      "subtitulos": [
+        {
+          "titulo": "Conceitos Fundamentais de Estabilidade",
+          "conteudo": "A estabilidade de uma aeronave é classificada em três categorias:\n\n**1. Estabilidade Positiva:**\n• Após uma perturbação, a aeronave tende a retornar à condição original\n• Comportamento desejável para aeronaves de transporte e treinamento\n• Analogia: bola no fundo de uma tigela\n\n**2. Estabilidade Neutra:**\n• Após uma perturbação, a aeronave permanece na nova posição sem tendência de retornar ou se afastar\n• Analogia: bola em uma superfície plana\n\n**3. Estabilidade Negativa (Instabilidade):**\n• Após uma perturbação, a aeronave tende a se afastar ainda mais da condição original\n• Perigosa para a maioria das operações\n• Analogia: bola no topo de uma colina\n\n**Tipos de estabilidade por eixo:**\n\n| Eixo | Movimento | Estabilidade |\n|------|-----------|-------------|\n| **Longitudinal** | Arfagem (pitch) | Estabilidade longitudinal |\n| **Lateral** | Rolamento (roll) | Estabilidade lateral |\n| **Direcional** | Guinada (yaw) | Estabilidade direcional |\n\n**Estabilidade estática vs. dinâmica:**\n• **Estabilidade estática**: tendência inicial após a perturbação (positiva, neutra ou negativa)\n• **Estabilidade dinâmica**: comportamento ao longo do tempo após a perturbação\n  - Amortecida: oscilações diminuem com o tempo ✅\n  - Não amortecida: oscilações constantes ⚠️\n  - Divergente: oscilações aumentam ❌\n\nUma aeronave pode ser estaticamente estável mas dinamicamente instável!"
+        },
+        {
+          "titulo": "Estabilidade Longitudinal",
+          "conteudo": "A estabilidade longitudinal trata do comportamento da aeronave no eixo de arfagem:\n\n**Fator determinante — Relação CG x CA:**\n• O **Centro Aerodinâmico (CA)** está a ~25% da corda média aerodinâmica\n• O **Centro de Gravidade (CG)** deve estar **à frente** do CA para estabilidade positiva\n• A distância entre CG e CA é chamada de **margem estática**\n\n**Mecanismo de estabilidade longitudinal:**\n1. Uma rajada levanta o nariz → ângulo de ataque aumenta → sustentação aumenta\n2. A força restauradora do estabilizador horizontal empurra o nariz para baixo\n3. O momento de arfagem restaurador retorna a aeronave à posição original\n\n**O estabilizador horizontal:**\n• Principal superfície de estabilidade longitudinal\n• Trabalha a ângulos de ataque negativos (empurra para baixo) para equilibrar o momento de arfagem da asa\n• Em aeronaves modernas, é ajustável (trimmable horizontal stabilizer — THS)\n• O **profundor** modifica a curvatura do estabilizador para controlar a arfagem\n\n**Efeitos da posição do CG:**\n\n| Posição do CG | Estabilidade | Controlabilidade | Eficiência |\n|---------------|-------------|-----------------|------------|\n| **Muito à frente** | Muito estável | Pesado nos comandos | Maior arrasto |\n| **Frente (dentro dos limites)** | Estável | Normal | Normal |\n| **Atrás (dentro dos limites)** | Menos estável | Leve nos comandos | Ligeiramente melhor |\n| **Muito atrás** | Instável | Incontrolável | Perigoso |\n\n**Limites de CG:**\n• Definidos pelo fabricante em % da corda média aerodinâmica (MAC)\n• Devem ser verificados antes de cada voo (Weight and Balance)\n• CG fora dos limites = condição não aeronavegável"
+        },
+        {
+          "titulo": "Estabilidade Lateral e Direcional",
+          "conteudo": "A estabilidade lateral e direcional são acopladas — uma afeta a outra:\n\n**ESTABILIDADE LATERAL:**\nTendência de retornar à condição de asas niveladas após perturbação de rolamento.\n\n**Mecanismos de estabilidade lateral:**\n\n**1. Diedro:**\n• Pontas da asa acima da raiz (diedro positivo)\n• Quando a aeronave inclina, a asa baixa tem maior ângulo de ataque efetivo\n• Gera mais sustentação na asa baixa → força restauradora\n• Diedro efetivo equivalente maior em asas enflechadas\n\n**2. Posição alta da asa (High Wing):**\n• CG abaixo do CA → efeito pendular de estabilidade\n• Aeronaves de asa alta naturalmente mais estáveis lateralmente\n\n**3. Enflechamento (Sweep):**\n• Em asas enflechadas, a asa que avança tem maior velocidade efetiva\n• Gera mais sustentação → força restauradora\n\n**ESTABILIDADE DIRECIONAL (Weathercock Stability):**\nTendência da aeronave de alinhar seu nariz com o vetor velocidade após perturbação de guinada.\n\n**Mecanismos de estabilidade direcional:**\n\n**1. Deriva (Vertical Tail / Fin):**\n• Principal superfície de estabilidade direcional\n• Quando o nariz guina, o ângulo de ataque da deriva aumenta\n• Gera força lateral que retorna o nariz à posição original\n• Análogo ao estabilizador horizontal (para a direção)\n\n**2. Fuselagem:**\n• Geralmente desestabilizadora na direção\n• Por isso a deriva deve ser suficientemente grande\n\n**Acoplamento lateral-direcional:**\n• Guinada → rolamento (devido ao diedro e enflechamento)\n• Rolamento → guinada adversa (devido ao aileron)\n• Esses acoplamentos geram os movimentos de **Dutch Roll** e **Spiral Instability**"
+        },
+        {
+          "titulo": "Superfícies de Controle",
+          "conteudo": "As superfícies de controle permitem ao piloto controlar a atitude da aeronave em todos os eixos:\n\n**PROFUNDOR (Elevator):**\n• Controla o movimento de **arfagem** (eixo lateral)\n• Localizado no estabilizador horizontal\n• Puxar o manche → nariz sobe (cabrar)\n• Empurrar o manche → nariz desce (picar)\n• Em aeronaves modernas: **Trimmable Horizontal Stabilizer (THS)**\n\n**AILERON:**\n• Controla o movimento de **rolamento** (eixo longitudinal)\n• Superfícies assimétricas nas pontas das asas\n• Um sobe enquanto o outro desce\n• Aileron que desce → mais sustentação → asa sobe\n• Aileron que sobe → menos sustentação → asa desce\n• **Guinada adversa**: o aileron que desce gera mais arrasto → guina para o lado errado\n\n**LEME DE DIREÇÃO (Rudder):**\n• Controla o movimento de **guinada** (eixo vertical)\n• Localizado na deriva (vertical tail)\n• Rudder para direita → nariz vai para a direita\n• Usado para: coordenação de curvas, correção de vento cruzado, contrarreação de torque\n\n**TRIM (Compensadores):**\n• Permitem ajustar a posição neutra dos comandos\n• Reduzem o esforço do piloto nos comandos\n• **Trim de profundor**: mais usado — compensa variação de velocidade e peso\n• **Trim de aileron**: compensa desequilíbrio lateral\n• **Trim de leme**: compensa efeitos de torque do motor\n\n**Efetividade das superfícies:**\n• Depende da densidade do ar, velocidade e tamanho da superfície\n• Reduzida em baixas velocidades\n• Superfícies de controle fly-by-wire controladas eletronicamente em aeronaves modernas"
+        },
+        {
+          "titulo": "Modos de Movimento da Aeronave",
+          "conteudo": "A dinâmica de voo descreve os movimentos oscilatórios naturais da aeronave:\n\n**MODOS LONGITUDINAIS:**\n\n**1. Modo Fugoide (Phugoid):**\n• Oscilação lenta de velocidade e altitude\n• Período: 1 a 2 minutos\n• Troca entre energia cinética e potencial\n• Geralmente estável e amortecida\n• Piloto pode corrigir facilmente ou ignorar\n• Afeta: velocidade e altitude alternadamente\n\n**2. Modo de Período Curto (Short Period):**\n• Oscilação rápida de ângulo de ataque\n• Período: 1 a 5 segundos\n• Deve ser fortemente amortecida\n• Piloto não consegue corrigir — deve ser estável por projeto\n• Instabilidade no modo de período curto é perigosa\n\n**MODOS LATERAIS-DIRECIONAIS:**\n\n**1. Espiral Divergente (Spiral Instability):**\n• Inclinação lenta que aumenta gradualmente\n• Leva a uma espiral descendente progressiva\n• Evolução muito lenta — piloto pode corrigir facilmente\n• Mais comum que o Dutch Roll\n• Aeronaves com alta estabilidade direcional tendem à instabilidade espiral\n\n**2. Dutch Roll:**\n• Oscilação acoplada de rolamento e guinada\n• Movimentos simultâneos nos dois eixos\n• Característica de asas enflechadas\n• Pode ser incômodo ou perigoso\n• Amortecido pelo **Yaw Damper** em aeronaves de transporte\n• Período: alguns segundos\n\n**3. Rolamento de Acomodação (Roll Subsidence):**\n• Amortecimento puro de rolamento\n• Sem oscilação — estável e amortecido\n• Modo mais simples e estável"
+        },
+        {
+          "titulo": "Controle em Condições Especiais",
+          "conteudo": "Algumas condições operacionais exigem técnicas de controle específicas:\n\n**VOO COM VENTO CRUZADO:**\n• **Técnica de caranguejo (crab)**: apontar o nariz contra o vento durante a aproximação, alinhar na flare\n• **Técnica de asa baixa (wing low)**: inclinar para o vento com aileron, corrigir guinada com leme oposto\n• Limite de vento cruzado demonstrado publicado no AFM/FCOM\n\n**COORDENAÇÃO DE CURVAS:**\n• Curva coordenada: sem deslizamento lateral (ball centered)\n• Leme na direção da curva para compensar a guinada adversa dos ailerons\n• Inclinação → perda de sustentação vertical → necessidade de back pressure\n\n**TORQUE DO MOTOR:**\nMotores a hélice geram efeitos que exigem controle com leme:\n\n| Efeito | Causa | Tendência |\n|--------|-------|-----------|\n| **Torque** | Reação ao giro da hélice | Rolar para esquerda |\n| **Efeito giroscópico** | Precessão da hélice | Varia com a manobra |\n| **Efeito assimétrico da hélice (P-Factor)** | AoA alto → pá descendo gera mais tração | Guinar para esquerda |\n| **Fluxo helicoidal (Slipstream)** | Ar em espiral atinge a deriva | Guinar para esquerda |\n\n**AERONAVE BIMOTOR — VMCA:**\n• Velocidade mínima de controle no ar com motor crítico inoperante\n• Abaixo de Vmca: impossível manter controle direcional\n• Motor crítico: motor cuja falha gera maior desequilíbrio\n• Em hélices girando no mesmo sentido: motor esquerdo é o crítico"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "Uma aeronave com estabilidade positiva após uma perturbação tende a:",
+        "alternativas": [
+          "Permanecer na nova posição sem retornar",
+          "Retornar automaticamente à condição de voo original",
+          "Aumentar o desvio progressivamente",
+          "Oscilar indefinidamente sem amortecimento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Estabilidade positiva significa que a aeronave gera forças restauradoras após uma perturbação, retornando à condição original."
+      },
+      {
+        "id": 42,
+        "pergunta": "Para que uma aeronave tenha estabilidade longitudinal positiva, o CG deve estar:",
+        "alternativas": [
+          "Atrás do Centro Aerodinâmico (CA)",
+          "À frente do Centro Aerodinâmico (CA)",
+          "Coincidente com o Centro Aerodinâmico (CA)",
+          "Coincidente com o Centro de Pressão (CP)"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com o CG à frente do CA, a aeronave tem momento restaurador de arfagem — base da estabilidade longitudinal positiva."
+      },
+      {
+        "id": 43,
+        "pergunta": "O diedro positivo das asas contribui para a estabilidade:",
+        "alternativas": [
+          "Longitudinal, reduzindo a tendência de arfagem",
+          "Lateral, gerando força restauradora quando a aeronave inclina",
+          "Direcional, alinhando o nariz com o vetor velocidade",
+          "Dinâmica, amortecendo o modo fugoide"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O diedro positivo gera mais sustentação na asa baixa quando a aeronave inclina, criando força restauradora lateral."
+      },
+      {
+        "id": 44,
+        "pergunta": "A guinada adversa causada pelos ailerons é corrigida pelo uso do:",
+        "alternativas": [
+          "Profundor, cabrar levemente durante a curva",
+          "Leme de direção, aplicando leme na direção da curva",
+          "Trim de aileron, compensando a assimetria",
+          "Spoilers, reduzindo a sustentação da asa alta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O aileron que desce gera mais arrasto, guinando o nariz para o lado errado. O leme corrige essa guinada adversa."
+      },
+      {
+        "id": 45,
+        "pergunta": "O modo fugoide é caracterizado por:",
+        "alternativas": [
+          "Oscilação rápida de ângulo de ataque com período de 1 a 5 segundos",
+          "Oscilação lenta de velocidade e altitude com período de 1 a 2 minutos",
+          "Oscilação acoplada de rolamento e guinada em asas enflechadas",
+          "Divergência espiral progressiva em curvas prolongadas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O fugoide é uma oscilação lenta (1-2 min) trocando energia cinética e potencial — velocidade e altitude oscilam inversamente."
+      },
+      {
+        "id": 46,
+        "pergunta": "O Dutch Roll é um fenômeno caracterizado por:",
+        "alternativas": [
+          "Oscilação longitudinal lenta típica de aeronaves pesadas",
+          "Oscilação acoplada de rolamento e guinada, típica de asas enflechadas",
+          "Instabilidade espiral progressiva em curvas com pouca inclinação",
+          "Vibração da estrutura causada por flutter aeroelástico"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Dutch Roll é uma oscilação lateral-direcional acoplada, típica de asas enflechadas, amortecida pelo yaw damper."
+      },
+      {
+        "id": 47,
+        "pergunta": "O CG muito à frente dos limites torna a aeronave:",
+        "alternativas": [
+          "Instável e difícil de controlar",
+          "Muito estável, com comandos pesados e maior arrasto",
+          "Mais eficiente aerodinamicamente em cruzeiro",
+          "Propensa ao estol em baixas velocidades"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG muito à frente aumenta a estabilidade, mas torna os comandos pesados e aumenta o arrasto do estabilizador — menos eficiente."
+      },
+      {
+        "id": 48,
+        "pergunta": "A Vmca (velocidade mínima de controle no ar) em aeronaves bimotoras é definida como:",
+        "alternativas": [
+          "A velocidade mínima de voo com os dois motores operando",
+          "A velocidade mínima na qual o controle direcional pode ser mantido com o motor crítico inoperante",
+          "A velocidade de rotação mínima para decolagem com carga máxima",
+          "A velocidade de aproximação com motor a idle"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Vmca é a menor velocidade na qual se consegue manter controle direcional com o motor crítico inoperante e motor operante em potência máxima."
+      },
+      {
+        "id": 49,
+        "pergunta": "O efeito P-Factor (fator P) em aeronaves com hélice convencional causa tendência de:",
+        "alternativas": [
+          "Cabrar em altas velocidades",
+          "Guinar para a esquerda em altos ângulos de ataque",
+          "Rolar para a direita durante a subida",
+          "Picar durante a redução de potência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em alto AoA, a pá descente (lado direito) tem maior ângulo efetivo → mais tração → assimetria que gina a aeronave para a esquerda."
+      },
+      {
+        "id": 50,
+        "pergunta": "A diferença entre estabilidade estática e dinâmica é:",
+        "alternativas": [
+          "A estabilidade estática depende da velocidade; a dinâmica, da altitude",
+          "A estabilidade estática é a tendência inicial após a perturbação; a dinâmica descreve o comportamento ao longo do tempo",
+          "A estabilidade estática é medida no solo; a dinâmica, em voo",
+          "Não há diferença — os dois termos descrevem o mesmo fenômeno"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Estabilidade estática = tendência imediata após perturbação. Dinâmica = comportamento oscilatório ao longo do tempo."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Efeitos Aerodinâmicos Especiais e Limites de Voo",
+    "aula": {
+      "introducao": "Além dos princípios fundamentais, existem fenômenos aerodinâmicos especiais que representam riscos operacionais sérios e que todo piloto deve conhecer. O conhecimento dos limites de voo e dos efeitos aerodinâmicos adversos é fundamental para a segurança das operações, especialmente em condições de alta velocidade, alta altitude, voo em meteorologia adversa e operações próximas dos limites da envolvente de voo.",
+      "subtitulos": [
+        {
+          "titulo": "Estol Acelerado e Estol em Manobras",
+          "conteudo": "O estol pode ocorrer em qualquer velocidade quando o ângulo de ataque crítico é excedido:\n\n**Estol Acelerado (Accelerated Stall):**\n• Ocorre a velocidade acima da Vs em voo nivelado\n• Causado por manobra brusca que aumenta o AoA rapidamente\n• Exemplos: pull-up abrupto, turbulência severa, saída inadequada de espiral\n• Mais perigoso que o estol normal — ocorre inesperadamente\n\n**Velocidade de estol em função do fator de carga:**\n$$V_{s_{manobra}} = V_{s_{nivelado}} \\times \\sqrt{n}$$\n\nOnde n é o fator de carga atual\n\n**Exemplos:**\n| Fator de Carga | Aumento na Vs |\n|----------------|---------------|\n| n = 1,0 (nivelado) | Vs normal |\n| n = 1,41 (curva 45°) | Vs × 1,19 |\n| n = 2,0 (curva 60°) | Vs × 1,41 |\n| n = 4,0 | Vs × 2,0 |\n\n**Va — Velocidade de Manobra:**\n• Velocidade máxima na qual a deflexão máxima de um único comando não causa dano estrutural\n• Abaixo de Va: a aeronave entra em estol antes de atingir o limite estrutural\n• Va diminui com a redução do peso — pesos menores = Va menor\n• **ATENÇÃO**: Va não protege contra deflexões simultâneas de múltiplos comandos\n\n**Maneabilidade vs. Limites Estruturais:**\n• Voar acima de Va com turbulência ou entradas de comando abruptas pode causar dano estrutural\n• Diagramas V-n (Envelope de Manobras) mostram os limites combinados de velocidade e fator de carga"
+        },
+        {
+          "titulo": "Espiral Descendente e Spin",
+          "conteudo": "São duas situações de perda de controle que exigem recuperação específica:\n\n**ESPIRAL DESCENDENTE (Spiral Dive):**\n• Inclinação progressiva com nariz baixo e alta velocidade\n• As asas NÃO estão em estol\n• Velocidade e fator de carga aumentam rapidamente\n• Pode exceder limites estruturais\n\n**Recuperação da espiral descendente:**\n1. Reduzir potência\n2. Nivelar as asas com aileron\n3. Puxar suavemente para recuperar a altitude (cuidado com o fator de carga!)\n\n**SPIN (Parafuso):**\n• Estol com uma asa mais estolada que a outra → rotação\n• **Autorotação**: asa mais estolada cai → AoA aumenta ainda mais → mais estol → ciclo continua\n• Asa que sobe: menos estolada → alguma sustentação → gira para dentro\n• O spin é uma condição de estol assimétrico em rotação\n\n**Fases do spin:**\n1. **Incipiente**: rotação iniciando (até 2 voltas) — mais fácil de recuperar\n2. **Desenvolvido**: rotação estabilizada\n3. **Achatado**: ângulo de descida menor, mais difícil de recuperar\n\n**Recuperação do spin (PARE — método padrão):**\n1. **P**otência — reduzir para idle\n2. **A**ilerons — neutros\n3. **R**udder — oposto à rotação (contra o spin)\n4. **E**levador — empurrar para frente para reduzir o AoA\n5. Quando a rotação parar: recuperar suavemente do mergulho\n\n**Prevenção:**\n• Manter coordenação nos comandos\n• Não fazer curvas lentas e apertadas próximo ao solo\n• Nunca fazer curva final → final com bank excessivo e leme"
+        },
+        {
+          "titulo": "Efeito Solo (Ground Effect)",
+          "conteudo": "O efeito solo é uma modificação das características aerodinâmicas quando a aeronave voa próximo ao solo:\n\n**Mecanismo:**\n• O solo interrompe a formação normal dos vórtices de ponta de asa\n• Os vórtices são comprimidos e enfraquecidos\n• Resultado: **redução do arrasto induzido** quando dentro do efeito solo\n\n**Limite do efeito solo:**\n• Significativo quando a altura é menor que a envergadura da asa\n• Máximo em alturas ≤ 10% da envergadura\n• Imperceptível acima de 100% da envergadura\n\n**Efeitos na decolagem:**\n• A aeronave 'flutua' na pista por mais tempo\n• Pode decolar antes de ter velocidade adequada para subida\n• **Cushion effect**: aeronave levanta mas não consegue subir ao sair do efeito solo\n• Perigoso em aeródromos com alta altitude densidade e obstáculos\n\n**Efeitos no pouso:**\n• Aeronave flutua mais do que o esperado\n• Maior distância de pouso se a flare for iniciada alta\n• Velocidade não deve ser excessiva na final para evitar flotação prolongada\n\n**Mudanças dentro do efeito solo:**\n\n| Parâmetro | Variação |\n|-----------|----------|\n| Arrasto induzido | Diminui |\n| Sustentação | Ligeiro aumento |\n| CL estol | Ligeira redução |\n| Ângulo de ataque para mesma sustentação | Menor |\n| Efetividade do profundor | Pode reduzir |\n\n**Aeronaves mais afetadas:**\n• Asas baixas (configuração low-wing) — mais sensíveis ao efeito solo\n• Asas de alto alongamento — vórtices mais enfraquecidos pelo solo"
+        },
+        {
+          "titulo": "Contaminação da Superfície — Gelo e Chuva",
+          "conteudo": "A contaminação das superfícies aerodinâmicas é uma das principais causas de acidentes:\n\n**Efeitos do gelo nas superfícies:**\n• Altera o perfil aerodinâmico do bordo de ataque\n• Perturba o escoamento laminar → transição precoce para turbulento\n• Aumenta drasticamente o arrasto\n• Reduz a sustentação máxima (CL máximo menor)\n• Diminui o ângulo de ataque crítico\n• Aumenta o peso da aeronave\n• Reduz a efetividade das superfícies de controle\n\n**Tipos de gelo:**\n\n| Tipo | Formação | Características |\n|------|----------|-----------------|\n| **Gelo claro (Clear/Glaze Ice)** | Chuva engelante, temperatura próxima de 0°C | Transparente, duro, pesado — mais perigoso |\n| **Gelo granulado (Rime Ice)** | Nuvens com gotículas super-resfriadas pequenas | Opaco, branco, frágil |\n| **Gelo misto (Mixed Ice)** | Combinação dos dois tipos | Características mistas |\n\n**Regra do 'Clean Aircraft Concept':**\n• Nenhum gelo, neve ou geada pode estar nas superfícies críticas na decolagem\n• Mesmo uma camada fina de geada pode reduzir a sustentação em até 30%\n• Contaminação na superfície do extradorso é especialmente crítica\n\n**Sistemas de proteção contra gelo:**\n• **Anti-ice**: previne a formação de gelo (fluido, pneumático, elétrico)\n• **De-ice**: remove o gelo já formado (botas pneumáticas, fluido)\n• Sistemas TKS, elétricos e pneumáticos de bordo de ataque\n\n**Efeito da chuva:**\n• Chuva intensa aumenta o arrasto e reduz a sustentação\n• Gotículas de chuva causam transição precoce da camada limite"
+        },
+        {
+          "titulo": "Diagramas de Manobra e Rajada — Envelope de Voo",
+          "conteudo": "O envelope de voo define os limites seguros de operação da aeronave:\n\n**Diagrama V-n (Diagrama de Manobra):**\n• Relaciona velocidade (V) com fator de carga (n)\n• Define os limites de operação segura\n\n**Limites no diagrama V-n:**\n\n| Limite | Descrição |\n|--------|-----------|\n| **Vs (estol)** | Limite inferior esquerdo — estol em 1 G |\n| **Va (manobra)** | Velocidade onde Clmax = limite de carga máxima |\n| **Vno (velocidade normal operacional)** | Limite superior da faixa verde |\n| **Vne (never exceed)** | Velocidade máxima absoluta — linha vermelha |\n| **Limite de carga positivo** | Fator de carga máximo positivo (+3,8 G normal) |\n| **Limite de carga negativo** | Fator de carga máximo negativo (-1,52 G normal) |\n\n**Diagrama de Rajada:**\n• Adiciona os efeitos de rajadas verticais ao diagrama de manobra\n• Rajadas aumentam o ângulo de ataque → aumentam o fator de carga\n• Velocidade de penetração em turbulência: **Vra / Vturb / Vpenetração**\n• Abaixo de Vno: protege contra rajadas de até 66 fps (norma FAR)\n\n**Faixas de velocidade no ASI:**\n\n| Cor | Nome | Significado |\n|-----|------|-------------|\n| **Branco** | Faixa de flap | Vs0 até Vfe (flaps estendidos) |\n| **Verde** | Faixa normal | Vs1 até Vno |\n| **Amarelo** | Faixa de cautela | Vno até Vne (ar calmo apenas) |\n| **Vermelho** | Vne | Nunca exceder |\n\n**Velocidades de manobra específicas:**\n• **Vb**: velocidade de penetração em turbulência\n• **Vmo**: velocidade máxima operacional (aeronaves de transporte)\n• **Mmo**: Mach máximo operacional\n• **Vfe**: velocidade máxima com flaps estendidos"
+        },
+        {
+          "titulo": "Windshear e Microburst",
+          "conteudo": "O windshear é uma das condições meteorológicas mais perigosas para a aviação:\n\n**Windshear:**\n• Mudança abrupta na velocidade e/ou direção do vento em curta distância\n• Pode ser horizontal ou vertical\n• Afeta diretamente a velocidade indicada e a sustentação disponível\n\n**Microburst:**\n• Corrente descendente intensa de pequena extensão (< 4 km)\n• Gerado por tempestades convectivas\n• Ao atingir o solo, espalha-se horizontalmente\n• Produz windshear severo tanto na entrada quanto na saída\n\n**Sequência de um encontro com microburst:**\n1. **Entrada**: vento de frente → aumento da velocidade indicada → sustentação aumenta\n2. **Centro**: corrente descendente intensa → aeronave empurrada para baixo\n3. **Saída**: vento de cauda → redução da velocidade indicada → sustentação diminui abruptamente\n\n**A fase mais perigosa é a saída do microburst:**\n• A velocidade indicada cai rapidamente\n• A sustentação cai\n• A aeronave pode perder altitude rapidamente\n• Em aproximação final: pode não haver altitude suficiente para recuperação\n\n**Sinais de windshear em aproximação:**\n• Variação inexplicável da velocidade indicada (> ±15 nós)\n• Variação do variômetro sem entrada dos comandos\n• Desvio inexplicável do glide slope\n• Alertas do sistema GPWS/TAWS (windshear warning)\n\n**Procedimento de escape do windshear:**\n1. Potência máxima imediatamente\n2. Pitch para atitude de subida (geralmente 15° a 20°)\n3. Recolher o trem de pouso\n4. Manter configuração de flaps (não recolher)\n5. Aceitar GPWS / stick shaker se necessário\n6. Reportar ao ATC\n\n**Prevenção:**\n• Não iniciar aproximação com windshear reportado ou suspeito\n• Respeitar as informações de pirep\n• Usar sistemas onboard de detecção de windshear"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "A velocidade de manobra (Va) é definida como:",
+        "alternativas": [
+          "A velocidade máxima de operação em qualquer condição",
+          "A velocidade máxima na qual a deflexão máxima de um único comando não causa dano estrutural",
+          "A velocidade mínima de controle com motor inoperante",
+          "A velocidade de melhor ângulo de subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Va é a velocidade acima da qual deflexões abruptas de comando podem causar dano estrutural. Abaixo de Va, ocorre o estol antes."
+      },
+      {
+        "id": 52,
+        "pergunta": "Durante a recuperação de um spin (parafuso), a sequência correta é:",
+        "alternativas": [
+          "Ailerons na direção do spin, depois leme contrário e profundor para frente",
+          "Potência idle, ailerons neutros, leme oposto ao spin e profundor para frente",
+          "Potência máxima, leme na direção do spin e puxar o profundor",
+          "Ailerons neutros, profundor para frente e depois leme contrário"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A recuperação do spin segue: P-A-R-E: Potência idle, Ailerons neutros, Rudder oposto, Elevator (profundor) para frente."
+      },
+      {
+        "id": 53,
+        "pergunta": "O efeito solo reduz o arrasto induzido porque:",
+        "alternativas": [
+          "O solo reflete o escoamento, aumentando a pressão no intradorso",
+          "O solo interrompe a formação dos vórtices de ponta de asa, enfraquecendo-os",
+          "A densidade do ar próximo ao solo é maior, gerando mais sustentação",
+          "A velocidade do vento próximo ao solo é menor, reduzindo o arrasto parasita"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O solo fisicamente bloqueia o desenvolvimento vertical dos vórtices de ponta, enfraquecendo-os e reduzindo o arrasto induzido."
+      },
+      {
+        "id": 54,
+        "pergunta": "Qual tipo de gelo é considerado o mais perigoso para a aviação?",
+        "alternativas": [
+          "Gelo granulado (rime ice), por ser branco e fácil de detectar",
+          "Gelo claro (clear/glaze ice), por ser transparente, duro e pesado",
+          "Geada superficial, por cobrir toda a asa uniformemente",
+          "Gelo misto, por ter menor adesão às superfícies"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O gelo claro é transparente (difícil de ver), duro, pesado e adere fortemente, distorcendo o perfil — o mais perigoso."
+      },
+      {
+        "id": 55,
+        "pergunta": "A fase mais perigosa de um encontro com microburst durante uma aproximação é:",
+        "alternativas": [
+          "A entrada, quando o vento de frente aumenta a velocidade indicada",
+          "A saída, quando o vento de cauda reduz abruptamente a velocidade e a sustentação",
+          "O centro, quando a corrente descendente empurra a aeronave para baixo",
+          "A fase anterior ao microburst, com turbulência leve"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na saída do microburst, o vento passa a ser de cauda, reduzindo a velocidade indicada e a sustentação — perda de altitude crítica."
+      },
+      {
+        "id": 56,
+        "pergunta": "A faixa amarela no velocímetro (ASI) indica que:",
+        "alternativas": [
+          "A aeronave está dentro da faixa normal de operação com flaps",
+          "A velocidade está acima de Vno — operação permitida apenas em ar calmo",
+          "A aeronave está próxima da velocidade de estol",
+          "Os flaps estão operando dentro dos limites"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A faixa amarela (Vno até Vne) indica zona de cautela — operação permitida apenas em ar calmo, sem turbulência."
+      },
+      {
+        "id": 57,
+        "pergunta": "A Va (velocidade de manobra) varia com o peso da aeronave da seguinte forma:",
+        "alternativas": [
+          "Permanece constante independentemente do peso",
+          "Diminui com a redução do peso",
+          "Aumenta com a redução do peso",
+          "Só varia em função da altitude, não do peso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Va diminui com a redução do peso — aeronave mais leve estola com menos G, portanto Va menor protege a estrutura."
+      },
+      {
+        "id": 58,
+        "pergunta": "O estol acelerado difere do estol normal porque:",
+        "alternativas": [
+          "Ocorre apenas em velocidades abaixo de Vs em voo nivelado",
+          "Pode ocorrer em velocidades acima de Vs, causado por aumento abrupto do ângulo de ataque",
+          "É causado pela contaminação do perfil por gelo ou chuva",
+          "Só ocorre em aeronaves sem dispositivos de proteção de estol"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O estol acelerado ocorre acima da Vs normal quando manobras abruptas aumentam o AoA ao crítico — independe da velocidade."
+      },
+      {
+        "id": 59,
+        "pergunta": "O 'Conceito de Aeronave Limpa' (Clean Aircraft Concept) determina que:",
+        "alternativas": [
+          "A aeronave deve ser lavada antes de cada voo internacional",
+          "Nenhuma contaminação (gelo, neve, geada) pode estar nas superfícies críticas na decolagem",
+          "As superfícies devem estar pintadas para reduzir o arrasto de atrito",
+          "A aeronave deve passar por inspeção visual completa apenas antes do primeiro voo do dia"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Clean Aircraft Concept proíbe qualquer contaminação nas superfícies críticas na decolagem — até geada fina é inaceitável."
+      },
+      {
+        "id": 60,
+        "pergunta": "Durante um encontro com windshear severo em aproximação, o procedimento correto inclui:",
+        "alternativas": [
+          "Manter a velocidade de aproximação e continuar o pouso",
+          "Aplicar potência máxima imediatamente e executar procedimento de arremetida",
+          "Reduzir a potência para manter o perfil de descida",
+          "Estender os flaps para configuração máxima para aumentar a sustentação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Windshear severo exige arremetida imediata: potência máxima, atitude de subida — continuar o pouso é extremamente perigoso."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 1,
+    "pergunta": "Uma aeronave voa em cruzeiro a 10.000 pés numa temperatura de -5°C. A temperatura ISA para essa altitude é -5°C. Qual é o desvio ISA?",
+    "alternativas": [
+      "ISA+10",
+      "ISA 0 (condição padrão)",
+      "ISA-5",
+      "ISA+5"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Se a temperatura real é igual à temperatura ISA para aquela altitude, o desvio é zero — condição padrão ISA."
+  },
+  {
+    "id": 2,
+    "pergunta": "Um aeródromo está localizado a 3.000 pés de altitude com temperatura de 35°C. A temperatura ISA para 3.000 pés é 9°C. Qual é a altitude densidade aproximada?",
+    "alternativas": [
+      "3.000 pés",
+      "5.880 pés",
+      "6.720 pés",
+      "4.440 pés"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Altitude Densidade = 3.000 + 120 × (35 - 9) = 3.000 + 120 × 26 = 3.000 + 3.120 = 6.120 pés. A opção mais próxima é 5.880 pés — efeito severo no desempenho."
+  },
+  {
+    "id": 3,
+    "pergunta": "A pressão dinâmica (q) é expressa por:",
+    "alternativas": [
+      "q = ρ × V",
+      "q = ½ × ρ × V²",
+      "q = ρ × g × h",
+      "q = P / ρ"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "A pressão dinâmica é q = ½ρV² — é a base do sistema Pitot-Estático e da equação de sustentação e arrasto."
+  },
+  {
+    "id": 4,
+    "pergunta": "Uma aeronave com peso de 2.000 kg voa em voo nivelado. Qual é a sustentação gerada?",
+    "alternativas": [
+      "Mais de 2.000 kgf",
+      "Exatamente 2.000 kgf",
+      "Menos de 2.000 kgf",
+      "Depende da velocidade — não é possível afirmar"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Em voo nivelado e constante, L = W. A sustentação equilibra exatamente o peso — 2.000 kgf."
+  },
+  {
+    "id": 5,
+    "pergunta": "Se a velocidade de uma aeronave for reduzida à metade, mantendo todas as outras variáveis constantes, a sustentação gerada será:",
+    "alternativas": [
+      "Reduzida à metade",
+      "Reduzida a um quarto",
+      "Dobrada",
+      "Mantida igual"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "L ∝ V² — se V cai à metade, V² cai a 1/4, e a sustentação é reduzida a um quarto do valor original."
+  },
+  {
+    "id": 6,
+    "pergunta": "Em uma curva com inclinação de 45°, qual é o fator de carga e a variação na velocidade de estol?",
+    "alternativas": [
+      "n = 1,41 G — Vs aumenta 19%",
+      "n = 2,0 G — Vs aumenta 41%",
+      "n = 1,15 G — Vs aumenta 7%",
+      "n = 1,41 G — Vs não se altera"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Em curva de 45°: n = 1/cos(45°) = 1,41 G. Vs_curva = Vs × √1,41 = Vs × 1,19 — aumento de 19% na velocidade de estol."
+  },
+  {
+    "id": 7,
+    "pergunta": "O extradorso de um perfil alar gera sustentação principalmente porque:",
+    "alternativas": [
+      "Tem maior área de contato com o ar, gerando mais atrito",
+      "O ar acelera sobre ele, reduzindo a pressão abaixo da pressão atmosférica",
+      "O perfil deflete o ar para cima, gerando pressão positiva acima",
+      "A curvatura direciona o escoamento para o intradorso"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O escoamento no extradorso acelera (caminho mais longo/curvo) → pressão cai (Bernoulli) → sucção gera ~2/3 da sustentação."
+  },
+  {
+    "id": 8,
+    "pergunta": "Qual tipo de perfil alar é mais adequado para aeronaves de acrobacia?",
+    "alternativas": [
+      "Perfil cambado, por gerar mais sustentação em qualquer AoA",
+      "Perfil simétrico, por ter desempenho igual no voo normal e invertido",
+      "Perfil supercrítico, por suportar maiores fatores de carga",
+      "Perfil laminar, por ter menor arrasto em alta velocidade"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O perfil simétrico gera sustentação igual no voo normal e invertido — essencial para acrobacia. CL = 0 para AoA = 0°."
+  },
+  {
+    "id": 9,
+    "pergunta": "O flap Fowler, ao ser acionado, produz como efeito principal:",
+    "alternativas": [
+      "Aumento da espessura do perfil sem alterar a cambagem",
+      "Aumento simultâneo da área da asa e da cambagem, maximizando o CL",
+      "Redução do arrasto de forma, permitindo maior velocidade",
+      "Aumento do ângulo de ataque crítico sem alterar a velocidade de estol"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O Fowler desliza para trás (aumenta área) e gira para baixo (aumenta cambagem) — maior CL máximo com arrasto relativamente baixo."
+  },
+  {
+    "id": 10,
+    "pergunta": "O estol ocorre SEMPRE no mesmo:",
+    "alternativas": [
+      "Valor de velocidade indicada (IAS)",
+      "Ângulo de ataque crítico, independente da velocidade",
+      "Valor de peso e configuração",
+      "Número de Mach, independente da altitude"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O estol é determinado pelo ângulo de ataque crítico — sempre o mesmo AoA, independente de velocidade, altitude ou peso."
+  },
+  {
+    "id": 11,
+    "pergunta": "A velocidade de mínimo arrasto (Vmd) é o ponto onde:",
+    "alternativas": [
+      "Apenas o arrasto induzido é mínimo",
+      "O arrasto total é mínimo, com arrasto parasita igual ao arrasto induzido",
+      "A potência necessária para manter o voo é mínima",
+      "O coeficiente de sustentação é máximo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Na Vmd: D parasita = D induzido → D total mínimo → L/D máximo. É a velocidade de maior eficiência aerodinâmica."
+  },
+  {
+    "id": 12,
+    "pergunta": "Como o arrasto parasita varia com a velocidade?",
+    "alternativas": [
+      "Diminui com o aumento da velocidade",
+      "Aumenta proporcionalmente ao quadrado da velocidade",
+      "Permanece constante em todas as velocidades",
+      "Aumenta linearmente com a velocidade"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O arrasto parasita é proporcional a V² — dobrar a velocidade quadruplica o arrasto parasita."
+  },
+  {
+    "id": 13,
+    "pergunta": "Uma asa com Aspect Ratio muito alto (ex: planador) tem como característica principal:",
+    "alternativas": [
+      "Alto arrasto induzido e baixa eficiência em cruzeiro",
+      "Baixo arrasto induzido e alta eficiência aerodinâmica",
+      "Maior velocidade máxima e melhor desempenho em acrobacia",
+      "Maior resistência estrutural e maior fator de carga suportado"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Alto AR reduz os vórtices de ponta de asa → menor arrasto induzido → maior L/D → maior eficiência. Por isso planadores têm asas longas."
+  },
+  {
+    "id": 14,
+    "pergunta": "O Mach Crítico (Mcrit) é relevante porque:",
+    "alternativas": [
+      "Define o Mach máximo operacional publicado no manual",
+      "É o ponto a partir do qual surgem ondas de choque locais e aumenta o arrasto",
+      "Determina a velocidade de estol em alta altitude",
+      "É o limite entre voo subsônico e hipersônico"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Acima do Mcrit, formam-se ondas de choque locais no extradorso → arrasto de onda aumenta → buffet transônico possível."
+  },
+  {
+    "id": 15,
+    "pergunta": "Para que a aeronave tenha estabilidade longitudinal positiva, é necessário que:",
+    "alternativas": [
+      "O Centro de Gravidade esteja atrás do Centro Aerodinâmico",
+      "O Centro de Gravidade esteja à frente do Centro Aerodinâmico",
+      "A potência do motor equilibre os momentos de arfagem",
+      "Os flaps estejam na posição recolhida"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "CG à frente do CA garante momento restaurador de arfagem — a aeronave tende a picar quando perturbada, voltando ao equilíbrio."
+  },
+  {
+    "id": 16,
+    "pergunta": "O diedro positivo das asas aumenta a estabilidade:",
+    "alternativas": [
+      "Longitudinal, criando momento restaurador de arfagem",
+      "Lateral, gerando mais sustentação na asa baixa quando a aeronave inclina",
+      "Direcional, alinhando o nariz com o vento relativo",
+      "Dinâmica, amortecendo o modo de período curto"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O diedro positivo faz com que a asa baixa (inclinada) tenha maior AoA efetivo → mais sustentação → força restauradora lateral."
+  },
+  {
+    "id": 17,
+    "pergunta": "A guinada adversa causada pelos ailerons ocorre porque:",
+    "alternativas": [
+      "O aileron que sobe gera mais sustentação e mais arrasto",
+      "O aileron que desce gera mais sustentação e consequentemente mais arrasto induzido",
+      "Os dois ailerons geram arrasto igual, mas em direções opostas",
+      "A deflexão dos ailerons altera o centro de gravidade lateralmente"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O aileron que desce (asa que sobe) tem maior CL → maior arrasto induzido → guina para o lado da asa que sobe — o lado errado."
+  },
+  {
+    "id": 18,
+    "pergunta": "O modo fugoide é caracterizado por:",
+    "alternativas": [
+      "Oscilação rápida de AoA com período de segundos — amortecida fortemente",
+      "Oscilação lenta de velocidade e altitude com período de minutos",
+      "Oscilação acoplada de rolamento e guinada típica de asas enflechadas",
+      "Divergência progressiva no eixo de arfagem"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O fugoide é a oscilação longitudinal lenta (1-2 min) onde velocidade e altitude trocam energia — geralmente estável e tolerável."
+  },
+  {
+    "id": 19,
+    "pergunta": "O Dutch Roll é amortecido em aeronaves de transporte principalmente pelo:",
+    "alternativas": [
+      "Autopiloto no modo de manutenção de altitude",
+      "Yaw Damper (amortecedor de guinada)",
+      "Sistema de proteção de estol (stick pusher)",
+      "Sistema de controle de flaps automático"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O Yaw Damper aplica correções de leme automaticamente para amortecer as oscilações do Dutch Roll em asas enflechadas."
+  },
+  {
+    "id": 20,
+    "pergunta": "A Vmca em aeronaves bimotoras é a velocidade abaixo da qual:",
+    "alternativas": [
+      "A aeronave não consegue manter altitude com os dois motores operando",
+      "O controle direcional não pode ser mantido com o motor crítico inoperante",
+      "Os flaps não podem ser estendidos com segurança",
+      "O trem de pouso não pode ser recolhido"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Abaixo da Vmca é impossível manter controle direcional com motor crítico inoperante e motor operante em potência máxima."
+  },
+  {
+    "id": 21,
+    "pergunta": "A velocidade de manobra (Va) DIMINUI quando:",
+    "alternativas": [
+      "A altitude aumenta",
+      "O peso da aeronave diminui",
+      "A temperatura aumenta",
+      "Os flaps são estendidos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Va é proporcional à raiz quadrada do peso. Aeronave mais leve estola com menor G → Va menor protege a estrutura."
+  },
+  {
+    "id": 22,
+    "pergunta": "O efeito solo pode ser perigoso na decolagem porque:",
+    "alternativas": [
+      "Aumenta o arrasto de forma, exigindo mais potência",
+      "A aeronave pode levantar voo antes de ter velocidade suficiente para manter a subida fora do efeito solo",
+      "Reduz a efetividade do profundor, dificultando a rotação",
+      "Aumenta o arrasto induzido, exigindo maior velocidade de decolagem"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O efeito solo reduz o arrasto induzido — a aeronave 'flutua' e pode descolar prematuramente sem energia para subir além do efeito solo."
+  },
+  {
+    "id": 23,
+    "pergunta": "O gelo claro (glaze ice) é mais perigoso que o gelo granulado (rime ice) porque:",
+    "alternativas": [
+      "É mais fácil de detectar e remove-se com maior facilidade",
+      "É transparente, pesado, duro e adere fortemente, distorcendo o perfil sem ser visível",
+      "Forma-se apenas em altitudes elevadas, dificultando o acesso para remoção",
+      "Causa mais vibração estrutural devido à sua textura irregular"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "O gelo claro é transparente (difícil de ver), muito pesado e duro, adere fortemente e distorce criticamente o perfil alar."
+  },
+  {
+    "id": 24,
+    "pergunta": "A fase mais crítica de um encontro com microburst em aproximação final é a saída, pois:",
+    "alternativas": [
+      "O vento de frente aumenta a velocidade e pode causar ultrapassagem do ponto de toque",
+      "O vento de cauda reduz a velocidade indicada e a sustentação, causando perda de altitude",
+      "A corrente descendente empurra a aeronave para além da pista",
+      "A turbulência severa pode danificar as superfícies de controle"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Na saída do microburst, o vento passa para cauda → velocidade indicada cai → sustentação cai → risco de impacto com o solo."
+  },
+  {
+    "id": 25,
+    "pergunta": "O 'Clean Aircraft Concept' estabelece que antes da decolagem:",
+    "alternativas": [
+      "As superfícies devem ser inspecionadas apenas visualmente do cockpit",
+      "Nenhuma contaminação de gelo, neve ou geada pode estar presente nas superfícies críticas",
+      "O gelo nas superfícies secundárias (leme, aileron) pode ser tolerado",
+      "Uma camada fina de geada é aceitável se a temperatura estiver abaixo de -10°C"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Zero tolerância — qualquer contaminação nas superfícies críticas é inaceitável. Mesmo geada fina pode reduzir sustentação em 30%."
+  },
+  {
+    "id": 26,
+    "pergunta": "A faixa amarela no velocímetro (ASI) corresponde ao intervalo entre:",
+    "alternativas": [
+      "Vs0 e Vfe — operação com flaps estendidos",
+      "Vno e Vne — operação apenas em ar calmo, sem turbulência",
+      "Va e Vno — faixa normal de operação em cruzeiro",
+      "Vne e VMO — operação em emergência"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "A faixa amarela vai de Vno (velocidade normal máxima) até Vne (never exceed) — permitida apenas em ar calmo."
+  },
+  {
+    "id": 27,
+    "pergunta": "Durante a recuperação de um spin, por que os ailerons devem estar neutros?",
+    "alternativas": [
+      "Para evitar que o rolamento aumente a velocidade de descida",
+      "Porque ailerons na direção do spin podem aprofundá-lo e na direção contrária podem agravá-lo",
+      "Para que o profundor seja mais efetivo na redução do AoA",
+      "Porque os ailerons perdem efetividade abaixo de Vs e não têm função no spin"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Ailerons no spin podem piorar a situação — ailerons com o spin aprofundam; ailerons contra o spin podem inverter ou agravar. Neutros é seguro."
+  },
+  {
+    "id": 28,
+    "pergunta": "O efeito P-Factor (assimetria da hélice) é mais pronunciado quando:",
+    "alternativas": [
+      "A aeronave voa em alta velocidade e baixo ângulo de ataque",
+      "A aeronave voa em alto ângulo de ataque, como na decolagem e subida inicial",
+      "O motor está em baixa potência durante a descida",
+      "A aeronave voa em voo nivelado em cruzeiro"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Em alto AoA, a pá descente (direita) tem maior AoA efetivo → mais tração → assimetria → guinada para esquerda. Mais pronunciado em decolagem."
+  },
+  {
+    "id": 29,
+    "pergunta": "A velocidade de mínima potência (Vmp) em relação à velocidade de mínimo arrasto (Vmd) é:",
+    "alternativas": [
+      "Igual à Vmd — são o mesmo ponto na curva de desempenho",
+      "Menor que a Vmd",
+      "Maior que a Vmd",
+      "Depende do tipo de motor — a hélice ou turbojato"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Vmp < Vmd sempre. A mínima potência ocorre a velocidade menor que o mínimo arrasto — P = D × V, então o mínimo de P ocorre antes do mínimo de D."
+  },
+  {
+    "id": 30,
+    "pergunta": "Uma aeronave com CG muito à frente dos limites apresentará as seguintes características:",
+    "alternativas": [
+      "Instabilidade longitudinal e tendência a cabrar sem comando",
+      "Estabilidade excessiva, comandos pesados, maior demanda do estabilizador e maior arrasto",
+      "Melhor eficiência de cruzeiro e menor consumo de combustível",
+      "Tendência ao Dutch Roll e oscilações laterais-direcionais"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "CG muito à frente: aeronave hiper-estável, profundor pesado, estabilizador trabalha mais para equilibrar → arrasto e consumo aumentam."
+  }
+]
