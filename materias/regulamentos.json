@@ -1,5 +1,1280 @@
+[
+  {
+    "id": 1,
+    "titulo": "Estrutura da Aviação Civil Brasileira",
+    "aula": {
+      "introducao": "A aviação civil brasileira é regulada por um conjunto de órgãos e normas que garantem a segurança, a organização e o desenvolvimento do setor. Conhecer essa estrutura é fundamental para o piloto compreender suas responsabilidades legais e operacionais.",
+      "subtitulos": [
+        {
+          "titulo": "ANAC — Agência Nacional de Aviação Civil",
+          "conteudo": "A ANAC é a autoridade de aviação civil do Brasil, criada pela Lei nº 11.182/2005. É responsável por:\n\n• Regulamentar e fiscalizar a aviação civil\n• Certificar aeronaves, aeródromos e pessoal de aviação\n• Emitir licenças e habilitações para pilotos\n• Homologar aeronaves e equipamentos\n\nA ANAC é vinculada ao Ministério da Infraestrutura e atua em conformidade com as normas da ICAO."
+        },
+        {
+          "titulo": "DECEA — Departamento de Controle do Espaço Aéreo",
+          "conteudo": "O DECEA é o órgão militar responsável pelo gerenciamento do espaço aéreo brasileiro. Suas atribuições incluem:\n\n• Controle do tráfego aéreo (ATC)\n• Publicação de cartas aeronáuticas e AIP Brasil\n• Gerenciamento do sistema de navegação aérea\n• Coordenação de buscas e salvamento (SAR)\n\nO DECEA é subordinado ao Comando da Aeronáutica."
+        },
+        {
+          "titulo": "ICAO — Organização de Aviação Civil Internacional",
+          "conteudo": "A ICAO (International Civil Aviation Organization) é uma agência da ONU que estabelece os padrões e recomendações internacionais para a aviação civil.\n\nSeus documentos são publicados em Anexos à Convenção de Chicago, que é o tratado internacional base da aviação civil mundial.\n\nO Brasil é signatário da Convenção de Chicago e deve seguir os padrões da ICAO."
+        },
+        {
+          "titulo": "RBAC — Regulamento Brasileiro da Aviação Civil",
+          "conteudo": "O RBAC é o conjunto de normas técnicas e operacionais da aviação civil brasileira, publicado pela ANAC.\n\nCada RBAC trata de um tema específico:\n\n• **RBAC 01**: Definições e abreviaturas\n• **RBAC 61**: Licenças e certificados para pilotos\n• **RBAC 67**: Requisitos médicos\n• **RBAC 91**: Regras gerais de operação\n• **RBAC 135**: Operações de táxi aéreo"
+        },
+        {
+          "titulo": "IAC e IS — Instruções e Normas Complementares",
+          "conteudo": "Além dos RBACs, a ANAC publica:\n\n• **IS (Instrução Suplementar)**: documentos que complementam e orientam a aplicação dos RBACs\n• **IAC (Instrução de Aviação Civil)**: normas mais antigas, ainda vigentes em algumas áreas\n\nO piloto deve estar familiarizado com os documentos que se aplicam à sua operação."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A ANAC foi criada pela:",
+        "alternativas": [
+          "Lei nº 7.565/1986",
+          "Lei nº 11.182/2005",
+          "Decreto nº 72.771/1973",
+          "Portaria DECEA nº 100/2010"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ANAC foi criada pela Lei nº 11.182 de 27 de setembro de 2005."
+      },
+      {
+        "id": 2,
+        "pergunta": "A ANAC é responsável por:",
+        "alternativas": [
+          "Controlar o tráfego aéreo nos aeródromos",
+          "Certificar aeronaves, aeródromos e emitir licenças para pilotos",
+          "Publicar cartas aeronáuticas e AIP Brasil",
+          "Coordenar operações de busca e salvamento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ANAC é a autoridade reguladora e certificadora da aviação civil brasileira."
+      },
+      {
+        "id": 3,
+        "pergunta": "O DECEA é responsável por:",
+        "alternativas": [
+          "Emitir licenças para pilotos civis",
+          "Gerenciar o espaço aéreo e o controle do tráfego aéreo",
+          "Certificar aeronaves importadas",
+          "Regular as companhias aéreas comerciais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O DECEA gerencia o espaço aéreo, o ATC e publica documentos como o AIP Brasil."
+      },
+      {
+        "id": 4,
+        "pergunta": "A ICAO é uma agência vinculada a:",
+        "alternativas": [
+          "União Europeia",
+          "ONU — Organização das Nações Unidas",
+          "OTAN",
+          "Banco Mundial"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ICAO é uma agência especializada da ONU voltada para a aviação civil internacional."
+      },
+      {
+        "id": 5,
+        "pergunta": "Os padrões internacionais da ICAO são publicados em:",
+        "alternativas": [
+          "RBACs",
+          "Anexos à Convenção de Chicago",
+          "Portarias do DECEA",
+          "Instruções Suplementares da ANAC"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os SARPs (Standards and Recommended Practices) da ICAO estão nos Anexos à Convenção de Chicago."
+      },
+      {
+        "id": 6,
+        "pergunta": "O RBAC 61 trata de:",
+        "alternativas": [
+          "Regras gerais de operação",
+          "Licenças e certificados para pilotos",
+          "Requisitos médicos",
+          "Operações de táxi aéreo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 61 regulamenta a certificação de pilotos e pessoal de aviação no Brasil."
+      },
+      {
+        "id": 7,
+        "pergunta": "O RBAC 91 trata de:",
+        "alternativas": [
+          "Licenças para pilotos",
+          "Regras gerais de operação",
+          "Requisitos médicos",
+          "Operações de táxi aéreo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 91 estabelece as regras gerais de operação para aeronaves civis no Brasil."
+      },
+      {
+        "id": 8,
+        "pergunta": "O DECEA é subordinado ao:",
+        "alternativas": [
+          "Ministério da Infraestrutura",
+          "Comando da Aeronáutica",
+          "ANAC",
+          "ICAO"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O DECEA é um órgão militar subordinado ao Comando da Aeronáutica."
+      },
+      {
+        "id": 9,
+        "pergunta": "A IS (Instrução Suplementar) serve para:",
+        "alternativas": [
+          "Substituir os RBACs",
+          "Complementar e orientar a aplicação dos RBACs",
+          "Publicar cartas aeronáuticas",
+          "Emitir licenças provisórias"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "As ISs são documentos que detalham e orientam a aplicação prática dos regulamentos."
+      },
+      {
+        "id": 10,
+        "pergunta": "O Brasil é signatário da Convenção de Chicago, o que significa que:",
+        "alternativas": [
+          "Pode ignorar os padrões da ICAO",
+          "Deve seguir os padrões estabelecidos pela ICAO",
+          "Não precisa publicar regulamentos próprios",
+          "Está isento de certificar aeronaves estrangeiras"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Como signatário, o Brasil se compromete a seguir os padrões internacionais da ICAO."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Licenças e Habilitações de Pilotos",
+    "aula": {
+      "introducao": "O piloto civil brasileiro deve possuir licença e habilitação válidas emitidas pela ANAC para exercer a atividade de pilotagem. Conhecer os tipos de licença, requisitos e obrigações é essencial para operar dentro da legalidade.",
+      "subtitulos": [
+        {
+          "titulo": "Tipos de Licença de Piloto",
+          "conteudo": "As principais licenças de piloto no Brasil, reguladas pelo RBAC 61, são:\n\n• **PPL** (Private Pilot Licence): Piloto Privado\n• **CPL** (Commercial Pilot Licence): Piloto Comercial\n• **ATPL** (Airline Transport Pilot Licence): Piloto de Transporte de Linha Aérea\n• **SPL** (Student Pilot Licence): Aluno-Piloto\n• **PPL-A, CPL-A**: sufixo A para avião, H para helicóptero"
+        },
+        {
+          "titulo": "Aluno-Piloto (SPL)",
+          "conteudo": "O aluno-piloto é a primeira licença emitida, permitindo que o estudante realize voos solo sob supervisão do instrutor.\n\nRequisitos mínimos:\n• Idade mínima: 16 anos\n• Certificado Médico Aeronáutico (CMA) válido\n• Matrícula em curso de aviação aprovado pela ANAC"
+        },
+        {
+          "titulo": "Piloto Privado (PPL)",
+          "conteudo": "O Piloto Privado pode exercer a pilotagem de aeronaves sem fins lucrativos.\n\nRequisitos mínimos:\n• Idade mínima: 17 anos\n• CMA classe 2 válido\n• 40 horas de voo (sendo 20 com instrutor e 10 solo)\n• Aprovação nos exames teóricos e práticos da ANAC"
+        },
+        {
+          "titulo": "Piloto Comercial (CPL)",
+          "conteudo": "O Piloto Comercial pode ser remunerado pela pilotagem de aeronaves.\n\nRequisitos mínimos:\n• Idade mínima: 18 anos\n• CMA classe 1 válido\n• 200 horas de voo total\n• Aprovação nos exames teóricos e práticos da ANAC\n• Habilitação de Voo por Instrumento (IFR) para operações comerciais"
+        },
+        {
+          "titulo": "Certificado Médico Aeronáutico (CMA)",
+          "conteudo": "O CMA é emitido por médico credenciado pela ANAC após avaliação das condições de saúde do piloto.\n\n• **CMA Classe 1**: exigido para pilotos comerciais e de linha aérea\n• **CMA Classe 2**: exigido para pilotos privados e alunos-pilotos\n\nO CMA tem prazo de validade e deve ser renovado periodicamente. Voar com CMA vencido é ilegal e sujeito a sanções."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "A sigla PPL significa:",
+        "alternativas": [
+          "Professional Pilot Licence",
+          "Private Pilot Licence",
+          "Primary Pilot Licence",
+          "Provisional Pilot Licence"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "PPL significa Private Pilot Licence, ou Licença de Piloto Privado."
+      },
+      {
+        "id": 12,
+        "pergunta": "A idade mínima para obter o PPL é:",
+        "alternativas": [
+          "16 anos",
+          "17 anos",
+          "18 anos",
+          "21 anos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O candidato ao PPL deve ter no mínimo 17 anos."
+      },
+      {
+        "id": 13,
+        "pergunta": "O Piloto Privado pode:",
+        "alternativas": [
+          "Ser remunerado por qualquer tipo de voo",
+          "Exercer a pilotagem sem fins lucrativos",
+          "Operar aeronaves comerciais de passageiros",
+          "Dispensar o CMA para voos locais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O PPL permite pilotagem apenas sem remuneração."
+      },
+      {
+        "id": 14,
+        "pergunta": "O total mínimo de horas de voo para o PPL é:",
+        "alternativas": [
+          "20 horas",
+          "40 horas",
+          "100 horas",
+          "200 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "São necessárias no mínimo 40 horas de voo para obtenção do PPL."
+      },
+      {
+        "id": 15,
+        "pergunta": "O CMA Classe 1 é exigido para:",
+        "alternativas": [
+          "Alunos-pilotos",
+          "Pilotos comerciais e de linha aérea",
+          "Pilotos privados",
+          "Mecânicos de aeronaves"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CMA Classe 1 é mais rigoroso e exigido para quem exerce pilotagem remunerada."
+      },
+      {
+        "id": 16,
+        "pergunta": "Voar com CMA vencido é:",
+        "alternativas": [
+          "Permitido em voos locais",
+          "Ilegal e sujeito a sanções",
+          "Permitido para pilotos privados",
+          "Tolerado em aeródromo privado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CMA vencido invalida a licença do piloto, tornando qualquer voo ilegal."
+      },
+      {
+        "id": 17,
+        "pergunta": "A licença SPL é destinada a:",
+        "alternativas": [
+          "Pilotos comerciais iniciantes",
+          "Alunos-pilotos em treinamento",
+          "Pilotos privados com menos de 100 horas",
+          "Instrutores de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A SPL (Student Pilot Licence) é a licença inicial para alunos-pilotos."
+      },
+      {
+        "id": 18,
+        "pergunta": "Para obter o CPL, o candidato precisa de no mínimo:",
+        "alternativas": [
+          "40 horas de voo",
+          "200 horas de voo",
+          "100 horas de voo",
+          "500 horas de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CPL exige no mínimo 200 horas de voo total."
+      },
+      {
+        "id": 19,
+        "pergunta": "A idade mínima para obter o CPL é:",
+        "alternativas": [
+          "16 anos",
+          "17 anos",
+          "18 anos",
+          "21 anos"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O candidato ao CPL deve ter no mínimo 18 anos."
+      },
+      {
+        "id": 20,
+        "pergunta": "O ATPL é a licença de:",
+        "alternativas": [
+          "Aluno-Piloto",
+          "Piloto de Transporte de Linha Aérea",
+          "Piloto Privado Avançado",
+          "Piloto Comercial de Táxi Aéreo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ATPL (Airline Transport Pilot Licence) é a licença mais avançada para pilotos de linha aérea."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Regras do Ar e Classes de Espaço Aéreo",
+    "aula": {
+      "introducao": "As regras do ar estabelecem os procedimentos e prioridades que garantem a segurança da navegação aérea. O conhecimento das classes de espaço aéreo é fundamental para que o piloto saiba quais serviços estão disponíveis e quais requisitos deve cumprir em cada área.",
+      "subtitulos": [
+        {
+          "titulo": "Regras de Voo Visual (VFR)",
+          "conteudo": "O voo VFR (Visual Flight Rules) é realizado com referência visual ao solo e ao horizonte, sem depender exclusivamente dos instrumentos.\n\nCondições mínimas para VFR:\n• Visibilidade mínima de 5 km (em geral)\n• Distância de nuvens: 300 m verticalmente e 1.500 m horizontalmente\n\nO piloto VFR é responsável por manter separação de outros tráfegos e obstáculos."
+        },
+        {
+          "titulo": "Regras de Voo por Instrumento (IFR)",
+          "conteudo": "O voo IFR (Instrument Flight Rules) é realizado com base nos instrumentos da aeronave, independentemente das condições meteorológicas externas.\n\nO piloto IFR:\n• Deve possuir habilitação IFR válida\n• Opera sob controle ATC em espaços aéreos controlados\n• Deve apresentar plano de voo IFR\n• Recebe separação garantida pelo ATC"
+        },
+        {
+          "titulo": "Classes de Espaço Aéreo",
+          "conteudo": "O espaço aéreo brasileiro é dividido em classes conforme a ICAO:\n\n• **Classe A**: apenas IFR, controle total do ATC\n• **Classe B**: IFR e VFR, todos sob controle ATC\n• **Classe C**: IFR e VFR, controle para IFR e separação de VFR por IFR\n• **Classe D**: IFR e VFR, controle para IFR, informações para VFR\n• **Classe E**: IFR e VFR, controle apenas para IFR\n• **Classe F**: não utilizada no Brasil\n• **Classe G**: espaço não controlado, sem serviço ATC obrigatório"
+        },
+        {
+          "titulo": "Prioridade de Passagem",
+          "conteudo": "As regras de prioridade de passagem (direito de passagem) devem ser conhecidas pelo piloto:\n\n• Aeronave em emergência tem prioridade absoluta\n• Planadores têm prioridade sobre motorizadas\n• Balões têm prioridade sobre planadores\n• Aeronave rebocando tem prioridade sobre livre\n• Em rota de colisão: aeronave à direita tem prioridade\n• Aeronave em final de pouso tem prioridade sobre as demais\n• Em caso de ultrapassagem: passar por cima e pela direita"
+        },
+        {
+          "titulo": "Altitudes Mínimas de Segurança",
+          "conteudo": "O RBAC 91 estabelece altitudes mínimas para voo:\n\n• Sobre áreas congestionadas (cidades): 1.000 pés acima do obstáculo mais alto em raio de 600 m\n• Sobre áreas não congestionadas: 500 pés acima do solo ou água\n• Sobre áreas esparsas: altitude que permita pouso de emergência sem risco a terceiros\n\nEssas altitudes mínimas visam proteger pessoas e propriedades no solo."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "A visibilidade mínima geral para voo VFR é:",
+        "alternativas": [
+          "1 km",
+          "3 km",
+          "5 km",
+          "10 km"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A visibilidade mínima geral para VFR é de 5 km."
+      },
+      {
+        "id": 22,
+        "pergunta": "No espaço aéreo Classe A, são permitidos:",
+        "alternativas": [
+          "Apenas voos VFR",
+          "Apenas voos IFR",
+          "Voos VFR e IFR sem restrição",
+          "Apenas voos militares"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Classe A é exclusiva para voos IFR, com controle total do ATC."
+      },
+      {
+        "id": 23,
+        "pergunta": "O espaço aéreo Classe G é caracterizado por:",
+        "alternativas": [
+          "Controle total do ATC para todos os voos",
+          "Ser não controlado, sem serviço ATC obrigatório",
+          "Ser exclusivo para voos IFR",
+          "Ser utilizado apenas por aeronaves militares"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Classe G é o espaço aéreo não controlado, onde o serviço ATC não é obrigatório."
+      },
+      {
+        "id": 24,
+        "pergunta": "Em rota de colisão entre duas aeronaves, tem prioridade de passagem:",
+        "alternativas": [
+          "A aeronave maior",
+          "A aeronave à direita",
+          "A aeronave à esquerda",
+          "A aeronave em maior altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Quando duas aeronaves se aproximam em rota de colisão, a que está à direita tem prioridade."
+      },
+      {
+        "id": 25,
+        "pergunta": "Qual aeronave tem prioridade absoluta sobre todas as demais?",
+        "alternativas": [
+          "Aeronave militar",
+          "Aeronave em situação de emergência",
+          "Aeronave comercial de passageiros",
+          "Aeronave rebocando outra"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aeronave em emergência tem prioridade absoluta sobre qualquer outra."
+      },
+      {
+        "id": 26,
+        "pergunta": "Sobre áreas congestionadas, a altitude mínima de segurança é:",
+        "alternativas": [
+          "500 pés acima do solo",
+          "1.000 pés acima do obstáculo mais alto em raio de 600 m",
+          "2.000 pés acima do nível do mar",
+          "300 pés acima das edificações"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Sobre áreas congestionadas, o RBAC 91 exige 1.000 pés acima do obstáculo mais alto em raio de 600 m."
+      },
+      {
+        "id": 27,
+        "pergunta": "O piloto VFR é responsável por:",
+        "alternativas": [
+          "Receber separação garantida do ATC",
+          "Manter separação de outros tráfegos e obstáculos",
+          "Voar exclusivamente em espaço controlado",
+          "Apresentar plano de voo IFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No VFR, a responsabilidade de separação e anticolisão é do próprio piloto."
+      },
+      {
+        "id": 28,
+        "pergunta": "A distância mínima horizontal de nuvens para voo VFR é:",
+        "alternativas": [
+          "300 m",
+          "1.500 m",
+          "500 m",
+          "1.000 m"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O VFR exige pelo menos 1.500 m de distância horizontal das nuvens."
+      },
+      {
+        "id": 29,
+        "pergunta": "No espaço aéreo Classe D, o ATC fornece controle:",
+        "alternativas": [
+          "Para todos os voos VFR e IFR igualmente",
+          "Para voos IFR, com informações de tráfego para VFR",
+          "Apenas para voos VFR",
+          "Nenhum serviço ATC é prestado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na Classe D, IFR recebe controle e VFR recebe informações de tráfego."
+      },
+      {
+        "id": 30,
+        "pergunta": "Ao ultrapassar outra aeronave em voo, o piloto deve passar:",
+        "alternativas": [
+          "Por baixo e pela esquerda",
+          "Por cima e pela direita",
+          "Por baixo e pela direita",
+          "Por cima e pela esquerda"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A regra de ultrapassagem determina que se passe por cima e pela direita da aeronave ultrapassada."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Plano de Voo e Comunicações",
+    "aula": {
+      "introducao": "O plano de voo é um documento essencial que informa às autoridades aeronáuticas a intenção de voo do piloto. As comunicações aeronáuticas seguem procedimentos padronizados que garantem clareza e segurança nas operações.",
+      "subtitulos": [
+        {
+          "titulo": "Plano de Voo — Conceito e Obrigatoriedade",
+          "conteudo": "O plano de voo (FPL) é o documento pelo qual o piloto informa ao ATC os dados do voo pretendido.\n\nÉ obrigatório para:\n• Voos IFR\n• Voos em espaço aéreo controlado\n• Voos internacionais\n• Voos noturnos\n• Voos sobre regiões remotas ou sobre o mar\n\nPara voos VFR locais em espaço não controlado, pode não ser obrigatório, mas é recomendável."
+        },
+        {
+          "titulo": "Conteúdo do Plano de Voo",
+          "conteudo": "O plano de voo contém informações como:\n\n• Identificação da aeronave (prefixo)\n• Regras de voo (VFR ou IFR)\n• Tipo de voo\n• Aeródromo de saída e destino\n• Hora estimada de decolagem\n• Velocidade e altitude de cruzeiro\n• Rota pretendida\n• Autonomia e combustível\n• Aeródromo alternativo\n• Dados do piloto e número de pessoas a bordo"
+        },
+        {
+          "titulo": "Abertura e Fechamento do Plano de Voo",
+          "conteudo": "O plano de voo deve ser:\n\n• **Aberto**: junto ao órgão ATC antes da decolagem ou ativado após a decolagem pelo rádio\n• **Fechado**: ao chegar ao destino, informando o pouso ao órgão ATC responsável\n\nA não abertura ou não fechamento do plano de voo pode acionar procedimentos de busca e salvamento desnecessários e sujeita o piloto a penalidades."
+        },
+        {
+          "titulo": "Comunicações Aeronáuticas",
+          "conteudo": "As comunicações aeronáuticas seguem o alfabeto fonético ICAO:\n\nA-Alpha, B-Bravo, C-Charlie, D-Delta, E-Echo, F-Foxtrot, G-Golf, H-Hotel, I-India, J-Juliet, K-Kilo, L-Lima, M-Mike, N-November, O-Oscar, P-Papa, Q-Quebec, R-Romeo, S-Sierra, T-Tango, U-Uniform, V-Victor, W-Whiskey, X-X-ray, Y-Yankee, Z-Zulu\n\nOs números são pronunciados individualmente: 1=Wun, 2=Too, 3=Tree, 4=Fower, 5=Fife, 6=Six, 7=Seven, 8=Ait, 9=Niner, 0=Zero."
+        },
+        {
+          "titulo": "Fraseologia Padrão",
+          "conteudo": "A fraseologia aeronáutica utiliza termos padronizados para evitar ambiguidades:\n\n• **Affirm**: sim\n• **Negative**: não\n• **Roger**: recebi e compreendi\n• **Wilco**: recebi, compreendi e vou cumprir\n• **Stand by**: aguarde\n• **Say again**: repita\n• **Correction**: houve erro, a versão correta é...\n• **Mayday**: emergência\n• **Pan-Pan**: urgência"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "O plano de voo é obrigatório para:",
+        "alternativas": [
+          "Apenas voos internacionais",
+          "Voos IFR, em espaço controlado, internacionais e noturnos",
+          "Voos VFR locais em espaço não controlado",
+          "Apenas voos acima de 10.000 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O plano de voo é obrigatório em diversas situações, incluindo IFR, espaço controlado, voos internacionais e noturnos."
+      },
+      {
+        "id": 32,
+        "pergunta": "O não fechamento do plano de voo pode:",
+        "alternativas": [
+          "Ser ignorado sem consequências",
+          "Acionar procedimentos de busca e salvamento e gerar penalidades",
+          "Cancelar automaticamente a licença do piloto",
+          "Apenas gerar advertência verbal"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O não fechamento do plano pode desencadear operações SAR desnecessárias e penalidades ao piloto."
+      },
+      {
+        "id": 33,
+        "pergunta": "No alfabeto fonético ICAO, a letra P é representada por:",
+        "alternativas": [
+          "Pacific",
+          "Papa",
+          "Polar",
+          "Peru"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No alfabeto fonético ICAO, P = Papa."
+      },
+      {
+        "id": 34,
+        "pergunta": "O termo 'Wilco' significa:",
+        "alternativas": [
+          "Aguarde",
+          "Recebi, compreendi e vou cumprir",
+          "Repita a mensagem",
+          "Não compreendi"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Wilco vem de 'Will Comply', indicando que o piloto recebeu, entendeu e vai cumprir a instrução."
+      },
+      {
+        "id": 35,
+        "pergunta": "O termo 'Mayday' indica:",
+        "alternativas": [
+          "Situação de urgência",
+          "Situação de emergência",
+          "Solicitação de autorização de pouso",
+          "Confirmação de rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Mayday é o chamado de emergência máxima, repetido três vezes: Mayday, Mayday, Mayday."
+      },
+      {
+        "id": 36,
+        "pergunta": "O número 9 na fraseologia aeronáutica é pronunciado:",
+        "alternativas": [
+          "Nine",
+          "Niner",
+          "Nove",
+          "Nain"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O 9 é pronunciado 'Niner' para evitar confusão com o 'Nine' alemão que soa como 'Nein' (não)."
+      },
+      {
+        "id": 37,
+        "pergunta": "O termo 'Roger' significa:",
+        "alternativas": [
+          "Vou cumprir a instrução",
+          "Recebi e compreendi a mensagem",
+          "Aguarde",
+          "Repita a mensagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Roger indica apenas que a mensagem foi recebida e compreendida, sem comprometer cumprimento."
+      },
+      {
+        "id": 38,
+        "pergunta": "O plano de voo deve conter:",
+        "alternativas": [
+          "Apenas o prefixo da aeronave e o destino",
+          "Dados completos incluindo rota, altitude, autonomia e pessoas a bordo",
+          "Somente o nome do piloto e horário de decolagem",
+          "Apenas as informações meteorológicas da rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O plano de voo é um documento completo com informações operacionais detalhadas do voo."
+      },
+      {
+        "id": 39,
+        "pergunta": "O termo 'Pan-Pan' indica:",
+        "alternativas": [
+          "Emergência máxima",
+          "Situação de urgência",
+          "Autorização de decolagem",
+          "Encerramento de comunicação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pan-Pan indica urgência, situação séria mas sem risco imediato de vida, diferente do Mayday."
+      },
+      {
+        "id": 40,
+        "pergunta": "No alfabeto fonético ICAO, a letra N é representada por:",
+        "alternativas": [
+          "Nancy",
+          "November",
+          "Nordic",
+          "Neutral"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No alfabeto fonético ICAO, N = November."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Documentação da Aeronave e do Piloto",
+    "aula": {
+      "introducao": "A documentação é parte fundamental da operação segura e legal de uma aeronave. O piloto deve verificar antes de cada voo se todos os documentos da aeronave e seus próprios documentos pessoais estão válidos e a bordo.",
+      "subtitulos": [
+        {
+          "titulo": "Documentos Obrigatórios da Aeronave",
+          "conteudo": "Os documentos obrigatórios a bordo de uma aeronave civil brasileira são:\n\n• **CA (Certificado de Aeronavegabilidade)**: atesta que a aeronave está apta a voar\n• **CM (Certificado de Matrícula)**: registro da aeronave no Brasil\n• **Licença de Estação de Aeronave (LEA)**: emitida pela ANATEL para o rádio a bordo\n• **Apólice de seguro**: cobertura obrigatória contra danos a terceiros\n• **Manual de Voo (POH/AFM)**: aprovado pelo fabricante e pela ANAC\n• **Caderneta de Célula e Motores**: histórico de manutenção da aeronave"
+        },
+        {
+          "titulo": "Certificado de Aeronavegabilidade (CA)",
+          "conteudo": "O CA é emitido pela ANAC e comprova que a aeronave foi inspecionada e está em condições de voo.\n\n• Deve estar válido e a bordo durante todos os voos\n• Sua validade está condicionada à manutenção em dia\n• A aeronave com CA vencido não pode voar legalmente\n• O CA pode ser suspenso ou cancelado em caso de irregularidades\n\nA responsabilidade pela aeronavegabilidade é compartilhada entre o proprietário, o operador e o piloto em comando."
+        },
+        {
+          "titulo": "Documentos Pessoais do Piloto",
+          "conteudo": "O piloto deve portar durante o voo:\n\n• **Licença de Piloto válida** (PPL, CPL ou ATPL)\n• **CMA válido** (Certificado Médico Aeronáutico)\n• **Documento de identidade**\n\nAs habilitações adicionais (IFR, habilitação de tipo) devem estar anotadas na licença.\n\nO piloto deve verificar a validade de todos os seus documentos antes de cada voo."
+        },
+        {
+          "titulo": "Validade e Renovação de Documentos",
+          "conteudo": "Os principais prazos de validade:\n\n• **CMA Classe 1**: validade de 12 meses (até 40 anos) ou 6 meses (acima de 40 anos)\n• **CMA Classe 2**: validade de 24 meses (até 40 anos) ou 12 meses (acima de 40 anos)\n• **CA**: condicionado à manutenção anual aprovada\n• **Licença de piloto**: sem prazo de validade, mas depende do CMA válido\n\nÉ responsabilidade do piloto controlar os prazos de validade de seus documentos."
+        },
+        {
+          "titulo": "Prefixo da Aeronave",
+          "conteudo": "Todas as aeronaves matriculadas no Brasil recebem um prefixo de identificação:\n\n• Formato: **PP-XXX**, **PR-XXX**, **PT-XXX**, **PS-XXX** etc.\n• O prefixo **PP** e **PR** é para aeronaves privadas\n• O prefixo **PT** é para aeronaves de instrução e táxi aéreo\n• O prefixo **PS** é para aeronaves experimentais\n\nO prefixo é utilizado nas comunicações rádio e no plano de voo para identificar a aeronave."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "O Certificado de Aeronavegabilidade (CA) atesta que:",
+        "alternativas": [
+          "O piloto está habilitado para voar a aeronave",
+          "A aeronave foi inspecionada e está em condições de voo",
+          "O seguro da aeronave está vigente",
+          "A aeronave está registrada no Brasil"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CA é o documento que comprova a aeronavegabilidade da aeronave, emitido pela ANAC."
+      },
+      {
+        "id": 42,
+        "pergunta": "A Licença de Estação de Aeronave (LEA) é emitida por:",
+        "alternativas": [
+          "ANAC",
+          "ANATEL",
+          "DECEA",
+          "Comando da Aeronáutica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A LEA é emitida pela ANATEL pois regula o equipamento de rádio a bordo."
+      },
+      {
+        "id": 43,
+        "pergunta": "Uma aeronave com CA vencido:",
+        "alternativas": [
+          "Pode voar em voos locais",
+          "Não pode voar legalmente",
+          "Pode voar apenas em VFR diurno",
+          "Pode voar com autorização verbal do instrutor"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CA vencido torna o voo ilegal independentemente das condições."
+      },
+      {
+        "id": 44,
+        "pergunta": "O piloto deve portar durante o voo:",
+        "alternativas": [
+          "Apenas a licença de piloto",
+          "Licença de piloto, CMA válido e documento de identidade",
+          "Apenas o CMA e o plano de voo",
+          "Somente o documento de identidade"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os três documentos pessoais obrigatórios são a licença, o CMA e um documento de identidade."
+      },
+      {
+        "id": 45,
+        "pergunta": "O CMA Classe 1 para piloto com menos de 40 anos tem validade de:",
+        "alternativas": [
+          "6 meses",
+          "12 meses",
+          "24 meses",
+          "36 meses"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CMA Classe 1 tem validade de 12 meses para pilotos com até 40 anos."
+      },
+      {
+        "id": 46,
+        "pergunta": "O CMA Classe 2 para piloto acima de 40 anos tem validade de:",
+        "alternativas": [
+          "6 meses",
+          "12 meses",
+          "24 meses",
+          "48 meses"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Após os 40 anos, o CMA Classe 2 passa a ter validade de 12 meses."
+      },
+      {
+        "id": 47,
+        "pergunta": "A responsabilidade pela aeronavegabilidade da aeronave é de:",
+        "alternativas": [
+          "Apenas da ANAC",
+          "Proprietário, operador e piloto em comando",
+          "Apenas do mecânico responsável",
+          "Apenas do operador certificado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A aeronavegabilidade é responsabilidade compartilhada entre proprietário, operador e piloto."
+      },
+      {
+        "id": 48,
+        "pergunta": "O prefixo PT em uma aeronave brasileira indica:",
+        "alternativas": [
+          "Aeronave privada de luxo",
+          "Aeronave de instrução e táxi aéreo",
+          "Aeronave experimental",
+          "Aeronave de uso exclusivo militar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O prefixo PT é utilizado em aeronaves de instrução e táxi aéreo no Brasil."
+      },
+      {
+        "id": 49,
+        "pergunta": "A licença de piloto:",
+        "alternativas": [
+          "Vence a cada 12 meses",
+          "Não tem prazo de validade, mas depende do CMA válido",
+          "Vence junto com o CA da aeronave",
+          "Deve ser renovada a cada 5 anos obrigatoriamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A licença em si não vence, mas fica inativa sem um CMA válido."
+      },
+      {
+        "id": 50,
+        "pergunta": "O Manual de Voo (POH/AFM) a bordo deve ser:",
+        "alternativas": [
+          "Qualquer versão disponível no mercado",
+          "Aprovado pelo fabricante e pela ANAC",
+          "Traduzido para o português obrigatoriamente",
+          "Substituído a cada 2 anos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O POH/AFM deve ser o documento oficial aprovado pelo fabricante e homologado pela ANAC."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Infrações, Penalidades e Responsabilidades",
+    "aula": {
+      "introducao": "O piloto civil está sujeito a um conjunto de normas cujo descumprimento pode acarretar sanções administrativas, civis e até penais. Conhecer as responsabilidades e as consequências das infrações é essencial para operar dentro da lei.",
+      "subtitulos": [
+        {
+          "titulo": "Responsabilidade do Piloto em Comando",
+          "conteudo": "O Piloto em Comando (PIC) é a autoridade máxima a bordo durante o voo. Suas responsabilidades incluem:\n\n• Segurança da aeronave, tripulação e passageiros\n• Cumprimento das normas de tráfego aéreo\n• Verificação das condições de aeronavegabilidade antes do voo\n• Decisão final sobre a realização ou não do voo\n• Cumprimento das instruções do ATC (com exceção em emergências)\n\nO PIC pode recusar um voo se considerar que as condições colocam em risco a segurança."
+        },
+        {
+          "titulo": "Infrações Aeronáuticas",
+          "conteudo": "São exemplos de infrações aeronáuticas:\n\n• Voar sem licença válida ou com CMA vencido\n• Operar aeronave com CA vencido\n• Não cumprir as regras de tráfego aéreo\n• Voar em condições meteorológicas abaixo do mínimo para VFR\n• Não fechar o plano de voo\n• Realizar manobras perigosas sobre áreas populosas\n• Consumir álcool ou substâncias psicoativas antes ou durante o voo\n• Voar abaixo das altitudes mínimas de segurança"
+        },
+        {
+          "titulo": "Penalidades Administrativas",
+          "conteudo": "A ANAC pode aplicar as seguintes penalidades administrativas:\n\n• **Advertência**: para infrações leves de primeira ocorrência\n• **Multa**: valores que variam conforme a gravidade da infração\n• **Suspensão da licença**: por período determinado\n• **Cassação da licença**: para infrações gravíssimas ou reincidência\n\nAs penalidades são aplicadas após processo administrativo com direito à defesa."
+        },
+        {
+          "titulo": "Uso de Álcool e Substâncias Psicoativas",
+          "conteudo": "A legislação aeronáutica é rigorosa quanto ao uso de substâncias:\n\n• É proibido voar sob influência de álcool ou drogas\n• O limite legal de alcoolemia para pilotos é **zero** (tolerância zero)\n• O período de abstinência recomendado antes do voo é de pelo menos 8 horas após consumo de álcool\n• A violação desta regra pode resultar em suspensão ou cassação da licença\n• Medicamentos que causam sonolência ou alteram o estado mental também são proibidos"
+        },
+        {
+          "titulo": "Acidente e Incidente Aeronáutico",
+          "conteudo": "O piloto deve conhecer as definições:\n\n• **Acidente aeronáutico**: evento com dano à aeronave ou lesão a pessoas durante a operação\n• **Incidente aeronáutico**: evento que afetou ou poderia afetar a segurança, sem chegar a acidente\n• **Incidente grave**: incidente de alta severidade, próximo de um acidente\n\nTodo acidente ou incidente grave deve ser notificado ao **CENIPA** (Centro de Investigação e Prevenção de Acidentes Aeronáuticos).\n\nO objetivo da investigação é a prevenção, não a punição."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "O Piloto em Comando (PIC) é responsável por:",
+        "alternativas": [
+          "Apenas seguir as instruções do ATC",
+          "A segurança da aeronave, tripulação e passageiros durante o voo",
+          "Apenas o preenchimento do plano de voo",
+          "Somente as decisões de navegação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O PIC é a autoridade máxima a bordo e responsável pela segurança de todos durante o voo."
+      },
+      {
+        "id": 52,
+        "pergunta": "O limite legal de alcoolemia para pilotos no Brasil é:",
+        "alternativas": [
+          "0,6 g/l, igual ao limite para motoristas",
+          "Zero — tolerância zero",
+          "0,2 g/l para voos privados",
+          "0,1 g/l para pilotos experientes"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A legislação aeronáutica aplica tolerância zero para álcool em pilotos."
+      },
+      {
+        "id": 53,
+        "pergunta": "A cassação da licença é aplicada em casos de:",
+        "alternativas": [
+          "Qualquer infração leve",
+          "Infrações gravíssimas ou reincidência",
+          "Apenas em acidentes com vítimas",
+          "Voo sem plano de voo em espaço não controlado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A cassação é a penalidade mais grave, aplicada em infrações gravíssimas ou por reincidência."
+      },
+      {
+        "id": 54,
+        "pergunta": "O CENIPA é responsável por:",
+        "alternativas": [
+          "Emitir licenças para pilotos",
+          "Investigar acidentes e incidentes aeronáuticos",
+          "Controlar o tráfego aéreo",
+          "Certificar aeronaves importadas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CENIPA investiga acidentes e incidentes com foco na prevenção de futuros eventos."
+      },
+      {
+        "id": 55,
+        "pergunta": "Um incidente aeronáutico é:",
+        "alternativas": [
+          "Todo evento com dano à aeronave",
+          "Evento que afetou ou poderia afetar a segurança sem chegar a acidente",
+          "Apenas colisões entre aeronaves",
+          "Exclusivamente eventos com vítimas fatais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Incidente é um evento de segurança que não chegou a ser acidente mas apresentou risco."
+      },
+      {
+        "id": 56,
+        "pergunta": "O objetivo da investigação de acidentes pelo CENIPA é:",
+        "alternativas": [
+          "Punir os responsáveis pelo acidente",
+          "A prevenção de futuros acidentes",
+          "Determinar responsabilidade civil",
+          "Cancelar a licença do piloto envolvido"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A investigação aeronáutica tem caráter preventivo, não punitivo."
+      },
+      {
+        "id": 57,
+        "pergunta": "O PIC pode recusar a realização de um voo quando:",
+        "alternativas": [
+          "O passageiro solicitar",
+          "Considerar que as condições colocam em risco a segurança",
+          "O combustível estiver acima do mínimo",
+          "O ATC autorizar a decolagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O PIC tem autoridade e responsabilidade para recusar o voo em condições inseguras."
+      },
+      {
+        "id": 58,
+        "pergunta": "Voar abaixo das altitudes mínimas de segurança é considerado:",
+        "alternativas": [
+          "Permitido em áreas rurais",
+          "Uma infração aeronáutica",
+          "Aceitável em voos de instrução",
+          "Tolerado em espaço aéreo não controlado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Voar abaixo das altitudes mínimas é infração prevista no RBAC 91."
+      },
+      {
+        "id": 59,
+        "pergunta": "Medicamentos que causam sonolência:",
+        "alternativas": [
+          "São permitidos em voos curtos",
+          "São proibidos durante a atividade de pilotagem",
+          "Podem ser usados com autorização do médico do aeroclube",
+          "São permitidos apenas para pilotos privados"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Qualquer substância que altere o estado mental ou cause sonolência é proibida durante o voo."
+      },
+      {
+        "id": 60,
+        "pergunta": "As penalidades administrativas da ANAC são aplicadas:",
+        "alternativas": [
+          "Imediatamente sem direito à defesa",
+          "Após processo administrativo com direito à defesa",
+          "Apenas pelo DECEA",
+          "Somente pelo Ministério da Infraestrutura"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O processo administrativo garante ao piloto o direito ao contraditório e à ampla defesa."
+      }
+    ]
+  }
+]
 {
-  "materia": "Regulamentos Aeronáuticos",
-  "descricao": "Normas e regulamentos que regem a aviação civil brasileira",
-  "topicos": []
+  "questionario_final": {
+    "titulo": "Questionário Final — Regulamentos",
+    "descricao": "Teste seus conhecimentos sobre todos os conteúdos da matéria de Regulamentos. São 30 questões abrangendo estrutura da aviação civil, licenças, regras do ar, espaço aéreo, plano de voo, comunicações, documentação e infrações.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A ANAC é vinculada ao:",
+        "alternativas": [
+          "Comando da Aeronáutica",
+          "Ministério da Infraestrutura",
+          "DECEA",
+          "ICAO"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ANAC é uma agência reguladora vinculada ao Ministério da Infraestrutura."
+      },
+      {
+        "id": 2,
+        "pergunta": "O DECEA é responsável por:",
+        "alternativas": [
+          "Emitir licenças de piloto",
+          "Gerenciar o espaço aéreo e o controle do tráfego aéreo",
+          "Certificar aeronaves importadas",
+          "Publicar os RBACs"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O DECEA gerencia o espaço aéreo brasileiro e o sistema de controle do tráfego aéreo."
+      },
+      {
+        "id": 3,
+        "pergunta": "Os padrões internacionais da ICAO são publicados em:",
+        "alternativas": [
+          "RBACs brasileiros",
+          "Anexos à Convenção de Chicago",
+          "Portarias do DECEA",
+          "Instruções Suplementares da ANAC"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os SARPs da ICAO estão publicados nos Anexos à Convenção de Chicago."
+      },
+      {
+        "id": 4,
+        "pergunta": "O RBAC que trata das licenças e certificados para pilotos é o:",
+        "alternativas": [
+          "RBAC 91",
+          "RBAC 61",
+          "RBAC 67",
+          "RBAC 135"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 61 regulamenta a certificação de pilotos e pessoal de aviação no Brasil."
+      },
+      {
+        "id": 5,
+        "pergunta": "A idade mínima para obter o PPL é:",
+        "alternativas": [
+          "16 anos",
+          "17 anos",
+          "18 anos",
+          "21 anos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O candidato ao PPL deve ter no mínimo 17 anos completos."
+      },
+      {
+        "id": 6,
+        "pergunta": "O total mínimo de horas de voo exigido para o PPL é:",
+        "alternativas": [
+          "20 horas",
+          "40 horas",
+          "100 horas",
+          "200 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O PPL exige no mínimo 40 horas de voo, sendo 20 com instrutor e 10 solo."
+      },
+      {
+        "id": 7,
+        "pergunta": "O CMA Classe 1 é exigido para:",
+        "alternativas": [
+          "Alunos-pilotos",
+          "Pilotos comerciais e de linha aérea",
+          "Pilotos privados",
+          "Mecânicos de aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CMA Classe 1 é mais rigoroso e obrigatório para pilotos que exercem atividade remunerada."
+      },
+      {
+        "id": 8,
+        "pergunta": "O total mínimo de horas de voo exigido para o CPL é:",
+        "alternativas": [
+          "40 horas",
+          "100 horas",
+          "200 horas",
+          "500 horas"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O CPL exige no mínimo 200 horas de voo total."
+      },
+      {
+        "id": 9,
+        "pergunta": "A visibilidade mínima geral para voo VFR é:",
+        "alternativas": [
+          "1 km",
+          "3 km",
+          "5 km",
+          "10 km"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A visibilidade mínima geral para VFR é de 5 km."
+      },
+      {
+        "id": 10,
+        "pergunta": "O espaço aéreo Classe A é exclusivo para:",
+        "alternativas": [
+          "Voos VFR",
+          "Voos IFR",
+          "Voos militares",
+          "Voos experimentais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Classe A é exclusiva para voos IFR com controle total do ATC."
+      },
+      {
+        "id": 11,
+        "pergunta": "O espaço aéreo Classe G é caracterizado por:",
+        "alternativas": [
+          "Controle total do ATC",
+          "Ser não controlado, sem serviço ATC obrigatório",
+          "Ser exclusivo para IFR",
+          "Exigir autorização prévia para entrada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Classe G é o espaço aéreo não controlado do Brasil."
+      },
+      {
+        "id": 12,
+        "pergunta": "Em rota de colisão entre duas aeronaves, tem prioridade:",
+        "alternativas": [
+          "A aeronave maior",
+          "A aeronave à direita",
+          "A aeronave à esquerda",
+          "A aeronave em maior altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A aeronave à direita tem prioridade de passagem em rota de colisão."
+      },
+      {
+        "id": 13,
+        "pergunta": "A aeronave com prioridade absoluta sobre todas as demais é:",
+        "alternativas": [
+          "Aeronave militar",
+          "Aeronave em emergência",
+          "Aeronave comercial",
+          "Aeronave rebocando outra"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aeronave em situação de emergência tem prioridade absoluta."
+      },
+      {
+        "id": 14,
+        "pergunta": "Sobre áreas congestionadas, a altitude mínima de segurança é:",
+        "alternativas": [
+          "500 pés acima do solo",
+          "1.000 pés acima do obstáculo mais alto em raio de 600 m",
+          "2.000 pés acima do nível do mar",
+          "300 pés acima das edificações"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 91 exige 1.000 pés acima do obstáculo mais alto em raio de 600 m sobre áreas congestionadas."
+      },
+      {
+        "id": 15,
+        "pergunta": "Ao ultrapassar outra aeronave em voo, o piloto deve passar:",
+        "alternativas": [
+          "Por baixo e pela esquerda",
+          "Por cima e pela direita",
+          "Por baixo e pela direita",
+          "Por cima e pela esquerda"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A regra determina ultrapassagem por cima e pela direita da aeronave ultrapassada."
+      },
+      {
+        "id": 16,
+        "pergunta": "O plano de voo é obrigatório para voos:",
+        "alternativas": [
+          "VFR locais em espaço não controlado",
+          "IFR, em espaço controlado, internacionais e noturnos",
+          "Apenas internacionais",
+          "Apenas acima de FL100"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O FPL é obrigatório em diversas situações operacionais previstas no RBAC 91."
+      },
+      {
+        "id": 17,
+        "pergunta": "O não fechamento do plano de voo pode:",
+        "alternativas": [
+          "Ser ignorado sem consequências",
+          "Acionar operações de busca e salvamento e gerar penalidades",
+          "Cancelar automaticamente a licença",
+          "Apenas gerar advertência verbal"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O não fechamento do plano ativa procedimentos SAR desnecessários e sujeita o piloto a sanções."
+      },
+      {
+        "id": 18,
+        "pergunta": "No alfabeto fonético ICAO, a letra G é representada por:",
+        "alternativas": [
+          "George",
+          "Golf",
+          "Global",
+          "Gamma"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No alfabeto fonético ICAO, G = Golf."
+      },
+      {
+        "id": 19,
+        "pergunta": "O termo 'Pan-Pan' indica:",
+        "alternativas": [
+          "Emergência máxima",
+          "Situação de urgência",
+          "Autorização de pouso",
+          "Encerramento de comunicação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pan-Pan indica urgência, situação séria mas sem risco imediato de vida."
+      },
+      {
+        "id": 20,
+        "pergunta": "O número 9 na fraseologia aeronáutica é pronunciado:",
+        "alternativas": [
+          "Nine",
+          "Niner",
+          "Nove",
+          "Nain"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O 9 é pronunciado 'Niner' para evitar confusão com o alemão 'Nein'."
+      },
+      {
+        "id": 21,
+        "pergunta": "O Certificado de Aeronavegabilidade (CA) é emitido pela:",
+        "alternativas": [
+          "DECEA",
+          "ANAC",
+          "ANATEL",
+          "Comando da Aeronáutica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CA é emitido pela ANAC após inspeção e aprovação da aeronave."
+      },
+      {
+        "id": 22,
+        "pergunta": "A Licença de Estação de Aeronave (LEA) é emitida pela:",
+        "alternativas": [
+          "ANAC",
+          "ANATEL",
+          "DECEA",
+          "ICAO"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A LEA é emitida pela ANATEL pois regula o uso de equipamentos de rádio."
+      },
+      {
+        "id": 23,
+        "pergunta": "O prefixo PS em uma aeronave brasileira indica:",
+        "alternativas": [
+          "Aeronave de instrução",
+          "Aeronave experimental",
+          "Aeronave privada de luxo",
+          "Aeronave de táxi aéreo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O prefixo PS é utilizado em aeronaves experimentais matriculadas no Brasil."
+      },
+      {
+        "id": 24,
+        "pergunta": "A licença de piloto:",
+        "alternativas": [
+          "Vence a cada 12 meses",
+          "Não tem prazo de validade, mas depende do CMA válido",
+          "Vence junto com o CA da aeronave",
+          "Deve ser renovada a cada 5 anos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A licença não tem prazo de validade próprio, mas fica inativa sem CMA válido."
+      },
+      {
+        "id": 25,
+        "pergunta": "O CMA Classe 2 para piloto com menos de 40 anos tem validade de:",
+        "alternativas": [
+          "6 meses",
+          "12 meses",
+          "24 meses",
+          "48 meses"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O CMA Classe 2 tem validade de 24 meses para pilotos com até 40 anos."
+      },
+      {
+        "id": 26,
+        "pergunta": "O limite legal de alcoolemia para pilotos no Brasil é:",
+        "alternativas": [
+          "0,6 g/l",
+          "Zero — tolerância zero",
+          "0,2 g/l",
+          "0,1 g/l"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A legislação aeronáutica aplica tolerância zero para consumo de álcool por pilotos."
+      },
+      {
+        "id": 27,
+        "pergunta": "O CENIPA é responsável por:",
+        "alternativas": [
+          "Emitir licenças de piloto",
+          "Investigar acidentes e incidentes aeronáuticos",
+          "Controlar o tráfego aéreo",
+          "Certificar aeronaves"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CENIPA investiga ocorrências aeronáuticas com foco na prevenção."
+      },
+      {
+        "id": 28,
+        "pergunta": "O objetivo da investigação de acidentes pelo CENIPA é:",
+        "alternativas": [
+          "Punir os responsáveis",
+          "A prevenção de futuros acidentes",
+          "Determinar responsabilidade civil",
+          "Cancelar a licença do piloto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A investigação aeronáutica tem caráter exclusivamente preventivo."
+      },
+      {
+        "id": 29,
+        "pergunta": "As penalidades administrativas da ANAC são aplicadas:",
+        "alternativas": [
+          "Imediatamente sem direito à defesa",
+          "Após processo administrativo com direito à defesa",
+          "Apenas pelo DECEA",
+          "Somente pelo Ministério da Infraestrutura"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O processo administrativo garante ao piloto o contraditório e a ampla defesa."
+      },
+      {
+        "id": 30,
+        "pergunta": "O Piloto em Comando (PIC) pode recusar a realização de um voo quando:",
+        "alternativas": [
+          "O passageiro solicitar",
+          "Considerar que as condições colocam em risco a segurança",
+          "O combustível estiver acima do mínimo",
+          "O ATC autorizar a decolagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O PIC tem autoridade e responsabilidade para recusar o voo em condições inseguras."
+      }
+    ]
+  }
 }
