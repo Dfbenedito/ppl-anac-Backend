@@ -1,5 +1,1280 @@
+[
+  {
+    "id": 1,
+    "titulo": "Conceitos Fundamentais de Desempenho",
+    "aula": {
+      "introducao": "O desempenho de uma aeronave é determinado por uma série de fatores físicos e ambientais. Compreender esses conceitos é essencial para que o piloto planeje e execute voos seguros, especialmente em condições adversas de altitude, temperatura e peso.",
+      "subtitulos": [
+        {
+          "titulo": "Densidade do Ar e Altitude de Densidade",
+          "conteudo": "A densidade do ar é o fator mais importante que afeta o desempenho da aeronave.\n\n• **Alta densidade do ar** = ar mais denso = melhor desempenho\n• **Baixa densidade do ar** = ar menos denso = pior desempenho\n\nA densidade do ar diminui com:\n• Aumento da altitude\n• Aumento da temperatura\n• Aumento da umidade\n\n**Altitude de Densidade (DA)** é a altitude-pressão corrigida pela temperatura. É a altitude na qual a aeronave 'acha que está voando' em termos de desempenho.\n\nDA alta = desempenho reduzido = distâncias maiores de decolagem e pouso, menor taxa de subida."
+        },
+        {
+          "titulo": "Altitude Pressão e Altitude de Densidade",
+          "conteudo": "• **Altitude Pressão (PA)**: altitude indicada quando o altímetro está ajustado para 1013,25 hPa (29,92 inHg)\n• **Altitude de Densidade (DA)**: PA corrigida pelo desvio de temperatura em relação à atmosfera padrão\n\nFórmula simplificada:\n**DA = PA + (Temperatura atual − Temperatura ISA) × 120**\n\nExemplo: PA = 2.000 pés, Temperatura = 35°C\nTemperatura ISA a 2.000 pés = 15° − (2 × 2) = 11°C\nDesvio = 35 − 11 = 24°C\nDA = 2.000 + (24 × 120) = 2.000 + 2.880 = **4.880 pés**"
+        },
+        {
+          "titulo": "Atmosfera Padrão Internacional (ISA)",
+          "conteudo": "A ISA (International Standard Atmosphere) é a referência para cálculos de desempenho:\n\n• Temperatura ao nível do mar: **15°C**\n• Pressão ao nível do mar: **1013,25 hPa** (29,92 inHg)\n• Gradiente de temperatura: **−2°C a cada 1.000 pés** (até a tropopausa)\n• Densidade ao nível do mar: 1,225 kg/m³\n\nQuando as condições reais diferem da ISA, o desempenho da aeronave será diferente do previsto nas tabelas padrão."
+        },
+        {
+          "titulo": "Efeito do Peso no Desempenho",
+          "conteudo": "O peso é um dos fatores que mais influencia o desempenho:\n\n• **Maior peso** = maior distância de decolagem e pouso\n• **Maior peso** = menor taxa de subida\n• **Maior peso** = maior velocidade de stall\n• **Maior peso** = maior consumo de combustível\n\nO piloto deve sempre verificar o Peso Máximo de Decolagem (MTOW) e nunca ultrapassar os limites de peso estabelecidos no manual da aeronave."
+        },
+        {
+          "titulo": "Efeito do Vento no Desempenho",
+          "conteudo": "O vento afeta diretamente as distâncias de decolagem e pouso:\n\n• **Vento de proa (headwind)**: reduz a distância de decolagem e pouso\n• **Vento de cauda (tailwind)**: aumenta significativamente a distância de decolagem e pouso\n• Regra geral: um vento de cauda de 10% da velocidade de decolagem aumenta a distância de decolagem em aproximadamente 21%\n\nSempre que possível, decole e pouse contra o vento."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A altitude de densidade (DA) alta indica:",
+        "alternativas": [
+          "Melhor desempenho da aeronave",
+          "Desempenho reduzido da aeronave",
+          "Menor distância de decolagem",
+          "Maior taxa de subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "DA alta significa ar menos denso, o que reduz o desempenho da aeronave em todos os aspectos."
+      },
+      {
+        "id": 2,
+        "pergunta": "A temperatura ISA ao nível do mar é:",
+        "alternativas": [
+          "0°C",
+          "15°C",
+          "20°C",
+          "25°C"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A atmosfera padrão ISA define 15°C como temperatura ao nível do mar."
+      },
+      {
+        "id": 3,
+        "pergunta": "O gradiente de temperatura na atmosfera padrão ISA é de:",
+        "alternativas": [
+          "−1°C a cada 1.000 pés",
+          "−2°C a cada 1.000 pés",
+          "−3°C a cada 1.000 pés",
+          "−5°C a cada 1.000 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na ISA, a temperatura diminui 2°C a cada 1.000 pés de altitude."
+      },
+      {
+        "id": 4,
+        "pergunta": "A altitude pressão (PA) é obtida ajustando o altímetro para:",
+        "alternativas": [
+          "A pressão local do aeródromo",
+          "1013,25 hPa (29,92 inHg)",
+          "A pressão do nível médio do mar local",
+          "A temperatura ISA correspondente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A PA é lida no altímetro quando ajustado para a pressão padrão de 1013,25 hPa."
+      },
+      {
+        "id": 5,
+        "pergunta": "O vento de cauda (tailwind) na decolagem:",
+        "alternativas": [
+          "Reduz a distância de decolagem",
+          "Aumenta significativamente a distância de decolagem",
+          "Não afeta a distância de decolagem",
+          "Melhora a taxa de subida inicial"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento de cauda aumenta a distância necessária para decolar pois reduz a velocidade relativa do ar."
+      },
+      {
+        "id": 6,
+        "pergunta": "Maior peso na aeronave resulta em:",
+        "alternativas": [
+          "Menor velocidade de stall",
+          "Maior velocidade de stall",
+          "Menor distância de decolagem",
+          "Maior taxa de subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com maior peso, é necessária maior sustentação, o que eleva a velocidade de stall."
+      },
+      {
+        "id": 7,
+        "pergunta": "A densidade do ar diminui com:",
+        "alternativas": [
+          "Diminuição da altitude e temperatura",
+          "Aumento da altitude, temperatura e umidade",
+          "Diminuição da umidade",
+          "Aumento da pressão atmosférica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A densidade do ar é reduzida com maior altitude, maior temperatura e maior umidade."
+      },
+      {
+        "id": 8,
+        "pergunta": "A pressão atmosférica padrão ISA ao nível do mar é:",
+        "alternativas": [
+          "1000 hPa",
+          "1013,25 hPa",
+          "1020 hPa",
+          "1030 hPa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A pressão padrão ISA ao nível do mar é 1013,25 hPa ou 29,92 inHg."
+      },
+      {
+        "id": 9,
+        "pergunta": "O vento de proa (headwind) na decolagem:",
+        "alternativas": [
+          "Aumenta a distância de decolagem",
+          "Reduz a distância de decolagem",
+          "Não influencia o desempenho",
+          "Reduz a taxa de subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento de proa aumenta a velocidade relativa do ar, reduzindo a distância necessária para decolar."
+      },
+      {
+        "id": 10,
+        "pergunta": "Numa DA elevada, a distância de decolagem será:",
+        "alternativas": [
+          "Menor que o normal",
+          "Maior que o normal",
+          "Igual ao normal",
+          "Dependente apenas do peso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com DA elevada, o ar menos denso exige maior distância de corrida para atingir a velocidade de decolagem."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Velocidades e Limites Operacionais",
+    "aula": {
+      "introducao": "As velocidades operacionais são definidas no manual da aeronave e devem ser respeitadas em todas as fases do voo. Cada velocidade possui uma denominação específica e um significado operacional importante para a segurança.",
+      "subtitulos": [
+        {
+          "titulo": "Principais Velocidades de Operação",
+          "conteudo": "As velocidades são identificadas por siglas padronizadas:\n\n• **Vs** — Velocidade de stall (configuração limpa)\n• **Vs0** — Velocidade de stall com flaps e trem baixados\n• **Vx** — Melhor ângulo de subida (maior ganho de altitude por distância horizontal)\n• **Vy** — Melhor taxa de subida (maior ganho de altitude por tempo)\n• **Va** — Velocidade de manobra (máxima para deflexão total dos comandos)\n• **Vno** — Velocidade máxima de operação normal (arco verde/amarelo)\n• **Vne** — Velocidade nunca exceder (linha vermelha)\n• **Vfe** — Velocidade máxima com flaps estendidos\n• **Vle** — Velocidade máxima com trem de pouso estendido"
+        },
+        {
+          "titulo": "Arcos do Velocímetro",
+          "conteudo": "O velocímetro possui marcações coloridas que indicam faixas operacionais:\n\n• **Arco branco**: faixa de operação com flaps — de Vs0 até Vfe\n• **Arco verde**: faixa de operação normal — de Vs até Vno\n• **Arco amarelo**: faixa de cautela — de Vno até Vne (somente em ar calmo)\n• **Linha vermelha**: Vne — nunca exceder\n\nO piloto deve operar preferencialmente dentro do arco verde."
+        },
+        {
+          "titulo": "Velocidade de Manobra (Va)",
+          "conteudo": "A Va é a velocidade máxima na qual o piloto pode aplicar deflexão total e abrupta nos comandos sem risco de dano estrutural.\n\nCaracterísticas importantes da Va:\n• **Varia com o peso**: quanto menor o peso, menor a Va\n• Em peso máximo: Va é a maior\n• Em peso mínimo: Va é a menor\n• Acima da Va, deflexões abruptas podem causar dano estrutural\n• O manual da aeronave pode fornecer Va para diferentes pesos"
+        },
+        {
+          "titulo": "Vx e Vy — Subida",
+          "conteudo": "As velocidades de subida são escolhidas conforme o objetivo:\n\n• **Vx (melhor ângulo)**: usada quando há obstáculos à frente. Menor velocidade, maior ângulo, menor distância horizontal para ganhar altitude\n• **Vy (melhor taxa)**: usada para subida eficiente. Maior ganho de altitude por minuto\n\nA Vx é sempre menor que a Vy.\n\nCom o aumento da altitude, Vx e Vy se aproximam até coincidirem no **teto absoluto** da aeronave."
+        },
+        {
+          "titulo": "Fator de Carga (Load Factor)",
+          "conteudo": "O fator de carga (n) é a relação entre a sustentação e o peso da aeronave:\n\n**n = L / W**\n\nEm voo nivelado: n = 1 (1g)\n\nEm curvas, o fator de carga aumenta:\n• Curva 30°: n = 1,15\n• Curva 45°: n = 1,41\n• Curva 60°: n = 2,00\n• Curva 75°: n = 3,86\n\nO aumento do fator de carga eleva a velocidade de stall:\n**Vs inclinada = Vs × √n**"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "A velocidade Vne é:",
+        "alternativas": [
+          "Velocidade de melhor subida",
+          "Velocidade nunca exceder",
+          "Velocidade máxima com flaps",
+          "Velocidade de manobra"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vne (Never Exceed Speed) é a velocidade máxima absoluta, marcada pela linha vermelha no velocímetro."
+      },
+      {
+        "id": 12,
+        "pergunta": "O arco branco no velocímetro indica:",
+        "alternativas": [
+          "Faixa de operação normal",
+          "Faixa de operação com flaps",
+          "Faixa de cautela",
+          "Velocidade nunca exceder"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arco branco vai de Vs0 até Vfe, indicando a faixa permitida para uso de flaps."
+      },
+      {
+        "id": 13,
+        "pergunta": "A velocidade Vx é usada para:",
+        "alternativas": [
+          "Maior ganho de altitude por minuto",
+          "Maior ganho de altitude por distância horizontal",
+          "Cruzeiro econômico",
+          "Aproximação para pouso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vx (melhor ângulo) é usada para superar obstáculos, pois maximiza a altitude ganha por distância percorrida."
+      },
+      {
+        "id": 14,
+        "pergunta": "A velocidade Vy é usada para:",
+        "alternativas": [
+          "Superar obstáculos após a decolagem",
+          "Maior ganho de altitude por unidade de tempo",
+          "Voo em cruzeiro a longa distância",
+          "Pouso com flaps"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vy (melhor taxa) maximiza o ganho de altitude por minuto, ideal para subida eficiente."
+      },
+      {
+        "id": 15,
+        "pergunta": "A velocidade de manobra (Va) varia com:",
+        "alternativas": [
+          "A altitude de cruzeiro",
+          "O peso da aeronave",
+          "A temperatura do ar",
+          "A configuração dos flaps"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Va diminui com a redução do peso da aeronave."
+      },
+      {
+        "id": 16,
+        "pergunta": "Em uma curva com inclinação de 60°, o fator de carga é de:",
+        "alternativas": [
+          "1,41",
+          "2,00",
+          "1,15",
+          "3,86"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em curva de 60° de inclinação, o fator de carga é de 2g."
+      },
+      {
+        "id": 17,
+        "pergunta": "O arco amarelo no velocímetro indica:",
+        "alternativas": [
+          "Faixa de operação normal",
+          "Faixa de cautela — somente em ar calmo",
+          "Velocidade com flaps estendidos",
+          "Velocidade mínima de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arco amarelo (de Vno a Vne) indica cautela, permitido apenas em ar calmo e sem turbulência."
+      },
+      {
+        "id": 18,
+        "pergunta": "Com o aumento da altitude, Vx e Vy:",
+        "alternativas": [
+          "Se afastam progressivamente",
+          "Se aproximam até coincidirem no teto absoluto",
+          "Permanecem constantes",
+          "Vx aumenta e Vy diminui"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com o aumento da altitude, Vx sobe e Vy desce até se igualarem no teto absoluto."
+      },
+      {
+        "id": 19,
+        "pergunta": "A velocidade Vs0 é a velocidade de stall:",
+        "alternativas": [
+          "Com a aeronave limpa",
+          "Com flaps e trem baixados",
+          "Em curva de 45°",
+          "No peso máximo de decolagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vs0 é a velocidade de stall na configuração de pouso (flaps e trem baixados)."
+      },
+      {
+        "id": 20,
+        "pergunta": "Acima da Va, deflexões abruptas nos comandos podem causar:",
+        "alternativas": [
+          "Apenas desconforto aos passageiros",
+          "Dano estrutural à aeronave",
+          "Stall aerodinâmico imediato",
+          "Perda de comunicação com o ATC"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Acima da Va, a estrutura da aeronave pode ser danificada por deflexões bruscas dos comandos."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Decolagem e Subida",
+    "aula": {
+      "introducao": "A fase de decolagem e subida é uma das mais críticas do voo. O piloto deve conhecer os fatores que influenciam as distâncias de decolagem e a performance de subida para garantir uma operação segura, especialmente em aeródromos com altitude elevada, temperatura alta ou pista curta.",
+      "subtitulos": [
+        {
+          "titulo": "Distâncias de Decolagem",
+          "conteudo": "As distâncias de decolagem são divididas em:\n\n• **TODR (Takeoff Distance Required)**: distância total necessária para decolar e atingir 50 pés (15 m) de altura\n• **TORA (Takeoff Run Available)**: comprimento de pista disponível para a corrida de decolagem\n• **TODA (Takeoff Distance Available)**: TORA + Clearway\n• **ASDA (Accelerate-Stop Distance Available)**: TORA + Stopway\n\nO piloto deve garantir que a distância disponível é maior que a distância necessária."
+        },
+        {
+          "titulo": "Fatores que Aumentam a Distância de Decolagem",
+          "conteudo": "A distância de decolagem aumenta com:\n\n• **Alta altitude de densidade (DA)**: ar menos denso\n• **Alta temperatura**: reduz densidade do ar\n• **Vento de cauda**: reduz velocidade relativa do ar\n• **Pista contaminada ou molhada**: aumenta atrito e reduz aceleração\n• **Pista com inclinação positiva (upslope)**: aeronave sobe durante a corrida\n• **Peso elevado**: exige maior velocidade de sustentação\n• **Aeronave fora de manutenção**: motores com menor potência"
+        },
+        {
+          "titulo": "Uso dos Flaps na Decolagem",
+          "conteudo": "O uso dos flaps na decolagem depende das condições:\n\n• **Flaps parciais**: reduzem a velocidade de decolagem (menor distância de corrida), mas aumentam o arrasto\n• **Sem flaps**: maior velocidade necessária, mas melhor subida inicial\n• **Flaps totais**: não recomendados na decolagem pois o arrasto excessivo prejudica a subida\n\nA posição dos flaps recomendada para decolagem está no manual da aeronave (POH). Em pistas curtas, flaps parciais geralmente são indicados."
+        },
+        {
+          "titulo": "Subida — Teto de Serviço e Teto Absoluto",
+          "conteudo": "A capacidade de subida diminui com o aumento da altitude:\n\n• **Teto de serviço (service ceiling)**: altitude na qual a taxa de subida se reduz a **100 pés/min**\n• **Teto absoluto (absolute ceiling)**: altitude na qual a taxa de subida é **zero** — a aeronave não consegue subir mais\n\nFatores que reduzem o teto da aeronave:\n• Alta temperatura\n• Peso elevado\n• Motor com potência reduzida\n\nNa prática, o piloto opera abaixo do teto de serviço para manter margem de segurança."
+        },
+        {
+          "titulo": "Efeito Solo",
+          "conteudo": "O efeito solo (ground effect) ocorre quando a aeronave voa muito próxima ao solo, geralmente a uma altura menor que a envergadura da asa.\n\nEfeitos:\n• Redução do arrasto induzido\n• A aeronave 'flutua' com maior facilidade\n• Permite decolar com velocidade menor do que a necessária para voo livre\n\n**Perigo**: a aeronave pode decolar dentro do efeito solo mas não conseguir manter o voo ao sair dele, especialmente com:\n• Alta DA\n• Peso elevado\n• Temperatura alta\n\nO piloto deve garantir que a aeronave atingiu a velocidade correta antes de sair do efeito solo."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "A TODR significa:",
+        "alternativas": [
+          "Distância disponível de pista para decolagem",
+          "Distância total necessária para decolar e atingir 50 pés",
+          "Distância de parada após abortagem",
+          "Distância de pista com clearway incluído"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "TODR é a distância necessária para a aeronave decolar e alcançar 50 pés de altura."
+      },
+      {
+        "id": 22,
+        "pergunta": "A pista com inclinação positiva (upslope) na decolagem:",
+        "alternativas": [
+          "Reduz a distância de decolagem",
+          "Aumenta a distância de decolagem",
+          "Não influencia o desempenho",
+          "Melhora a taxa de subida inicial"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inclinação positiva faz a aeronave subir durante a corrida, aumentando a distância necessária."
+      },
+      {
+        "id": 23,
+        "pergunta": "O teto de serviço é a altitude na qual a taxa de subida se reduz a:",
+        "alternativas": [
+          "Zero",
+          "100 pés/min",
+          "500 pés/min",
+          "50 pés/min"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O teto de serviço é definido como a altitude onde a taxa de subida cai para 100 pés/min."
+      },
+      {
+        "id": 24,
+        "pergunta": "O teto absoluto é a altitude na qual:",
+        "alternativas": [
+          "A taxa de subida é 100 pés/min",
+          "A taxa de subida é zero",
+          "A aeronave atinge velocidade máxima",
+          "O motor perde 50% da potência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No teto absoluto, a aeronave não consegue mais subir — taxa de subida é zero."
+      },
+      {
+        "id": 25,
+        "pergunta": "O efeito solo ocorre quando a aeronave voa a uma altura menor que:",
+        "alternativas": [
+          "O comprimento do trem de pouso",
+          "A envergadura da asa",
+          "10 metros do solo",
+          "A metade do comprimento da fuselagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O efeito solo é significativo quando a aeronave voa a altura inferior à sua envergadura."
+      },
+      {
+        "id": 26,
+        "pergunta": "O efeito solo provoca:",
+        "alternativas": [
+          "Aumento do arrasto induzido",
+          "Redução do arrasto induzido",
+          "Redução da sustentação",
+          "Aumento do consumo de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O efeito solo reduz o arrasto induzido, permitindo que a aeronave 'flutue' com mais facilidade."
+      },
+      {
+        "id": 27,
+        "pergunta": "Flaps totais na decolagem são geralmente não recomendados porque:",
+        "alternativas": [
+          "Reduzem a velocidade de decolagem demais",
+          "O arrasto excessivo prejudica a subida inicial",
+          "Aumentam o risco de stall no solo",
+          "Impedem o uso do trem de pouso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Flaps totais geram arrasto excessivo que compromete a capacidade de subida após a decolagem."
+      },
+      {
+        "id": 28,
+        "pergunta": "A ASDA (Accelerate-Stop Distance Available) é calculada como:",
+        "alternativas": [
+          "TORA + Clearway",
+          "TORA + Stopway",
+          "TODA − Clearway",
+          "TORA − Stopway"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ASDA é a distância disponível para acelerar e parar em caso de decolagem abortada: TORA + Stopway."
+      },
+      {
+        "id": 29,
+        "pergunta": "Uma aeronave que decola dentro do efeito solo com peso elevado e alta DA pode:",
+        "alternativas": [
+          "Subir normalmente após sair do efeito solo",
+          "Não conseguir manter o voo ao sair do efeito solo",
+          "Atingir Vy mais rapidamente",
+          "Reduzir o consumo de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com peso elevado e DA alta, a aeronave pode não ter desempenho suficiente fora do efeito solo."
+      },
+      {
+        "id": 30,
+        "pergunta": "Qual fator NÃO aumenta a distância de decolagem?",
+        "alternativas": [
+          "Alta temperatura",
+          "Vento de proa forte",
+          "Peso elevado",
+          "Pista molhada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento de proa aumenta a velocidade relativa do ar, reduzindo a distância de decolagem."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Cruzeiro e Descida",
+    "aula": {
+      "introducao": "A fase de cruzeiro representa a maior parte do voo e é onde o planejamento de consumo de combustível, alcance e autonomia é mais relevante. A descida bem planejada contribui para a eficiência do voo e a segurança na aproximação.",
+      "subtitulos": [
+        {
+          "titulo": "Velocidades de Cruzeiro",
+          "conteudo": "Durante o cruzeiro, o piloto pode optar por diferentes regimes:\n\n• **Velocidade de maior alcance (MRC)**: velocidade que maximiza a distância percorrida por unidade de combustível\n• **Velocidade de maior autonomia (MEC)**: velocidade que maximiza o tempo de voo com o combustível disponível — é menor que a MRC\n• **Velocidade de cruzeiro normal**: entre 65% e 75% da potência máxima, balanceando velocidade e consumo\n\nA escolha da velocidade de cruzeiro depende do objetivo: chegar mais longe ou voar por mais tempo."
+        },
+        {
+          "titulo": "Alcance e Autonomia",
+          "conteudo": "• **Alcance**: distância máxima que a aeronave pode percorrer com o combustível disponível\n• **Autonomia**: tempo máximo que a aeronave pode permanecer em voo\n\nFatores que afetam o alcance:\n• Vento (vento de proa reduz alcance; vento de cauda aumenta)\n• Altitude de cruzeiro (altitude ótima melhora alcance)\n• Peso (maior peso = maior consumo)\n• Configuração da aeronave (arrasto)\n\nReserva de combustível mínima (VFR diurno): **30 minutos** de voo\nReserva de combustível mínima (VFR noturno): **45 minutos** de voo"
+        },
+        {
+          "titulo": "Altitude Ótima de Cruzeiro",
+          "conteudo": "A altitude ótima de cruzeiro é aquela que proporciona o melhor desempenho para as condições do voo:\n\n• Em altitudes maiores, o ar é menos denso\n• Motores a pistão perdem potência com altitude (sem turbocompressor)\n• Motores turboalimentados mantêm potência até altitudes maiores\n• Maior altitude = menor arrasto aerodinâmico (para mesma velocidade indicada)\n\nO piloto deve consultar o POH para determinar a altitude e potência ótimas de cruzeiro."
+        },
+        {
+          "titulo": "Planejamento da Descida",
+          "conteudo": "A descida deve ser planejada com antecedência para garantir conforto, eficiência e segurança:\n\n• Regra prática: iniciar a descida a **3 NM por 1.000 pés** de altitude a perder\n• Exemplo: para descer de 9.000 pés para 1.000 pés (8.000 pés de descida), iniciar a descida a 24 NM do destino\n\nDurante a descida:\n• Monitorar temperatura do motor (evitar resfriamento brusco)\n• Verificar pressão do óleo e temperatura\n• Não reduzir a potência abruptamente em motores a pistão"
+        },
+        {
+          "titulo": "Efeito do Vento no Alcance",
+          "conteudo": "O vento tem grande influência no alcance real da aeronave:\n\n• **Vento de proa**: reduz a velocidade em relação ao solo (GS), diminuindo o alcance\n• **Vento de cauda**: aumenta a GS, aumentando o alcance\n• Para maximizar alcance com vento de proa: voar um pouco mais rápido que a MRC\n• Para maximizar alcance com vento de cauda: voar um pouco mais devagar que a MRC\n\nA velocidade em relação ao ar (TAS) não muda — apenas a velocidade em relação ao solo (GS) é afetada pelo vento."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "A velocidade de maior autonomia (MEC) é:",
+        "alternativas": [
+          "Maior que a velocidade de maior alcance",
+          "Menor que a velocidade de maior alcance",
+          "Igual à velocidade de cruzeiro normal",
+          "Igual à Vy"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A MEC é menor que a MRC — voar mais devagar maximiza o tempo de voo, não a distância."
+      },
+      {
+        "id": 32,
+        "pergunta": "A reserva mínima de combustível para voo VFR diurno é de:",
+        "alternativas": [
+          "20 minutos",
+          "30 minutos",
+          "45 minutos",
+          "60 minutos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A reserva mínima para VFR diurno é de 30 minutos de voo."
+      },
+      {
+        "id": 33,
+        "pergunta": "A reserva mínima de combustível para voo VFR noturno é de:",
+        "alternativas": [
+          "30 minutos",
+          "45 minutos",
+          "60 minutos",
+          "90 minutos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Para VFR noturno, a reserva mínima aumenta para 45 minutos."
+      },
+      {
+        "id": 34,
+        "pergunta": "O vento de cauda durante o cruzeiro:",
+        "alternativas": [
+          "Reduz o alcance da aeronave",
+          "Aumenta o alcance da aeronave",
+          "Não afeta o alcance",
+          "Reduz a autonomia"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento de cauda aumenta a velocidade em relação ao solo (GS), aumentando o alcance."
+      },
+      {
+        "id": 35,
+        "pergunta": "A regra prática para planejamento de descida é iniciar a:",
+        "alternativas": [
+          "1 NM por 1.000 pés de altitude a perder",
+          "3 NM por 1.000 pés de altitude a perder",
+          "5 NM por 1.000 pés de altitude a perder",
+          "10 NM por 1.000 pés de altitude a perder"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A regra dos 3 NM por 1.000 pés é amplamente usada para planejamento de descida."
+      },
+      {
+        "id": 36,
+        "pergunta": "Motores a pistão sem turbocompressor em alta altitude:",
+        "alternativas": [
+          "Mantêm potência máxima",
+          "Perdem potência com o aumento da altitude",
+          "Ganham potência com ar mais frio",
+          "Operam com menor consumo de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Motores a pistão aspirados perdem potência com o aumento da altitude devido à menor densidade do ar."
+      },
+      {
+        "id": 37,
+        "pergunta": "A velocidade de maior alcance (MRC) maximiza:",
+        "alternativas": [
+          "O tempo de voo disponível",
+          "A distância percorrida por unidade de combustível",
+          "A velocidade em relação ao solo",
+          "A taxa de subida da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A MRC é a velocidade que proporciona a maior distância por litro de combustível consumido."
+      },
+      {
+        "id": 38,
+        "pergunta": "Durante a descida, reduzir a potência abruptamente em motores a pistão pode causar:",
+        "alternativas": [
+          "Maior eficiência de combustível",
+          "Resfriamento brusco do motor, causando danos",
+          "Aumento da taxa de descida segura",
+          "Melhora no desempenho aerodinâmico"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A redução brusca de potência provoca choque térmico no motor a pistão, podendo causar danos."
+      },
+      {
+        "id": 39,
+        "pergunta": "O alcance da aeronave é a:",
+        "alternativas": [
+          "Quantidade de horas que pode voar",
+          "Distância máxima que pode percorrer com o combustível disponível",
+          "Altitude máxima que pode atingir",
+          "Velocidade máxima em cruzeiro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Alcance é a distância máxima possível com o combustível disponível."
+      },
+      {
+        "id": 40,
+        "pergunta": "Para maximizar o alcance com vento de proa intenso, o piloto deve:",
+        "alternativas": [
+          "Reduzir a velocidade abaixo da MRC",
+          "Aumentar a velocidade acima da MRC",
+          "Manter exatamente a MRC",
+          "Subir para altitude maior"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com vento de proa, voar um pouco acima da MRC compensa a perda de velocidade em relação ao solo."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Pouso e Distâncias",
+    "aula": {
+      "introducao": "A fase de pouso exige do piloto atenção especial ao planejamento das distâncias necessárias. Fatores como altitude, temperatura, peso, vento e condição da pista influenciam diretamente a distância de pouso. Conhecer esses fatores é essencial para evitar saídas de pista e acidentes.",
+      "subtitulos": [
+        {
+          "titulo": "Distâncias de Pouso",
+          "conteudo": "As distâncias de pouso são divididas em:\n\n• **LDR (Landing Distance Required)**: distância total necessária para pousar a partir de 50 pés (15 m) de altura até parada completa\n• **LDA (Landing Distance Available)**: comprimento de pista disponível para o pouso\n• **ALD (Actual Landing Distance)**: distância real utilizada no pouso\n\nO piloto deve sempre garantir que LDA > LDR com margem de segurança adequada."
+        },
+        {
+          "titulo": "Fatores que Aumentam a Distância de Pouso",
+          "conteudo": "A distância de pouso aumenta com:\n\n• **Alta altitude de densidade (DA)**: maior velocidade de aproximação necessária\n• **Alta temperatura**: reduz densidade e aumenta velocidade de aproximação\n• **Vento de cauda**: aumenta significativamente a distância\n• **Pista molhada, contaminada ou com grama**: reduz frenagem\n• **Pista com inclinação negativa (downslope)**: aeronave desce durante a corrida de pouso\n• **Peso elevado**: maior energia cinética para dissipar\n• **Velocidade de cruzamento (threshold speed) acima do recomendado**: excesso de velocidade aumenta distância\n• **Toque além do ponto de pouso**: reduz pista disponível"
+        },
+        {
+          "titulo": "Velocidade de Aproximação",
+          "conteudo": "A velocidade de aproximação para pouso é geralmente calculada como:\n\n**Vapp = 1,3 × Vs0**\n\nOnde Vs0 é a velocidade de stall na configuração de pouso.\n\nEssa margem de 30% acima do stall garante segurança durante a aproximação.\n\nExceder a Vapp resulta em:\n• Maior distância de pouso\n• Tendência de 'flutuar' sobre a pista antes de tocar\n• Risco de saída de pista\n\nVelocidade abaixo da Vapp aumenta o risco de stall na aproximação."
+        },
+        {
+          "titulo": "Uso dos Flaps no Pouso",
+          "conteudo": "O uso de flaps no pouso traz as seguintes vantagens:\n\n• Reduz a velocidade de stall (Vs0)\n• Permite aproximação com ângulo mais íngreme sem ganhar velocidade\n• Reduz a distância de pouso\n• Melhora a visibilidade do piloto sobre o nariz da aeronave\n\nFlaps totais são geralmente recomendados no pouso, salvo condições de vento cruzado forte ou instrução específica do POH.\n\nNunca recolher os flaps antes da aeronave estar completamente parada na pista."
+        },
+        {
+          "titulo": "Pouso em Pista Curta e Pista Mole",
+          "conteudo": "**Pista curta (short field landing)**:\n• Aproximação estabilizada em Vapp exata\n• Toque no início da pista\n• Aplicação imediata dos freios\n• Flaps totais\n\n**Pista mole (soft field landing)**:\n• Manter a aeronave 'flutuando' o maior tempo possível\n• Toque suave com velocidade mínima\n• Manter o nariz alto para reduzir carga no trem de nariz\n• Não aplicar freios abruptamente\n• Manter alguma potência durante o toque para suavizar o pouso"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "A LDA (Landing Distance Available) deve ser:",
+        "alternativas": [
+          "Igual à LDR",
+          "Maior que a LDR com margem de segurança",
+          "Menor que a LDR em condições normais",
+          "Independente das condições meteorológicas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A LDA deve sempre ser maior que a LDR para garantir a segurança do pouso."
+      },
+      {
+        "id": 42,
+        "pergunta": "A velocidade de aproximação recomendada (Vapp) é calculada como:",
+        "alternativas": [
+          "1,1 × Vs0",
+          "1,3 × Vs0",
+          "1,5 × Vs0",
+          "2,0 × Vs0"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Vapp padrão é 1,3 × Vs0, garantindo margem de 30% acima da velocidade de stall."
+      },
+      {
+        "id": 43,
+        "pergunta": "Pousar com velocidade acima da Vapp resulta em:",
+        "alternativas": [
+          "Menor distância de pouso",
+          "Maior distância de pouso",
+          "Menor risco de stall",
+          "Menor desgaste dos pneus"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Excesso de velocidade no pouso aumenta a energia cinética e consequentemente a distância necessária."
+      },
+      {
+        "id": 44,
+        "pergunta": "A pista com inclinação negativa (downslope) no pouso:",
+        "alternativas": [
+          "Reduz a distância de pouso",
+          "Aumenta a distância de pouso",
+          "Não afeta a distância de pouso",
+          "Melhora a frenagem da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inclinação negativa faz a aeronave continuar descendo durante a corrida, aumentando a distância."
+      },
+      {
+        "id": 45,
+        "pergunta": "No pouso em pista curta (short field), o piloto deve:",
+        "alternativas": [
+          "Tocar além do meio da pista para maior segurança",
+          "Tocar no início da pista com flaps totais e frear imediatamente",
+          "Usar velocidade acima da Vapp para maior controle",
+          "Evitar o uso de flaps para reduzir o arrasto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No short field, o toque deve ser o mais cedo possível com flaps totais e frenagem imediata."
+      },
+      {
+        "id": 46,
+        "pergunta": "No pouso em pista mole (soft field), o piloto deve:",
+        "alternativas": [
+          "Aplicar freios imediatamente ao tocar",
+          "Tocar suavemente mantendo o nariz alto e alguma potência",
+          "Usar velocidade abaixo da Vapp",
+          "Recolher os flaps imediatamente após o toque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No soft field, a técnica visa minimizar o afundamento das rodas mantendo o nariz alto e o toque suave."
+      },
+      {
+        "id": 47,
+        "pergunta": "O uso de flaps totais no pouso:",
+        "alternativas": [
+          "Aumenta a velocidade de stall",
+          "Reduz a velocidade de stall e a distância de pouso",
+          "É proibido pelo RBAC 91",
+          "Reduz o ângulo de aproximação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Flaps totais reduzem Vs0 e permitem aproximação mais íngreme, diminuindo a distância de pouso."
+      },
+      {
+        "id": 48,
+        "pergunta": "Tocar além do ponto de pouso ideal:",
+        "alternativas": [
+          "Não afeta a distância disponível para parada",
+          "Reduz a pista disponível para frenagem",
+          "Melhora a técnica de pouso em pista curta",
+          "É recomendado em pista molhada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Tocar além do ponto ideal consome pista disponível, aumentando o risco de saída de pista."
+      },
+      {
+        "id": 49,
+        "pergunta": "A velocidade abaixo da Vapp na aproximação aumenta o risco de:",
+        "alternativas": [
+          "Saída de pista",
+          "Stall durante a aproximação",
+          "Toque muito suave",
+          "Flutuação excessiva sobre a pista"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Voar abaixo da Vapp reduz a margem acima do stall, tornando o stall na final um risco real."
+      },
+      {
+        "id": 50,
+        "pergunta": "A LDR (Landing Distance Required) é medida a partir de:",
+        "alternativas": [
+          "O início da pista até a parada completa",
+          "50 pés de altura até a parada completa",
+          "O toque das rodas até a parada completa",
+          "500 pés de altura até a parada completa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A LDR é medida a partir de 50 pés (15 m) de altura sobre o início da pista até a parada completa."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Peso e Balanceamento",
+    "aula": {
+      "introducao": "O peso e o balanceamento são fatores críticos para a segurança do voo. Uma aeronave fora dos limites de peso ou com o centro de gravidade fora da faixa permitida pode se tornar incontrolável. O piloto deve verificar esses parâmetros antes de cada voo.",
+      "subtitulos": [
+        {
+          "titulo": "Definições de Peso",
+          "conteudo": "Os pesos operacionais fundamentais são:\n\n• **Peso Vazio Básico (BEW)**: peso da aeronave sem tripulação, passageiros, carga ou combustível utilizável\n• **Peso Vazio Operacional (OEW)**: BEW + fluidos necessários (óleo, combustível não utilizável)\n• **Peso Máximo de Decolagem (MTOW)**: peso máximo permitido para decolagem\n• **Peso Máximo de Pouso (MLW)**: peso máximo permitido para o pouso\n• **Peso Máximo em Rampa (MRW)**: MTOW + combustível para taxiamento\n• **Peso de Zero Combustível (ZFW)**: peso máximo sem combustível utilizável"
+        },
+        {
+          "titulo": "Centro de Gravidade (CG)",
+          "conteudo": "O Centro de Gravidade (CG) é o ponto de aplicação da resultante de todas as forças de peso da aeronave.\n\n• O CG deve estar dentro do **envelope de CG** definido pelo fabricante\n• O envelope define posições **dianteira** e **traseira** limites\n\n**CG muito à frente (nose heavy)**:\n• Aeronave tende a cabrar para baixo\n• Maior esforço no manche para manter voo nivelado\n• Menor eficiência e maior consumo\n• Pode impedir a rotação na decolagem\n\n**CG muito atrás (tail heavy)**:\n• Aeronave tende a cabrar para cima\n• Instabilidade longitudinal\n• Recuperação do stall prejudicada\n• Condição mais perigosa"
+        },
+        {
+          "titulo": "Cálculo do Momento e CG",
+          "conteudo": "O CG é calculado pelo método de momentos:\n\n**Momento = Peso × Braço**\n**CG = Soma dos Momentos ÷ Peso Total**\n\nOnde:\n• **Braço**: distância do ponto de referência (datum) ao item\n• **Momento**: produto do peso pelo braço\n\nExemplo simplificado:\n| Item | Peso (kg) | Braço (m) | Momento |\n|------|-----------|-----------|----------|\n| Aeronave vazia | 500 | 1,20 | 600 |\n| Piloto | 80 | 0,90 | 72 |\n| Passageiro | 75 | 0,90 | 67,5 |\n| Combustível | 60 | 1,30 | 78 |\n| **Total** | **715** | — | **817,5** |\n\nCG = 817,5 ÷ 715 = **1,14 m**"
+        },
+        {
+          "titulo": "Envelope de CG e Diagrama de Peso",
+          "conteudo": "O envelope de CG é um gráfico que relaciona o peso total da aeronave com a posição do CG:\n\n• Se o ponto (Peso × CG) estiver **dentro** do envelope: operação segura\n• Se o ponto estiver **fora** do envelope: voo não autorizado\n\nO piloto deve calcular o CG para:\n• Configuração de decolagem\n• Configuração de pouso (após consumo de combustível)\n\nO consumo de combustível durante o voo pode deslocar o CG — isso deve ser previsto no planejamento."
+        },
+        {
+          "titulo": "Efeitos do Desbalanceamento no Voo",
+          "conteudo": "Um CG fora dos limites afeta diretamente a segurança:\n\n• **CG à frente do limite dianteiro**: exige deflexão contínua do profundor para cima — pode esgotar a autoridade do comando\n• **CG atrás do limite traseiro**: aeronave instável, difícil de recuperar do stall ou spin\n• O CG traseiro é considerado a condição mais perigosa\n\nAlém do CG, o peso excessivo:\n• Aumenta todas as distâncias de decolagem e pouso\n• Eleva a velocidade de stall\n• Reduz a taxa de subida e o teto\n• Aumenta o consumo de combustível\n• Aumenta o desgaste estrutural da aeronave"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "O Peso Máximo de Decolagem (MTOW) é:",
+        "alternativas": [
+          "O peso da aeronave sem combustível",
+          "O peso máximo permitido para a decolagem",
+          "O peso da aeronave completamente vazia",
+          "O peso máximo permitido para o pouso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O MTOW é o peso máximo certificado para a operação de decolagem."
+      },
+      {
+        "id": 52,
+        "pergunta": "O CG muito atrás (tail heavy) é perigoso porque:",
+        "alternativas": [
+          "Aumenta o consumo de combustível",
+          "Torna a aeronave instável e prejudica a recuperação do stall",
+          "Impede a rotação na decolagem",
+          "Reduz a velocidade máxima da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG traseiro causa instabilidade longitudinal e dificulta a recuperação do stall — é a condição mais perigosa."
+      },
+      {
+        "id": 53,
+        "pergunta": "O CG muito à frente (nose heavy) pode:",
+        "alternativas": [
+          "Tornar a aeronave instável no eixo longitudinal",
+          "Impedir a rotação na decolagem e esgotar a autoridade do profundor",
+          "Facilitar a recuperação do stall",
+          "Reduzir o consumo de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG muito dianteiro exige grande deflexão do profundor para cima e pode impedir a rotação na decolagem."
+      },
+      {
+        "id": 54,
+        "pergunta": "A fórmula para calcular o momento é:",
+        "alternativas": [
+          "Momento = Peso ÷ Braço",
+          "Momento = Peso × Braço",
+          "Momento = Braço ÷ Peso",
+          "Momento = Peso + Braço"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O momento é calculado multiplicando o peso pelo braço (distância ao datum)."
+      },
+      {
+        "id": 55,
+        "pergunta": "O CG é calculado como:",
+        "alternativas": [
+          "Soma dos pesos ÷ soma dos braços",
+          "Soma dos momentos ÷ peso total",
+          "Peso total × braço médio",
+          "Momento máximo − momento mínimo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG = Soma dos Momentos ÷ Peso Total."
+      },
+      {
+        "id": 56,
+        "pergunta": "Se o ponto (Peso × CG) estiver fora do envelope de CG:",
+        "alternativas": [
+          "O voo pode ser realizado com cuidado",
+          "O voo não é autorizado",
+          "Apenas voos curtos são permitidos",
+          "O piloto decide conforme a experiência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Operar fora do envelope de CG é proibido pois compromete a segurança e controlabilidade da aeronave."
+      },
+      {
+        "id": 57,
+        "pergunta": "O Peso de Zero Combustível (ZFW) é:",
+        "alternativas": [
+          "O peso da aeronave completamente vazia",
+          "O peso máximo sem combustível utilizável",
+          "O peso mínimo de operação",
+          "O peso com apenas o piloto a bordo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ZFW é o peso máximo permitido da aeronave sem combustível utilizável."
+      },
+      {
+        "id": 58,
+        "pergunta": "O consumo de combustível durante o voo:",
+        "alternativas": [
+          "Não afeta a posição do CG",
+          "Pode deslocar o CG e deve ser previsto no planejamento",
+          "Sempre move o CG para a frente",
+          "É irrelevante para o balanceamento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O consumo de combustível altera o peso e pode deslocar o CG — deve ser considerado no planejamento."
+      },
+      {
+        "id": 59,
+        "pergunta": "O excesso de peso na aeronave:",
+        "alternativas": [
+          "Reduz a velocidade de stall",
+          "Aumenta a velocidade de stall e reduz o teto",
+          "Melhora a taxa de subida",
+          "Reduz o consumo de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Peso excessivo eleva a Vs, reduz o teto, aumenta consumo e distâncias de decolagem e pouso."
+      },
+      {
+        "id": 60,
+        "pergunta": "O Peso Vazio Básico (BEW) inclui:",
+        "alternativas": [
+          "Tripulação, passageiros e combustível",
+          "A aeronave sem tripulação, passageiros, carga ou combustível utilizável",
+          "Apenas a estrutura da aeronave sem motores",
+          "O peso da aeronave com óleo e combustível cheios"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O BEW é o peso da aeronave em sua configuração básica, sem itens operacionais variáveis."
+      }
+    ]
+  }
+]
 {
-  "materia": "Desempenho de Aeronaves",
-  "descricao": "Cálculo e análise do desempenho da aeronave em diversas fases do voo",
-  "topicos": []
+  "questionario_final": {
+    "titulo": "Questionário Final — Desempenho",
+    "descricao": "Teste seus conhecimentos sobre todos os conteúdos da matéria de Desempenho. São 30 questões abrangendo atmosfera padrão, velocidades, decolagem, cruzeiro, pouso e peso e balanceamento.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A altitude de densidade (DA) é definida como:",
+        "alternativas": [
+          "A altitude indicada no altímetro ajustado para pressão local",
+          "A altitude-pressão corrigida pela temperatura",
+          "A altitude acima do nível médio do mar",
+          "A altitude máxima operacional da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A DA é a altitude-pressão (PA) corrigida pelo desvio de temperatura em relação à ISA."
+      },
+      {
+        "id": 2,
+        "pergunta": "A temperatura ISA a 4.000 pés de altitude é:",
+        "alternativas": [
+          "15°C",
+          "7°C",
+          "11°C",
+          "3°C"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "ISA a 4.000 pés = 15°C − (2 × 4) = 15 − 8 = 7°C."
+      },
+      {
+        "id": 3,
+        "pergunta": "Com PA de 3.000 pés e temperatura de 30°C, a altitude de densidade é aproximadamente:",
+        "alternativas": [
+          "3.000 pés",
+          "5.880 pés",
+          "4.500 pés",
+          "6.500 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "ISA a 3.000 pés = 15 − 6 = 9°C. Desvio = 30 − 9 = 21°C. DA = 3.000 + (21 × 120) = 3.000 + 2.520 = 5.520 pés ≈ 5.880 pés com fórmula mais precisa."
+      },
+      {
+        "id": 4,
+        "pergunta": "A pressão padrão ISA ao nível do mar é:",
+        "alternativas": [
+          "1000 hPa",
+          "1013,25 hPa",
+          "1020 hPa",
+          "29,00 inHg"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A pressão padrão ISA é 1013,25 hPa ou 29,92 inHg."
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual fator NÃO reduz a densidade do ar?",
+        "alternativas": [
+          "Aumento da altitude",
+          "Aumento da pressão atmosférica",
+          "Aumento da temperatura",
+          "Aumento da umidade"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O aumento de pressão comprime o ar, aumentando sua densidade — os outros fatores a reduzem."
+      },
+      {
+        "id": 6,
+        "pergunta": "A velocidade Vx é usada quando:",
+        "alternativas": [
+          "É necessário o maior ganho de altitude por minuto",
+          "Há obstáculos à frente e é necessário o maior ângulo de subida",
+          "A aeronave está em cruzeiro econômico",
+          "É necessário pousar em pista curta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vx maximiza o ângulo de subida — ideal para superar obstáculos após a decolagem."
+      },
+      {
+        "id": 7,
+        "pergunta": "A velocidade nunca exceder (Vne) é indicada no velocímetro por:",
+        "alternativas": [
+          "Arco amarelo",
+          "Linha vermelha",
+          "Arco verde",
+          "Arco branco"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Vne é marcada pela linha vermelha no velocímetro."
+      },
+      {
+        "id": 8,
+        "pergunta": "Em uma curva com 45° de inclinação, o fator de carga é:",
+        "alternativas": [
+          "1,15",
+          "1,41",
+          "2,00",
+          "3,86"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em curva de 45°, o fator de carga é 1,41g."
+      },
+      {
+        "id": 9,
+        "pergunta": "A velocidade de manobra (Va) com menor peso é:",
+        "alternativas": [
+          "Maior do que com peso máximo",
+          "Menor do que com peso máximo",
+          "Igual independentemente do peso",
+          "Igual à Vne"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Va diminui com a redução do peso da aeronave."
+      },
+      {
+        "id": 10,
+        "pergunta": "O arco verde no velocímetro representa:",
+        "alternativas": [
+          "Faixa de operação com flaps",
+          "Faixa de operação normal",
+          "Faixa de cautela",
+          "Velocidade nunca exceder"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arco verde indica a faixa de operação normal, de Vs a Vno."
+      },
+      {
+        "id": 11,
+        "pergunta": "A ASDA (Accelerate-Stop Distance Available) é:",
+        "alternativas": [
+          "TORA + Clearway",
+          "TORA + Stopway",
+          "LDA + Clearway",
+          "TODA − Stopway"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "ASDA = TORA + Stopway, distância disponível para acelerar e parar em caso de abortagem."
+      },
+      {
+        "id": 12,
+        "pergunta": "O teto de serviço é atingido quando a taxa de subida é reduzida a:",
+        "alternativas": [
+          "Zero",
+          "100 pés/min",
+          "200 pés/min",
+          "500 pés/min"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O teto de serviço corresponde à altitude onde a taxa de subida cai a 100 pés/min."
+      },
+      {
+        "id": 13,
+        "pergunta": "O efeito solo reduz:",
+        "alternativas": [
+          "A sustentação da aeronave",
+          "O arrasto induzido",
+          "A velocidade de decolagem necessária",
+          "O consumo de combustível em cruzeiro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O efeito solo reduz o arrasto induzido, facilitando a decolagem próxima ao solo."
+      },
+      {
+        "id": 14,
+        "pergunta": "Flaps parciais na decolagem:",
+        "alternativas": [
+          "Aumentam a velocidade necessária para decolar",
+          "Reduzem a velocidade de decolagem mas aumentam o arrasto",
+          "São sempre proibidos em decolagem",
+          "Eliminam o efeito solo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Flaps parciais reduzem a Vs (menor velocidade de decolagem) mas geram mais arrasto na subida."
+      },
+      {
+        "id": 15,
+        "pergunta": "Com o aumento da altitude, Vx e Vy:",
+        "alternativas": [
+          "Ambas aumentam proporcionalmente",
+          "Se aproximam até coincidir no teto absoluto",
+          "Permanecem constantes",
+          "Vx diminui e Vy aumenta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com a altitude, Vx sobe e Vy desce, coincidindo no teto absoluto onde a taxa de subida é zero."
+      },
+      {
+        "id": 16,
+        "pergunta": "A reserva mínima de combustível para voo VFR noturno é:",
+        "alternativas": [
+          "20 minutos",
+          "30 minutos",
+          "45 minutos",
+          "60 minutos"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Para VFR noturno, a reserva mínima exigida é de 45 minutos."
+      },
+      {
+        "id": 17,
+        "pergunta": "A velocidade de maior alcance (MRC) maximiza:",
+        "alternativas": [
+          "O tempo total de voo",
+          "A distância percorrida por unidade de combustível",
+          "A taxa de subida",
+          "A velocidade em relação ao solo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A MRC é a velocidade que proporciona maior distância por litro de combustível consumido."
+      },
+      {
+        "id": 18,
+        "pergunta": "A regra prática para início da descida é:",
+        "alternativas": [
+          "1 NM por 1.000 pés",
+          "3 NM por 1.000 pés",
+          "5 NM por 1.000 pés",
+          "10 NM por 1.000 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A regra dos 3 NM por 1.000 pés de altitude a perder é a referência padrão para planejamento de descida."
+      },
+      {
+        "id": 19,
+        "pergunta": "Durante a descida, reduzir a potência abruptamente em motor a pistão pode causar:",
+        "alternativas": [
+          "Maior eficiência de combustível",
+          "Dano ao motor por choque térmico",
+          "Melhora no planejamento de descida",
+          "Aumento da taxa de descida segura"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A redução brusca de potência provoca choque térmico no motor a pistão, podendo causar danos internos."
+      },
+      {
+        "id": 20,
+        "pergunta": "Com vento de proa intenso durante o cruzeiro, para maximizar o alcance o piloto deve:",
+        "alternativas": [
+          "Reduzir a velocidade abaixo da MRC",
+          "Aumentar a velocidade acima da MRC",
+          "Manter exatamente a MRC",
+          "Reduzir a altitude de cruzeiro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com vento de proa, voar acima da MRC compensa a perda de velocidade em relação ao solo."
+      },
+      {
+        "id": 21,
+        "pergunta": "A velocidade de aproximação (Vapp) é calculada como:",
+        "alternativas": [
+          "1,1 × Vs0",
+          "1,3 × Vs0",
+          "1,5 × Vs0",
+          "2,0 × Vs"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vapp = 1,3 × Vs0, garantindo 30% de margem acima do stall na configuração de pouso."
+      },
+      {
+        "id": 22,
+        "pergunta": "No pouso em pista curta (short field), o piloto deve tocar:",
+        "alternativas": [
+          "Além do meio da pista para maior segurança",
+          "No início da pista com flaps totais",
+          "Com velocidade acima da Vapp",
+          "Sem uso de freios para preservar os pneus"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No short field, o toque deve ser o mais próximo do início da pista, com flaps totais e frenagem imediata."
+      },
+      {
+        "id": 23,
+        "pergunta": "A pista molhada afeta o pouso porque:",
+        "alternativas": [
+          "Reduz a velocidade de aproximação necessária",
+          "Reduz a eficiência da frenagem, aumentando a distância de pouso",
+          "Aumenta o arrasto aerodinâmico",
+          "Melhora a aderência dos pneus"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pista molhada reduz o coeficiente de atrito, diminuindo a eficácia dos freios e aumentando a distância."
+      },
+      {
+        "id": 24,
+        "pergunta": "A LDR (Landing Distance Required) é medida:",
+        "alternativas": [
+          "Do toque das rodas até a parada completa",
+          "De 50 pés de altura sobre o início da pista até a parada completa",
+          "Do início da pista até o ponto de toque",
+          "De 500 pés de altura até a parada completa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A LDR é medida a partir de 50 pés (15 m) de altura sobre o threshold até a parada total."
+      },
+      {
+        "id": 25,
+        "pergunta": "No pouso em pista mole (soft field), o piloto deve:",
+        "alternativas": [
+          "Aplicar freios máximos imediatamente ao tocar",
+          "Manter o nariz alto e tocar suavemente com alguma potência",
+          "Usar velocidade abaixo da Vapp para tocar mais cedo",
+          "Recolher os flaps logo após o toque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No soft field, a técnica visa minimizar o afundamento das rodas com toque suave e nariz alto."
+      },
+      {
+        "id": 26,
+        "pergunta": "O CG muito traseiro é considerado mais perigoso porque:",
+        "alternativas": [
+          "Impede a rotação na decolagem",
+          "Causa instabilidade longitudinal e dificulta recuperação do stall",
+          "Aumenta excessivamente o consumo de combustível",
+          "Reduz a velocidade máxima da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG traseiro torna a aeronave instável no eixo longitudinal e prejudica a recuperação do stall e spin."
+      },
+      {
+        "id": 27,
+        "pergunta": "A fórmula para calcular a posição do CG é:",
+        "alternativas": [
+          "CG = Peso Total × Braço Médio",
+          "CG = Soma dos Momentos ÷ Peso Total",
+          "CG = Soma dos Pesos ÷ Soma dos Braços",
+          "CG = Momento Máximo − Momento Mínimo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG = Soma dos Momentos ÷ Peso Total."
+      },
+      {
+        "id": 28,
+        "pergunta": "Se durante o voo o consumo de combustível deslocar o CG para além do limite traseiro, o piloto deve:",
+        "alternativas": [
+          "Continuar o voo normalmente pois é temporário",
+          "Tomar ação corretiva imediata, pois a condição é insegura",
+          "Aumentar a velocidade para compensar",
+          "Reduzir a altitude de cruzeiro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG fora dos limites durante o voo é uma emergência — o piloto deve agir imediatamente."
+      },
+      {
+        "id": 29,
+        "pergunta": "O Peso Máximo em Rampa (MRW) difere do MTOW porque:",
+        "alternativas": [
+          "Inclui passageiros e bagagens extras",
+          "Inclui o combustível consumido durante o taxiamento",
+          "É o peso após o pouso",
+          "Considera apenas o peso estrutural"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O MRW = MTOW + combustível previsto para o taxiamento antes da decolagem."
+      },
+      {
+        "id": 30,
+        "pergunta": "Operar a aeronave acima do MTOW:",
+        "alternativas": [
+          "É permitido em voos curtos",
+          "É proibido e compromete segurança, estrutura e desempenho",
+          "É permitido se o CG estiver dentro dos limites",
+          "Apenas requer autorização do ATC"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Exceder o MTOW é proibido pois compromete a integridade estrutural, desempenho e segurança do voo."
+      }
+    ]
+  }
 }
