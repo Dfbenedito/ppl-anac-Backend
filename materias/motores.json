@@ -1,5 +1,1280 @@
+[
+  {
+    "id": 1,
+    "titulo": "Princípios Básicos do Motor a Pistão",
+    "aula": {
+      "introducao": "O motor a pistão é o tipo mais comum em aeronaves de treinamento e aviação geral. Compreender seu funcionamento é essencial para operar a aeronave com segurança, interpretar os instrumentos do motor e identificar anomalias.",
+      "subtitulos": [
+        {
+          "titulo": "O que é um Motor a Pistão",
+          "conteudo": "O motor a pistão é um motor de combustão interna que transforma energia química do combustível em energia mecânica. Essa energia é utilizada para movimentar a hélice, que por sua vez gera tração para a aeronave."
+        },
+        {
+          "titulo": "Ciclo de Quatro Tempos",
+          "conteudo": "O motor a pistão aeronáutico opera em quatro tempos:\n\n• **1º Admissão**: a mistura ar-combustível entra no cilindro\n• **2º Compressão**: a mistura é comprimida pelo pistão\n• **3º Combustão (Expansão)**: a mistura é inflamada, empurrando o pistão\n• **4º Escapamento**: os gases queimados são expelidos do cilindro\n\nEsse ciclo se repete continuamente para manter o motor em funcionamento."
+        },
+        {
+          "titulo": "Componentes Principais",
+          "conteudo": "Os componentes essenciais do motor a pistão incluem:\n\n• Cilindros\n• Pistões\n• Virabrequim\n• Árvore de cames\n• Válvulas de admissão e escapamento\n• Velas de ignição\n• Carburador ou injeção de combustível\n• Sistema de arrefecimento"
+        },
+        {
+          "titulo": "Mistura Ar-Combustível",
+          "conteudo": "Para funcionar corretamente, o motor precisa de uma proporção adequada entre ar e combustível. Essa mistura pode ser ajustada pelo piloto por meio do controle de mistura.\n\nEm altitudes mais elevadas, o ar fica menos denso, então a mistura pode ficar rica demais se não for ajustada. O enriquecimento ou empobrecimento incorreto da mistura afeta desempenho, consumo e pode danificar o motor."
+        },
+        {
+          "titulo": "Potência do Motor",
+          "conteudo": "A potência produzida pelo motor depende de fatores como:\n\n• Quantidade de combustível e ar admitidos\n• Rotação (RPM)\n• Altitude e densidade do ar\n• Temperatura\n\nO controle de potência é feito principalmente pelo comando do acelerador e pelo ajuste de mistura."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "O motor a pistão transforma:",
+        "alternativas": [
+          "Energia elétrica em energia química",
+          "Energia química do combustível em energia mecânica",
+          "Energia solar em tração",
+          "Pressão do ar em calor"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O motor a pistão converte a energia do combustível em movimento mecânico utilizado pela hélice."
+      },
+      {
+        "id": 2,
+        "pergunta": "O ciclo de quatro tempos ocorre na seguinte ordem:",
+        "alternativas": [
+          "Compressão, admissão, combustão, escapamento",
+          "Admissão, compressão, combustão, escapamento",
+          "Combustão, escapamento, admissão, compressão",
+          "Escapamento, combustão, compressão, admissão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sequência correta é admissão, compressão, combustão e escapamento."
+      },
+      {
+        "id": 3,
+        "pergunta": "No tempo de admissão, o que ocorre?",
+        "alternativas": [
+          "Os gases queimados saem do cilindro",
+          "A mistura ar-combustível entra no cilindro",
+          "O pistão comprime a mistura",
+          "A vela de ignição é desligada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na admissão, a mistura ar-combustível é aspirada para dentro do cilindro."
+      },
+      {
+        "id": 4,
+        "pergunta": "No tempo de combustão, a mistura é:",
+        "alternativas": [
+          "Resfriada pelo sistema de arrefecimento",
+          "Aspirada pelo carburador",
+          "Inflamada, empurrando o pistão",
+          "Expelida pelo escapamento"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Na combustão, a mistura é inflamada pelas velas e expande, empurrando o pistão."
+      },
+      {
+        "id": 5,
+        "pergunta": "O controle de mistura serve para:",
+        "alternativas": [
+          "Regular a proporção ar-combustível",
+          "Ajustar a velocidade da hélice",
+          "Controlar o trem de pouso",
+          "Ligar o sistema de ignição"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "O controle de mistura permite ajustar a relação entre ar e combustível admitidos pelo motor."
+      },
+      {
+        "id": 6,
+        "pergunta": "Em altitudes elevadas, a mistura tende a ficar:",
+        "alternativas": [
+          "Muito pobre",
+          "Rica demais, se não ajustada",
+          "Sempre equilibrada automaticamente",
+          "Sem efeito nenhum"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com menos ar disponível, a mistura fica rica, exigindo ajuste pelo piloto."
+      },
+      {
+        "id": 7,
+        "pergunta": "A potência do motor depende de:",
+        "alternativas": [
+          "Somente a cor da aeronave",
+          "Rotação, mistura, altitude e temperatura",
+          "Apenas o tipo de hélice",
+          "Somente o comprimento da pista"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vários fatores combinados determinam a potência disponível do motor."
+      },
+      {
+        "id": 8,
+        "pergunta": "A vela de ignição tem a função de:",
+        "alternativas": [
+          "Bombear combustível para o carburador",
+          "Inflamar a mistura ar-combustível",
+          "Controlar a temperatura do óleo",
+          "Regular a rotação do virabrequim"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "As velas produzem a faísca que inflama a mistura no interior do cilindro."
+      },
+      {
+        "id": 9,
+        "pergunta": "O virabrequim tem a função de:",
+        "alternativas": [
+          "Filtrar o combustível",
+          "Transformar o movimento linear do pistão em rotação",
+          "Regular a mistura ar-combustível",
+          "Arrefecer os cilindros"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O virabrequim converte o movimento de vai-e-vem do pistão em rotação contínua."
+      },
+      {
+        "id": 10,
+        "pergunta": "O controle principal de potência no motor a pistão é:",
+        "alternativas": [
+          "O compensador de cauda",
+          "O acelerador e o controle de mistura",
+          "O trem de pouso e os flaps",
+          "O aquecedor de cabine"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O acelerador regula a quantidade de mistura admitida e o controle de mistura define a proporção ar-combustível."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Sistema de Ignição e Arrefecimento",
+    "aula": {
+      "introducao": "O sistema de ignição é responsável por gerar a faísca que inflama a mistura nos cilindros. O sistema de arrefecimento mantém a temperatura do motor dentro de limites seguros. Conhecer esses sistemas permite ao piloto operar corretamente e identificar sinais de anormalidade.",
+      "subtitulos": [
+        {
+          "titulo": "Sistema de Ignição",
+          "conteudo": "Os motores aeronáuticos utilizam dois magnetos independentes para alimentar as velas de ignição. Cada cilindro possui duas velas, cada uma alimentada por um magneto diferente.\n\nEssa redundância garante que, se um magneto falhar, o motor continue funcionando com o outro."
+        },
+        {
+          "titulo": "Magnetos",
+          "conteudo": "O magneto é um gerador de corrente elétrica independente do sistema elétrico da aeronave. Isso significa que mesmo com a bateria descarregada, o motor pode continuar funcionando.\n\nA chave de ignição permite selecionar:\n• **LEFT**: apenas magneto esquerdo\n• **RIGHT**: apenas magneto direito\n• **BOTH**: ambos os magnetos\n• **OFF**: ignição desligada"
+        },
+        {
+          "titulo": "Verificação de Magnetos",
+          "conteudo": "Antes do voo, o piloto verifica os magnetos com o motor em rotação específica. Ao selecionar apenas um magneto, a queda de RPM deve estar dentro dos limites estabelecidos pelo fabricante.\n\nQueda excessiva indica problema no magneto ou nas velas."
+        },
+        {
+          "titulo": "Sistema de Arrefecimento",
+          "conteudo": "Os motores aeronáuticos a pistão mais comuns utilizam arrefecimento a ar. O fluxo de ar pelos cilindros dissipa o calor gerado pela combustão.\n\nDurante operações de baixa velocidade ou taxiamento prolongado, o arrefecimento fica reduzido, podendo elevar demais a temperatura do cabeçote."
+        },
+        {
+          "titulo": "Temperatura do Cabeçote",
+          "conteudo": "A temperatura do cabeçote (CHT) indica o aquecimento dos cilindros. Deve ser monitorada durante o voo.\n\nAlta temperatura pode causar detonação, falhas nas válvulas ou danos ao motor. O piloto deve evitar operação prolongada com temperatura elevada e pode gerenciar isso ajustando potência, mistura e atitude."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "Os motores aeronáuticos possuem quantos magnetos?",
+        "alternativas": [
+          "Um",
+          "Dois",
+          "Três",
+          "Quatro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "São dois magnetos independentes, aumentando a confiabilidade do sistema de ignição."
+      },
+      {
+        "id": 12,
+        "pergunta": "Cada cilindro possui quantas velas de ignição?",
+        "alternativas": [
+          "Uma",
+          "Duas",
+          "Três",
+          "Quatro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Cada cilindro tem duas velas, cada uma alimentada por um magneto diferente."
+      },
+      {
+        "id": 13,
+        "pergunta": "O magneto é um gerador:",
+        "alternativas": [
+          "Dependente da bateria da aeronave",
+          "Independente do sistema elétrico da aeronave",
+          "Alimentado pelo alternador principal",
+          "Controlado pelo piloto automático"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O magneto funciona de forma autônoma, sem depender da bateria."
+      },
+      {
+        "id": 14,
+        "pergunta": "A posição BOTH na chave de ignição significa:",
+        "alternativas": [
+          "Apenas magneto esquerdo ativo",
+          "Ignição desligada",
+          "Ambos os magnetos ativos",
+          "Apenas magneto direito ativo"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "BOTH ativa os dois magnetos simultaneamente, sendo a posição normal de voo."
+      },
+      {
+        "id": 15,
+        "pergunta": "Durante a verificação de magnetos, uma queda excessiva de RPM indica:",
+        "alternativas": [
+          "Motor funcionando perfeitamente",
+          "Possível problema no magneto ou nas velas",
+          "Combustível em excesso",
+          "Sistema de arrefecimento com falha"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Queda além do limite estabelecido pode indicar vela defeituosa ou magneto com problema."
+      },
+      {
+        "id": 16,
+        "pergunta": "O sistema de arrefecimento mais comum nos motores aeronáuticos a pistão é:",
+        "alternativas": [
+          "Arrefecimento a água",
+          "Arrefecimento a óleo",
+          "Arrefecimento a ar",
+          "Arrefecimento por nitrogênio"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A maioria dos motores de aviação geral utiliza arrefecimento a ar pelos cilindros."
+      },
+      {
+        "id": 17,
+        "pergunta": "O arrefecimento fica reduzido quando:",
+        "alternativas": [
+          "A aeronave está em cruzeiro rápido",
+          "O motor opera em baixa velocidade ou taxiamento prolongado",
+          "O piloto seleciona BOTH nos magnetos",
+          "A mistura está empobrecida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com pouco fluxo de ar, a dissipação de calor é menor, aumentando a temperatura."
+      },
+      {
+        "id": 18,
+        "pergunta": "CHT significa:",
+        "alternativas": [
+          "Controle de Hélice Total",
+          "Temperatura do Cabeçote do Cilindro",
+          "Consumo Horário de Tração",
+          "Calibração de Hora de Taxiamento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CHT é a sigla em inglês para Cylinder Head Temperature, indicando temperatura do cabeçote."
+      },
+      {
+        "id": 19,
+        "pergunta": "Alta temperatura do cabeçote pode causar:",
+        "alternativas": [
+          "Melhor desempenho do motor",
+          "Detonação e danos ao motor",
+          "Redução automática do consumo",
+          "Aumento da potência disponível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Temperatura elevada nos cilindros pode provocar detonação e danos graves."
+      },
+      {
+        "id": 20,
+        "pergunta": "Mesmo com a bateria descarregada, o motor pode continuar funcionando porque:",
+        "alternativas": [
+          "O GPS alimenta o sistema de ignição",
+          "Os magnetos são independentes do sistema elétrico",
+          "O alternador supre diretamente as velas",
+          "O carburador tem bateria própria"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os magnetos geram sua própria corrente, sem depender da bateria ou do alternador."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Sistema de Combustível e Lubrificação",
+    "aula": {
+      "introducao": "O sistema de combustível garante o fornecimento adequado de combustível ao motor em todas as fases do voo. O sistema de lubrificação protege as partes móveis do motor contra desgaste e superaquecimento. Conhecer ambos os sistemas é fundamental para operação segura e identificação de falhas.",
+      "subtitulos": [
+        {
+          "titulo": "Sistema de Combustível",
+          "conteudo": "O sistema de combustível é responsável por armazenar, filtrar e fornecer combustível ao motor na quantidade e pressão corretas.\n\nOs principais componentes são:\n\n• Tanques de combustível\n• Seletor de tanque\n• Bomba de combustível (elétrica e mecânica)\n• Filtro de combustível\n• Carburador ou sistema de injeção"
+        },
+        {
+          "titulo": "Tipos de Combustível",
+          "conteudo": "Os combustíveis mais utilizados na aviação geral são:\n\n• **AVGAS 100LL** (Aviation Gasoline): usado em motores a pistão, com baixo teor de chumbo, cor azul\n• **Jet-A / Jet-A1**: usado em turbinas e turboélices\n\nO uso do combustível errado pode causar falha grave do motor. O piloto deve sempre confirmar o tipo correto antes do abastecimento."
+        },
+        {
+          "titulo": "Seletor de Tanque",
+          "conteudo": "O seletor de tanque permite escolher de qual tanque o motor receberá combustível. As posições mais comuns são:\n\n• **LEFT**: tanque esquerdo\n• **RIGHT**: tanque direito\n• **BOTH**: ambos os tanques\n• **OFF**: combustível cortado\n\nO piloto deve monitorar o nível dos tanques e alternar conforme necessário para manter balanceamento."
+        },
+        {
+          "titulo": "Sistema de Lubrificação",
+          "conteudo": "O óleo lubrifica as partes móveis do motor, reduzindo atrito e desgaste. Além disso, auxilia no arrefecimento interno e na limpeza do motor, carregando impurezas até o filtro.\n\nOs principais componentes são:\n\n• Carter (reservatório de óleo)\n• Bomba de óleo\n• Filtro de óleo\n• Resfriador de óleo\n• Instrumentos de pressão e temperatura de óleo"
+        },
+        {
+          "titulo": "Pressão e Temperatura do Óleo",
+          "conteudo": "A pressão e a temperatura do óleo são parâmetros críticos que o piloto deve monitorar continuamente.\n\n• **Pressão baixa**: pode indicar falta de óleo, falha na bomba ou vazamento\n• **Temperatura alta**: pode indicar sobrecarga do motor, arrefecimento insuficiente ou problema interno\n\nApós a partida, o motor deve aquecer até que a temperatura do óleo atinja a faixa verde antes de aumentar a potência."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "O AVGAS 100LL é identificado pela cor:",
+        "alternativas": [
+          "Vermelha",
+          "Verde",
+          "Azul",
+          "Incolor"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O AVGAS 100LL possui coloração azul para facilitar sua identificação e evitar uso incorreto."
+      },
+      {
+        "id": 22,
+        "pergunta": "O seletor de tanque na posição OFF indica:",
+        "alternativas": [
+          "Ambos os tanques ativos",
+          "Combustível cortado",
+          "Apenas tanque esquerdo ativo",
+          "Sistema de injeção ligado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A posição OFF interrompe o fluxo de combustível para o motor."
+      },
+      {
+        "id": 23,
+        "pergunta": "O uso do combustível errado pode causar:",
+        "alternativas": [
+          "Melhor desempenho",
+          "Falha grave do motor",
+          "Maior autonomia",
+          "Redução do consumo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Combustível inadequado pode resultar em falha do motor durante o voo."
+      },
+      {
+        "id": 24,
+        "pergunta": "A bomba elétrica de combustível é usada principalmente:",
+        "alternativas": [
+          "Apenas em cruzeiro",
+          "Para substituir definitivamente a bomba mecânica",
+          "Como apoio durante partida, decolagem e pouso",
+          "Somente em emergências elétricas"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A bomba elétrica é um sistema de apoio e segurança nas fases críticas do voo."
+      },
+      {
+        "id": 25,
+        "pergunta": "O seletor de tanque deve ser monitorado para:",
+        "alternativas": [
+          "Manter o balanceamento entre os tanques",
+          "Controlar a pressão do óleo",
+          "Ajustar a mistura ar-combustível",
+          "Regular a temperatura do cabeçote"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Alternar entre tanques mantém o equilíbrio lateral e evita que um tanque esvazie antes do outro."
+      },
+      {
+        "id": 26,
+        "pergunta": "O óleo do motor tem a função de:",
+        "alternativas": [
+          "Substituir o combustível em emergências",
+          "Lubrificar, arrefecer e limpar o motor",
+          "Alimentar o sistema hidráulico do trem de pouso",
+          "Regular a pressão do carburador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O óleo lubrifica as peças, auxilia no arrefecimento e carrega impurezas até o filtro."
+      },
+      {
+        "id": 27,
+        "pergunta": "Pressão de óleo baixa pode indicar:",
+        "alternativas": [
+          "Motor funcionando perfeitamente",
+          "Falta de óleo, falha na bomba ou vazamento",
+          "Combustível em excesso",
+          "Magneto com defeito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pressão baixa de óleo é sinal de alerta que exige atenção imediata do piloto."
+      },
+      {
+        "id": 28,
+        "pergunta": "Após a partida, o piloto deve aumentar a potência somente quando:",
+        "alternativas": [
+          "O RPM atingir o máximo",
+          "A temperatura do óleo estiver na faixa verde",
+          "O combustível estiver cheio",
+          "A pressão do carburador zerar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O motor deve aquecer adequadamente antes de receber maior carga de potência."
+      },
+      {
+        "id": 29,
+        "pergunta": "O filtro de óleo tem a função de:",
+        "alternativas": [
+          "Armazenar o combustível reserva",
+          "Reter impurezas do óleo",
+          "Regular a temperatura do cabeçote",
+          "Controlar a rotação do virabrequim"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O filtro retém partículas e impurezas que circulam com o óleo, protegendo o motor."
+      },
+      {
+        "id": 30,
+        "pergunta": "O Jet-A é um combustível utilizado em:",
+        "alternativas": [
+          "Motores a pistão convencionais",
+          "Turbinas e turboélices",
+          "Motores elétricos de aeronaves",
+          "Sistemas hidráulicos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Jet-A é querosene de aviação, utilizado em motores a turbina e turboélice."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Hélice e Controle de Potência",
+    "aula": {
+      "introducao": "A hélice é o componente que converte a potência do motor em tração, impulsionando a aeronave. Compreender os tipos de hélice e o controle de potência é essencial para operar a aeronave com eficiência e dentro dos limites do fabricante.",
+      "subtitulos": [
+        {
+          "titulo": "Função da Hélice",
+          "conteudo": "A hélice funciona como uma asa giratória. Ao girar, ela gera uma diferença de pressão entre sua face dianteira e traseira, produzindo tração que impulsiona a aeronave para frente.\n\nA eficiência da hélice depende do ângulo de passo, da velocidade de rotação e das condições do ar."
+        },
+        {
+          "titulo": "Tipos de Hélice",
+          "conteudo": "Os principais tipos de hélice são:\n\n• **Passo fixo**: o ângulo das pás é fixo e não pode ser alterado em voo. Simples e comum em aeronaves de treinamento\n• **Passo variável**: o ângulo das pás pode ser ajustado em voo, otimizando eficiência em diferentes fases\n• **Passo constante**: variação automática do passo para manter RPM constante, controlada pelo governador"
+        },
+        {
+          "titulo": "Hélice de Passo Fixo",
+          "conteudo": "Na hélice de passo fixo, o piloto controla a potência apenas pelo acelerador. A rotação (RPM) varia diretamente com a posição do acelerador.\n\nÉ o tipo mais simples, utilizado na maioria das aeronaves de treinamento básico."
+        },
+        {
+          "titulo": "Hélice de Passo Constante",
+          "conteudo": "Na hélice de passo constante, o piloto controla a potência pelo manifold (MAP) e a rotação pelo comando de passo (RPM).\n\nO governador ajusta automaticamente o ângulo das pás para manter a rotação selecionada, independentemente das variações de voo.\n\nPermite maior eficiência e controle de desempenho."
+        },
+        {
+          "titulo": "Controle de Potência",
+          "conteudo": "O controle de potência envolve o gerenciamento correto de:\n\n• **Acelerador (throttle)**: controla a quantidade de mistura admitida\n• **Controle de mistura**: ajusta a proporção ar-combustível\n• **Comando de passo (se aplicável)**: define a rotação da hélice\n\nPara reduzir potência com hélice de passo constante, reduz-se primeiro o MAP e depois o RPM. Para aumentar, faz-se o inverso: aumenta-se primeiro o RPM e depois o MAP."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "A hélice tem a função de:",
+        "alternativas": [
+          "Arrefecer o motor",
+          "Converter potência do motor em tração",
+          "Controlar a pressão do óleo",
+          "Regular a mistura ar-combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A hélice transforma a energia mecânica do motor em força propulsiva."
+      },
+      {
+        "id": 32,
+        "pergunta": "Na hélice de passo fixo, o piloto controla a potência por meio:",
+        "alternativas": [
+          "Apenas do comando de passo",
+          "Apenas do acelerador",
+          "Do governador de RPM",
+          "Do seletor de tanque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na hélice de passo fixo, somente o acelerador controla a potência e a rotação."
+      },
+      {
+        "id": 33,
+        "pergunta": "A hélice de passo constante mantém a rotação constante por meio de:",
+        "alternativas": [
+          "Ajuste manual do piloto a cada minuto",
+          "Um governador que varia o ângulo das pás",
+          "Redução automática do combustível",
+          "Controle do sistema de ignição"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O governador ajusta automaticamente o passo das pás para manter o RPM selecionado."
+      },
+      {
+        "id": 34,
+        "pergunta": "Para aumentar potência em aeronave com hélice de passo constante, a sequência correta é:",
+        "alternativas": [
+          "Aumentar MAP primeiro, depois RPM",
+          "Aumentar RPM primeiro, depois MAP",
+          "Reduzir mistura e depois acionar o passo",
+          "Fechar o acelerador e aumentar o passo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Ao aumentar potência, aumenta-se primeiro o RPM e depois o MAP para proteger o motor."
+      },
+      {
+        "id": 35,
+        "pergunta": "Para reduzir potência em aeronave com hélice de passo constante, a sequência correta é:",
+        "alternativas": [
+          "Reduzir RPM primeiro, depois MAP",
+          "Reduzir MAP primeiro, depois RPM",
+          "Fechar a mistura e reduzir o passo",
+          "Desligar um magneto e reduzir o acelerador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Ao reduzir potência, reduz-se primeiro o MAP e depois o RPM."
+      },
+      {
+        "id": 36,
+        "pergunta": "A hélice de passo fixo é mais comum em:",
+        "alternativas": [
+          "Aeronaves de grande porte",
+          "Aeronaves de treinamento básico",
+          "Jatos executivos",
+          "Helicópteros militares"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Por ser simples e de fácil operação, o passo fixo é usado em treinamento básico."
+      },
+      {
+        "id": 37,
+        "pergunta": "O MAP em aeronaves com hélice de passo constante representa:",
+        "alternativas": [
+          "Temperatura do cabeçote",
+          "Pressão no coletor de admissão",
+          "Nível de combustível no tanque",
+          "Rotação da hélice"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "MAP é a sigla para Manifold Absolute Pressure, ou pressão absoluta no coletor de admissão."
+      },
+      {
+        "id": 38,
+        "pergunta": "A eficiência da hélice depende de:",
+        "alternativas": [
+          "Cor das pás e tipo de pintura",
+          "Ângulo de passo, rotação e condições do ar",
+          "Temperatura do óleo somente",
+          "Posição do seletor de tanque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O desempenho da hélice está relacionado ao passo, RPM e densidade do ar."
+      },
+      {
+        "id": 39,
+        "pergunta": "A hélice funciona de forma semelhante a:",
+        "alternativas": [
+          "Um pistão em movimento linear",
+          "Uma asa giratória",
+          "Um filtro de combustível",
+          "Um dissipador de calor"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A hélice gera sustentação horizontal (tração) da mesma forma que uma asa gera sustentação vertical."
+      },
+      {
+        "id": 40,
+        "pergunta": "O controle de mistura influencia diretamente:",
+        "alternativas": [
+          "A rotação da hélice de passo fixo exclusivamente",
+          "A proporção ar-combustível e o desempenho do motor",
+          "O ângulo das pás na hélice de passo constante",
+          "A pressão do óleo no carter"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O controle de mistura regula a relação ar-combustível, afetando consumo, potência e temperatura."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Falhas, Anomalias e Procedimentos",
+    "aula": {
+      "introducao": "Reconhecer falhas e anomalias do motor com antecedência é uma habilidade essencial do piloto. A identificação precoce de problemas, aliada ao conhecimento dos procedimentos corretos, pode evitar situações de emergência ou minimizar seus efeitos.",
+      "subtitulos": [
+        {
+          "titulo": "Falha de Motor em Voo",
+          "conteudo": "A falha total do motor em voo exige ação imediata e calma. O piloto deve:\n\n• Manter controle da aeronave e estabelecer velocidade de planeio\n• Identificar a causa (combustível, ignição, mistura)\n• Tentar reestabelecer o motor seguindo checklist\n• Selecionar área para pouso de emergência caso necessário\n\nA prioridade sempre é manter o controle da aeronave."
+        },
+        {
+          "titulo": "Rough Running (Motor Irregular)",
+          "conteudo": "Motor funcionando de forma irregular pode indicar:\n\n• Mistura incorreta (muito rica ou muito pobre)\n• Falha em vela de ignição\n• Problema em magneto\n• Carburetação com gelo\n• Contaminação do combustível\n\nO piloto deve verificar sistematicamente cada possível causa e aplicar o procedimento adequado."
+        },
+        {
+          "titulo": "Gelo no Carburador",
+          "conteudo": "O gelo no carburador é uma das causas mais comuns de falha de motor em aviação geral. Ocorre pela queda de temperatura na venturi do carburador, podendo formar gelo mesmo em dias quentes e úmidos.\n\nSintomas: queda gradual de RPM sem alteração do acelerador.\n\nProcedimento: aplicar aquecedor de carburador (carb heat). Ao aplicar, pode haver queda momentânea de RPM antes da recuperação."
+        },
+        {
+          "titulo": "Baixa Pressão de Óleo",
+          "conteudo": "Pressão de óleo abaixo do mínimo é uma emergência séria. O piloto deve:\n\n• Reduzir potência ao mínimo necessário\n• Monitorar temperatura do óleo\n• Planejar pouso imediato no aeródromo mais próximo\n\nIgnorar baixa pressão de óleo pode resultar em falha catastrófica do motor."
+        },
+        {
+          "titulo": "Superaquecimento do Motor",
+          "conteudo": "O superaquecimento pode ocorrer durante subidas prolongadas com alta potência ou taxiamento lento.\n\nProcedimentos:\n• Reduzir potência\n• Aumentar velocidade para melhorar fluxo de ar\n• Enriquecer mistura levemente\n• Em taxiamento, parar e aguardar resfriamento\n\nOperar continuamente com temperatura elevada pode causar danos permanentes ao motor."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "Em caso de falha total do motor, a primeira prioridade do piloto é:",
+        "alternativas": [
+          "Acionar o rádio imediatamente",
+          "Manter o controle da aeronave e estabelecer velocidade de planeio",
+          "Desligar todos os sistemas elétricos",
+          "Aumentar a potência ao máximo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O controle da aeronave é sempre a prioridade. Voar a aeronave vem antes de qualquer outra ação."
+      },
+      {
+        "id": 42,
+        "pergunta": "Motor funcionando de forma irregular pode indicar:",
+        "alternativas": [
+          "Sistema de trem de pouso com falha",
+          "Mistura incorreta ou problema no magneto",
+          "Velocímetro descalibrado",
+          "Altímetro com erro de pressão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Funcionamento irregular do motor pode ter várias causas, incluindo mistura, velas e magnetos."
+      },
+      {
+        "id": 43,
+        "pergunta": "O gelo no carburador pode se formar:",
+        "alternativas": [
+          "Apenas em dias muito frios abaixo de zero",
+          "Mesmo em dias quentes e úmidos",
+          "Somente durante o pouso",
+          "Apenas em altitudes acima de 10.000 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A queda de temperatura na venturi pode formar gelo mesmo em condições aparentemente favoráveis."
+      },
+      {
+        "id": 44,
+        "pergunta": "O sintoma mais comum de gelo no carburador é:",
+        "alternativas": [
+          "Aumento gradual de RPM",
+          "Queda gradual de RPM sem alteração do acelerador",
+          "Pressão de óleo elevada",
+          "Temperatura do cabeçote zerada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A redução progressiva do RPM sem alteração do acelerador é o sinal clássico de gelo no carburador."
+      },
+      {
+        "id": 45,
+        "pergunta": "Ao aplicar o aquecedor de carburador, o piloto deve esperar:",
+        "alternativas": [
+          "Aumento imediato e suave de RPM",
+          "Possível queda momentânea de RPM antes da recuperação",
+          "Desligamento automático do motor",
+          "Aumento da pressão do óleo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ar quente inicialmente piora a mistura, causando queda de RPM antes do gelo se dissolver e o motor recuperar."
+      },
+      {
+        "id": 46,
+        "pergunta": "Baixa pressão de óleo exige:",
+        "alternativas": [
+          "Aumento de potência para pressurizar o sistema",
+          "Redução de potência e planejamento de pouso imediato",
+          "Desligamento do aquecedor de cabine",
+          "Seleção do tanque direito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Baixa pressão de óleo é emergência séria que exige pouso o mais breve possível."
+      },
+      {
+        "id": 47,
+        "pergunta": "O superaquecimento do motor pode ocorrer durante:",
+        "alternativas": [
+          "Cruzeiro em altitude com mistura correta",
+          "Subidas prolongadas com alta potência ou taxiamento lento",
+          "Descida com motor reduzido",
+          "Pouso com flaps estendidos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Alta potência por tempo prolongado e pouco fluxo de ar elevam a temperatura do motor."
+      },
+      {
+        "id": 48,
+        "pergunta": "Para reduzir o superaquecimento em voo, o piloto pode:",
+        "alternativas": [
+          "Fechar completamente o acelerador e planar",
+          "Reduzir potência e aumentar velocidade para melhorar o arrefecimento",
+          "Selecionar a posição OFF no seletor de tanque",
+          "Desligar ambos os magnetos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Reduzir potência e aumentar o fluxo de ar são as ações básicas para controlar a temperatura."
+      },
+      {
+        "id": 49,
+        "pergunta": "A contaminação do combustível pode causar:",
+        "alternativas": [
+          "Melhora no desempenho do motor",
+          "Funcionamento irregular ou falha do motor",
+          "Aumento da pressão de óleo",
+          "Redução do consumo horário"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Combustível contaminado interfere na combustão e pode causar falhas graves."
+      },
+      {
+        "id": 50,
+        "pergunta": "Ao identificar uma anomalia no motor, o piloto deve:",
+        "alternativas": [
+          "Ignorar e continuar o voo normalmente",
+          "Verificar sistematicamente as causas e aplicar o procedimento adequado",
+          "Desligar o motor imediatamente em qualquer situação",
+          "Aumentar potência para compensar a falha"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A resposta correta é identificar a causa com calma e seguir o procedimento estabelecido."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Motor a Turbina — Introdução",
+    "aula": {
+      "introducao": "O motor a turbina é utilizado em aeronaves de maior porte e desempenho. Embora sua operação seja mais complexa que o motor a pistão, compreender seus princípios básicos é importante para o piloto que pretende progredir na carreira aeronáutica.",
+      "subtitulos": [
+        {
+          "titulo": "Princípio de Funcionamento",
+          "conteudo": "O motor a turbina opera pelo princípio de admissão, compressão, combustão e expansão, de forma contínua e não cíclica como no motor a pistão.\n\nO ar entra pelo compressor, é misturado ao combustível na câmara de combustão, queimado e expandido pela turbina, gerando empuxo ou movimentando um eixo."
+        },
+        {
+          "titulo": "Tipos de Motor a Turbina",
+          "conteudo": "Os principais tipos são:\n\n• **Turbojet**: todo o empuxo vem dos gases de escapamento. Mais antigo, menos eficiente em baixas velocidades\n• **Turbofan**: parte do ar é desviada pelo fan, gerando maior eficiência. Usado em aviões comerciais modernos\n• **Turboprop**: a turbina aciona uma hélice por meio de redutor. Comum em aeronaves regionais\n• **Turboshaft**: aciona um eixo, utilizado principalmente em helicópteros"
+        },
+        {
+          "titulo": "Combustível da Turbina",
+          "conteudo": "Os motores a turbina utilizam querosene de aviação:\n\n• **Jet-A / Jet-A1**: mais comum no mundo\n• **JP-4, JP-5, JP-8**: utilizados principalmente em aplicações militares\n\nNunca deve ser usado AVGAS em turbinas, pois pode causar danos graves ao motor."
+        },
+        {
+          "titulo": "Partida do Motor a Turbina",
+          "conteudo": "A partida de um motor a turbina requer atenção especial. As principais ocorrências durante a partida são:\n\n• **Hot start**: temperatura excessiva durante a partida, podendo danificar a turbina\n• **Hung start**: motor não atinge a rotação de idle esperada\n• **Falha de partida**: motor não liga\n\nO piloto deve monitorar a temperatura de escapamento (EGT ou ITT) durante todo o processo."
+        },
+        {
+          "titulo": "Diferenças Operacionais em Relação ao Pistão",
+          "conteudo": "Algumas diferenças importantes:\n\n• A turbina responde mais lentamente ao acelerador, exigindo antecipação nas mudanças de potência\n• O empuxo é medido em libras ou em porcentagem de N1\n• Não há controle de mistura manual\n• A temperatura de escapamento é um parâmetro crítico monitorado constantemente\n• A turbina exige tempo de aquecimento e resfriamento antes de ser desligada"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "O motor a turbina opera de forma:",
+        "alternativas": [
+          "Cíclica, como o motor a pistão",
+          "Contínua, com admissão, compressão, combustão e expansão simultâneas",
+          "Intermitente, com pausas entre os ciclos",
+          "Exclusivamente elétrica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No motor a turbina, o processo é contínuo, diferentemente do ciclo alternado do pistão."
+      },
+      {
+        "id": 52,
+        "pergunta": "O turboprop é um motor a turbina que:",
+        "alternativas": [
+          "Gera empuxo apenas pelos gases de escapamento",
+          "Aciona uma hélice por meio de um redutor",
+          "Desvia parte do ar pelo fan externo",
+          "É utilizado exclusivamente em helicópteros"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O turboprop usa a energia da turbina para girar uma hélice, comum em aeronaves regionais."
+      },
+      {
+        "id": 53,
+        "pergunta": "O combustível utilizado em motores a turbina é:",
+        "alternativas": [
+          "AVGAS 100LL",
+          "Querosene de aviação (Jet-A/Jet-A1)",
+          "Gasolina automotiva",
+          "Diesel marítimo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Motores a turbina utilizam querosene de aviação, não AVGAS."
+      },
+      {
+        "id": 54,
+        "pergunta": "Hot start durante a partida da turbina significa:",
+        "alternativas": [
+          "Partida bem-sucedida com temperatura normal",
+          "Temperatura excessiva durante a partida",
+          "Motor que não atingiu o idle esperado",
+          "Falha total na ignição"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Hot start é quando a EGT/ITT ultrapassa o limite durante a partida, podendo danificar a turbina."
+      },
+      {
+        "id": 55,
+        "pergunta": "Hung start significa:",
+        "alternativas": [
+          "Temperatura excessiva na turbina",
+          "Motor que não atinge a rotação de idle esperada",
+          "Partida bem-sucedida",
+          "Falha no sistema de ignição elétrica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No hung start, o motor liga mas não acelera até o idle normal."
+      },
+      {
+        "id": 56,
+        "pergunta": "A turbina responde ao acelerador de forma:",
+        "alternativas": [
+          "Imediata, como o motor a pistão",
+          "Mais lenta, exigindo antecipação",
+          "Idêntica ao motor a pistão",
+          "Exclusivamente controlada pelo computador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inércia da turbina faz com que a resposta ao acelerador seja mais lenta, exigindo planejamento antecipado."
+      },
+      {
+        "id": 57,
+        "pergunta": "EGT ou ITT representam:",
+        "alternativas": [
+          "Pressão do óleo da turbina",
+          "Temperatura dos gases de escapamento da turbina",
+          "Rotação da hélice do turboprop",
+          "Consumo horário de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "EGT (Exhaust Gas Temperature) e ITT (Interstage Turbine Temperature) medem temperatura dos gases da turbina."
+      },
+      {
+        "id": 58,
+        "pergunta": "O turbofan é mais eficiente porque:",
+        "alternativas": [
+          "Usa apenas gases de escapamento para gerar empuxo",
+          "Desvia parte do ar pelo fan, aumentando a eficiência",
+          "Não necessita de combustível em cruzeiro",
+          "Opera exclusivamente em altitudes baixas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O fan desvia ar frio ao redor do núcleo, gerando empuxo adicional com menor consumo."
+      },
+      {
+        "id": 59,
+        "pergunta": "Usar AVGAS em motor a turbina pode causar:",
+        "alternativas": [
+          "Melhor desempenho temporário",
+          "Danos graves ao motor",
+          "Redução no consumo",
+          "Aumento da temperatura do fan"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "AVGAS é incompatível com turbinas e pode causar danos sérios ao motor."
+      },
+      {
+        "id": 60,
+        "pergunta": "Antes de desligar uma turbina, o piloto deve:",
+        "alternativas": [
+          "Aumentar a potência ao máximo por 30 segundos",
+          "Aguardar tempo de resfriamento em idle",
+          "Desligar imediatamente após o pouso",
+          "Aplicar o aquecedor de carburador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A turbina precisa de tempo em idle para resfriar antes de ser desligada, evitando danos."
+      }
+    ]
+  }
+]
 {
-  "materia": "Motores e Sistemas",
-  "descricao": "Funcionamento dos motores a pistão e sistemas da aeronave",
-  "topicos": []
+  "questionario_final": {
+    "titulo": "Questionário Final — Motores",
+    "descricao": "Teste seus conhecimentos sobre todos os conteúdos da matéria de Motores. São 30 questões abrangendo princípios do motor a pistão, ignição, arrefecimento, combustível, lubrificação, hélice, falhas e motor a turbina.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "O motor a pistão transforma energia química do combustível em:",
+        "alternativas": [
+          "Energia elétrica",
+          "Energia mecânica",
+          "Energia térmica armazenada",
+          "Energia solar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O motor a pistão converte a queima do combustível em movimento mecânico utilizado pela hélice."
+      },
+      {
+        "id": 2,
+        "pergunta": "A sequência correta do ciclo de quatro tempos é:",
+        "alternativas": [
+          "Compressão, admissão, escapamento, combustão",
+          "Admissão, compressão, combustão, escapamento",
+          "Combustão, admissão, compressão, escapamento",
+          "Escapamento, combustão, admissão, compressão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sequência correta é admissão, compressão, combustão e escapamento."
+      },
+      {
+        "id": 3,
+        "pergunta": "Em altitudes elevadas, sem ajuste do controle de mistura, a mistura tende a ficar:",
+        "alternativas": [
+          "Muito pobre",
+          "Rica demais",
+          "Sempre equilibrada",
+          "Sem alteração"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com menos ar disponível em altitude, a mistura fica rica se não for ajustada pelo piloto."
+      },
+      {
+        "id": 4,
+        "pergunta": "A função do virabrequim é:",
+        "alternativas": [
+          "Filtrar o combustível",
+          "Transformar o movimento linear do pistão em rotação",
+          "Regular a mistura ar-combustível",
+          "Arrefecer os cilindros"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O virabrequim converte o movimento de vai-e-vem do pistão em rotação contínua."
+      },
+      {
+        "id": 5,
+        "pergunta": "Os motores aeronáuticos a pistão possuem dois magnetos para:",
+        "alternativas": [
+          "Economizar combustível",
+          "Garantir redundância no sistema de ignição",
+          "Aumentar a potência máxima",
+          "Controlar a temperatura do óleo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com dois magnetos, se um falhar, o motor continua funcionando com o outro."
+      },
+      {
+        "id": 6,
+        "pergunta": "A posição BOTH na chave de ignição ativa:",
+        "alternativas": [
+          "Apenas o magneto esquerdo",
+          "Apenas o magneto direito",
+          "Ambos os magnetos simultaneamente",
+          "Nenhum magneto"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "BOTH é a posição normal de voo, com ambos os magnetos ativos."
+      },
+      {
+        "id": 7,
+        "pergunta": "Durante a verificação de magnetos no solo, uma queda excessiva de RPM indica:",
+        "alternativas": [
+          "Motor funcionando perfeitamente",
+          "Possível problema no magneto ou nas velas",
+          "Combustível em excesso no carburador",
+          "Sistema de arrefecimento com falha"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Queda além do limite estabelecido pode indicar vela defeituosa ou magneto com problema."
+      },
+      {
+        "id": 8,
+        "pergunta": "O sistema de arrefecimento mais comum nos motores aeronáuticos a pistão é:",
+        "alternativas": [
+          "Arrefecimento a água",
+          "Arrefecimento a óleo",
+          "Arrefecimento a ar",
+          "Arrefecimento por nitrogênio"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A maioria dos motores de aviação geral utiliza o fluxo de ar para dissipar o calor dos cilindros."
+      },
+      {
+        "id": 9,
+        "pergunta": "O AVGAS 100LL é identificado pela cor:",
+        "alternativas": [
+          "Vermelha",
+          "Verde",
+          "Azul",
+          "Incolor"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O AVGAS 100LL possui coloração azul para facilitar sua identificação e evitar uso incorreto."
+      },
+      {
+        "id": 10,
+        "pergunta": "O seletor de tanque na posição OFF:",
+        "alternativas": [
+          "Ativa ambos os tanques",
+          "Interrompe o fluxo de combustível para o motor",
+          "Ativa apenas o tanque esquerdo",
+          "Liga a bomba elétrica de combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A posição OFF corta o fornecimento de combustível ao motor."
+      },
+      {
+        "id": 11,
+        "pergunta": "A bomba elétrica de combustível é utilizada principalmente:",
+        "alternativas": [
+          "Somente em cruzeiro",
+          "Como apoio durante partida, decolagem e pouso",
+          "Para substituir definitivamente a bomba mecânica",
+          "Apenas em emergências elétricas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A bomba elétrica é um sistema auxiliar de segurança nas fases críticas do voo."
+      },
+      {
+        "id": 12,
+        "pergunta": "O óleo do motor tem as funções de:",
+        "alternativas": [
+          "Substituir o combustível em emergências",
+          "Lubrificar, arrefecer e limpar o motor",
+          "Alimentar o sistema hidráulico",
+          "Regular a pressão do carburador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O óleo lubrifica peças móveis, auxilia no arrefecimento e carrega impurezas ao filtro."
+      },
+      {
+        "id": 13,
+        "pergunta": "Pressão de óleo baixa pode indicar:",
+        "alternativas": [
+          "Motor em perfeito estado",
+          "Falta de óleo, falha na bomba ou vazamento",
+          "Excesso de combustível",
+          "Magneto com defeito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pressão baixa de óleo é sinal de alerta que exige atenção imediata do piloto."
+      },
+      {
+        "id": 14,
+        "pergunta": "Após a partida, o piloto deve aumentar a potência somente quando:",
+        "alternativas": [
+          "O RPM atingir o máximo",
+          "A temperatura do óleo estiver na faixa verde",
+          "O combustível estiver completamente cheio",
+          "A pressão do carburador zerar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O motor deve aquecer adequadamente antes de receber maior carga de potência."
+      },
+      {
+        "id": 15,
+        "pergunta": "A hélice de passo fixo é controlada pelo piloto por meio:",
+        "alternativas": [
+          "Apenas do comando de passo",
+          "Apenas do acelerador",
+          "Do governador de RPM",
+          "Do seletor de tanque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na hélice de passo fixo, somente o acelerador controla a potência e a rotação."
+      },
+      {
+        "id": 16,
+        "pergunta": "O governador na hélice de passo constante tem a função de:",
+        "alternativas": [
+          "Controlar a pressão do óleo",
+          "Ajustar automaticamente o ângulo das pás para manter o RPM selecionado",
+          "Regular a mistura ar-combustível",
+          "Monitorar a temperatura do cabeçote"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O governador varia o passo das pás automaticamente para manter a rotação constante."
+      },
+      {
+        "id": 17,
+        "pergunta": "Para aumentar potência em aeronave com hélice de passo constante, a sequência correta é:",
+        "alternativas": [
+          "Aumentar MAP primeiro, depois RPM",
+          "Aumentar RPM primeiro, depois MAP",
+          "Reduzir mistura e depois acionar o passo",
+          "Fechar o acelerador e aumentar o passo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aumenta-se primeiro o RPM e depois o MAP para proteger o motor."
+      },
+      {
+        "id": 18,
+        "pergunta": "Para reduzir potência em aeronave com hélice de passo constante, a sequência correta é:",
+        "alternativas": [
+          "Reduzir RPM primeiro, depois MAP",
+          "Reduzir MAP primeiro, depois RPM",
+          "Fechar a mistura e reduzir o passo",
+          "Desligar um magneto e reduzir o acelerador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Reduz-se primeiro o MAP e depois o RPM ao diminuir a potência."
+      },
+      {
+        "id": 19,
+        "pergunta": "Em caso de falha total do motor em voo, a primeira atitude do piloto deve ser:",
+        "alternativas": [
+          "Acionar o rádio imediatamente",
+          "Manter o controle da aeronave e estabelecer velocidade de planeio",
+          "Desligar todos os sistemas elétricos",
+          "Aumentar a potência ao máximo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O controle da aeronave é sempre a prioridade absoluta em qualquer emergência."
+      },
+      {
+        "id": 20,
+        "pergunta": "O gelo no carburador pode se formar:",
+        "alternativas": [
+          "Apenas em dias muito frios abaixo de zero",
+          "Mesmo em dias quentes e úmidos",
+          "Somente durante o pouso",
+          "Apenas acima de 10.000 pés"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A queda de temperatura na venturi pode formar gelo mesmo em condições aparentemente favoráveis."
+      },
+      {
+        "id": 21,
+        "pergunta": "O sintoma clássico de gelo no carburador é:",
+        "alternativas": [
+          "Aumento gradual de RPM",
+          "Queda gradual de RPM sem alteração do acelerador",
+          "Pressão de óleo elevada",
+          "Temperatura do cabeçote zerada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A redução progressiva do RPM sem toque no acelerador é o sinal típico de gelo no carburador."
+      },
+      {
+        "id": 22,
+        "pergunta": "Ao aplicar o aquecedor de carburador, o piloto deve esperar:",
+        "alternativas": [
+          "Aumento imediato e suave de RPM",
+          "Possível queda momentânea de RPM antes da recuperação",
+          "Desligamento automático do motor",
+          "Aumento imediato da pressão do óleo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ar quente inicialmente piora a mistura, causando queda de RPM antes da recuperação."
+      },
+      {
+        "id": 23,
+        "pergunta": "Baixa pressão de óleo em voo exige:",
+        "alternativas": [
+          "Aumento de potência para pressurizar o sistema",
+          "Redução de potência e planejamento de pouso imediato",
+          "Desligamento do aquecedor de cabine",
+          "Seleção do tanque direito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Baixa pressão de óleo é emergência séria que exige pouso o mais breve possível."
+      },
+      {
+        "id": 24,
+        "pergunta": "O motor a turbina opera de forma:",
+        "alternativas": [
+          "Cíclica, como o motor a pistão",
+          "Contínua, com admissão, compressão, combustão e expansão simultâneas",
+          "Intermitente, com pausas entre ciclos",
+          "Exclusivamente elétrica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No motor a turbina, o processo é contínuo e simultâneo, diferente do ciclo alternado do pistão."
+      },
+      {
+        "id": 25,
+        "pergunta": "O turbofan é mais eficiente que o turbojet porque:",
+        "alternativas": [
+          "Usa apenas gases de escapamento para gerar empuxo",
+          "Desvia parte do ar pelo fan, gerando maior eficiência",
+          "Não necessita de combustível em cruzeiro",
+          "Opera exclusivamente em altitudes baixas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O fan desvia ar frio ao redor do núcleo, gerando empuxo adicional com menor consumo."
+      },
+      {
+        "id": 26,
+        "pergunta": "O turboprop é utilizado principalmente em:",
+        "alternativas": [
+          "Caças supersônicos",
+          "Aeronaves regionais com hélice",
+          "Helicópteros de grande porte",
+          "Foguetes de propulsão líquida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O turboprop aciona uma hélice e é comum em aeronaves regionais e de transporte de menor porte."
+      },
+      {
+        "id": 27,
+        "pergunta": "Hot start em motor a turbina significa:",
+        "alternativas": [
+          "Partida bem-sucedida com temperatura normal",
+          "Temperatura excessiva durante a partida",
+          "Motor que não atingiu o idle esperado",
+          "Falha total na ignição"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Hot start ocorre quando a EGT/ITT ultrapassa o limite durante a partida."
+      },
+      {
+        "id": 28,
+        "pergunta": "O combustível utilizado em motores a turbina é:",
+        "alternativas": [
+          "AVGAS 100LL",
+          "Querosene de aviação (Jet-A/Jet-A1)",
+          "Gasolina automotiva",
+          "Diesel marítimo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Motores a turbina utilizam querosene de aviação, incompatível com AVGAS."
+      },
+      {
+        "id": 29,
+        "pergunta": "A turbina responde ao acelerador de forma:",
+        "alternativas": [
+          "Imediata, igual ao motor a pistão",
+          "Mais lenta, exigindo antecipação do piloto",
+          "Idêntica ao motor a pistão",
+          "Exclusivamente controlada pelo computador de bordo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inércia da turbina faz com que a resposta ao acelerador seja mais lenta, exigindo planejamento."
+      },
+      {
+        "id": 30,
+        "pergunta": "Antes de desligar um motor a turbina, o piloto deve:",
+        "alternativas": [
+          "Aumentar a potência ao máximo por 30 segundos",
+          "Aguardar o tempo de resfriamento em idle",
+          "Desligar imediatamente após o pouso",
+          "Aplicar o aquecedor de carburador"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A turbina precisa resfriar em idle antes de ser desligada para evitar danos."
+      }
+    ]
+  }
 }
