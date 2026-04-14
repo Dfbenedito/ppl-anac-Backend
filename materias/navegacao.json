@@ -1,5 +1,1284 @@
-{
-  "materia": "Navegação Aérea",
-  "descricao": "Estudo das técnicas de navegação e orientação em voo",
-  "topicos": []
-}
+[
+  {
+    "id": 1,
+    "titulo": "Conceitos Básicos de Navegação",
+    "aula": {
+      "introducao": "Navegação aérea é o conjunto de técnicas e conhecimentos usados para conduzir a aeronave com segurança de um ponto a outro. Ela envolve orientação espacial, controle de rota, cálculo de tempo, velocidade, distância e uso de referências visuais, cartas e instrumentos.",
+      "subtitulos": [
+        {
+          "titulo": "O que é Navegação Aérea",
+          "conteudo": "Navegar é determinar a posição da aeronave, planejar a rota desejada e controlar o deslocamento ao longo do percurso. Na aviação, isso significa sair de um ponto de origem e chegar ao destino com segurança, precisão e eficiência."
+        },
+        {
+          "titulo": "Objetivos da Navegação",
+          "conteudo": "Os principais objetivos da navegação aérea são:\n\n• Determinar a posição da aeronave\n• Definir e manter uma rota\n• Calcular tempo, velocidade e distância\n• Corrigir desvios causados por vento, erro humano ou referências inadequadas\n• Garantir segurança operacional durante todo o voo"
+        },
+        {
+          "titulo": "Tipos de Navegação",
+          "conteudo": "Os tipos mais comuns de navegação aérea incluem:\n\n• **Navegação visual**: baseada em referências no terreno\n• **Navegação estimada**: baseada em rumo, tempo, velocidade e vento\n• **Navegação rádio**: baseada em auxílios como VOR, NDB e DME\n• **Navegação por satélite**: baseada em GNSS/GPS\n\nNa formação inicial, a navegação visual e estimada são fundamentais."
+        },
+        {
+          "titulo": "Elementos Fundamentais",
+          "conteudo": "Para navegar corretamente, o piloto precisa compreender alguns elementos essenciais:\n\n• Posição\n• Direção\n• Distância\n• Tempo\n• Velocidade\n• Vento\n• Referências geográficas\n\nEsses elementos serão combinados ao longo dos cálculos e da execução do voo."
+        },
+        {
+          "titulo": "Importância do Planejamento",
+          "conteudo": "Uma navegação segura começa antes da decolagem. O planejamento envolve:\n\n• Escolha da rota\n• Análise meteorológica\n• Verificação de cartas\n• Cálculo de combustível\n• Definição de altitude\n• Estimativa de tempo em rota\n• Identificação de pontos de referência e alternativas\n\nA boa navegação depende tanto do preparo pré-voo quanto da condução em voo."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "Navegação aérea é:",
+        "alternativas": [
+          "Apenas o uso de GPS durante o voo",
+          "O conjunto de técnicas para conduzir a aeronave de um ponto a outro com segurança",
+          "Somente o cálculo de combustível",
+          "Exclusivamente a leitura de cartas meteorológicas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Navegação aérea envolve orientação, planejamento, controle de rota e acompanhamento da posição da aeronave."
+      },
+      {
+        "id": 2,
+        "pergunta": "Um dos principais objetivos da navegação aérea é:",
+        "alternativas": [
+          "Eliminar a necessidade de planejamento",
+          "Determinar a posição da aeronave",
+          "Substituir os comandos de voo",
+          "Reduzir o peso da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Saber onde a aeronave está é um objetivo essencial da navegação."
+      },
+      {
+        "id": 3,
+        "pergunta": "A navegação visual baseia-se principalmente em:",
+        "alternativas": [
+          "Referências no terreno",
+          "Sinais de motor",
+          "Pressão hidráulica",
+          "Ângulo de ataque"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Na navegação visual, o piloto utiliza rios, estradas, cidades, serras e outros marcos visíveis."
+      },
+      {
+        "id": 4,
+        "pergunta": "A navegação estimada utiliza principalmente:",
+        "alternativas": [
+          "Rumo, tempo, velocidade e vento",
+          "Somente GPS",
+          "Somente cartas de aproximação",
+          "Apenas altitude e temperatura"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A navegação estimada projeta a posição com base em rumo, tempo voado, velocidade e efeito do vento."
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual dos itens abaixo faz parte do planejamento de navegação?",
+        "alternativas": [
+          "Definição da rota",
+          "Troca do perfil alar",
+          "Alteração da estrutura da asa",
+          "Mudança do CG em voo"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A escolha da rota é uma das etapas básicas do planejamento pré-voo."
+      },
+      {
+        "id": 6,
+        "pergunta": "Entre os tipos de navegação aérea, podemos citar:",
+        "alternativas": [
+          "Visual, estimada, rádio e satélite",
+          "Linear, circular e vertical",
+          "Subida, descida e cruzeiro",
+          "Estrutural, dinâmica e térmica"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Esses são os principais métodos de navegação usados na aviação."
+      },
+      {
+        "id": 7,
+        "pergunta": "Um bom planejamento de navegação ajuda a:",
+        "alternativas": [
+          "Eliminar totalmente os efeitos do vento",
+          "Garantir maior segurança operacional",
+          "Dispensar cartas aeronáuticas",
+          "Reduzir a necessidade de combustível regulamentar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Planejamento adequado melhora a segurança, a previsibilidade e a eficiência do voo."
+      },
+      {
+        "id": 8,
+        "pergunta": "Qual dos elementos abaixo é fundamental na navegação?",
+        "alternativas": [
+          "Tempo",
+          "Cor da aeronave",
+          "Tipo de tinta da fuselagem",
+          "Marca do pneu"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Tempo é um dos elementos essenciais da navegação, ao lado de posição, direção, velocidade e distância."
+      },
+      {
+        "id": 9,
+        "pergunta": "Na formação inicial do piloto, têm destaque especial:",
+        "alternativas": [
+          "Navegação visual e estimada",
+          "Navegação hipersônica",
+          "Navegação orbital",
+          "Navegação submarina"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Na instrução básica, os fundamentos mais trabalhados costumam ser navegação visual e estimada."
+      },
+      {
+        "id": 10,
+        "pergunta": "Navegar corretamente significa também:",
+        "alternativas": [
+          "Ignorar desvios de vento",
+          "Controlar o deslocamento ao longo da rota",
+          "Voar sempre em linha reta sem correções",
+          "Usar apenas referências urbanas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Além de planejar, o piloto deve acompanhar e corrigir o deslocamento ao longo do percurso."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Direção, Rumo, Proa e Deriva",
+    "aula": {
+      "introducao": "Para conduzir corretamente uma aeronave, é indispensável distinguir conceitos como direção, rumo, proa e deriva. Embora relacionados, eles não são iguais. O vento é o principal responsável por tornar essa diferença importante na navegação prática.",
+      "subtitulos": [
+        {
+          "titulo": "Direção",
+          "conteudo": "Direção é a orientação de uma linha entre dois pontos, normalmente expressa em graus a partir do norte. Pode representar, por exemplo, a direção desejada entre origem e destino."
+        },
+        {
+          "titulo": "Rumo",
+          "conteudo": "Rumo é a direção da trajetória da aeronave sobre a superfície da Terra. Em outras palavras, é o caminho real seguido em relação ao solo.\n\nSe não houver vento, o rumo pode coincidir com a proa. Com vento, normalmente haverá diferença."
+        },
+        {
+          "titulo": "Proa",
+          "conteudo": "Proa é a direção para onde o nariz da aeronave aponta. É o sentido em que a aeronave está orientada no ar.\n\nDevido ao vento lateral, a proa frequentemente precisa ser diferente do rumo desejado para compensar a deriva."
+        },
+        {
+          "titulo": "Deriva",
+          "conteudo": "Deriva é o desvio lateral provocado principalmente pelo vento, fazendo com que a trajetória real da aeronave sobre o solo se afaste da direção pretendida.\n\nPara corrigir a deriva, o piloto aplica correção de proa contra o vento."
+        },
+        {
+          "titulo": "Correção de Deriva",
+          "conteudo": "Quando há vento lateral, a aeronave tende a sair da rota. Para manter o rumo correto, o piloto deve apontar o nariz da aeronave ligeiramente para o lado de onde sopra o vento.\n\nEsse ajuste é chamado correção de deriva.\n\nResumo prático:\n• Sem vento: proa ≈ rumo\n• Com vento lateral: proa ≠ rumo\n• O vento empurra a aeronave\n• O piloto corrige apontando contra o vento"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "Direção é:",
+        "alternativas": [
+          "A força que empurra a aeronave para cima",
+          "A orientação de uma linha entre dois pontos",
+          "A velocidade em relação ao ar",
+          "O peso total da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Direção representa a orientação entre dois pontos, normalmente medida em graus a partir do norte."
+      },
+      {
+        "id": 12,
+        "pergunta": "Rumo é:",
+        "alternativas": [
+          "A direção para onde aponta o nariz da aeronave",
+          "A trajetória real da aeronave sobre o solo",
+          "A direção do vento relativo",
+          "A posição do horizonte artificial"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Rumo corresponde ao caminho efetivamente seguido sobre a superfície terrestre."
+      },
+      {
+        "id": 13,
+        "pergunta": "Proa é:",
+        "alternativas": [
+          "A direção para onde aponta o nariz da aeronave",
+          "A trajetória real no solo",
+          "O ponto de aplicação da sustentação",
+          "A linha de maior vento"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Proa é a direção em que o nariz da aeronave está apontado."
+      },
+      {
+        "id": 14,
+        "pergunta": "Deriva é causada principalmente por:",
+        "alternativas": [
+          "Diferença de temperatura do motor",
+          "Vento lateral",
+          "Excesso de combustível",
+          "Ação dos flaps"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A deriva ocorre quando o vento desloca lateralmente a aeronave em relação à rota desejada."
+      },
+      {
+        "id": 15,
+        "pergunta": "Sem vento, normalmente:",
+        "alternativas": [
+          "Proa e rumo tendem a coincidir",
+          "A proa sempre será oposta ao rumo",
+          "A deriva aumenta",
+          "O rumo deixa de existir"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Sem influência de vento lateral, a direção do nariz e a trajetória sobre o solo tendem a ser iguais."
+      },
+      {
+        "id": 16,
+        "pergunta": "Quando há vento lateral, para manter a rota o piloto deve:",
+        "alternativas": [
+          "Apontar a aeronave a favor do vento",
+          "Ignorar o efeito do vento",
+          "Corrigir a proa contra o vento",
+          "Reduzir a altitude obrigatoriamente"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A correção adequada é apontar ligeiramente contra o vento para neutralizar a deriva."
+      },
+      {
+        "id": 17,
+        "pergunta": "A trajetória real da aeronave sobre a Terra corresponde à definição de:",
+        "alternativas": [
+          "Proa",
+          "Rumo",
+          "Arfagem",
+          "Subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Rumo é o caminho real percorrido em relação ao solo."
+      },
+      {
+        "id": 18,
+        "pergunta": "Se o vento empurra a aeronave para a direita, o piloto deve corrigir apontando:",
+        "alternativas": [
+          "Para a direita",
+          "Para baixo",
+          "Para a esquerda",
+          "Em linha reta sem ajuste"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Se o vento leva a aeronave para a direita, a correção deve ser feita com proa para a esquerda, isto é, contra o vento."
+      },
+      {
+        "id": 19,
+        "pergunta": "A diferença entre proa e rumo existe principalmente por causa:",
+        "alternativas": [
+          "Do peso da aeronave",
+          "Da rotação da hélice",
+          "Do efeito do vento",
+          "Da cor da pista"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O vento altera a trajetória sobre o solo, fazendo com que a proa necessária seja diferente do rumo desejado."
+      },
+      {
+        "id": 20,
+        "pergunta": "Correção de deriva é:",
+        "alternativas": [
+          "Ajustar o altímetro antes do pouso",
+          "Alterar a proa para compensar o efeito do vento",
+          "Aumentar a potência na subida",
+          "Reduzir o peso da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Correção de deriva é o ajuste da proa para manter o rumo desejado apesar do vento."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Velocidade, Tempo e Distância",
+    "aula": {
+      "introducao": "Na navegação aérea, velocidade, tempo e distância formam a base dos cálculos de planejamento e acompanhamento do voo. Saber relacionar corretamente essas grandezas permite estimar posição, prever horários e controlar a progressão na rota.",
+      "subtitulos": [
+        {
+          "titulo": "Relação Fundamental",
+          "conteudo": "As três grandezas estão ligadas pela relação básica:\n\n$$
+D = V \times T
+$$\n\nOnde:\n• $$D$$ = distância\n• $$V$$ = velocidade\n• $$T$$ = tempo\n\nDessa relação derivam:\n\n$$
+V = \frac{D}{T}
+$$\n\n$$
+T = \frac{D}{V}
+$$\n\nEssas fórmulas são essenciais em praticamente todos os cálculos de navegação."
+        },
+        {
+          "titulo": "Unidades Usadas na Aviação",
+          "conteudo": "Na aviação, é comum utilizar:\n\n• **Milha náutica (NM)** para distância\n• **Nó (kt)** para velocidade\n• **Hora e minuto** para tempo\n\nRelação importante:\n• $$1 \text{ kt} = 1 \text{ NM/h}$$\n\nExemplo:\nSe a aeronave voa a 120 kt durante 1 hora, percorre 120 NM."
+        },
+        {
+          "titulo": "Velocidade no Ar e no Solo",
+          "conteudo": "É importante distinguir:\n\n• **Velocidade no ar**: velocidade da aeronave em relação à massa de ar\n• **Velocidade no solo**: velocidade em relação ao terreno\n\nO vento altera a velocidade no solo:\n• Vento de proa reduz a velocidade no solo\n• Vento de cauda aumenta a velocidade no solo\n\nPara navegação, a velocidade no solo é a mais diretamente ligada ao tempo sobre a rota."
+        },
+        {
+          "titulo": "Cálculo de Tempo em Rota",
+          "conteudo": "Exemplo prático:\nSe a distância é 90 NM e a velocidade no solo é 120 kt:\n\n$$
+T = \frac{90}{120} = 0,75 \text{ h}
+$$\n\nConvertendo:\n$$
+0,75 \text{ h} = 45 \text{ min}
+$$\n\nLogo, o tempo estimado em rota será de 45 minutos."
+        },
+        {
+          "titulo": "Aplicação Prática",
+          "conteudo": "Esses cálculos permitem ao piloto:\n\n• Estimar horário de chegada\n• Acompanhar atrasos ou adiantamentos\n• Confirmar posição estimada\n• Calcular consumo de combustível ao longo da rota\n• Corrigir planejamento quando houver alteração de vento ou velocidade"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "A relação básica entre distância, velocidade e tempo é:",
+        "alternativas": [
+          "$$D = V \\times T$$",
+          "$$D = V + T$$",
+          "$$D = \\frac{T}{V}$$",
+          "$$D = V - T$$"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A distância percorrida é igual à velocidade multiplicada pelo tempo."
+      },
+      {
+        "id": 22,
+        "pergunta": "Na aviação, 1 nó equivale a:",
+        "alternativas": [
+          "1 km por minuto",
+          "1 milha terrestre por hora",
+          "1 milha náutica por hora",
+          "10 milhas náuticas por hora"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "1 kt corresponde a 1 NM por hora."
+      },
+      {
+        "id": 23,
+        "pergunta": "Para uma distância de 120 NM voada a 120 kt, o tempo será:",
+        "alternativas": [
+          "30 minutos",
+          "45 minutos",
+          "1 hora",
+          "2 horas"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "$$T = \\frac{120}{120} = 1$$ hora."
+      },
+      {
+        "id": 24,
+        "pergunta": "O vento de proa tende a:",
+        "alternativas": [
+          "Aumentar a velocidade no solo",
+          "Reduzir a velocidade no solo",
+          "Eliminar a necessidade de cálculo",
+          "Aumentar a distância da rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento de proa reduz a velocidade efetiva da aeronave em relação ao terreno."
+      },
+      {
+        "id": 25,
+        "pergunta": "A velocidade mais diretamente usada para calcular tempo sobre a rota é:",
+        "alternativas": [
+          "Velocidade no solo",
+          "Velocidade de estol",
+          "Velocidade indicada de pouso",
+          "Velocidade de rotação"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Como a rota é percorrida sobre o terreno, o cálculo usa velocidade no solo."
+      },
+      {
+        "id": 26,
+        "pergunta": "Se uma aeronave voa 60 NM em 30 minutos, sua velocidade média é:",
+        "alternativas": [
+          "60 kt",
+          "90 kt",
+          "120 kt",
+          "180 kt"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "30 minutos = 0,5 h. Então $$V = \\frac{60}{0,5} = 120$$ kt."
+      },
+      {
+        "id": 27,
+        "pergunta": "Se a velocidade no solo aumenta, para a mesma distância o tempo:",
+        "alternativas": [
+          "Aumenta",
+          "Diminui",
+          "Permanece sempre igual",
+          "Torna-se irrelevante"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Para a mesma distância, maior velocidade implica menor tempo."
+      },
+      {
+        "id": 28,
+        "pergunta": "A unidade de distância mais comum na navegação aérea é:",
+        "alternativas": [
+          "Quilômetro",
+          "Metro",
+          "Milha náutica",
+          "Pé"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Na navegação aérea, usa-se principalmente a milha náutica."
+      },
+      {
+        "id": 29,
+        "pergunta": "Uma aeronave voando a 100 kt por 2 horas percorrerá:",
+        "alternativas": [
+          "50 NM",
+          "100 NM",
+          "150 NM",
+          "200 NM"
+        ],
+        "resposta_correta": 3,
+        "explicacao": "$$D = 100 \\times 2 = 200$$ NM."
+      },
+      {
+        "id": 30,
+        "pergunta": "Conhecer tempo, velocidade e distância ajuda o piloto a:",
+        "alternativas": [
+          "Ignorar o combustível",
+          "Estimar posição e horário de chegada",
+          "Eliminar a influência do vento",
+          "Dispensar referências de navegação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Esses cálculos são fundamentais para controlar o progresso do voo e prever a chegada."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Cartas, Coordenadas e Plotagem",
+    "aula": {
+      "introducao": "As cartas aeronáuticas permitem ao piloto planejar e acompanhar rotas com base em referências geográficas e informações operacionais. Para utilizá-las corretamente, é necessário compreender coordenadas geográficas, escala e técnicas básicas de plotagem.",
+      "subtitulos": [
+        {
+          "titulo": "Cartas Aeronáuticas",
+          "conteudo": "Cartas aeronáuticas são representações gráficas da superfície terrestre adaptadas ao uso na aviação. Elas mostram informações como:\n\n• Cidades\n• Rios\n• Rodovias\n• Elevações\n• Aeródromos\n• Espaços aéreos\n• Auxílios à navegação\n\nSão fundamentais para o planejamento e a navegação em voo."
+        },
+        {
+          "titulo": "Latitude e Longitude",
+          "conteudo": "As coordenadas geográficas permitem identificar qualquer ponto na superfície terrestre.\n\n• **Latitude**: medida angular em relação ao Equador, para norte ou sul\n• **Longitude**: medida angular em relação ao meridiano de Greenwich, para leste ou oeste\n\nEssas coordenadas são expressas em graus, minutos e segundos ou em formato decimal."
+        },
+        {
+          "titulo": "Escala da Carta",
+          "conteudo": "A escala mostra a relação entre a distância no mapa e a distância real.\n\nExemplo:\nUma carta de escala 1:500.000 significa que 1 unidade medida na carta representa 500.000 unidades reais.\n\nA escala permite medir distâncias e planejar a rota com razoável precisão."
+        },
+        {
+          "titulo": "Plotagem de Rota",
+          "conteudo": "Plotar uma rota significa desenhar no mapa o trajeto pretendido entre origem e destino.\n\nNa plotagem, o piloto normalmente:\n\n• Marca ponto de saída e destino\n• Traça a linha de rota\n• Mede direção e distância\n• Seleciona pontos de referência visuais\n• Identifica áreas restritas, elevações e alternativas\n\nA plotagem correta facilita a navegação em voo."
+        },
+        {
+          "titulo": "Leitura e Interpretação",
+          "conteudo": "Não basta ter a carta: é preciso interpretá-la corretamente.\n\nO piloto deve saber reconhecer:\n\n• Símbolos aeronáuticos\n• Relevo e obstáculos\n• Limites de espaço aéreo\n• Frequências e auxílios\n• Elevações máximas e referências marcantes\n\nUma carta bem interpretada é uma ferramenta decisiva para segurança situacional."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "As cartas aeronáuticas servem para:",
+        "alternativas": [
+          "Apenas registrar manutenção da aeronave",
+          "Representar a superfície terrestre para uso na navegação aérea",
+          "Medir exclusivamente pressão atmosférica",
+          "Substituir todos os instrumentos de bordo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "As cartas são ferramentas gráficas usadas para planejamento e acompanhamento da navegação."
+      },
+      {
+        "id": 32,
+        "pergunta": "Latitude é a medida angular em relação:",
+        "alternativas": [
+          "Ao meridiano de Greenwich",
+          "Ao Equador",
+          "Ao polo magnético",
+          "Ao nível do mar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Latitude é medida em relação ao Equador, para norte ou sul."
+      },
+      {
+        "id": 33,
+        "pergunta": "Longitude é a medida angular em relação:",
+        "alternativas": [
+          "Ao Equador",
+          "Ao Trópico de Capricórnio",
+          "Ao meridiano de Greenwich",
+          "Ao eixo lateral da aeronave"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Longitude é medida em relação ao meridiano de Greenwich, para leste ou oeste."
+      },
+      {
+        "id": 34,
+        "pergunta": "Plotar uma rota significa:",
+        "alternativas": [
+          "Alterar o plano de voo em rota",
+          "Desenhar o trajeto pretendido na carta",
+          "Calibrar a bússola magnética",
+          "Corrigir o altímetro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Plotagem é o traçado da rota pretendida sobre a carta aeronáutica."
+      },
+      {
+        "id": 35,
+        "pergunta": "A escala de uma carta indica:",
+        "alternativas": [
+          "A altitude máxima da rota",
+          "A relação entre medida no mapa e distância real",
+          "A temperatura da região",
+          "A intensidade do vento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A escala relaciona dimensões na carta com dimensões reais no terreno."
+      },
+      {
+        "id": 36,
+        "pergunta": "Entre as informações presentes em uma carta aeronáutica, podemos encontrar:",
+        "alternativas": [
+          "Somente cidades e rios",
+          "Apenas aeroportos internacionais",
+          "Aeródromos, espaços aéreos e referências geográficas",
+          "Somente rotas de ônibus"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "As cartas mostram vários elementos úteis à navegação, inclusive aeródromos e espaços aéreos."
+      },
+      {
+        "id": 37,
+        "pergunta": "Na plotagem de rota, o piloto costuma medir:",
+        "alternativas": [
+          "Direção e distância",
+          "Apenas temperatura",
+          "Apenas vibração do motor",
+          "Razão de compressão"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Ao plotar uma rota, mede-se direção e distância entre os pontos."
+      },
+      {
+        "id": 38,
+        "pergunta": "A correta interpretação da carta ajuda a identificar:",
+        "alternativas": [
+          "Somente o consumo de óleo",
+          "Obstáculos, espaços aéreos e referências importantes",
+          "A cor exata da pista",
+          "A eficiência do estol"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A leitura adequada permite reconhecer relevo, obstáculos, limites e auxílios à navegação."
+      },
+      {
+        "id": 39,
+        "pergunta": "As coordenadas geográficas servem para:",
+        "alternativas": [
+          "Definir qualquer ponto na superfície terrestre",
+          "Medir potência de motor",
+          "Determinar fator de carga",
+          "Calcular velocidade de estol"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Latitude e longitude permitem localizar pontos com precisão na Terra."
+      },
+      {
+        "id": 40,
+        "pergunta": "Uma carta bem utilizada contribui para:",
+        "alternativas": [
+          "Melhor consciência situacional",
+          "Eliminação do vento",
+          "Dispensa do planejamento",
+          "Redução automática do consumo"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "O uso correto da carta aumenta a consciência situacional e a segurança do voo."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Navegação Estimada e Visual",
+    "aula": {
+      "introducao": "A navegação visual e a navegação estimada são pilares da formação básica do piloto. A primeira se apoia em referências observáveis no terreno; a segunda utiliza cálculos de rumo, tempo, velocidade e vento para estimar a posição da aeronave ao longo da rota.",
+      "subtitulos": [
+        {
+          "titulo": "Navegação Visual",
+          "conteudo": "Na navegação visual, o piloto utiliza referências facilmente identificáveis na superfície, como rios, rodovias, cidades, ferrovias, lagos, serras e represas. O objetivo é confirmar a posição da aeronave e acompanhar a rota de maneira prática.\n\nPara funcionar bem, esse tipo de navegação exige boa visibilidade, planejamento prévio e correta interpretação da carta."
+        },
+        {
+          "titulo": "Navegação Estimada",
+          "conteudo": "Na navegação estimada, a posição da aeronave é projetada com base em dados previamente calculados, como:\n\n• Proa\n• Rumo\n• Tempo voado\n• Velocidade no solo\n• Correção de vento\n\nMesmo sem confirmação visual imediata, o piloto pode estimar sua posição provável ao longo do trajeto."
+        },
+        {
+          "titulo": "Pontos de Controle",
+          "conteudo": "Pontos de controle são referências escolhidas no planejamento para confirmar se a aeronave está na rota correta. Esses pontos devem ser bem visíveis, distintos e espaçados de forma coerente com o voo.\n\nExemplos:\n• Entroncamento de rodovias\n• Cidade isolada\n• Rio com curva característica\n• Barragem ou represa\n• Ferrovia cruzando rodovia"
+        },
+        {
+          "titulo": "Verificação de Posição",
+          "conteudo": "Durante o voo, o piloto deve comparar o planejado com o observado.\n\nIsso inclui:\n\n• Verificar o tempo decorrido\n• Identificar referências no terreno\n• Comparar direção e distância\n• Confirmar se os pontos de controle aparecem no momento esperado\n\nSe houver discrepância, o piloto deve revisar sua estimativa e aplicar correções."
+        },
+        {
+          "titulo": "Limitações e Cuidados",
+          "conteudo": "A navegação visual pode ser prejudicada por:\n\n• Má visibilidade\n• Neblina ou chuva\n• Terreno pouco característico\n• Excesso de confiança sem conferência na carta\n\nJá a navegação estimada pode ser afetada por erros de cálculo, vento diferente do previsto ou falha na disciplina de acompanhamento.\n\nPor isso, ambas devem ser usadas com atenção, organização e cruzamento constante de informações."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "A navegação visual baseia-se principalmente em:",
+        "alternativas": [
+          "Referências observáveis no terreno",
+          "Somente VOR",
+          "Apenas altímetro",
+          "Dados exclusivos do motor"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Na navegação visual, o piloto usa elementos identificáveis da superfície para acompanhar a rota."
+      },
+      {
+        "id": 42,
+        "pergunta": "A navegação estimada utiliza principalmente:",
+        "alternativas": [
+          "Tempo, velocidade, rumo e vento",
+          "Apenas GPS",
+          "Somente horizonte artificial",
+          "Apenas rádio de comunicação"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A posição é estimada com base em cálculos de deslocamento e influência do vento."
+      },
+      {
+        "id": 43,
+        "pergunta": "Um ponto de controle deve ser:",
+        "alternativas": [
+          "Difícil de identificar",
+          "Bem visível e distinto",
+          "Sempre localizado sobre nuvens",
+          "Necessariamente um aeroporto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pontos de controle eficientes precisam ser claros e facilmente reconhecíveis."
+      },
+      {
+        "id": 44,
+        "pergunta": "Durante a navegação, verificar a posição significa comparar:",
+        "alternativas": [
+          "O planejado com o observado",
+          "A cor do céu com o combustível",
+          "A temperatura com o flap",
+          "A potência com a pintura da pista"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "O piloto compara planejamento e referências reais para confirmar a posição."
+      },
+      {
+        "id": 45,
+        "pergunta": "Qual dos itens abaixo é exemplo de referência visual útil?",
+        "alternativas": [
+          "Entroncamento de rodovias",
+          "Compressão do cilindro",
+          "Ponto de ignição",
+          "Velocidade de estol"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Entroncamentos, rios, cidades e serras são referências típicas da navegação visual."
+      },
+      {
+        "id": 46,
+        "pergunta": "A navegação visual depende bastante de:",
+        "alternativas": [
+          "Boa visibilidade",
+          "Gelo nas asas",
+          "Falha parcial do motor",
+          "Ausência de planejamento"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Sem boa visibilidade, a identificação de referências no terreno fica comprometida."
+      },
+      {
+        "id": 47,
+        "pergunta": "Se os pontos de controle não aparecem no tempo esperado, o piloto deve:",
+        "alternativas": [
+          "Ignorar a situação",
+          "Revisar a estimativa de posição",
+          "Desligar os instrumentos",
+          "Reduzir o combustível"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Diferenças entre planejado e observado exigem reavaliação da posição e possíveis correções."
+      },
+      {
+        "id": 48,
+        "pergunta": "Um dos riscos da navegação estimada é:",
+        "alternativas": [
+          "Erro de cálculo ou vento diferente do previsto",
+          "Excesso de sustentação estrutural",
+          "Aumento automático da potência",
+          "Eliminação da deriva"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Se os dados usados estiverem errados, a posição estimada também ficará incorreta."
+      },
+      {
+        "id": 49,
+        "pergunta": "A navegação visual e a estimada devem ser usadas com:",
+        "alternativas": [
+          "Desorganização",
+          "Atenção e cruzamento de informações",
+          "Apenas memorização sem carta",
+          "Dependência exclusiva do acaso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O piloto deve comparar continuamente referências, tempo e rota planejada."
+      },
+      {
+        "id": 50,
+        "pergunta": "Na formação básica do piloto, navegação visual e estimada são:",
+        "alternativas": [
+          "Sem importância prática",
+          "Pilares do aprendizado de navegação",
+          "Usadas apenas em jatos",
+          "Exclusivas de voo por instrumentos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Esses métodos formam a base do raciocínio de navegação do aluno piloto."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Instrumentos e Auxílios-Rádio",
+    "aula": {
+      "introducao": "Além da navegação visual e estimada, o piloto pode contar com instrumentos e auxílios-rádio para determinar posição, orientação e trajetória. Esses recursos aumentam a precisão e a segurança, especialmente quando as referências visuais são limitadas.",
+      "subtitulos": [
+        {
+          "titulo": "Bússola Magnética",
+          "conteudo": "A bússola magnética indica direções com base no campo magnético da Terra. É um instrumento simples e fundamental, embora sujeito a erros característicos, como oscilações, aceleração e curvas, dependendo da condição de voo."
+        },
+        {
+          "titulo": "Indicador de Proa",
+          "conteudo": "O indicador de proa, também chamado giro direcional em alguns contextos, fornece referência mais estável que a bússola magnética durante manobras. No entanto, precisa ser periodicamente ajustado de acordo com a bússola."
+        },
+        {
+          "titulo": "VOR",
+          "conteudo": "O VOR é um auxílio-rádio que permite ao piloto determinar radiais em relação a uma estação em terra. Com ele, é possível navegar para ou a partir da estação, mantendo rotas com boa precisão."
+        },
+        {
+          "titulo": "NDB e ADF",
+          "conteudo": "O NDB é uma estação de rádio em solo, e o ADF é o equipamento de bordo que indica a direção relativa dessa estação em relação à aeronave. Esse sistema auxilia a navegação, embora seja mais sujeito a interferências e menos preciso que outros métodos modernos."
+        },
+        {
+          "titulo": "DME e GPS",
+          "conteudo": "O DME informa a distância entre a aeronave e determinada estação compatível. Já o GPS, dentro do sistema GNSS, fornece posição com alta precisão, velocidade no solo, proa e diversos outros dados úteis.\n\nApesar da praticidade do GPS, o piloto deve compreender os princípios básicos da navegação e não depender de uma única fonte."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "A bússola magnética orienta-se com base:",
+        "alternativas": [
+          "No campo magnético da Terra",
+          "Na pressão dinâmica",
+          "Na temperatura externa",
+          "No eixo lateral da aeronave"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A bússola funciona alinhando-se ao campo magnético terrestre."
+      },
+      {
+        "id": 52,
+        "pergunta": "O indicador de proa oferece referência:",
+        "alternativas": [
+          "Mais estável durante manobras",
+          "Baseada em combustível",
+          "Exclusiva para pouso",
+          "Somente visual"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Comparado à bússola, o indicador de proa costuma ser mais estável no voo."
+      },
+      {
+        "id": 53,
+        "pergunta": "O VOR permite ao piloto:",
+        "alternativas": [
+          "Medir temperatura do motor",
+          "Determinar radiais em relação a uma estação",
+          "Alterar o vento em rota",
+          "Calcular sustentação diretamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O VOR é um auxílio-rádio usado para orientação em relação a estações terrestres."
+      },
+      {
+        "id": 54,
+        "pergunta": "No sistema NDB/ADF:",
+        "alternativas": [
+          "O NDB é o equipamento de bordo",
+          "O ADF é a estação em solo",
+          "O NDB é a estação em solo e o ADF é o receptor de bordo",
+          "Ambos são satélites"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O NDB transmite do solo, e o ADF indica a direção relativa dessa estação na aeronave."
+      },
+      {
+        "id": 55,
+        "pergunta": "O DME informa principalmente:",
+        "alternativas": [
+          "Altitude pressão",
+          "Distância até uma estação compatível",
+          "Razão de subida",
+          "Ângulo de ataque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O DME é usado para medir distância até a estação."
+      },
+      {
+        "id": 56,
+        "pergunta": "O GPS fornece ao piloto:",
+        "alternativas": [
+          "Somente horário local",
+          "Posição com alta precisão e outros dados de navegação",
+          "Apenas razão de descida",
+          "Somente pressão atmosférica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O GPS pode informar posição, velocidade no solo, trajetória e outros dados relevantes."
+      },
+      {
+        "id": 57,
+        "pergunta": "Mesmo com GPS, o piloto deve:",
+        "alternativas": [
+          "Ignorar os fundamentos de navegação",
+          "Depender de uma única fonte de informação",
+          "Compreender os princípios básicos de navegação",
+          "Usar somente referências urbanas"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A tecnologia auxilia, mas não substitui a compreensão dos fundamentos."
+      },
+      {
+        "id": 58,
+        "pergunta": "A bússola magnética pode apresentar:",
+        "alternativas": [
+          "Erros característicos",
+          "Leitura perfeita em todas as situações",
+          "Função de GPS integrada obrigatória",
+          "Ausência total de limitações"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A bússola está sujeita a erros e limitações conhecidas, especialmente em manobras."
+      },
+      {
+        "id": 59,
+        "pergunta": "O ADF indica:",
+        "alternativas": [
+          "A distância DME",
+          "A direção relativa da estação NDB",
+          "A altitude verdadeira",
+          "A temperatura externa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ADF aponta a direção relativa da estação NDB em relação à aeronave."
+      },
+      {
+        "id": 60,
+        "pergunta": "Os auxílios-rádio contribuem para:",
+        "alternativas": [
+          "Maior precisão e segurança na navegação",
+          "Eliminar completamente todos os erros",
+          "Substituir obrigatoriamente o planejamento",
+          "Dispensar o estudo de cartas"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Esses recursos melhoram a navegação, mas devem ser usados junto com bom preparo e consciência situacional."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 1,
+    "pergunta": "Navegação aérea é o conjunto de técnicas usadas para:",
+    "alternativas": [
+      "Pintar aeronaves com precisão",
+      "Conduzir a aeronave de um ponto a outro com segurança",
+      "Substituir os comandos de voo",
+      "Eliminar totalmente a influência do vento"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Navegação aérea reúne métodos de orientação, planejamento e controle do deslocamento da aeronave."
+  },
+  {
+    "id": 2,
+    "pergunta": "Na navegação visual, o piloto utiliza principalmente:",
+    "alternativas": [
+      "Referências observáveis no terreno",
+      "Somente dados do motor",
+      "Apenas comandos de rádio",
+      "Exclusivamente a razão de subida"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A navegação visual depende da identificação de rios, cidades, estradas, serras e outros marcos visíveis."
+  },
+  {
+    "id": 3,
+    "pergunta": "Rumo é definido como:",
+    "alternativas": [
+      "A direção do nariz da aeronave",
+      "A trajetória real da aeronave sobre o solo",
+      "A força lateral em curva",
+      "A inclinação da asa"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Rumo é o caminho efetivo seguido pela aeronave em relação à superfície terrestre."
+  },
+  {
+    "id": 4,
+    "pergunta": "Proa corresponde a:",
+    "alternativas": [
+      "Trajetória real sobre a Terra",
+      "Direção para onde aponta o nariz da aeronave",
+      "Direção do vento na carta",
+      "Posição do centro de gravidade"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Proa é a orientação do nariz da aeronave no ar."
+  },
+  {
+    "id": 5,
+    "pergunta": "A deriva é causada principalmente por:",
+    "alternativas": [
+      "Vento lateral",
+      "Temperatura do óleo",
+      "Abertura dos flaps",
+      "A compressão do motor"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A deriva ocorre quando o vento desloca a aeronave lateralmente em relação à rota desejada."
+  },
+  {
+    "id": 6,
+    "pergunta": "Para compensar a deriva, o piloto deve:",
+    "alternativas": [
+      "Apontar a aeronave contra o vento",
+      "Desligar os instrumentos",
+      "Voar sempre com vento de cauda",
+      "Aumentar a altitude sem análise"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A correção de deriva é feita ajustando a proa para o lado de onde vem o vento."
+  },
+  {
+    "id": 7,
+    "pergunta": "A relação correta entre distância, velocidade e tempo é:",
+    "alternativas": [
+      "$$D = V \\times T$$",
+      "$$D = V + T$$",
+      "$$D = \\frac{T}{V}$$",
+      "$$D = V - T$$"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A distância é o produto da velocidade pelo tempo."
+  },
+  {
+    "id": 8,
+    "pergunta": "Em aviação, a unidade 'kt' significa:",
+    "alternativas": [
+      "Quilômetros por minuto",
+      "Milhas terrestres por hora",
+      "Milhas náuticas por hora",
+      "Metros por segundo"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "Nó é a unidade de velocidade equivalente a uma milha náutica por hora."
+  },
+  {
+    "id": 9,
+    "pergunta": "O vento de proa tende a:",
+    "alternativas": [
+      "Aumentar a velocidade no solo",
+      "Reduzir a velocidade no solo",
+      "Eliminar a deriva",
+      "Substituir o cálculo de tempo"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Com vento de proa, a aeronave progride mais lentamente sobre o terreno."
+  },
+  {
+    "id": 10,
+    "pergunta": "A velocidade mais útil para estimar o tempo sobre a rota é a:",
+    "alternativas": [
+      "Velocidade no solo",
+      "Velocidade de estol",
+      "Velocidade indicada de pouso",
+      "Velocidade mínima estrutural"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O deslocamento ocorre sobre o terreno, então o cálculo usa a velocidade no solo."
+  },
+  {
+    "id": 11,
+    "pergunta": "Cartas aeronáuticas são usadas para:",
+    "alternativas": [
+      "Representar a superfície terrestre para a navegação",
+      "Controlar mistura do motor",
+      "Substituir todos os auxílios-rádio",
+      "Medir razão de subida"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "As cartas mostram informações geográficas e aeronáuticas úteis ao planejamento e à condução do voo."
+  },
+  {
+    "id": 12,
+    "pergunta": "Latitude é medida em relação:",
+    "alternativas": [
+      "Ao Equador",
+      "Ao meridiano local",
+      "Ao norte magnético",
+      "À altitude do aeródromo"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Latitude indica posição ao norte ou ao sul do Equador."
+  },
+  {
+    "id": 13,
+    "pergunta": "Longitude é medida em relação:",
+    "alternativas": [
+      "Ao Equador",
+      "Ao meridiano de Greenwich",
+      "Ao Trópico de Capricórnio",
+      "À linha de costa"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "Longitude indica posição a leste ou oeste do meridiano de Greenwich."
+  },
+  {
+    "id": 14,
+    "pergunta": "Plotar uma rota significa:",
+    "alternativas": [
+      "Desenhar o trajeto pretendido na carta",
+      "Reprogramar o motor",
+      "Zerar o altímetro",
+      "Trocar o rumo magnético em voo"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A plotagem consiste em traçar na carta o percurso planejado."
+  },
+  {
+    "id": 15,
+    "pergunta": "A escala da carta indica:",
+    "alternativas": [
+      "A relação entre medida no mapa e distância real",
+      "A intensidade do vento",
+      "A altitude da aeronave",
+      "O consumo médio de combustível"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A escala permite converter medidas feitas na carta em distâncias reais."
+  },
+  {
+    "id": 16,
+    "pergunta": "Na navegação estimada, a posição é calculada com base em:",
+    "alternativas": [
+      "Tempo, velocidade, rumo e vento",
+      "Apenas GPS",
+      "Somente frequências de rádio",
+      "Exclusivamente altitude e temperatura"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A navegação estimada projeta a posição por meio de dados de deslocamento e correções."
+  },
+  {
+    "id": 17,
+    "pergunta": "Um ponto de controle deve ser:",
+    "alternativas": [
+      "Bem visível e fácil de identificar",
+      "Sempre um aeroporto internacional",
+      "Difícil de reconhecer",
+      "Necessariamente noturno"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Pontos de controle eficientes são referências claras e marcantes."
+  },
+  {
+    "id": 18,
+    "pergunta": "Se os pontos planejados não aparecem no tempo esperado, o piloto deve:",
+    "alternativas": [
+      "Revisar a estimativa de posição",
+      "Ignorar a situação",
+      "Desligar o rádio",
+      "Aumentar a velocidade sem análise"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Diferenças entre o planejado e o observado exigem reavaliação da navegação."
+  },
+  {
+    "id": 19,
+    "pergunta": "A bússola magnética funciona com base:",
+    "alternativas": [
+      "No campo magnético da Terra",
+      "Na velocidade do vento",
+      "Na pressão do óleo",
+      "No ajuste do altímetro"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A bússola se orienta segundo o campo magnético terrestre."
+  },
+  {
+    "id": 20,
+    "pergunta": "O indicador de proa deve ser periodicamente ajustado conforme:",
+    "alternativas": [
+      "A bússola magnética",
+      "O velocímetro",
+      "O variômetro",
+      "O indicador de curva"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Ele fornece indicação mais estável, mas precisa de ajuste com base na bússola."
+  },
+  {
+    "id": 21,
+    "pergunta": "O VOR permite ao piloto:",
+    "alternativas": [
+      "Determinar radiais em relação a uma estação",
+      "Calcular peso e balanceamento",
+      "Eliminar a influência do vento",
+      "Medir temperatura externa"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O VOR é um auxílio-rádio de navegação baseado em radiais."
+  },
+  {
+    "id": 22,
+    "pergunta": "No sistema NDB/ADF, o ADF indica:",
+    "alternativas": [
+      "A direção relativa da estação",
+      "A altitude verdadeira",
+      "A distância em milhas náuticas",
+      "A razão de descida"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O ADF mostra a direção da estação NDB em relação ao nariz da aeronave."
+  },
+  {
+    "id": 23,
+    "pergunta": "O DME fornece:",
+    "alternativas": [
+      "Distância até uma estação compatível",
+      "Direção do vento",
+      "Posição do centro de gravidade",
+      "Razão de subida"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O DME é usado para medir distância até a estação."
+  },
+  {
+    "id": 24,
+    "pergunta": "O GPS fornece:",
+    "alternativas": [
+      "Posição com alta precisão e dados de navegação",
+      "Somente a proa magnética",
+      "Apenas altitude pressão",
+      "Somente horário UTC"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O GPS fornece posição, velocidade no solo, rota e outros dados úteis."
+  },
+  {
+    "id": 25,
+    "pergunta": "Mesmo com recursos modernos, o piloto não deve:",
+    "alternativas": [
+      "Depender de uma única fonte de navegação",
+      "Conhecer os fundamentos de navegação",
+      "Planejar a rota antes do voo",
+      "Conferir posição periodicamente"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "Boa prática operacional exige redundância e compreensão dos princípios básicos."
+  },
+  {
+    "id": 26,
+    "pergunta": "Se uma aeronave voa 150 NM a 100 kt, o tempo será de:",
+    "alternativas": [
+      "1 hora",
+      "1 hora e 30 minutos",
+      "2 horas",
+      "2 horas e 30 minutos"
+    ],
+    "resposta_correta": 1,
+    "explicacao": "$$T = \\frac{150}{100} = 1,5$$ hora, ou 1 hora e 30 minutos."
+  },
+  {
+    "id": 27,
+    "pergunta": "Se uma aeronave voa por 2 horas a 90 kt, percorre:",
+    "alternativas": [
+      "45 NM",
+      "90 NM",
+      "180 NM",
+      "200 NM"
+    ],
+    "resposta_correta": 2,
+    "explicacao": "$$D = 90 \\times 2 = 180$$ NM."
+  },
+  {
+    "id": 28,
+    "pergunta": "Com vento lateral, normalmente:",
+    "alternativas": [
+      "Proa e rumo diferem",
+      "Proa e rumo são sempre iguais",
+      "A deriva desaparece",
+      "A navegação deixa de existir"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "O vento lateral exige correção de proa para manter o rumo desejado."
+  },
+  {
+    "id": 29,
+    "pergunta": "A interpretação correta da carta ajuda a identificar:",
+    "alternativas": [
+      "Obstáculos e espaços aéreos",
+      "Somente o consumo do motor",
+      "Apenas a temperatura externa",
+      "Exclusivamente o peso da aeronave"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A carta mostra limites, obstáculos, referências e outras informações essenciais."
+  },
+  {
+    "id": 30,
+    "pergunta": "O objetivo final da navegação aérea é:",
+    "alternativas": [
+      "Conduzir o voo com segurança, precisão e eficiência",
+      "Eliminar a necessidade de planejamento",
+      "Voar sem considerar vento ou tempo",
+      "Substituir totalmente a pilotagem"
+    ],
+    "resposta_correta": 0,
+    "explicacao": "A navegação busca levar a aeronave ao destino com segurança operacional e boa condução do voo."
+  }
+]
