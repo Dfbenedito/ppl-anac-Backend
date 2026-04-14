@@ -1,5 +1,1412 @@
+[
+  {
+    "id": 1,
+    "titulo": "Fundamentos das Comunicações Aeronáuticas",
+    "aula": {
+      "introducao": "As comunicações aeronáuticas são essenciais para a segurança do voo. O piloto deve conhecer os procedimentos, fraseologia e equipamentos utilizados nas comunicações ar-terra e ar-ar, garantindo clareza, concisão e precisão nas transmissões. No Brasil, o órgão responsável pela regulamentação das comunicações aeronáuticas é o DECEA, seguindo as normas da OACI (Organização de Aviação Civil Internacional).",
+      "subtitulos": [
+        {
+          "titulo": "Características das Comunicações Aeronáuticas",
+          "conteudo": "As comunicações aeronáuticas devem seguir os quatro princípios fundamentais:\n\n• **Clareza**: pronunciadas de forma inteligível, com dicção adequada\n• **Concisão**: sem informações desnecessárias, direto ao ponto\n• **Correção**: usando fraseologia padronizada conforme normas OACI/DECEA\n• **Completeza**: contendo todas as informações necessárias para a segurança\n\n**Idioma:**\n• O idioma padrão da aviação internacional é o **inglês**\n• No Brasil, o **português** é utilizado em voos domésticos\n• Em aeródromos internacionais ou quando solicitado, o inglês é obrigatório\n• Quando houver dúvida de compreensão, deve-se solicitar repetição imediatamente\n\n**Disciplina de escuta:**\n• O piloto deve monitorar a frequência antes de transmitir\n• Nunca interromper outra transmissão em andamento\n• Aguardar o canal ficar livre antes de transmitir"
+        },
+        {
+          "titulo": "Bandas de Frequência na Aviação",
+          "conteudo": "As comunicações aeronáuticas utilizam diferentes faixas de frequência conforme a finalidade:\n\n**VHF (Very High Frequency):**\n• Faixa: **118,000 a 136,975 MHz**\n• Principal faixa usada na aviação civil\n• Propagação em **linha de visada** (limitada pela curvatura da Terra e altitude)\n• Alta qualidade de áudio\n• Alcance típico: 150-200 NM em altitude de cruzeiro\n• Separação de canais: 25 kHz (ou 8,33 kHz em alguns países)\n\n**HF (High Frequency):**\n• Faixa: **2 a 30 MHz**\n• Usada em voos oceânicos e de longa distância\n• Propagação por **reflexão na ionosfera** (skywaves)\n• Maior alcance, porém menor qualidade de áudio\n• Sujeita a interferências atmosféricas\n\n**UHF (Ultra High Frequency):**\n• Faixa: 300 MHz a 3 GHz\n• Usada principalmente pela **aviação militar**\n• Frequência de emergência militar: **243,0 MHz**\n\n**Frequências de emergência:**\n• VHF: **121,5 MHz** (monitorada por aeronaves e órgãos ATC)\n• HF: **2182 kHz**\n• UHF militar: **243,0 MHz**\n\n**Frequência Piloto-a-Piloto (ar-ar):**\n• **123,45 MHz** — usada para comunicações entre aeronaves"
+        },
+        {
+          "titulo": "Alfabeto Fonético OACI",
+          "conteudo": "O alfabeto fonético padronizado pela OACI é utilizado para soletrar letras, identificar aeronaves e evitar confusões em transmissões de rádio:\n\n| Letra | Palavra Fonética | Pronúncia |\n|-------|-----------------|------------|\n| A | Alpha | AL-FA |\n| B | Bravo | BRA-VO |\n| C | Charlie | CHAR-LI |\n| D | Delta | DEL-TA |\n| E | Echo | EK-O |\n| F | Foxtrot | FOKS-TROT |\n| G | Golf | GOLF |\n| H | Hotel | HO-TEL |\n| I | India | IN-DI-A |\n| J | Juliett | DJU-LI-ET |\n| K | Kilo | KI-LO |\n| L | Lima | LI-MA |\n| M | Mike | MAIK |\n| N | November | NO-VEM-BER |\n| O | Oscar | OS-KAR |\n| P | Papa | PA-PA |\n| Q | Quebec | KE-BEK |\n| R | Romeo | RO-MI-O |\n| S | Sierra | SI-ER-RA |\n| T | Tango | TAN-GO |\n| U | Uniform | IU-NI-FORM |\n| V | Victor | VIK-TOR |\n| W | Whiskey | WIS-KI |\n| X | X-ray | EKS-REI |\n| Y | Yankee | YANG-KI |\n| Z | Zulu | ZU-LU |\n\n**Aplicação prática:**\nMatrícula PT-XYZ → 'Papa Tango — X-ray Yankee Zulu'"
+        },
+        {
+          "titulo": "Pronúncia de Números",
+          "conteudo": "Os números são pronunciados individualmente na aviação para evitar confusões:\n\n| Número | Pronúncia em inglês | Pronúncia em português |\n|--------|--------------------|-----------------------|\n| 0 | Zero | Zero |\n| 1 | One | Um |\n| 2 | Two | Dois |\n| 3 | Tree | Três |\n| 4 | Fower | Quatro |\n| 5 | Fife | Cinco |\n| 6 | Six | Seis |\n| 7 | Seven | Sete |\n| 8 | Ait | Oito |\n| 9 | Niner | Nove |\n\n**Regras de pronúncia:**\n• Números são lidos **dígito a dígito**, exceto unidades específicas\n• Altitude: '3.500 pés' → 'três mil e quinhentos'\n• Frequência: 118,3 → 'um um oito decimal três'\n• Proa: 270° → 'dois sete zero'\n• Squawk: 2341 → 'dois três quatro um'\n• Vento: 260/10 → 'duzentos e sessenta graus, dez nós'\n• Nível de voo: FL055 → 'nível zero cinco cinco'\n\n**Números com denominação especial:**\n• 100 → 'cem' (hundred)\n• 1000 → 'mil' (thousand)\n• Altitude 10.000 pés → 'dez mil'"
+        },
+        {
+          "titulo": "Identificação da Aeronave",
+          "conteudo": "A identificação da aeronave nas comunicações segue regras específicas estabelecidas pelo DECEA:\n\n**Aviação Geral Brasileira:**\n• Identificada pela **matrícula completa** no primeiro contato\n• Formato: PP, PR, PT, PU, PH + dois dígitos alfanuméricos\n• Exemplo: PT-XYZ → 'Papa Tango X-ray Yankee Zulu'\n• Após estabelecido contato: pode usar os **três últimos caracteres** (XYZ → 'X-ray Yankee Zulu')\n\n**Aviação Comercial:**\n• Usa o **indicativo de chamada** da empresa + número do voo\n• Exemplos:\n  - GLO1234 → 'Gol mil duzentos e trinta e quatro'\n  - TAM3456 → 'Tam três mil quatrocentos e cinquenta e seis'\n  - AZU4567 → 'Azul quatro cinco seis sete'\n\n**Primeiro contato — estrutura obrigatória:**\n1. Identificação do órgão chamado\n2. Identificação completa da aeronave\n3. Posição atual\n4. Nível de voo ou altitude\n5. Intenção\n\nExemplo:\n'Approach São Paulo, PT-XYZ, sobre o VOR de Campinas, cinco mil pés, solicitando entrada na TMA'\n\n**Após contato estabelecido:**\n'Approach, XYZ, atingindo cinco mil'"
+        },
+        {
+          "titulo": "Princípios de Operação do Rádio",
+          "conteudo": "Para operar corretamente o rádio aeronáutico, o piloto deve observar:\n\n**Antes de transmitir:**\n• Verifique se a frequência correta está selecionada\n• Monitore o canal para garantir que está livre\n• Organize mentalmente o que vai falar\n• Pressione o PTT (Push-To-Talk) e aguarde 1-2 segundos antes de falar\n\n**Durante a transmissão:**\n• Fale em tom normal, claro e pausado\n• Mantenha o microfone a distância adequada\n• Não transmita enquanto ouve outra comunicação\n• Use exclusivamente fraseologia padronizada\n\n**Após a transmissão:**\n• Solte o PTT ao terminar\n• Aguarde a resposta do órgão chamado\n• Faça o readback quando necessário\n\n**Sistemas de comunicação a bordo:**\n• **COM 1 / COM 2**: rádios VHF principais\n• **HF**: para comunicações de longa distância\n• **Interphone**: comunicação interna entre tripulantes\n• **PA (Public Address)**: comunicação com passageiros\n• **SELCAL**: sistema de chamada seletiva em voos oceânicos"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A faixa de frequência VHF utilizada na aviação civil é:",
+        "alternativas": [
+          "108,000 a 117,975 MHz",
+          "118,000 a 136,975 MHz",
+          "2 a 30 MHz",
+          "300 MHz a 3 GHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A faixa VHF aeronáutica vai de 118,000 a 136,975 MHz, sendo a principal usada na aviação civil para comunicações ATC."
+      },
+      {
+        "id": 2,
+        "pergunta": "A frequência de emergência VHF é:",
+        "alternativas": [
+          "121,0 MHz",
+          "121,5 MHz",
+          "123,45 MHz",
+          "118,0 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "121,5 MHz é a frequência internacional de emergência VHF, monitorada por aeronaves e órgãos ATC."
+      },
+      {
+        "id": 3,
+        "pergunta": "A propagação das ondas VHF ocorre:",
+        "alternativas": [
+          "Por reflexão na ionosfera, permitindo grande alcance",
+          "Em linha de visada, limitada pela curvatura da Terra",
+          "Ao redor da curvatura terrestre sem limitação",
+          "Por difração nas montanhas aumentando o alcance"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "VHF propaga-se em linha de visada, por isso o alcance aumenta com a altitude da aeronave."
+      },
+      {
+        "id": 4,
+        "pergunta": "A faixa HF é utilizada principalmente para:",
+        "alternativas": [
+          "Comunicações locais em aeródromos",
+          "Voos oceânicos e de longa distância",
+          "Comunicações militares exclusivamente",
+          "Navegação por VOR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A HF utiliza reflexão ionosférica, permitindo comunicações de longa distância em voos oceânicos."
+      },
+      {
+        "id": 5,
+        "pergunta": "A frequência piloto-a-piloto (ar-ar) é:",
+        "alternativas": [
+          "121,5 MHz",
+          "123,45 MHz",
+          "243,0 MHz",
+          "136,975 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "123,45 MHz é a frequência padrão para comunicações ar-ar entre pilotos."
+      },
+      {
+        "id": 6,
+        "pergunta": "O número 9 na fraseologia aeronáutica em inglês é pronunciado como:",
+        "alternativas": [
+          "Nine",
+          "Niner",
+          "Nove",
+          "Nain"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O número 9 é pronunciado 'Niner' para evitar confusão com a palavra 'Nine' em transmissões de rádio."
+      },
+      {
+        "id": 7,
+        "pergunta": "O número 3 na fraseologia aeronáutica em inglês é pronunciado como:",
+        "alternativas": [
+          "Three",
+          "Tree",
+          "Tri",
+          "Thrée"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O número 3 é pronunciado 'Tree' para evitar confusão com 'free' em transmissões de rádio."
+      },
+      {
+        "id": 8,
+        "pergunta": "A letra 'Q' no alfabeto fonético OACI é representada por:",
+        "alternativas": [
+          "Queen",
+          "Quebec",
+          "Quest",
+          "Quick"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No alfabeto fonético OACI, Q é representado por 'Quebec', pronunciado 'KE-BEK'."
+      },
+      {
+        "id": 9,
+        "pergunta": "A letra 'J' no alfabeto fonético OACI é:",
+        "alternativas": [
+          "Juliet",
+          "Juliett",
+          "Junior",
+          "Juliet com um T"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A letra J é representada por 'Juliett' (com dois T's) no alfabeto fonético OACI."
+      },
+      {
+        "id": 10,
+        "pergunta": "No primeiro contato com um órgão ATC, a aeronave deve usar:",
+        "alternativas": [
+          "Apenas os três últimos caracteres da matrícula",
+          "A identificação completa da aeronave",
+          "Apenas o tipo de aeronave e altitude",
+          "Somente o número do voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No primeiro contato, a identificação completa da aeronave é obrigatória para que o ATC possa identificá-la corretamente."
+      },
+      {
+        "id": 11,
+        "pergunta": "As comunicações aeronáuticas devem ser:",
+        "alternativas": [
+          "Longas e detalhadas para evitar mal-entendidos",
+          "Claras, concisas, corretas e completas",
+          "Sempre em inglês, mesmo em voos domésticos",
+          "Realizadas apenas pelo comandante"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os quatro princípios das comunicações aeronáuticas são: clareza, concisão, correção e completeza."
+      },
+      {
+        "id": 12,
+        "pergunta": "A frequência de emergência HF é:",
+        "alternativas": [
+          "121,5 MHz",
+          "2182 kHz",
+          "243,0 MHz",
+          "406 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "2182 kHz é a frequência internacional de emergência na faixa HF."
+      },
+      {
+        "id": 13,
+        "pergunta": "Antes de transmitir no rádio, o piloto deve:",
+        "alternativas": [
+          "Transmitir imediatamente para não perder tempo",
+          "Monitorar o canal para garantir que está livre",
+          "Sempre solicitar autorização ao ATC",
+          "Verificar apenas se está na frequência correta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O piloto deve monitorar o canal antes de transmitir para evitar interromper outras comunicações em andamento."
+      },
+      {
+        "id": 14,
+        "pergunta": "A matrícula PT-ABC é transmitida no rádio como:",
+        "alternativas": [
+          "PT ABC",
+          "Papa Tango Alpha Bravo Charlie",
+          "P T A B C",
+          "Papa-Tango-Alfa-Bravo-Charlie"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "As letras da matrícula são transmitidas usando o alfabeto fonético OACI: Papa Tango Alpha Bravo Charlie."
+      },
+      {
+        "id": 15,
+        "pergunta": "A frequência 118,3 MHz é lida no rádio como:",
+        "alternativas": [
+          "Cento e dezoito vírgula três",
+          "Um um oito decimal três",
+          "Um dezoito ponto três",
+          "Cento e dezoito ponto três"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Frequências são lidas dígito a dígito: 118,3 → 'um um oito decimal três'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Fraseologia e Procedimentos de Comunicação",
+    "aula": {
+      "introducao": "A fraseologia padronizada é a base das comunicações aeronáuticas seguras. O uso de termos corretos evita ambiguidades e mal-entendidos que poderiam comprometer a segurança do voo. O piloto deve dominar as expressões padrão, os procedimentos de readback e a estrutura correta das chamadas de rádio em todas as fases do voo.",
+      "subtitulos": [
+        {
+          "titulo": "Termos e Expressões Padrão",
+          "conteudo": "Principais termos utilizados nas comunicações aeronáuticas e seus significados:\n\n| Termo | Significado |\n|-------|-------------|\n| **AFIRMATIVO** | Sim / Correto |\n| **NEGATIVO** | Não / Incorreto |\n| **ROGER** | Recebi sua transmissão (não implica cumprimento) |\n| **WILCO** | Entendi e vou cumprir (will comply) |\n| **STANDBY** | Aguarde — responderei em breve |\n| **CORRETO** | O que você disse está certo |\n| **INCORRETO** | O que você disse está errado |\n| **CANCELE** | Cancele a instrução anterior |\n| **REPITA** | Repita sua última transmissão |\n| **DIGA NOVAMENTE** | Repita toda a mensagem ou parte dela |\n| **FALE MAIS DEVAGAR** | Reduza a velocidade da fala |\n| **COMO ESTÁ ME OUVINDO** | Solicita avaliação da qualidade do sinal |\n| **RECEBO** | Estou recebendo sua transmissão |\n| **TRANSMITA** | Autorizo você a transmitir |\n| **AGUARDE** | Espere, não prossiga ainda |\n| **PROSSIGA** | Continue conforme planejado |\n| **CONTATE** | Mude para a frequência do órgão indicado |\n| **MONITOR** | Monitore a frequência indicada |\n\n**Escala de legibilidade do sinal:**\n1. Ilegível\n2. Legível por vezes\n3. Legível com dificuldade\n4. Legível\n5. Perfeitamente legível\n\nExemplo: 'Recebo você 5' → sinal perfeitamente legível"
+        },
+        {
+          "titulo": "Chamadas de Emergência e Urgência",
+          "conteudo": "As chamadas de emergência seguem prioridade e estrutura específicas:\n\n**MAYDAY — Emergência (prioridade máxima):**\n• Indica perigo de vida iminente\n• Transmitida 3 vezes: 'MAYDAY MAYDAY MAYDAY'\n• Estrutura da mensagem:\n  1. MAYDAY MAYDAY MAYDAY\n  2. Identificação do órgão chamado\n  3. Identificação da aeronave\n  4. Natureza da emergência\n  5. Posição, altitude e proa\n  6. Intenção do piloto\n  7. Número de pessoas a bordo\n  8. Outras informações relevantes\n\nExemplo:\n'MAYDAY MAYDAY MAYDAY, Approach São Paulo, PT-XYZ, falha de motor, sobre o VOR de Campinas, três mil pés, pouso forçado em campo aberto, duas pessoas a bordo'\n\n**PAN-PAN — Urgência:**\n• Indica situação crítica SEM perigo imediato de vida\n• Transmitida 3 vezes: 'PAN-PAN PAN-PAN PAN-PAN'\n• Mesma estrutura do MAYDAY\n• Exemplos de uso: combustível baixo, passageiro doente, perda de pressão\n\n**SECURITÉ — Segurança à navegação:**\n• Aviso de condição perigosa à navegação\n• Transmitida 3 vezes: 'SECURITÉ SECURITÉ SECURITÉ'\n• Exemplos: pássaros na pista, objeto na pista, condição meteorológica súbita"
+        },
+        {
+          "titulo": "Procedimento de Readback",
+          "conteudo": "O readback (leitura de retorno) é a repetição, pelo piloto, das instruções recebidas do ATC para confirmar o entendimento correto:\n\n**Itens que OBRIGATORIAMENTE exigem readback:**\n• Autorizações de pista (decolagem, pouso, cruzamento, entrada)\n• Autorizações de rota e níveis de voo\n• Código do transponder (squawk)\n• Ajuste do altímetro (QNH)\n• Frequências de comunicação\n• Instruções de velocidade, proa e altitude\n• Clearances de saída completas\n• Instruções de espera (holding)\n\n**Itens que NÃO exigem readback obrigatório:**\n• Informações meteorológicas\n• Informações do ATIS\n• Informações sobre tráfego\n\n**Exemplo de readback correto:**\nATC: 'PT-XYZ, pista dois sete, autorizado para decolagem, vento dois seis zero graus, dez nós'\nPiloto: 'Pista dois sete, autorizado para decolagem, PT-XYZ'\n\n**Readback incorreto:**\nO ATC DEVE corrigir imediatamente qualquer readback errado com a expressão: 'NEGATIVO, [instrução correta]'"
+        },
+        {
+          "titulo": "Sequência de uma Chamada de Rádio",
+          "conteudo": "A estrutura padrão de uma chamada de rádio segue quatro elementos na ordem:\n\n1. **Quem você está chamando** (identificação do órgão ATC)\n2. **Quem você é** (identificação da aeronave)\n3. **Onde você está** (posição e altitude)\n4. **O que você quer** (intenção ou solicitação)\n\n**Exemplo de chegada:**\n'Curitiba Approach, PT-ABC, sobre o VOR de São José dos Pinhais, cinco mil pés, com informação Bravo, solicitando aproximação ILS pista quinze'\n\n**Exemplo de solicitação de taxi:**\n'Solo Congonhas, PT-ABC, pátio da aviação geral, com informação Alpha, solicitando taxi para a pista dezassete'\n\n**Exemplo de chamada em rota:**\n'Brasília Centro, PT-ABC, nível seis mil e quinhentos, estimativa ROMEO às quinze trinta, solicitando subida para oito mil'\n\n**Comunicações progressivas:**\nApós o contato inicial, as transmissões seguintes podem ser mais curtas, omitindo informações já conhecidas pelo ATC."
+        },
+        {
+          "titulo": "Comunicações em Aeródromos sem Torre (CTAF) e Autoinforme",
+          "conteudo": "Em aeródromos sem torre de controle, os pilotos utilizam a frequência CTAF (Common Traffic Advisory Frequency) para autoinforme, alertando outros pilotos sobre suas intenções:\n\n**Sequência completa de autoinforme — CHEGADA:**\n1. Aproximação ao aeródromo (15-10 NM):\n'PT-XYZ, quinze milhas norte de [aeródromo], dois mil pés, com [informação/CTAF], para pouso pista [número], [aeródromo]'\n\n2. Ingresso no circuito:\n'PT-XYZ, entrada no circuito, través esquerdo pista [número], [aeródromo]'\n\n3. Etapas do circuito:\n'PT-XYZ, vento través / base / final, pista [número], [aeródromo]'\n\n4. Após pouso:\n'PT-XYZ, pista livre, [aeródromo]'\n\n**Sequência completa de autoinforme — PARTIDA:**\n1. Taxi:\n'PT-XYZ, no pátio, taxiando para pista [número], [aeródromo]'\n\n2. Pré-decolagem:\n'PT-XYZ, pré-decolagem, pista [número], [aeródromo]'\n\n3. Decolagem:\n'PT-XYZ, decolando pista [número], saindo para [direção/destino], [aeródromo]'\n\n**Importante:** O autoinforme é uma comunicação informativa — não há ATC respondendo. O piloto é responsável por manter separação visual com outros tráfegos."
+        },
+        {
+          "titulo": "Transferência de Frequência e Comunicação com Múltiplos Órgãos",
+          "conteudo": "Durante um voo, a aeronave é transferida entre diferentes órgãos ATC:\n\n**Transferência iniciada pelo ATC:**\n'PT-XYZ, contate Approach São Paulo, um um nove vírgula zero'\nResposta do piloto: 'Um um nove vírgula zero, PT-XYZ'\n\n**Procedimento de check-in na nova frequência:**\n'Approach São Paulo, PT-XYZ, nível seis mil, sobre ROMEO'\n\n**Quando não receber resposta:**\n• Tente novamente na mesma frequência\n• Verifique se selecionou a frequência correta\n• Tente na frequência anterior\n• Em último caso, tente em 121,5 MHz\n\n**Comunicação SELCAL (Selective Calling):**\n• Sistema usado em voos oceânicos HF\n• Permite que o ATC chame especificamente uma aeronave\n• Evita que a tripulação monitore continuamente o canal HF\n• Quando acionado, um sinal sonoro alerta a tripulação\n\n**Posição de escuta obrigatória:**\nEm determinadas áreas e fases do voo, a aeronave deve monitorar 121,5 MHz em paralelo com a frequência operacional."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 16,
+        "pergunta": "O termo 'WILCO' significa:",
+        "alternativas": [
+          "Recebi sua transmissão",
+          "Entendi e vou cumprir",
+          "Aguarde",
+          "Repita a transmissão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "WILCO vem de 'Will Comply' — entendi a instrução recebida e vou cumpri-la."
+      },
+      {
+        "id": 17,
+        "pergunta": "O termo 'ROGER' significa:",
+        "alternativas": [
+          "Vou cumprir a instrução recebida",
+          "Recebi sua transmissão",
+          "Afirmativo, está correto",
+          "Aguarde minha resposta"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "ROGER significa apenas 'recebi sua transmissão' — não implica concordância nem cumprimento."
+      },
+      {
+        "id": 18,
+        "pergunta": "A chamada de MAYDAY indica:",
+        "alternativas": [
+          "Uma situação de urgência sem perigo imediato de vida",
+          "Uma emergência com perigo de vida iminente",
+          "Um aviso de segurança à navegação",
+          "Uma solicitação de prioridade de pouso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "MAYDAY é a chamada de emergência máxima, indicando perigo de vida iminente a bordo."
+      },
+      {
+        "id": 19,
+        "pergunta": "A chamada PAN-PAN indica:",
+        "alternativas": [
+          "Emergência com perigo imediato de vida",
+          "Situação de urgência sem perigo imediato de vida",
+          "Aviso meteorológico à navegação",
+          "Solicitação de autorização de taxi"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "PAN-PAN indica urgência — situação crítica mas sem perigo imediato de vida (ex: combustível baixo, doente a bordo)."
+      },
+      {
+        "id": 20,
+        "pergunta": "Quantas vezes a chamada MAYDAY deve ser transmitida?",
+        "alternativas": [
+          "Uma vez",
+          "Duas vezes",
+          "Três vezes",
+          "Cinco vezes"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A chamada MAYDAY é transmitida três vezes consecutivas: 'MAYDAY MAYDAY MAYDAY'."
+      },
+      {
+        "id": 21,
+        "pergunta": "O readback é obrigatório para:",
+        "alternativas": [
+          "Apenas informações meteorológicas recebidas",
+          "Autorizações de pista, níveis de voo, squawk e frequências",
+          "Somente informações do ATIS",
+          "Apenas em voos IFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Readback obrigatório: autorizações de pista, rotas, altitudes, squawk e frequências de comunicação."
+      },
+      {
+        "id": 22,
+        "pergunta": "A estrutura correta de uma chamada de rádio é:",
+        "alternativas": [
+          "Quem você é, o que quer, onde está, quem está chamando",
+          "Quem está chamando, quem você é, onde está, o que quer",
+          "O que quer, quem você é, quem está chamando, onde está",
+          "Onde está, quem está chamando, o que quer, quem você é"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sequência padrão é: órgão chamado, identificação da aeronave, posição e intenção."
+      },
+      {
+        "id": 23,
+        "pergunta": "Em aeródromos sem torre de controle, os pilotos utilizam:",
+        "alternativas": [
+          "A frequência 121,5 MHz para todas as comunicações",
+          "A frequência CTAF para autoinformes",
+          "A frequência do APP mais próximo para autorização",
+          "A frequência 123,45 MHz obrigatoriamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A frequência CTAF é usada para autoinformes em aeródromos sem torre de controle."
+      },
+      {
+        "id": 24,
+        "pergunta": "Quando o ATC instrui 'CONTATE Approach 119,0', o piloto deve responder:",
+        "alternativas": [
+          "Apenas 'Roger'",
+          "Repetir a frequência e identificação: 'Um um nove vírgula zero, PT-XYZ'",
+          "Apenas 'Wilco'",
+          "Não é necessário responder"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Frequências recebidas exigem readback — o piloto repete a frequência e sua identificação."
+      },
+      {
+        "id": 25,
+        "pergunta": "Se o piloto não receber resposta do ATC na nova frequência, deve:",
+        "alternativas": [
+          "Continuar o voo sem comunicação",
+          "Tentar novamente, verificar a frequência e se necessário retornar à frequência anterior",
+          "Declarar emergência imediatamente",
+          "Pousar no aeródromo mais próximo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O procedimento é tentar novamente, confirmar a frequência selecionada e, se necessário, retornar à frequência anterior."
+      },
+      {
+        "id": 26,
+        "pergunta": "A escala de legibilidade de sinal '5' significa:",
+        "alternativas": [
+          "Ilegível",
+          "Legível com dificuldade",
+          "Legível",
+          "Perfeitamente legível"
+        ],
+        "resposta_correta": 3,
+        "explicacao": "Na escala de legibilidade, 5 significa 'perfeitamente legível' — a melhor qualidade de sinal."
+      },
+      {
+        "id": 27,
+        "pergunta": "O termo 'SECURITÉ' é usado para:",
+        "alternativas": [
+          "Declarar emergência com risco de vida",
+          "Aviso de condição perigosa ou importante à segurança da navegação",
+          "Solicitar prioridade de pouso",
+          "Indicar perda de comunicação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "SECURITÉ é usado para avisos de segurança à navegação, como pássaros na pista ou objetos detectados."
+      },
+      {
+        "id": 28,
+        "pergunta": "O autoinforme em CTAF:",
+        "alternativas": [
+          "Garante separação pelo ATC entre as aeronaves",
+          "É uma comunicação informativa — o piloto é responsável pela separação visual",
+          "Substitui completamente a necessidade de vigilância visual",
+          "É obrigatório apenas para aeronaves IFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O autoinforme é apenas informativo — sem ATC respondendo, o piloto mantém separação pela visão."
+      },
+      {
+        "id": 29,
+        "pergunta": "O sistema SELCAL é utilizado:",
+        "alternativas": [
+          "Em aeródromos sem torre para substituir o CTAF",
+          "Em voos oceânicos HF para chamar seletivamente uma aeronave",
+          "Como substituto do transponder em áreas remotas",
+          "Apenas em aeronaves militares"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "SELCAL (Selective Calling) é usado em voos oceânicos HF para alertar uma aeronave específica sem monitoração contínua."
+      },
+      {
+        "id": 30,
+        "pergunta": "Um readback incorreto deve ser:",
+        "alternativas": [
+          "Ignorado pelo ATC se a aeronave estiver em rota",
+          "Corrigido imediatamente pelo ATC com 'NEGATIVO' seguido da instrução correta",
+          "Repetido pelo piloto até estar correto",
+          "Registrado apenas no diário de bordo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ATC tem obrigação de corrigir imediatamente qualquer readback incorreto do piloto."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Órgãos ATC e Serviços de Tráfego Aéreo",
+    "aula": {
+      "introducao": "O sistema de controle de tráfego aéreo brasileiro é composto por diversos órgãos, cada um responsável por uma fase específica do voo. Conhecer as atribuições e frequências de cada órgão é fundamental para o piloto operar com segurança no espaço aéreo.",
+      "subtitulos": [
+        {
+          "titulo": "Órgãos ATC no Brasil",
+          "conteudo": "Os principais órgãos de controle de tráfego aéreo no Brasil são:\n\n• **TASIS (Torre de Controle de Aeródromo)**: controla o tráfego no aeródromo e nas proximidades — taxi, decolagem e pouso\n• **APP (Controle de Aproximação)**: controla as fases de saída e chegada ao aeródromo, geralmente até 100 NM ou conforme publicado\n• **ACC (Centro de Controle de Área)**: controla o tráfego em rota, em espaço aéreo superior\n• **AFIS (Serviço de Informação de Voo de Aeródromo)**: fornece informações em aeródromos sem torre de controle — NÃO é um órgão de controle\n• **DECEA (Departamento de Controle do Espaço Aéreo)**: órgão máximo responsável pelo gerenciamento do espaço aéreo brasileiro"
+        },
+        {
+          "titulo": "Serviços de Tráfego Aéreo (ATS)",
+          "conteudo": "Os serviços ATS são divididos em três categorias:\n\n• **Serviço de Controle de Tráfego Aéreo (ATC)**: fornece separação entre aeronaves e entre aeronaves e obstáculos\n  - Controle de área\n  - Controle de aproximação\n  - Controle de aeródromo\n\n• **Serviço de Informação de Voo (FIS)**: fornece informações úteis para a execução segura do voo\n  - ATIS\n  - VOLMET\n  - AFIS\n\n• **Serviço de Alerta (ALRS)**: notifica os órgãos de busca e salvamento sobre aeronaves em situação de emergência"
+        },
+        {
+          "titulo": "Fases do Voo e Órgãos Responsáveis",
+          "conteudo": "A sequência de contatos ATC durante um voo típico:\n\n1. **Pré-voo**: obtenção do ATIS e plano de voo\n2. **Taxi**: contato com a Torre (GND ou TWR) — autorização de taxi\n3. **Decolagem**: contato com a Torre (TWR) — autorização de decolagem\n4. **Saída**: transferência para APP — controle de saída\n5. **Rota**: transferência para ACC — controle em rota\n6. **Chegada**: transferência para APP — controle de chegada\n7. **Aproximação e pouso**: contato com TWR — autorização de pouso\n8. **Após pouso**: taxi até o pátio com GND\n\nCada transferência é comunicada pelo órgão atual antes de ocorrer."
+        },
+        {
+          "titulo": "Classificação do Espaço Aéreo",
+          "conteudo": "O espaço aéreo brasileiro é classificado conforme a OACI:\n\n| Classe | Tipo | Voos permitidos | Separação |\n|--------|------|-----------------|------------|\n| **A** | Controlado | Apenas IFR | Fornecida entre todos |\n| **B** | Controlado | IFR e VFR | Fornecida entre todos |\n| **C** | Controlado | IFR e VFR | IFR/IFR e IFR/VFR |\n| **D** | Controlado | IFR e VFR | Apenas IFR/IFR |\n| **E** | Controlado | IFR e VFR | Apenas IFR/IFR |\n| **F** | Não controlado | IFR e VFR | Quando possível |\n| **G** | Não controlado | IFR e VFR | Não fornecida |\n\nNo Brasil, o espaço aéreo inferior não controlado é predominantemente classe **G**."
+        },
+        {
+          "titulo": "Autorização ATC (Clearance)",
+          "conteudo": "A autorização ATC (clearance) é a permissão concedida pelo órgão de controle para que a aeronave proceda conforme especificado:\n\n**Componentes de uma clearance típica de saída:**\n1. Identificação da aeronave\n2. Limite da autorização (destino ou ponto)\n3. Rota autorizada (SID ou via)\n4. Nível de voo inicial\n5. Código do transponder (squawk)\n6. Frequência de partida\n\nExemplo:\n'PT-XYZ, autorizado para São Paulo via Alfa Um, suba e mantenha 5.000 pés, squawk 2341, contate APP 119,0 após decolagem'\n\nO piloto DEVE fazer o readback completo da clearance."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "O órgão AFIS:",
+        "alternativas": [
+          "É um órgão de controle de tráfego aéreo",
+          "Fornece informações em aeródromos sem torre, mas NÃO controla o tráfego",
+          "Controla o tráfego em rota",
+          "É responsável pelo controle de aproximação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O AFIS fornece informações de voo, mas não exerce controle sobre as aeronaves."
+      },
+      {
+        "id": 22,
+        "pergunta": "O ACC (Centro de Controle de Área) é responsável por:",
+        "alternativas": [
+          "Controlar o tráfego no aeródromo",
+          "Controlar o tráfego em rota e espaço aéreo superior",
+          "Fornecer informações meteorológicas",
+          "Controlar aproximações ILS"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ACC controla o tráfego aéreo em rota, fora da área de responsabilidade dos APP."
+      },
+      {
+        "id": 23,
+        "pergunta": "No espaço aéreo classe G:",
+        "alternativas": [
+          "Apenas voos IFR são permitidos",
+          "A separação não é fornecida pelo ATC",
+          "Todos os voos recebem separação completa",
+          "É necessária autorização prévia para entrar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O espaço aéreo classe G é não controlado e a separação não é fornecida pelo ATC."
+      },
+      {
+        "id": 24,
+        "pergunta": "Em espaço aéreo classe C, a separação é fornecida entre:",
+        "alternativas": [
+          "Apenas entre voos IFR",
+          "IFR/IFR e IFR/VFR",
+          "Todos os voos incluindo VFR/VFR",
+          "Apenas entre voos VFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na classe C, a separação é fornecida entre IFR/IFR e IFR/VFR, mas não entre VFR/VFR."
+      },
+      {
+        "id": 25,
+        "pergunta": "O Serviço de Alerta (ALRS) tem como função:",
+        "alternativas": [
+          "Fornecer informações meteorológicas em rota",
+          "Notificar os órgãos de busca e salvamento sobre aeronaves em emergência",
+          "Controlar o tráfego em área terminal",
+          "Emitir autorizações de decolagem"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ALRS notifica os órgãos de busca e salvamento (SAR) quando uma aeronave está em situação de emergência."
+      },
+      {
+        "id": 26,
+        "pergunta": "Durante um voo típico, após a decolagem, a aeronave é transferida para:",
+        "alternativas": [
+          "Diretamente para o ACC",
+          "O APP (Controle de Aproximação) para controle de saída",
+          "O AFIS do aeródromo de destino",
+          "O DECEA para autorização de rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Após a decolagem, a Torre transfere a aeronave para o APP, que controla a fase de saída."
+      },
+      {
+        "id": 27,
+        "pergunta": "Uma clearance ATC deve obrigatoriamente conter:",
+        "alternativas": [
+          "Apenas o nível de voo autorizado",
+          "Identificação, rota, nível, squawk e frequência de partida",
+          "Apenas a rota e o destino",
+          "O nome do controlador responsável"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Uma clearance completa contém identificação, limite, rota, nível, squawk e frequência de partida."
+      },
+      {
+        "id": 28,
+        "pergunta": "No espaço aéreo classe A:",
+        "alternativas": [
+          "Voos VFR são permitidos sem restrição",
+          "Apenas voos IFR são permitidos",
+          "Não é fornecida separação entre aeronaves",
+          "É equivalente ao espaço aéreo não controlado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O espaço aéreo classe A é o mais restritivo — apenas IFR, com separação entre todos."
+      },
+      {
+        "id": 29,
+        "pergunta": "O APP (Controle de Aproximação) é responsável por:",
+        "alternativas": [
+          "Controlar o tráfego em rota oceânica",
+          "Controlar as fases de saída e chegada ao aeródromo",
+          "Emitir informações ATIS",
+          "Controlar apenas voos VFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O APP controla as aeronaves nas fases de saída (departure) e chegada (arrival) ao aeródromo."
+      },
+      {
+        "id": 30,
+        "pergunta": "O DECEA é:",
+        "alternativas": [
+          "Um órgão de controle de aeródromo",
+          "O órgão máximo responsável pelo gerenciamento do espaço aéreo brasileiro",
+          "Um serviço de informação meteorológica",
+          "Responsável apenas pelo controle de tráfego oceânico"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O DECEA é o órgão máximo do sistema de controle do espaço aéreo brasileiro."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "ATIS, VOLMET e Informações Automáticas",
+    "aula": {
+      "introducao": "Antes e durante o voo, o piloto precisa de informações atualizadas sobre as condições dos aeródromos e da rota. O ATIS e o VOLMET são serviços que transmitem automaticamente essas informações, reduzindo a carga de trabalho dos controladores e garantindo que os pilotos tenham dados precisos.",
+      "subtitulos": [
+        {
+          "titulo": "ATIS — Serviço Automático de Informação Terminal",
+          "conteudo": "O ATIS (Automatic Terminal Information Service) é uma transmissão contínua e automática de informações sobre as condições de um aeródromo:\n\n**Informações contidas no ATIS:**\n• Identificação do aeródromo e hora da observação\n• Condições meteorológicas (vento, visibilidade, teto, temperatura, ponto de orvalho)\n• QNH (ajuste do altímetro)\n• Pistas em uso\n• NOTAMs relevantes\n• Informações especiais (obras, equipamentos inoperantes)\n\n**Designação por letras:**\nCada ATIS recebe uma letra do alfabeto fonético (Alpha, Bravo, Charlie...). Quando o piloto recebe o ATIS, deve informar ao ATC qual letra recebeu:\n\nExemplo: 'Approach, PT-XYZ, com informação Bravo'\n\nO ATIS é atualizado a cada hora ou quando houver mudança significativa nas condições."
+        },
+        {
+          "titulo": "VOLMET — Informações Meteorológicas em Rota",
+          "conteudo": "O VOLMET é um serviço de radiodifusão de informações meteorológicas para aeronaves em voo:\n\n• Transmitido em frequências específicas HF e VHF\n• Contém METARs e TAFs de aeródromos da região\n• Atualizado regularmente (geralmente a cada 30 minutos)\n• Permite ao piloto monitorar as condições meteorológicas do destino e alternativas durante o voo\n\n**Diferença entre ATIS e VOLMET:**\n| | ATIS | VOLMET |\n|---|------|--------|\n| Alcance | Local (aeródromo) | Regional (vários aeródromos) |\n| Conteúdo | Informações operacionais completas | Informações meteorológicas |\n| Uso | Antes do pouso/decolagem | Durante o voo em rota |"
+        },
+        {
+          "titulo": "METAR e TAF",
+          "conteudo": "**METAR** (Meteorological Aerodrome Report):\n• Observação meteorológica de superfície de um aeródromo\n• Emitido a cada 30 minutos (METAR) ou 1 hora (SPECI em condições especiais)\n• Contém: vento, visibilidade, fenômenos, nuvens, temperatura, QNH\n\nExemplo simplificado de METAR:\n`METAR SBGR 141200Z 26010KT 9999 FEW030 25/15 Q1013`\n- SBGR: aeródromo (Guarulhos)\n- 141200Z: dia 14, 1200 UTC\n- 26010KT: vento de 260° a 10 nós\n- 9999: visibilidade 10 km ou mais\n- FEW030: poucas nuvens a 3.000 pés\n- 25/15: temperatura 25°C, ponto de orvalho 15°C\n- Q1013: QNH 1013 hPa\n\n**TAF** (Terminal Aerodrome Forecast):\n• Previsão meteorológica para um aeródromo\n• Válida por 24 ou 30 horas\n• Emitida 4 vezes ao dia (00, 06, 12, 18 UTC)"
+        },
+        {
+          "titulo": "QNH, QFE e QNE",
+          "conteudo": "Os ajustes de altímetro são fundamentais para a operação segura:\n\n• **QNH**: pressão reduzida ao nível médio do mar — o altímetro indica a altitude acima do NMM\n  - Mais utilizado na aviação geral\n  - Permite saber a altitude real da aeronave\n\n• **QFE**: pressão ao nível do aeródromo — o altímetro indica zero no solo do aeródromo\n  - Pouco usado na aviação civil moderna\n\n• **QNE**: pressão padrão ISA (1013,25 hPa ou 29,92 inHg) — o altímetro indica o nível de voo (FL)\n  - Usado acima da altitude de transição\n  - No Brasil, a altitude de transição é geralmente **FL055** (5.500 pés)\n\n**Altitude de transição**: altitude abaixo da qual se usa QNH\n**Nível de transição**: nível acima do qual se usa QNE (FL)"
+        },
+        {
+          "titulo": "NOTAM — Aviso aos Aeronavegantes",
+          "conteudo": "O NOTAM (Notice to Airmen / Notice to Air Missions) é um aviso distribuído por meios de telecomunicações contendo informações sobre o estabelecimento, condição ou alteração de qualquer instalação, serviço, procedimento ou perigo aeronáutico:\n\n**Tipos de NOTAM:**\n• **NOTAM N (New)**: novo NOTAM\n• **NOTAM R (Replace)**: substitui um NOTAM anterior\n• **NOTAM C (Cancel)**: cancela um NOTAM anterior\n\n**Exemplos de conteúdo:**\n• Fechamento de pista ou taxiway\n• Equipamento de navegação inoperante (VOR, ILS fora de serviço)\n• Obras no aeródromo\n• Restrições de espaço aéreo\n• Exercícios militares\n• Obstáculos temporários\n\nO piloto deve consultar os NOTAMs antes de cada voo como parte do planejamento."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "O ATIS é atualizado:",
+        "alternativas": [
+          "A cada 3 horas ou quando solicitado",
+          "A cada hora ou quando houver mudança significativa",
+          "Apenas uma vez por dia",
+          "Somente quando o QNH muda"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ATIS é atualizado de hora em hora ou quando ocorrem mudanças significativas nas condições."
+      },
+      {
+        "id": 32,
+        "pergunta": "Ao receber o ATIS, o piloto deve informar ao ATC:",
+        "alternativas": [
+          "O QNH recebido",
+          "A letra (fonética) da informação recebida",
+          "A temperatura informada",
+          "A pista em uso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O piloto informa a letra do ATIS recebido para que o ATC saiba que ele tem as informações atuais."
+      },
+      {
+        "id": 33,
+        "pergunta": "O QNH é:",
+        "alternativas": [
+          "A pressão ao nível do aeródromo",
+          "A pressão reduzida ao nível médio do mar",
+          "A pressão padrão ISA",
+          "A pressão dinâmica da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O QNH é a pressão atmosférica reduzida ao NMM — usado para indicar altitude real."
+      },
+      {
+        "id": 34,
+        "pergunta": "O QNE corresponde a:",
+        "alternativas": [
+          "Pressão ao nível do aeródromo",
+          "Pressão padrão ISA de 1013,25 hPa",
+          "Pressão mínima de voo seguro",
+          "Pressão reduzida ao NMM"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "QNE é a pressão padrão ISA (1013,25 hPa), usada acima da altitude de transição para indicar Flight Level."
+      },
+      {
+        "id": 35,
+        "pergunta": "O VOLMET diferencia-se do ATIS porque:",
+        "alternativas": [
+          "Fornece informações apenas sobre o aeródromo local",
+          "Transmite informações meteorológicas de vários aeródromos para aeronaves em rota",
+          "É transmitido apenas em frequências HF",
+          "Contém autorizações ATC para o pouso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O VOLMET cobre vários aeródromos de uma região, sendo usado por aeronaves durante o voo em rota."
+      },
+      {
+        "id": 36,
+        "pergunta": "O METAR é:",
+        "alternativas": [
+          "Uma previsão meteorológica para 24 horas",
+          "Uma observação meteorológica de superfície de um aeródromo",
+          "Um aviso de condições severas em rota",
+          "Um relatório de piloto sobre turbulência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O METAR é a observação meteorológica de aeródromo, emitida a cada 30 minutos ou 1 hora."
+      },
+      {
+        "id": 37,
+        "pergunta": "O TAF é válido por:",
+        "alternativas": [
+          "6 horas",
+          "24 ou 30 horas",
+          "48 horas",
+          "72 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O TAF tem validade de 24 ou 30 horas e é emitido 4 vezes ao dia."
+      },
+      {
+        "id": 38,
+        "pergunta": "No Brasil, a altitude de transição para uso do QNE é geralmente:",
+        "alternativas": [
+          "FL035",
+          "FL055",
+          "FL075",
+          "FL100"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No Brasil, a altitude de transição é geralmente FL055 (5.500 pés), acima da qual se usa QNE."
+      },
+      {
+        "id": 39,
+        "pergunta": "Um NOTAM tipo 'C' significa:",
+        "alternativas": [
+          "Novo NOTAM",
+          "Cancela um NOTAM anterior",
+          "Substitui um NOTAM anterior",
+          "NOTAM de caráter crítico"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "NOTAM C (Cancel) é emitido para cancelar um NOTAM previamente publicado."
+      },
+      {
+        "id": 40,
+        "pergunta": "O piloto deve consultar os NOTAMs:",
+        "alternativas": [
+          "Apenas em voos IFR",
+          "Antes de cada voo como parte do planejamento",
+          "Somente quando o ATC solicitar",
+          "Apenas para voos internacionais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A consulta aos NOTAMs é obrigatória no planejamento de qualquer voo."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Transponder e SSR",
+    "aula": {
+      "introducao": "O transponder é um equipamento de bordo que responde automaticamente a interrogações do radar secundário de vigilância (SSR — Secondary Surveillance Radar), fornecendo informações de identificação e altitude ao ATC. Seu uso correto é fundamental para a segurança do espaço aéreo e para a identificação da aeronave pelos órgãos de controle.",
+      "subtitulos": [
+        {
+          "titulo": "O que é o Transponder",
+          "conteudo": "O transponder (TRANSmitter-resPONDER) é um equipamento eletrônico instalado nas aeronaves que:\n\n• Recebe sinais de interrogação do radar SSR em terra\n• Responde automaticamente com informações codificadas\n• Permite ao ATC identificar e monitorar a aeronave no radar\n• Fornece dados de identidade (código squawk) e altitude\n\n**Componentes do sistema SSR:**\n• **Interrogador (em terra)**: emite pulsos de interrogação na frequência de **1030 MHz**\n• **Transponder (a bordo)**: responde na frequência de **1090 MHz**\n• **Antena**: localizada na parte inferior da fuselagem\n\n**Vantagens do SSR sobre o radar primário:**\n• Maior alcance de detecção\n• Fornece identificação (código) e altitude\n• Menor potência necessária\n• Não depende do eco do sinal — resposta ativa da aeronave"
+        },
+        {
+          "titulo": "Modos do Transponder",
+          "conteudo": "O transponder opera em diferentes modos conforme a geração do equipamento:\n\n**Modo A:**\n• Fornece apenas o **código de identificação** (squawk — 4 dígitos octais)\n• Não transmite altitude\n• Equipamentos mais antigos\n\n**Modo C:**\n• Fornece o código de identificação + **altitude de pressão** automaticamente\n• Altitude codificada em incrementos de 100 pés\n• Padrão atual para maioria das aeronaves civis\n\n**Modo S (Selective):**\n• Fornece código + altitude + **dados adicionais** (identificação única de 24 bits)\n• Permite interrogação seletiva de cada aeronave individualmente\n• Base para o sistema **ADS-B**\n• Transmite dados como velocidade, proa, identificação do voo\n\n**Modo 4:**\n• Modo criptografado de uso **militar**\n• Identificação de aeronaves amigas (IFF — Identification Friend or Foe)\n\n**Posições do seletor do transponder:**\n• **OFF**: transponder desligado\n• **SBY (Standby)**: ligado mas não respondendo (aquecimento)\n• **ON / Mode A**: respondendo apenas com código\n• **ALT / Mode C**: respondendo com código e altitude ← **posição normal de voo**\n• **IDENT**: envia pulso especial de identificação quando solicitado pelo ATC"
+        },
+        {
+          "titulo": "Códigos Squawk",
+          "conteudo": "O código squawk é um número de 4 dígitos octais (0-7 cada dígito), totalizando 4.096 combinações possíveis:\n\n**Códigos de emergência (universais):**\n| Código | Situação |\n|--------|----------|\n| **7700** | Emergência geral (perigo de vida) |\n| **7600** | Falha de comunicação (NORDO) |\n| **7500** | Interferência ilícita — sequestro (hijacking) |\n\n**Códigos padrão:**\n| Código | Uso |\n|--------|-----|\n| **7000** | Código VFR padrão (quando não atribuído pelo ATC) |\n| **2000** | Aeronave entrando em espaço aéreo controlado sem contato prévio |\n| **1200** | Código VFR padrão nos EUA |\n| **0000** | Reservado / não usar |\n\n**Código atribuído pelo ATC:**\n• O ATC atribui um código único para cada aeronave\n• Transmitido como parte da clearance: 'squawk dois três quatro um'\n• O piloto deve fazer readback do código e selecioná-lo imediatamente\n• Nunca selecionar 7500, 7600 ou 7700 por engano\n\n**Função IDENT:**\n• Quando o ATC solicita 'squawk ident', o piloto pressiona o botão IDENT\n• Causa um destaque especial do blip da aeronave no radar por alguns segundos\n• Usado para identificação positiva da aeronave pelo controlador"
+        },
+        {
+          "titulo": "ADS-B — Automatic Dependent Surveillance Broadcast",
+          "conteudo": "O ADS-B é a tecnologia mais moderna de vigilância aérea, baseada no Modo S:\n\n**Como funciona:**\n• A aeronave determina sua posição via **GPS**\n• Transmite automaticamente essa posição + dados de voo na frequência **1090 MHz**\n• Qualquer receptor ADS-B (em terra ou a bordo) pode receber essas informações\n• Não depende de interrogação do radar — transmissão contínua e autônoma\n\n**Dados transmitidos pelo ADS-B:**\n• Posição GPS (latitude e longitude)\n• Altitude\n• Velocidade (solo e indicada)\n• Proa/rumo\n• Identificação da aeronave\n• Categoria da aeronave\n\n**Vantagens:**\n• Cobertura em áreas sem radar (oceânicos, montanhosos)\n• Maior precisão de posição\n• Atualização mais frequente que o radar SSR\n• Permite TCAS mais eficiente\n• Redução do espaçamento entre aeronaves\n\n**ADS-B In vs ADS-B Out:**\n• **ADS-B Out**: aeronave transmite seus dados (obrigatório em muitos espaços aéreos)\n• **ADS-B In**: aeronave recebe dados de outras aeronaves e do solo (tráfego, meteorologia)"
+        },
+        {
+          "titulo": "TCAS — Traffic Collision Avoidance System",
+          "conteudo": "O TCAS é um sistema de bordo que monitora o espaço aéreo ao redor da aeronave e gera alertas de colisão:\n\n**Funcionamento:**\n• Interroga os transponders de outras aeronaves\n• Calcula trajetórias e estima risco de colisão\n• Emite alertas sonoros e visuais para a tripulação\n\n**Tipos de alerta:**\n• **TA (Traffic Advisory)**: alerta de tráfego próximo\n  - Sinal sonoro: 'Traffic, Traffic'\n  - Indica posição do tráfego no display\n  - Piloto deve procurar visualmente o tráfego\n\n• **RA (Resolution Advisory)**: alerta de manobra de resolução\n  - Sinal sonoro: 'Climb, Climb' ou 'Descend, Descend'\n  - Instrui manobra vertical específica\n  - **O piloto DEVE seguir o RA imediatamente**, mesmo contrariando instrução do ATC\n  - Informar ao ATC: 'PT-XYZ, TCAS RA'\n\n**Versões do TCAS:**\n• **TCAS I**: apenas TA — sem RA\n• **TCAS II**: TA e RA — padrão obrigatório para aeronaves de transporte\n• **TCAS III**: em desenvolvimento — RA lateral além do vertical\n\n**Prioridade do TCAS RA:**\nO RA tem prioridade sobre qualquer instrução do ATC. Após resolver, o piloto retoma as instruções do ATC e informa o ocorrido."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "O transponder responde às interrogações do SSR na frequência de:",
+        "alternativas": [
+          "1030 MHz",
+          "1090 MHz",
+          "121,5 MHz",
+          "243,0 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O transponder a bordo responde na frequência de 1090 MHz. A interrogação do solo ocorre em 1030 MHz."
+      },
+      {
+        "id": 42,
+        "pergunta": "O Modo C do transponder fornece:",
+        "alternativas": [
+          "Apenas o código de identificação",
+          "Código de identificação e altitude de pressão",
+          "Posição GPS e altitude",
+          "Identificação única de 24 bits"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Modo C fornece o squawk (código) e a altitude de pressão automaticamente — padrão atual da aviação civil."
+      },
+      {
+        "id": 43,
+        "pergunta": "O código squawk 7700 indica:",
+        "alternativas": [
+          "Falha de comunicação",
+          "Emergência geral",
+          "Interferência ilícita",
+          "Código VFR padrão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O código 7700 indica emergência geral — perigo de vida a bordo."
+      },
+      {
+        "id": 44,
+        "pergunta": "O código squawk 7600 indica:",
+        "alternativas": [
+          "Emergência geral",
+          "Falha de comunicação (NORDO)",
+          "Sequestro da aeronave",
+          "Entrada em espaço aéreo controlado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O código 7600 (NORDO) indica falha de comunicação de rádio a bordo."
+      },
+      {
+        "id": 45,
+        "pergunta": "O código squawk 7500 indica:",
+        "alternativas": [
+          "Emergência meteorológica",
+          "Interferência ilícita — sequestro (hijacking)",
+          "Falha de motor",
+          "Falha de comunicação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O código 7500 indica interferência ilícita a bordo — nunca deve ser selecionado por engano."
+      },
+      {
+        "id": 46,
+        "pergunta": "O código squawk VFR padrão no Brasil, quando não atribuído pelo ATC, é:",
+        "alternativas": [
+          "1200",
+          "7000",
+          "2000",
+          "0000"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O código 7000 é o squawk VFR padrão no Brasil quando o ATC não atribui código específico."
+      },
+      {
+        "id": 47,
+        "pergunta": "A função IDENT do transponder:",
+        "alternativas": [
+          "Desliga temporariamente o transponder",
+          "Causa destaque especial do blip da aeronave no radar do ATC",
+          "Muda automaticamente para o código de emergência",
+          "Transmite a posição GPS da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O IDENT envia um pulso especial que destaca o blip da aeronave no radar, facilitando a identificação pelo ATC."
+      },
+      {
+        "id": 48,
+        "pergunta": "A posição normal do transponder durante o voo é:",
+        "alternativas": [
+          "SBY (Standby)",
+          "ALT (Mode C)",
+          "ON (Mode A)",
+          "OFF"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Durante o voo, o transponder deve estar em ALT (Mode C), transmitindo código e altitude."
+      },
+      {
+        "id": 49,
+        "pergunta": "O ADS-B determina a posição da aeronave por meio de:",
+        "alternativas": [
+          "Interrogação do radar SSR em terra",
+          "Receptor GPS a bordo",
+          "Sistema de navegação inercial",
+          "Sinal VOR/DME"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ADS-B utiliza GPS para determinar a posição e a transmite automaticamente na frequência 1090 MHz."
+      },
+      {
+        "id": 50,
+        "pergunta": "Ao receber um TCAS RA (Resolution Advisory), o piloto deve:",
+        "alternativas": [
+          "Aguardar confirmação do ATC antes de executar a manobra",
+          "Seguir o RA imediatamente, mesmo contrariando instrução do ATC",
+          "Ignorar o RA se estiver em espaço aéreo controlado",
+          "Reduzir a velocidade e manter a altitude atual"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RA tem prioridade absoluta sobre qualquer instrução do ATC. O piloto executa a manobra e informa 'TCAS RA' ao ATC."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Falha de Comunicação e Procedimentos Especiais",
+    "aula": {
+      "introducao": "A falha de comunicação (NORDO — No Radio) é uma situação anormal que exige procedimentos específicos para garantir a segurança do voo e a separação entre aeronaves. O piloto deve conhecer as ações a tomar em caso de perda total ou parcial das comunicações, bem como os procedimentos para situações especiais como espaço aéreo restrito e interceptação.",
+      "subtitulos": [
+        {
+          "titulo": "Falha de Comunicação — NORDO",
+          "conteudo": "A perda de comunicação pode ser total ou parcial:\n\n**Falha de recepção (ouve mas não transmite):**\n• O piloto recebe as transmissões do ATC mas não consegue responder\n• Deve tentar transmitir mesmo sem confirmação\n• Usar o transponder para sinalizar a situação\n\n**Falha de transmissão (transmite mas não ouve):**\n• O piloto transmite mas não recebe resposta do ATC\n• Verificar volume, frequência selecionada e antena\n• Tentar em frequência alternativa ou 121,5 MHz\n\n**Falha total (não ouve nem transmite):**\n• Situação mais grave — NORDO completo\n• Selecionar squawk **7600** imediatamente\n• Seguir procedimentos NORDO publicados\n\n**Verificações antes de declarar NORDO:**\n1. Volume do receptor ajustado corretamente?\n2. Frequência correta selecionada?\n3. Microfone conectado e PTT funcionando?\n4. Rádio COM alternativo disponível?\n5. Tentar em 121,5 MHz\n6. Contato via telefone (quando em solo)"
+        },
+        {
+          "titulo": "Procedimentos NORDO em Voo VFR",
+          "conteudo": "Em caso de falha de comunicação durante voo VFR, o piloto deve:\n\n**Fora de espaço aéreo controlado:**\n• Continuar o voo em condições VMC\n• Pousar no aeródromo mais próximo adequado\n• Notificar as autoridades após o pouso\n\n**Em espaço aéreo controlado:**\n• Selecionar squawk 7600\n• Sair do espaço aéreo controlado o mais rápido possível\n• Pousar no aeródromo mais próximo\n• Manter VMC\n• Ao se aproximar do aeródromo, observar sinais luminosos da torre\n\n**Sinais luminosos da torre para NORDO:**\n| Sinal | Para aeronave em voo | Para aeronave no solo |\n|-------|---------------------|----------------------|\n| **Verde contínuo** | Autorizado para pousar | Autorizado para taxi |\n| **Verde intermitente** | Retorne para pousar | Autorizado para pré-decolagem |\n| **Vermelho contínuo** | Dê a vez — aeródromo não disponível | Pare |\n| **Vermelho intermitente** | Aeródromo não seguro — não pouse | Saia da pista/taxiway |\n| **Branco intermitente** | Pouse neste aeródromo e taxi ao pátio | Retorne ao ponto de partida |\n| **Alternado vermelho/verde** | Exercite extrema cautela | Exercite extrema cautela |\n\n**Como confirmar recebimento dos sinais:**\n• Em voo diurno: balance as asas\n• Em voo noturno: pisque as luzes de pouso\n• No solo diurno: mova o leme de direção\n• No solo noturno: pisque as luzes de taxi/pouso"
+        },
+        {
+          "titulo": "Procedimentos NORDO em Voo IFR",
+          "conteudo": "A falha de comunicação em voo IFR exige procedimentos mais rigorosos:\n\n**Ações imediatas:**\n1. Selecionar squawk **7600**\n2. Tentar restabelecer comunicação em todas as frequências disponíveis\n3. Tentar contato via SELCAL, HF, satélite ou outro meio\n4. Tentar contato com outras aeronaves para retransmissão\n\n**Regra de voo a seguir (em ordem de prioridade):**\nO piloto deve manter o nível mais alto entre:\n• O nível de voo atribuído pelo ATC\n• O nível mínimo de segurança da rota\n• O nível solicitado no plano de voo\n\n**Rota a seguir:**\n• Via rota atribuída pelo ATC\n• Se vetorado: direto ao próximo ponto de espera ou fix\n• Seguir o plano de voo arquivado\n\n**No destino:**\n• Iniciar a descida no horário previsto ou na ETA\n• Executar a aproximação publicada\n• Pousar se as condições permitirem\n• Se não pousar: seguir para o alternativo\n\n**Espera em caso de NORDO:**\n• Se estiver em espera, continuar por 30 minutos após a ETA\n• Então iniciar a aproximação"
+        },
+        {
+          "titulo": "Espaço Aéreo Restrito e Proibido",
+          "conteudo": "O piloto deve conhecer os diferentes tipos de espaço aéreo especial:\n\n**Espaço Aéreo Proibido (P):**\n• Sobrevoo proibido em qualquer circunstância\n• Exemplos: Palácio do Planalto, instalações nucleares\n• Identificado por P + número (ex: P-01 Brasília)\n\n**Espaço Aéreo Restrito (R):**\n• Sobrevoo restrito — pode ser autorizado mediante permissão\n• Exemplos: bases militares, áreas industriais sensíveis\n• Pode ter horários de ativação publicados\n• Identificado por R + número\n\n**Espaço Aéreo Perigoso (D):**\n• Contém atividades perigosas à aeronave civil\n• Exemplos: áreas de exercício militar, tiro ao alvo\n• Identificado por D + número\n• Pode ser cruzado com cautela fora dos horários de ativação\n\n**Zona de Tráfego de Aeródromo (ATZ):**\n• Espaço aéreo ao redor de aeródromos\n• Raio típico de 5 NM e até 2.000 pés AGL\n• Requer comunicação ou autorização para ingresso\n\n**TMA (Área de Controle Terminal):**\n• Espaço aéreo controlado ao redor de grandes aeródromos\n• Exige plano de voo e comunicação com APP\n• Limites publicados nas cartas aeronáuticas"
+        },
+        {
+          "titulo": "Procedimentos de Interceptação",
+          "conteudo": "Se uma aeronave civil for interceptada por aeronave militar, deve seguir os procedimentos OACI:\n\n**Sinais da aeronave interceptora:**\n\n| Situação | Sinal do interceptor | Significado |\n|----------|---------------------|-------------|\n| De dia | Balança as asas + vira à esquerda | Siga-me |\n| De noite | Pisca luzes + vira à esquerda | Siga-me |\n| Finalizada missão | Balança as asas e se afasta | Pode prosseguir |\n| Pouse aqui | Baixa trem, acende faróis, sobrevoa a pista | Pouse neste aeródromo |\n\n**Respostas da aeronave interceptada:**\n• Balançar as asas: entendido, vou obedecer\n• Acionar todas as luzes: entendido\n• Selecionar squawk 7700 (se não puder obedecer)\n\n**Ações imediatas ao ser interceptado:**\n1. Obedecer às instruções visuais do interceptor\n2. Selecionar squawk **7700**\n3. Transmitir em **121,5 MHz**: identificação, posição e natureza do voo\n4. Tentar contato em **243,0 MHz** (frequência militar)\n5. Seguir as instruções do interceptor\n6. Notificar o ATC se possível\n\n**NUNCA:**\n• Fazer movimentos bruscos em direção ao interceptor\n• Ignorar os sinais do interceptor\n• Tentar fugir da interceptação"
+        },
+        {
+          "titulo": "Comunicações em Situações Especiais",
+          "conteudo": "Outras situações especiais que requerem procedimentos específicos de comunicação:\n\n**Voo em área de silêncio de rádio:**\n• Algumas áreas exigem silêncio de rádio (ex: proximidade de hospitais)\n• Consultar NOTAMs e cartas aeronáuticas\n\n**Comunicação com aeronaves em solo:**\n• Frequência de solo (GND): comunicação durante taxi\n• Frequência de pré-voo: solicitação de clearance IFR\n• Frequência ATIS: recepção automática de informações\n\n**Retransmissão de mensagens:**\n• Quando uma aeronave não consegue contato com o ATC\n• Outra aeronave pode retransmitir a mensagem\n• Formato: '[Órgão ATC], PT-XYZ, retransmitindo para PT-ABC: [mensagem]'\n\n**Comunicação em caso de falha de motor:**\n• Declarar PAN-PAN ou MAYDAY conforme a gravidade\n• Informar: tipo de aeronave, natureza do problema, posição, altitude, intenção, almas a bordo\n• Solicitar vetores para o aeródromo mais próximo\n• Manter comunicação contínua com o ATC\n\n**Prioridade das comunicações:**\n1. MAYDAY (emergência)\n2. PAN-PAN (urgência)\n3. SECURITÉ (segurança à navegação)\n4. Comunicações ATC normais\n5. Comunicações de voo (meteorologia, posição)\n6. Outras comunicações aeronáuticas"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "Em caso de falha total de comunicação, o piloto deve selecionar o squawk:",
+        "alternativas": [
+          "7700",
+          "7600",
+          "7500",
+          "7000"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O squawk 7600 indica falha de comunicação (NORDO) e deve ser selecionado imediatamente."
+      },
+      {
+        "id": 52,
+        "pergunta": "O sinal luminoso verde contínuo da torre para uma aeronave em voo significa:",
+        "alternativas": [
+          "Dê a vez — aeródromo não disponível",
+          "Autorizado para pousar",
+          "Retorne para pousar",
+          "Exercite extrema cautela"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Verde contínuo para aeronave em voo significa autorização para pousar."
+      },
+      {
+        "id": 53,
+        "pergunta": "O sinal luminoso vermelho contínuo da torre para uma aeronave em voo significa:",
+        "alternativas": [
+          "Autorizado para pousar",
+          "Dê a vez — aeródromo não disponível, não pouse",
+          "Retorne para pousar",
+          "Aeródromo não seguro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Vermelho contínuo para aeronave em voo significa 'dê a vez' — o aeródromo não está disponível para pouso."
+      },
+      {
+        "id": 54,
+        "pergunta": "Em voo IFR com NORDO, a rota a seguir é:",
+        "alternativas": [
+          "A rota mais curta para o destino",
+          "A rota atribuída pelo ATC ou conforme o plano de voo",
+          "Direto para o alternativo imediatamente",
+          "A critério do piloto em comando"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em NORDO IFR, o piloto segue a rota atribuída pelo ATC ou, se vetorado, segue o plano de voo arquivado."
+      },
+      {
+        "id": 55,
+        "pergunta": "Como um piloto confirma que recebeu e entendeu os sinais luminosos da torre durante o dia (em voo)?",
+        "alternativas": [
+          "Pisca as luzes de pouso",
+          "Balance as asas",
+          "Move o leme de direção",
+          "Transmite via rádio backup"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em voo diurno, o piloto confirma os sinais luminosos balançando as asas da aeronave."
+      },
+      {
+        "id": 56,
+        "pergunta": "O espaço aéreo Proibido (P) é aquele:",
+        "alternativas": [
+          "Onde o sobrevoo pode ser autorizado mediante permissão",
+          "Onde o sobrevoo é proibido em qualquer circunstância",
+          "Onde há atividades perigosas em determinados horários",
+          "Reservado exclusivamente para voos IFR"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O espaço aéreo Proibido não pode ser sobrevoado em nenhuma circunstância por aeronaves civis."
+      },
+      {
+        "id": 57,
+        "pergunta": "Ao ser interceptado por aeronave militar, o piloto deve imediatamente:",
+        "alternativas": [
+          "Tentar fugir e contatar o ATC",
+          "Obedecer às instruções visuais e selecionar squawk 7700",
+          "Selecionar squawk 7500 e aterrissar",
+          "Manter a rota e ignorar o interceptor"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O piloto deve obedecer ao interceptor, selecionar squawk 7700 e transmitir em 121,5 MHz."
+      },
+      {
+        "id": 58,
+        "pergunta": "Ao ser interceptado, o piloto deve transmitir em:",
+        "alternativas": [
+          "123,45 MHz",
+          "121,5 MHz e tentar 243,0 MHz",
+          "Apenas na frequência do ATC atual",
+          "2182 kHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O piloto transmite em 121,5 MHz (emergência VHF) e tenta 243,0 MHz (frequência militar de emergência)."
+      },
+      {
+        "id": 59,
+        "pergunta": "A retransmissão de mensagem por outra aeronave ocorre quando:",
+        "alternativas": [
+          "O ATC solicita por questões operacionais",
+          "Uma aeronave não consegue contato direto com o ATC",
+          "Há excesso de tráfego na frequência",
+          "O piloto prefere não falar diretamente com o ATC"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A retransmissão ocorre quando uma aeronave não consegue contato com o ATC, e outra aeronave intermedeia a comunicação."
+      },
+      {
+        "id": 60,
+        "pergunta": "A ordem de prioridade das comunicações aeronáuticas é:",
+        "alternativas": [
+          "ATC normal, MAYDAY, PAN-PAN, SECURITÉ",
+          "MAYDAY, PAN-PAN, SECURITÉ, ATC normal",
+          "SECURITÉ, PAN-PAN, MAYDAY, ATC normal",
+          "PAN-PAN, MAYDAY, ATC normal, SECURITÉ"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A prioridade é: MAYDAY (emergência) > PAN-PAN (urgência) > SECURITÉ (segurança) > comunicações normais."
+      }
+    ]
+  }
+]
 {
-  "materia": "Comunicações Aeronáuticas",
-  "descricao": "Procedimentos e fraseologia de comunicação aeronáutica",
-  "topicos": []
+  "questionario_final": {
+    "titulo": "Questionário Final — Comunicações Aeronáuticas",
+    "descricao": "Avaliação final abrangendo todos os módulos de Comunicações Aeronáuticas. São 30 questões cobrindo fundamentos, fraseologia, órgãos ATC, ATIS/VOLMET, transponder e procedimentos de emergência.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A faixa de frequência VHF aeronáutica utilizada para comunicações ATC é:",
+        "alternativas": [
+          "108,000 a 117,975 MHz",
+          "118,000 a 136,975 MHz",
+          "2 a 30 MHz",
+          "300 MHz a 3 GHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A faixa VHF aeronáutica para comunicações vai de 118,000 a 136,975 MHz, sendo a principal utilizada na aviação civil."
+      },
+      {
+        "id": 2,
+        "pergunta": "A propagação das ondas VHF é limitada porque ocorre:",
+        "alternativas": [
+          "Por reflexão ionosférica, dependendo da camada D",
+          "Em linha de visada, limitada pela curvatura da Terra e altitude",
+          "Por difração nas superfícies oceânicas",
+          "Ao redor da curvatura terrestre sem limitação de distância"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "VHF propaga-se em linha de visada — quanto maior a altitude da aeronave, maior o alcance da comunicação."
+      },
+      {
+        "id": 3,
+        "pergunta": "A letra 'G' no alfabeto fonético OACI é representada por:",
+        "alternativas": [
+          "Gamma",
+          "Golf",
+          "George",
+          "Green"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No alfabeto fonético OACI, a letra G é representada por 'Golf'."
+      },
+      {
+        "id": 4,
+        "pergunta": "O número 4 na fraseologia aeronáutica em inglês é pronunciado como:",
+        "alternativas": [
+          "Four",
+          "Fower",
+          "For",
+          "Fore"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O número 4 é pronunciado 'Fower' na fraseologia aeronáutica para evitar confusão fonética."
+      },
+      {
+        "id": 5,
+        "pergunta": "No primeiro contato com um órgão ATC, a estrutura correta da chamada é:",
+        "alternativas": [
+          "Identificação da aeronave, intenção, posição e altitude",
+          "Órgão chamado, identificação da aeronave, posição/altitude e intenção",
+          "Intenção, identificação da aeronave e órgão chamado",
+          "Posição, altitude, identificação e frequência solicitada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A estrutura correta é: quem está chamando (órgão), quem é (aeronave), onde está (posição/altitude) e o que quer (intenção)."
+      },
+      {
+        "id": 6,
+        "pergunta": "O termo 'WILCO' na fraseologia aeronáutica significa:",
+        "alternativas": [
+          "Recebi sua transmissão, sem compromisso de cumprimento",
+          "Entendi a instrução e vou cumpri-la",
+          "Aguarde, responderei em breve",
+          "Repita sua última transmissão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "WILCO (Will Comply) significa que o piloto entendeu a instrução e irá executá-la."
+      },
+      {
+        "id": 7,
+        "pergunta": "A chamada MAYDAY deve ser transmitida:",
+        "alternativas": [
+          "Uma única vez para não ocupar o canal",
+          "Duas vezes consecutivas",
+          "Três vezes consecutivas",
+          "Continuamente até resposta do ATC"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A chamada MAYDAY é sempre transmitida três vezes consecutivas: 'MAYDAY MAYDAY MAYDAY'."
+      },
+      {
+        "id": 8,
+        "pergunta": "A diferença entre MAYDAY e PAN-PAN é:",
+        "alternativas": [
+          "MAYDAY é usado para problemas técnicos e PAN-PAN para problemas médicos",
+          "MAYDAY indica perigo de vida iminente; PAN-PAN indica urgência sem perigo imediato de vida",
+          "PAN-PAN tem prioridade sobre MAYDAY",
+          "Ambos têm o mesmo significado e podem ser usados indistintamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "MAYDAY = emergência com perigo de vida iminente. PAN-PAN = situação urgente sem perigo imediato de vida."
+      },
+      {
+        "id": 9,
+        "pergunta": "O readback é OBRIGATÓRIO para:",
+        "alternativas": [
+          "Informações meteorológicas recebidas do ATIS",
+          "Autorizações de pista, squawk, frequências e níveis de voo",
+          "Aviso de tráfego próximo informado pelo ATC",
+          "Informações sobre serviços de solo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "São itens de readback obrigatório: autorizações de pista, squawk, frequências, níveis e clearances."
+      },
+      {
+        "id": 10,
+        "pergunta": "Em aeródromos sem torre de controle, os pilotos utilizam a frequência CTAF para:",
+        "alternativas": [
+          "Receber autorizações de pouso do APP",
+          "Emitir autoinformes e alertar outros pilotos sobre suas intenções",
+          "Solicitar o ATIS do aeródromo",
+          "Contatar o ACC para autorização de rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A frequência CTAF é usada para autoinformes — comunicações informativas entre pilotos sem controle ATC."
+      },
+      {
+        "id": 11,
+        "pergunta": "O órgão AFIS difere da Torre de Controle (TWR) porque:",
+        "alternativas": [
+          "O AFIS controla o tráfego com autoridade e a TWR apenas informa",
+          "O AFIS fornece informações mas NÃO exerce controle sobre as aeronaves",
+          "O AFIS opera apenas em horário noturno",
+          "O AFIS é responsável pelo controle em rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O AFIS é um serviço de informação — sem autoridade de controle. A TWR exerce controle efetivo do tráfego."
+      },
+      {
+        "id": 12,
+        "pergunta": "No espaço aéreo classe C, a separação ATC é fornecida entre:",
+        "alternativas": [
+          "Apenas voos IFR entre si",
+          "IFR/IFR e IFR/VFR, mas não entre VFR/VFR",
+          "Todos os voos incluindo VFR/VFR",
+          "Nenhum voo recebe separação na classe C"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na classe C, o ATC separa IFR de IFR e IFR de VFR, mas não fornece separação entre VFR/VFR."
+      },
+      {
+        "id": 13,
+        "pergunta": "O ACC (Centro de Controle de Área) é responsável por:",
+        "alternativas": [
+          "Controlar o tráfego no aeródromo e proximidades",
+          "Controlar o tráfego em rota e no espaço aéreo superior",
+          "Emitir informações ATIS continuamente",
+          "Controlar as fases de saída e chegada ao aeródromo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ACC controla o tráfego em rota, fora das áreas de responsabilidade dos APP."
+      },
+      {
+        "id": 14,
+        "pergunta": "O ATIS contém as seguintes informações:",
+        "alternativas": [
+          "Apenas as condições meteorológicas atuais do aeródromo",
+          "Condições meteorológicas, QNH, pistas em uso, NOTAMs relevantes e outras informações operacionais",
+          "Apenas o QNH e a pista em uso",
+          "Previsão meteorológica para as próximas 24 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ATIS é completo: meteorologia, QNH, pistas em uso, NOTAMs e informações operacionais do aeródromo."
+      },
+      {
+        "id": 15,
+        "pergunta": "O QNH é definido como:",
+        "alternativas": [
+          "A pressão padrão ISA de 1013,25 hPa",
+          "A pressão atmosférica reduzida ao nível médio do mar",
+          "A pressão ao nível do aeródromo",
+          "A pressão dinâmica medida pelo tubo de Pitot"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "QNH é a pressão reduzida ao NMM — com QNH ajustado no altímetro, ele indica a altitude verdadeira da aeronave."
+      },
+      {
+        "id": 16,
+        "pergunta": "O TAF é:",
+        "alternativas": [
+          "Uma observação meteorológica atual do aeródromo",
+          "Uma previsão meteorológica para o aeródromo, válida por 24 ou 30 horas",
+          "Um relatório de piloto sobre condições em rota",
+          "Um serviço de transmissão de informações meteorológicas em rota"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "TAF é a previsão meteorológica de aeródromo, emitida 4 vezes ao dia com validade de 24 a 30 horas."
+      },
+      {
+        "id": 17,
+        "pergunta": "Um NOTAM tipo 'R' significa:",
+        "alternativas": [
+          "Novo NOTAM publicado",
+          "NOTAM que substitui um anterior",
+          "NOTAM que cancela um anterior",
+          "NOTAM de caráter restrito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "NOTAM R (Replace) substitui um NOTAM previamente publicado com informações atualizadas."
+      },
+      {
+        "id": 18,
+        "pergunta": "O transponder a bordo responde às interrogações do SSR na frequência de:",
+        "alternativas": [
+          "121,5 MHz",
+          "1090 MHz",
+          "1030 MHz",
+          "243,0 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O transponder a bordo responde em 1090 MHz. O interrogador em terra transmite em 1030 MHz."
+      },
+      {
+        "id": 19,
+        "pergunta": "A posição normal do transponder durante o voo deve ser:",
+        "alternativas": [
+          "SBY (Standby) para não sobrecarregar o sistema",
+          "ALT (Mode C), transmitindo código e altitude",
+          "ON (Mode A), transmitindo apenas o código",
+          "OFF, sendo acionado somente quando solicitado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Durante o voo, o transponder deve estar em ALT (Mode C) para transmitir continuamente o código e a altitude."
+      },
+      {
+        "id": 20,
+        "pergunta": "O código squawk 7500 indica:",
+        "alternativas": [
+          "Emergência geral a bordo",
+          "Interferência ilícita — sequestro (hijacking)",
+          "Falha de comunicação",
+          "Código VFR padrão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O squawk 7500 indica interferência ilícita (hijacking). Deve ser selecionado com extremo cuidado."
+      },
+      {
+        "id": 21,
+        "pergunta": "O código squawk VFR padrão no Brasil é:",
+        "alternativas": [
+          "1200",
+          "7000",
+          "2000",
+          "7700"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No Brasil, o squawk 7000 é o código VFR padrão quando o ATC não atribui código específico."
+      },
+      {
+        "id": 22,
+        "pergunta": "O ADS-B difere do radar SSR convencional porque:",
+        "alternativas": [
+          "Utiliza sinais de radar primário para detectar a aeronave",
+          "A aeronave determina sua posição via GPS e a transmite autonomamente",
+          "Opera exclusivamente na faixa HF",
+          "Requer interrogação contínua do solo para funcionar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O ADS-B é autônomo — a aeronave usa GPS para calcular sua posição e transmite continuamente sem ser interrogada."
+      },
+      {
+        "id": 23,
+        "pergunta": "Ao receber um TCAS RA (Resolution Advisory), o piloto deve:",
+        "alternativas": [
+          "Aguardar confirmação do ATC antes de executar",
+          "Executar imediatamente a manobra indicada, mesmo contrariando o ATC",
+          "Informar o ATC e aguardar nova instrução",
+          "Reduzir velocidade e manter altitude atual"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RA tem prioridade máxima — o piloto executa imediatamente e informa 'TCAS RA' ao ATC."
+      },
+      {
+        "id": 24,
+        "pergunta": "Em caso de falha total de comunicação em voo, o piloto deve selecionar o squawk:",
+        "alternativas": [
+          "7700",
+          "7600",
+          "7500",
+          "7000"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Squawk 7600 sinaliza NORDO (falha de comunicação) aos órgãos ATC que monitoram o radar."
+      },
+      {
+        "id": 25,
+        "pergunta": "O sinal luminoso verde intermitente da torre para aeronave em voo significa:",
+        "alternativas": [
+          "Autorizado para pousar",
+          "Retorne para pousar neste aeródromo",
+          "Aeródromo não disponível",
+          "Exercite extrema cautela"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Verde intermitente para aeronave em voo significa 'retorne para pousar neste aeródromo'."
+      },
+      {
+        "id": 26,
+        "pergunta": "Em voo NORDO IFR, para escolher o nível de voo a manter, o piloto considera o nível mais alto entre:",
+        "alternativas": [
+          "O nível mínimo de segurança e o nível de cruzeiro de longa distância",
+          "O nível atribuído pelo ATC, o mínimo de segurança da rota e o nível solicitado no plano de voo",
+          "O nível máximo da aeronave e o nível atribuído pelo ATC",
+          "Apenas o nível solicitado no plano de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em NORDO IFR, mantém-se o mais alto entre: nível ATC atribuído, mínimo de segurança da rota e nível do plano de voo."
+      },
+      {
+        "id": 27,
+        "pergunta": "O espaço aéreo Restrito (R) diferencia-se do Proibido (P) porque:",
+        "alternativas": [
+          "O Restrito proíbe qualquer sobrevoo e o Proibido permite com autorização",
+          "O Restrito pode ser autorizado mediante permissão; o Proibido não pode ser sobrevoado em nenhuma circunstância",
+          "Ambos permitem sobrevoo apenas por aeronaves militares",
+          "O Restrito é permanente e o Proibido é temporário"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O espaço Proibido nunca pode ser sobrevoado; o Restrito pode ser autorizado mediante permissão do órgão responsável."
+      },
+      {
+        "id": 28,
+        "pergunta": "Ao ser interceptado por aeronave militar, o piloto deve transmitir em:",
+        "alternativas": [
+          "123,45 MHz e 243,0 MHz",
+          "121,5 MHz e tentar 243,0 MHz",
+          "Apenas na frequência ATC atual",
+          "2182 kHz e 121,5 MHz"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Ao ser interceptado: transmitir em 121,5 MHz (emergência VHF civil) e tentar 243,0 MHz (emergência UHF militar)."
+      },
+      {
+        "id": 29,
+        "pergunta": "A ordem correta de prioridade das comunicações aeronáuticas é:",
+        "alternativas": [
+          "ATC normal > PAN-PAN > MAYDAY > SECURITÉ",
+          "MAYDAY > PAN-PAN > SECURITÉ > ATC normal",
+          "SECURITÉ > MAYDAY > PAN-PAN > ATC normal",
+          "PAN-PAN > MAYDAY > ATC normal > SECURITÉ"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A prioridade é sempre: MAYDAY (máxima) > PAN-PAN > SECURITÉ > comunicações ATC normais."
+      },
+      {
+        "id": 30,
+        "pergunta": "A retransmissão de mensagens entre aeronaves ocorre quando:",
+        "alternativas": [
+          "O ATC autoriza para reduzir a carga na frequência",
+          "Uma aeronave não consegue contato direto com o ATC e outra aeronave intermedeia",
+          "O piloto prefere não se comunicar diretamente com o controlador",
+          "Há sobrecarga de tráfego na frequência principal"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A retransmissão ocorre quando uma aeronave sem contato com o ATC usa outra aeronave como intermediária na comunicação."
+      }
+    ]
+  }
 }
