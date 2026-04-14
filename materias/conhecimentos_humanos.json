@@ -1,5 +1,1396 @@
+[
+  {
+    "id": 1,
+    "titulo": "Fisiologia do Voo — O Corpo Humano na Aviação",
+    "aula": {
+      "introducao": "A fisiologia do voo estuda as respostas do organismo humano às condições especiais do ambiente aeronáutico. O corpo humano foi projetado para funcionar ao nível do mar, e as condições de altitude — menor pressão, menor oxigênio, temperaturas extremas e acelerações — representam desafios significativos para o piloto. Compreender esses efeitos é essencial para reconhecer limitações, tomar decisões seguras e prevenir incidentes causados por fatores fisiológicos.",
+      "subtitulos": [
+        {
+          "titulo": "A Atmosfera e o Corpo Humano",
+          "conteudo": "O ar que respiramos é composto por:\n• **78% Nitrogênio (N₂)**\n• **21% Oxigênio (O₂)**\n• **1% outros gases** (argônio, CO₂, etc.)\n\nA proporção dos gases permanece constante até aproximadamente 80.000 pés. O que muda com a altitude é a **pressão parcial** de cada gás.\n\n**Lei de Dalton:**\nA pressão total de uma mistura de gases é igual à soma das pressões parciais de cada componente.\n\n$$P_{total} = P_{O_2} + P_{N_2} + P_{outros}$$\n\nCom o aumento da altitude, a pressão atmosférica cai → a pressão parcial do O₂ também cai → menos O₂ disponível para o organismo.\n\n**Pressão parcial do O₂ em diferentes altitudes:**\n\n| Altitude | Pressão atmosférica | PO₂ |\n|----------|--------------------|---------|\n| Nível do mar | 760 mmHg | 160 mmHg |\n| 10.000 pés | 523 mmHg | 110 mmHg |\n| 18.000 pés | 380 mmHg | 80 mmHg |\n| 34.000 pés | 187 mmHg | 39 mmHg |\n\n**Lei de Henry:**\nA quantidade de gás dissolvida em um líquido é proporcional à pressão parcial desse gás sobre o líquido. Relevante para a doença de descompressão (bends).\n\n**Lei de Boyle:**\nA pressão e o volume de um gás são inversamente proporcionais a temperatura constante:\n$$P_1 \\times V_1 = P_2 \\times V_2$$\nRelevante para gases aprisionados no corpo (seios da face, ouvidos, intestinos)."
+        },
+        {
+          "titulo": "Hipóxia — Tipos, Sintomas e Tratamento",
+          "conteudo": "A hipóxia é a condição mais crítica em fisiologia do voo — ocorre quando os tecidos não recebem oxigênio suficiente:\n\n**Tipos de Hipóxia:**\n\n**1. Hipóxia Hipobárica (Hipoxêmica):**\n• Causa mais comum em aviação\n• Redução da pressão parcial do O₂ com a altitude\n• Ocorre acima de 10.000 pés em pessoas saudáveis\n• Pilotos fumantes, com anemia ou cansados são afetados em altitudes menores\n\n**2. Hipóxia Anêmica:**\n• Sangue não consegue transportar O₂ suficiente\n• Causas: anemia, intoxicação por monóxido de carbono (CO)\n• O CO tem afinidade 200x maior pela hemoglobina que o O₂\n\n**3. Hipóxia Estagnante:**\n• O sangue não circula adequadamente\n• Causas: acelerações positivas (+G), insuficiência cardíaca, pressão excessiva do cinto\n\n**4. Hipóxia Histotóxica:**\n• As células não conseguem utilizar o O₂ disponível\n• Causa principal: álcool e drogas\n\n**Sintomas da hipóxia:**\n\n| Estágio | Altitude aprox. | Sintomas |\n|---------|-----------------|----------|\n| **Indiferente** | Até 10.000 pés | Visão noturna prejudicada, poucos sintomas |\n| **Compensatório** | 10.000–15.000 pés | Sonolência, fadiga, cefaleia leve, euforia |\n| **Perturbado** | 15.000–20.000 pés | Raciocínio prejudicado, euforia, cianose, incoordenação |\n| **Crítico** | Acima de 20.000 pés | Inconsciência, convulsões, morte |\n\n**Tempo de consciência útil (TUC):**\n• Tempo disponível para tomar ação após descompressão\n\n| Altitude | TUC |\n|----------|-----|\n| 22.000 pés | 5–10 minutos |\n| 25.000 pés | 3–5 minutos |\n| 30.000 pés | 1–2 minutos |\n| 35.000 pés | 30–60 segundos |\n| 40.000 pés | 15–20 segundos |\n\n**Tratamento:**\n• Descer imediatamente para altitude segura\n• Usar oxigênio suplementar\n• A hipóxia é traiçoeira — o piloto pode não reconhecer os próprios sintomas (euforia engana)\n\n**Característica mais perigosa da hipóxia:**\nO piloto pode sentir euforia e sensação de bem-estar, não reconhecendo que está incapacitado."
+        },
+        {
+          "titulo": "Hiperventilação",
+          "conteudo": "A hiperventilação é frequentemente confundida com a hipóxia e pode ser igualmente perigosa:\n\n**Definição:**\nRespiração excessivamente rápida e profunda que elimina CO₂ do sangue mais rapidamente do que o organismo o produz.\n\n**Causa:**\nAnxiedade, stress, medo, dor — não necessariamente falta de O₂.\n\n**Mecanismo:**\n• CO₂ cai no sangue → pH sobe (alcalose respiratória)\n• O organismo interpreta como falta de CO₂, não de O₂\n• Vasoconstrição cerebral → menos O₂ chega ao cérebro\n• Apesar de ter O₂ suficiente no sangue, o cérebro não recebe adequadamente\n\n**Sintomas:**\n• Formigamento nos dedos e ao redor da boca\n• Tontura e vertigem\n• Visão turva\n• Dor no peito\n• Sensação de sufocamento paradoxal\n• Espasmos musculares (tetania)\n• Inconsciência nos casos graves\n\n**Como diferenciar da hipóxia:**\n\n| Característica | Hipóxia | Hiperventilação |\n|---------------|---------|------------------|\n| **Causa** | Falta de O₂ | Excesso de ventilação |\n| **Euforia** | Presente | Ausente |\n| **Cianose** | Pode ocorrer | Não ocorre |\n| **Formigamento** | Raro | Característico |\n| **Tratamento** | O₂ suplementar | Respirar mais devagar |\n\n**Tratamento:**\n• Respirar conscientemente mais devagar e profundo\n• Respirar em saco de papel (aumenta CO₂ inalado)\n• Falar em voz alta (aumenta consumo de CO₂)\n• Identificar e reduzir a fonte de ansiedade\n\n**Atenção:** Em altitude, a hipóxia e a hiperventilação podem ocorrer simultaneamente — sempre usar O₂ suplementar se houver dúvida."
+        },
+        {
+          "titulo": "Efeitos da Altitude nos Seios da Face e Ouvidos",
+          "conteudo": "Com as variações de pressão durante o voo, gases aprisionados no corpo se expandem ou se contraem (Lei de Boyle):\n\n**BAROTRAUMA DO OUVIDO MÉDIO (Barotitis Media):**\n• A Tuba de Eustáquio equaliza a pressão entre o ouvido médio e o ambiente\n• Na descida: pressão externa aumenta, o ouvido médio fica em pressão menor → dor\n• Bloqueio da tuba (resfriado, alergia) impede equalização\n\n**Técnicas de equalização:**\n• **Manobra de Valsalva**: fechar nariz e boca e assoprar suavemente\n• **Mastigação e deglutição**: abre passivamente a tuba\n• **Manobra de Frenzel**: movimentos de deglutição com nariz fechado\n\n**BAROTRAUMA DOS SEIOS DA FACE (Barosinusite):**\n• Seios paranasais comunicam-se com a cavidade nasal por orifícios\n• Bloqueio por resfriado ou alergia impede equalização\n• Dor intensa na testa, maçãs do rosto durante subida ou descida\n• Pode ser incapacitante — piloto com resfriado não deve voar\n\n**AEROEMBOLISMO (Bends):**\n• Em altitudes muito elevadas (acima de 18.000 pés), o N₂ dissolvido no sangue forma bolhas\n• Semelhante à doença de descompressão dos mergulhadores\n• Sintomas: dores articulares, dores no peito (chokes), sintomas neurológicos\n• Fator agravante: mergulho com cilindro nas 24h anteriores\n\n**BLOQUEIO INTESTINAL:**\n• Gases no intestino expandem com a altitude (Lei de Boyle)\n• A 18.000 pés, o volume dobra\n• Causa dores abdominais e desconforto\n• Evitar alimentos que causam gases antes do voo"
+        },
+        {
+          "titulo": "Acelerações e Forças G",
+          "conteudo": "As forças de aceleração afetam significativamente a fisiologia do piloto:\n\n**Tipos de aceleração:**\n\n**+Gz (Aceleração Positiva — head-to-foot):**\n• O sangue é empurrado para os pés\n• Reduz o fluxo sanguíneo cerebral\n• Causa: manobras em curva apertada, pull-up\n\n**Progressão dos efeitos do +Gz:**\n\n| G | Efeito |\n|---|--------|\n| +2 G | Peso corporal dobra — sensação de peso |\n| +3–4 G | Grey-out (visão periférica turva) |\n| +4–5 G | Blackout (perda total da visão) |\n| +5–6 G | G-LOC (G-induced Loss Of Consciousness) |\n\n**G-LOC:**\n• Perda de consciência induzida por G\n• Onset rápido — piloto pode não perceber\n• Período de incapacitação total + período de incapacitação relativa após recuperação\n• Total: pode levar 12–24 segundos de incapacitação\n\n**-Gz (Aceleração Negativa — foot-to-head):**\n• Sangue é empurrado para a cabeça\n• Red-out: campo visual avermelhado\n• Muito desconfortável — tolerância humana é menor que para +G\n• Causa: pushover brusco, voo invertido\n\n**Gx (Aceleração Transversal):**\n• O corpo é melhor adaptado para suportar G transversal (frente-costas)\n• Assentos reclinados (semi-supino) aumentam a tolerância\n• Usados em aeronaves de alta performance e naves espaciais\n\n**Técnicas Anti-G:**\n• **Manobra AGSM (Anti-G Straining Maneuver)**: contração muscular de abdômen e membros inferiores\n• **Trajes anti-G (G-suits)**: comprimem abdômen e pernas, reduzindo pooling de sangue\n• **Hidratação adequada**: fundamental para tolerância ao +G"
+        },
+        {
+          "titulo": "Visão no Voo — Limitações e Ilusões Visuais",
+          "conteudo": "A visão é o sentido mais utilizado pelo piloto e também o mais sujeito a limitações em ambiente aeronáutico:\n\n**Anatomia da visão relevante:**\n• **Fóvea (visão central)**: alta acuidade, cone — para cor e detalhe\n• **Bastonetes (visão periférica)**: baixa acuidade, sensíveis à luz, não percebem cor — para movimento e visão noturna\n• **Ponto cego**: região sem fotorreceptores onde o nervo óptico se insere\n\n**VISÃO NOTURNA:**\n• Os bastonetes necessitam de adaptação ao escuro (~30 minutos para adaptação completa)\n• Vitamina A é essencial para a rodopsina (pigmento dos bastonetes)\n• A hipóxia afeta a visão noturna já a partir de 5.000 pés\n• **Técnica de visão noturna**: olhar levemente desviado do objeto (5–10°) para usar os bastonetes\n• Luz branca brilhante destrói a adaptação ao escuro instantaneamente\n\n**PONTO CEGO:**\n• Localizado ~15° temporalmente de cada olho\n• Com dois olhos abertos: compensado pelo campo visual do outro olho\n• Com um olho fechado: objeto pode desaparecer no ponto cego\n\n**ILUSÕES VISUAIS — as mais perigosas:**\n\n**1. Autokinesis:**\n• Ponto fixo de luz no escuro parece se mover após 6–12 segundos de fixação\n• Causa: movimentos involuntários dos olhos\n• Prevenção: varredura constante, não fixar o olhar\n\n**2. Falso horizonte:**\n• Camada de nuvens inclinada ou banco de nuvens oblíquo interpretado como horizonte\n• Piloto inclina a aeronave para 'nivelar' com a referência errada\n\n**3. Ilusão de pista (Runway Illusion):**\n\n| Condição | Percepção | Risco |\n|----------|-----------|-------|\n| Pista mais estreita que o normal | Aeronave parece alta | Aproximação baixa |\n| Pista mais larga que o normal | Aeronave parece baixa | Aproximação alta |\n| Pista inclinada para cima | Aeronave parece alta | Aproximação baixa |\n| Pista inclinada para baixo | Aeronave parece baixa | Aproximação alta |\n\n**4. Ilusão de inclinação (Graveyard Spiral):**\n• Em voo em IMC, piloto entra em espiral sem perceber\n• Tenta corrigir, mas o labirinto já se adaptou à inclinação\n\n**5. Miopia noturna (Empty Field Myopia):**\n• Em ambiente sem referências visuais, o olho foca a ~1 metro de distância\n• Objetos distantes ficam desfocados\n• Prevenção: scanear o horizonte, usar referências instrumentais"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "A Lei de Dalton é relevante para a fisiologia do voo porque explica:",
+        "alternativas": [
+          "Por que gases aprisionados nos seios da face se expandem com a altitude",
+          "Por que a pressão parcial do O₂ diminui com o aumento da altitude",
+          "Por que o N₂ forma bolhas no sangue em grandes altitudes",
+          "Por que o volume dos pulmões aumenta durante a subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A Lei de Dalton explica que a pressão total é a soma das pressões parciais. Com menor pressão total em altitude, a PO₂ cai — menos O₂ disponível."
+      },
+      {
+        "id": 2,
+        "pergunta": "A característica mais traiçoeira da hipóxia é:",
+        "alternativas": [
+          "O surgimento rápido de dor intensa que alerta o piloto",
+          "A sensação de euforia e bem-estar que impede o piloto de reconhecer sua incapacitação",
+          "A cianose visível nos lábios que indica falta de oxigênio",
+          "A perda imediata de consciência sem sintomas prévios"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A hipóxia causa euforia — o piloto se sente bem e competente, não reconhecendo que está hipóxico. É a sua característica mais perigosa."
+      },
+      {
+        "id": 3,
+        "pergunta": "O Tempo de Consciência Útil (TUC) a 35.000 pés após uma descompressão é aproximadamente:",
+        "alternativas": [
+          "5 a 10 minutos",
+          "30 a 60 segundos",
+          "3 a 5 minutos",
+          "15 a 20 segundos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A 35.000 pés, o TUC é de apenas 30 a 60 segundos — tempo extremamente curto para colocar a máscara e iniciar descida de emergência."
+      },
+      {
+        "id": 4,
+        "pergunta": "A hiperventilação se distingue da hipóxia principalmente pelo sintoma de:",
+        "alternativas": [
+          "Perda de visão periférica e cianose",
+          "Formigamento nos dedos e ao redor da boca",
+          "Euforia e sensação de bem-estar",
+          "Dificuldade de raciocínio e tomada de decisão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O formigamento (parestesia) nos dedos e ao redor da boca é característico da hiperventilação — causado pela alcalose respiratória."
+      },
+      {
+        "id": 5,
+        "pergunta": "Um piloto com resfriado forte deve evitar voar principalmente por causa do risco de:",
+        "alternativas": [
+          "Hipóxia, pois o nariz entupido reduz a absorção de O₂",
+          "Barotrauma do ouvido e barosinusite pela dificuldade de equalização de pressão",
+          "Hiperventilação, pois a respiração oral é mais rápida que a nasal",
+          "G-LOC, pois o resfriado reduz a tolerância às acelerações"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O resfriado bloqueia a Tuba de Eustáquio e os óstios dos seios da face — impede equalização de pressão → dor incapacitante e possível ruptura."
+      },
+      {
+        "id": 6,
+        "pergunta": "O G-LOC (G-induced Loss of Consciousness) é especialmente perigoso porque:",
+        "alternativas": [
+          "Causa danos permanentes ao cérebro após 5 segundos de inconsciência",
+          "O onset é rápido e o período de incapacitação total pode durar 12 a 24 segundos sem que o piloto perceba",
+          "Ocorre apenas em acelerações negativas (-G), que são difíceis de prever",
+          "O piloto permanece com visão, mas perde o controle motor dos membros"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O G-LOC tem onset rápido (sem aviso suficiente) e período de incapacitação total + relativa de 12–24 segundos — aeronave sem controle."
+      },
+      {
+        "id": 7,
+        "pergunta": "A técnica correta de visão noturna para detectar objetos no escuro é:",
+        "alternativas": [
+          "Focar diretamente o objeto para usar a fóvea de alta acuidade",
+          "Olhar levemente desviado do objeto (5–10°) para usar os bastonetes da visão periférica",
+          "Piscar frequentemente para manter a umidade da córnea e melhorar a acuidade",
+          "Usar apenas um olho para evitar confusão entre as duas imagens"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os bastonetes (responsáveis pela visão noturna) são mais concentrados fora da fóvea — olhar levemente desviado usa a região mais sensível à baixa luminosidade."
+      },
+      {
+        "id": 8,
+        "pergunta": "O fenômeno de Autokinesis é descrito como:",
+        "alternativas": [
+          "Sensação de rotação causada pela estimulação dos canais semicirculares",
+          "Ilusão de que um ponto fixo de luz no escuro está se movendo",
+          "Incapacidade de perceber a inclinação da aeronave em IMC",
+          "Distorção da percepção de distância causada pela miopia noturna"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Autokinesis é a ilusão de que um ponto de luz estático parece se mover após 6–12 segundos de fixação — causado por micro movimentos oculares involuntários."
+      },
+      {
+        "id": 9,
+        "pergunta": "A hipóxia anêmica causada por intoxicação por monóxido de carbono (CO) é especialmente grave porque:",
+        "alternativas": [
+          "O CO destrói os glóbulos vermelhos, reduzindo a capacidade de transporte de O₂",
+          "O CO tem afinidade 200x maior pela hemoglobina que o O₂, bloqueando o transporte de oxigênio",
+          "O CO reage com o O₂ nos pulmões, consumindo o oxigênio antes de ser absorvido",
+          "O CO causa vasodilatação cerebral intensa, aumentando a pressão intracraniana"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CO liga-se à hemoglobina com afinidade 200x maior que o O₂, formando carboxihemoglobina — hemoglobina incapaz de transportar O₂."
+      },
+      {
+        "id": 10,
+        "pergunta": "A ilusão de pista que ocorre quando a pista é mais estreita que o usual leva o piloto a:",
+        "alternativas": [
+          "Perceber que está mais alto que o real e fazer uma aproximação mais alta",
+          "Perceber que está mais alto que o real e fazer uma aproximação baixa perigosa",
+          "Perceber corretamente a altitude pois a largura não afeta a percepção de altura",
+          "Aumentar a velocidade de aproximação por sentir que está distante da pista"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pista mais estreita parece mais distante/baixa → piloto crê estar mais alto → faz aproximação baixa → risco de impacto antes da pista."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Sistema Vestibular e Desorientação Espacial",
+    "aula": {
+      "introducao": "O sistema vestibular é o principal órgão de equilíbrio do ser humano. Em terra, ele funciona em perfeita harmonia com a visão para fornecer ao cérebro informações precisas sobre a posição e o movimento do corpo. No voo, especialmente em condições de visibilidade reduzida (IMC), o sistema vestibular pode gerar informações falsas e enganosas, levando à desorientação espacial — uma das principais causas de acidentes fatais na aviação.",
+      "subtitulos": [
+        {
+          "titulo": "Anatomia do Sistema Vestibular",
+          "conteudo": "O sistema vestibular está localizado no ouvido interno e possui duas estruturas principais:\n\n**1. Canais Semicirculares:**\n• Três canais dispostos nos três planos do espaço (pitch, roll, yaw)\n• Detectam **acelerações angulares** (rotação)\n• Preenchidos por endolinfa (líquido)\n• Possuem células ciliadas (cúpula) que se dobram com o movimento da endolinfa\n• **Limitação crítica**: só detectam mudanças de rotação — não rotação constante\n\n**Mecanismo de funcionamento:**\n• Quando a cabeça gira → a endolinfa (por inércia) fica para trás → dobra os cílios → sinal ao cérebro\n• Após ~20 segundos de rotação constante → a endolinfa acompanha o movimento → cílios retornam à posição neutra → sensação de que parou de girar (mas ainda está girando!)\n\n**2. Órgãos Otolíticos (Utrículo e Sáculo):**\n• Detectam **acelerações lineares** e a **força da gravidade**\n• Possuem otólitos (cristais de carbonato de cálcio) sobre células ciliadas\n• Útrículo: detecta aceleração no plano horizontal\n• Sáculo: detecta aceleração no plano vertical\n• **Limitação crítica**: não distinguem aceleração linear de inclinação\n\n**Integração sensorial:**\nO cérebro integra informações de:\n• Sistema vestibular (canais + otólitos)\n• Visão\n• Propriocepção (músculos, articulações, pele)\n\nEm condições normais, todos concordam. Em voo em IMC, a visão é removida e o vestibular engana."
+        },
+        {
+          "titulo": "Ilusões Vestibulares — Canais Semicirculares",
+          "conteudo": "As ilusões geradas pelos canais semicirculares são as mais comuns e perigosas em IMC:\n\n**1. Ilusão de Leans (Inclinação):**\n• **A mais comum das ilusões vestibulares**\n• Ocorre quando a aeronave entra em inclinação gradual (abaixo do limiar de percepção ~2°/s)\n• O piloto não percebe a inclinação\n• Ao corrigir a inclinação instrumentalmente, o sistema vestibular sente a correção como uma inclinação\n• O piloto sente que está inclinado mesmo com as asas niveladas\n• Pode levar o piloto a reaplicar a inclinação para se sentir 'nivelado'\n\n**2. Ilusão de Graveyard Spiral (Espiral da Morte):**\n• Entrada gradual em curva → não percebida\n• Após ~20s, a endolinfa acompanha → piloto sente que está nivelado em curva\n• Ao perceber a descida pelo altímetro, puxa o profundor\n• Puxar sem nivelar aumenta o fator de carga e acelera a espiral\n• Aeronave descende em espiral com piloto convicto de estar em voo nivelado\n\n**3. Ilusão de Graveyard Spin:**\n• Semelhante à espiral, mas em spin\n• Após adaptação, o spin parece ter parado\n• Ao sair do spin corretamente, o piloto sente que entrou em spin no outro sentido\n• Pode tentar 're-entrar' no spin original para se sentir 'reto'\n\n**4. Ilusão de Coriolis:**\n• **A mais intensa e perturbadora das ilusões vestibulares**\n• Ocorre quando os canais semicirculares em mais de um plano são estimulados simultaneamente\n• Exemplo: cabeça abaixada para pegar um checklist durante uma curva\n• Sensação intensa e súbita de tumbling (tombamento) em múltiplos eixos\n• Pode causar desorientação completa e incapacitação temporária\n• Prevenção: evitar movimentos rápidos de cabeça em IMC\n\n**5. Ilusão de 'The Leans' durante saída de curva:**\n• Após curva longa e coordenada, a saída da curva é percebida como entrada na direção oposta\n• Piloto pode resistir à saída da curva"
+        },
+        {
+          "titulo": "Ilusões Vestibulares — Órgãos Otolíticos",
+          "conteudo": "Os órgãos otolíticos geram ilusões relacionadas à aceleração linear:\n\n**1. Ilusão de Somatogravica (The Leans Nose-Up/Nose-Down):**\n• Os otólitos não distinguem aceleração linear de inclinação\n• Aceleração linear para frente → interpretada como cabrar\n• Desaceleração → interpretada como picar\n\n**Ilusão de Cabrar (Pitch-up Illusion):**\n• Aceleração rápida durante decolagem ou aumento de potência\n• Piloto sente que está cabrando quando está em voo nivelado\n• Tende a picar a aeronave → risco de CFIT (Controlled Flight Into Terrain)\n• Especialmente perigosa à noite ou em IMC após decolagem\n\n**Ilusão de Picar (Pitch-down Illusion):**\n• Desaceleração súbita (redução de potência, extensão de flaps)\n• Piloto sente que está picando\n• Tende a cabrar a aeronave → risco de estol\n\n**2. Ilusão de Elevator (Somatogravica Vertical):**\n• Ascensão súbita em corrente ascendente → interpretada como cabrar\n• Descida súbita → interpretada como picar\n\n**3. Ilusão de Oculogravica:**\n• Versão visual da ilusão somatogravica\n• Os olhos percebem o horizonte como inclinado quando há aceleração\n• Semelhante à somatogravica, mas mediada pela visão\n\n**Resumo das ilusões otolíticas:**\n\n| Estímulo real | Percepção errada | Reação perigosa |\n|---------------|-----------------|------------------|\n| Aceleração linear | Cabrar | Picar a aeronave |\n| Desaceleração | Picar | Cabrar a aeronave |\n| Ascensão súbita | Cabrar | Picar a aeronave |\n| Descida súbita | Picar | Cabrar a aeronave |"
+        },
+        {
+          "titulo": "Tipos de Desorientação Espacial",
+          "conteudo": "A desorientação espacial é classificada em três tipos segundo a consciência do piloto:\n\n**Tipo I — Desorientação Não Reconhecida:**\n• O piloto está desorientado mas NÃO sabe que está\n• O mais perigoso — o piloto não toma medidas corretivas\n• Geralmente leva ao acidente se não houver intervenção externa\n• Exemplo: Graveyard Spiral sem percepção da inclinação\n\n**Tipo II — Desorientação Reconhecida:**\n• O piloto está desorientado e SABE que está\n• Menos perigoso — pode tomar ação corretiva\n• Necessita de disciplina para confiar nos instrumentos e não nas sensações\n• Exemplo: Piloto sente inclinação mas vê instrumentos indicando nivelado\n\n**Tipo III — Desorientação Incapacitante:**\n• O piloto está desorientado e, mesmo reconhecendo, não consegue controlar a aeronave\n• As sensações são tão intensas que dominam a ação do piloto\n• Raro mas possível em ilusão de Coriolis intensa\n• Exemplo: Piloto em pânico que sabe que os instrumentos estão corretos mas fisicamente não consegue controlar os comandos\n\n**Fatores que aumentam o risco de desorientação:**\n• IMC sem experiência adequada em voo por instrumentos\n• Fadiga e privação de sono\n• Hipóxia (reduz o processamento cerebral)\n• Consumo de álcool ou medicamentos\n• Alta carga de trabalho no cockpit\n• Voo noturno sem referências visuais externas\n• Condições meteorológicas degradadas\n\n**Princípio fundamental:**\n> Confie nos instrumentos, não nas suas sensações — os instrumentos não mentem."
+        },
+        {
+          "titulo": "Prevenção e Gerenciamento da Desorientação Espacial",
+          "conteudo": "A desorientação espacial pode ser prevenida e gerenciada com técnicas adequadas:\n\n**PREVENÇÃO:**\n\n**1. Habilitação e Treinamento:**\n• Piloto VFR deve evitar condições IMC — a habilitação IFR é necessária\n• Treinamento em simulador de desorientação espacial\n• Manter a proficiência em voo por instrumentos (IFR current)\n\n**2. Durante o Voo:**\n• Varredura constante dos instrumentos (instrument scan)\n• Evitar movimentos rápidos de cabeça em IMC (previne Coriolis)\n• Confiar nos instrumentos, não nas sensações\n• Não voar em IMC sem habilitação e proficiência\n\n**3. Antes do Voo:**\n• Verificar condições meteorológicas — evitar deterioração gradual\n• Repouso adequado\n• Evitar álcool e medicamentos que afetam o SNC\n\n**GERENCIAMENTO:**\n\n**Quando sentir desorientação:**\n1. Confie nos instrumentos imediatamente\n2. Estabeleça referência pelo horizonte artificial\n3. Nivele as asas pelo AI\n4. Verifique a situação completa (altitude, velocidade, VSI)\n5. Solicite ajuda ao ATC se necessário\n6. Não faça movimentos bruscos nos comandos\n\n**ATITUDE PADRÃO:**\n• Aeronave em posição anormal → verifique AI → corrija suavemente\n• Não force a correção rapidamente — risco de estol acelerado ou dano estrutural\n\n**Estatísticas:**\n• Desorientação espacial contribui para ~15% dos acidentes fatais de aviação\n• A grande maioria ocorre em voo VFR inadvertidamente em IMC (IIMC)\n• Tempo médio para perda de controle em IIMC sem treinamento IFR: **~178 segundos**"
+        },
+        {
+          "titulo": "Limiares de Percepção e Limites do Sistema Vestibular",
+          "conteudo": "O sistema vestibular tem limitações quantitativas importantes que o piloto deve conhecer:\n\n**Limiares de percepção dos canais semicirculares:**\n• Rotação abaixo de **~0,5°/s** não é detectada pelos canais\n• Mudanças de inclinação abaixo de **~2°/s** não são percebidas\n• Acima do limiar: o canal detecta a mudança, mas para de sinalizar após ~20s de rotação constante\n\n**Limiares de percepção dos otólitos:**\n• Aceleração linear abaixo de **0,01 G** não é detectada\n• Inclinações menores que **~2°** podem não ser percebidas em condições adversas\n\n**Adaptação (Habituation):**\n• Após exposição repetida a uma ilusão, o piloto pode se tornar menos sensível\n• Isso é uma faca de dois gumes — menos perturbado, mas também menos alerta\n\n**O conflito visual-vestibular:**\n• Em condições normais (VMC): a visão domina e corrige o sistema vestibular\n• Em IMC: sem referência visual externa, o vestibular domina\n• Resultado: ilusões e desorientação\n\n**Solução — Dominância visual instrumental:**\n• Os instrumentos substituem a visão natural\n• O piloto treinado aprende a dar prioridade absoluta aos instrumentos\n• Demora treinamento extensivo para superar o instinto de confiar nas sensações corporais\n\n**Regra prática:**\n> Se o horizonte artificial indica nivelado e você sente que está inclinado — o instrumento está certo. Você está com 'the leans'. Confie no instrumento."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "Os canais semicirculares do sistema vestibular detectam:",
+        "alternativas": [
+          "Acelerações lineares e a força da gravidade",
+          "Acelerações angulares (rotação) nos três planos do espaço",
+          "Variações de pressão atmosférica durante mudanças de altitude",
+          "Acelerações lineares horizontais apenas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os canais semicirculares detectam acelerações angulares (rotação). Os órgãos otolíticos é que detectam acelerações lineares e gravidade."
+      },
+      {
+        "id": 12,
+        "pergunta": "A ilusão de 'The Leans' ocorre porque:",
+        "alternativas": [
+          "Os otólitos interpretam a aceleração de decolagem como cabrar",
+          "A entrada gradual em inclinação não é detectada e a correção posterior é percebida como inclinação",
+          "Os canais semicirculares se adaptam após 20s e a saída da curva parece uma entrada",
+          "A visão periférica detecta o horizonte inclinado e informa ao cérebro uma posição errada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na ilusão de Leans, a inclinação gradual (abaixo do limiar) não é percebida. Ao corrigir, os canais sentem a correção como uma inclinação no sentido oposto."
+      },
+      {
+        "id": 13,
+        "pergunta": "A ilusão de Coriolis é considerada a mais intensa porque:",
+        "alternativas": [
+          "Ocorre apenas em altitudes elevadas onde a hipóxia a amplifica",
+          "Estimula simultaneamente os canais semicirculares em mais de um plano, causando sensação intensa de tombamento",
+          "É impossível de distinguir de uma falha do horizonte artificial",
+          "Persiste por horas mesmo após o retorno ao voo visual"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ilusão de Coriolis ocorre quando a cabeça se move em múltiplos planos durante uma curva, estimulando múltiplos canais — sensação de tombamento intensa e súbita."
+      },
+      {
+        "id": 14,
+        "pergunta": "A ilusão somatogravica de 'cabrar' ocorre quando:",
+        "alternativas": [
+          "A aeronave entra em curva gradual não detectada pelos canais semicirculares",
+          "Uma aceleração linear rápida (ex: aumento de potência) é interpretada pelos otólitos como inclinação de nariz para cima",
+          "A aeronave sobe rapidamente em corrente ascendente forte",
+          "O piloto faz um movimento brusco de cabeça durante uma manobra"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os otólitos não distinguem aceleração linear de inclinação. Aceleração para frente → interpretada como cabrar → piloto tende a picar."
+      },
+      {
+        "id": 15,
+        "pergunta": "A desorientação espacial Tipo I é a mais perigosa porque:",
+        "alternativas": [
+          "As sensações são tão intensas que o piloto não consegue controlar a aeronave mesmo sabendo que está desorientado",
+          "O piloto está desorientado mas não reconhece a condição e não toma ação corretiva",
+          "Ocorre apenas em aeronaves de alta performance com altos fatores de carga",
+          "Afeta simultaneamente a visão, o sistema vestibular e a propriocepção"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na desorientação Tipo I, o piloto não sabe que está desorientado — não há ação corretiva e o acidente ocorre com o piloto convicto de estar em voo normal."
+      },
+      {
+        "id": 16,
+        "pergunta": "Na ilusão de Graveyard Spiral, o erro fatal do piloto é:",
+        "alternativas": [
+          "Tentar sair da espiral aumentando a potência sem nivelar as asas",
+          "Puxar o profundor sem nivelar as asas, aumentando o fator de carga e acelerando a espiral descendente",
+          "Reduzir a velocidade para abaixo de Va, causando estol durante a espiral",
+          "Aplicar leme em vez de aileron para tentar nivelar a aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Puxar sem nivelar aumenta o fator de carga e a taxa de descida — a aeronave acelera a espiral. O correto é nivelar primeiro, depois recuperar altitude."
+      },
+      {
+        "id": 17,
+        "pergunta": "O tempo médio para um piloto sem treinamento IFR perder o controle após entrar inadvertidamente em IMC (IIMC) é:",
+        "alternativas": [
+          "Aproximadamente 10 minutos",
+          "Aproximadamente 178 segundos (menos de 3 minutos)",
+          "Aproximadamente 30 minutos",
+          "Depende totalmente da experiência total de horas de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Estudos mostram que pilotos VFR sem treinamento IFR perdem o controle em média em ~178 segundos após entrar em IMC — menos de 3 minutos."
+      },
+      {
+        "id": 18,
+        "pergunta": "Por que os movimentos rápidos de cabeça em IMC devem ser evitados?",
+        "alternativas": [
+          "Para evitar barotrauma do ouvido médio durante manobras",
+          "Para prevenir a ilusão de Coriolis causada pela estimulação simultânea de múltiplos canais semicirculares",
+          "Para manter a visão focada nos instrumentos sem aberração óptica",
+          "Para evitar a hipóxia estagnante causada pela compressão das artérias cervicais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Movimentos rápidos de cabeça em IMC estimulam múltiplos canais semicirculares simultaneamente → ilusão de Coriolis — sensação intensa de tombamento."
+      },
+      {
+        "id": 19,
+        "pergunta": "Os órgãos otolíticos (utrículo e sáculo) geram ilusões porque:",
+        "alternativas": [
+          "Só funcionam adequadamente acima de 10.000 pés",
+          "Não conseguem distinguir aceleração linear de inclinação",
+          "Perdem sensibilidade progressiva com a idade",
+          "São afetados pela pressão do ouvido médio durante variações de altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os otólitos respondem à resultante da gravidade + aceleração linear — não conseguem separar os dois estímulos, gerando ilusões de inclinação."
+      },
+      {
+        "id": 20,
+        "pergunta": "Quando um piloto sente forte sensação de inclinação, mas o horizonte artificial indica voo nivelado, a atitude correta é:",
+        "alternativas": [
+          "Confiar na sensação física, pois o instrumento pode estar com falha",
+          "Confiar no horizonte artificial e manter a posição indicada pelo instrumento",
+          "Solicitar imediatamente ao copiloto para assumir os controles",
+          "Descer para VMC imediatamente para confirmar a posição real da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Essa é a ilusão de Leans — os instrumentos estão corretos. O princípio fundamental é: confie nos instrumentos, não nas sensações corporais."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Fadiga, Sono e Ritmo Circadiano",
+    "aula": {
+      "introducao": "A fadiga é um dos fatores humanos mais prevalentes e subestimados na aviação. Diferente da hipóxia ou da desorientação espacial, a fadiga se instala gradualmente e compromete o julgamento, a vigilância e o tempo de reação sem que o piloto perceba de forma clara. Estudos da NASA e da FAA demonstram que a fadiga está presente em um número expressivo de incidentes e acidentes aéreos. Compreender os mecanismos do sono, do ritmo circadiano e da fadiga é essencial para operar com segurança.",
+      "subtitulos": [
+        {
+          "titulo": "Definição e Tipos de Fadiga",
+          "conteudo": "**Definição (ICAO):**\nEstado fisiológico de capacidade mental ou física reduzida resultante de privação de sono, período prolongado de vigília, fase circadiana ou carga de trabalho — que pode comprometer o estado de alerta e o desempenho operacional.\n\n**Tipos de fadiga:**\n\n**1. Fadiga Aguda:**\n• Resultado de uma única sessão de trabalho intenso ou privação de sono de curto prazo\n• Recuperável com sono adequado\n• Exemplo: voo noturno longo após um dia de trabalho\n\n**2. Fadiga Crônica:**\n• Acúmulo de fadiga ao longo de dias, semanas ou meses\n• Débito de sono não quitado\n• Recuperação mais lenta e difícil\n• Sinal de alerta: acordar cansado mesmo após horas de sono\n\n**3. Fadiga de Voo (Flight Fatigue):**\n• Combinação de fatores físicos e mentais específicos do ambiente aeronáutico\n• Contribuintes: altitude, pressurização, ruído, vibração, demanda cognitiva, responsabilidade\n\n**4. Fadiga Mental:**\n• Resultado de esforço cognitivo intenso e prolongado\n• Redução da concentração, memória de trabalho e tomada de decisão\n• Pode ocorrer mesmo com descanso físico adequado\n\n**Efeitos da fadiga no desempenho:**\n\n| Função | Efeito da Fadiga |\n|--------|------------------|\n| **Tempo de reação** | Aumenta significativamente |\n| **Atenção e vigilância** | Reduz — microssonos |\n| **Tomada de decisão** | Piora — decisões impulsivas ou omissão |\n| **Memória de trabalho** | Reduz capacidade |\n| **Comunicação** | Tornase imprecisa |\n| **Autocrítica** | Reduz — piloto não percebe degradação |\n\n**Característica mais perigosa da fadiga:**\nAssim como a hipóxia, a fadiga compromete a capacidade de julgamento antes de ser reconhecida — o piloto fatigado não percebe o quanto está comprometido."
+        },
+        {
+          "titulo": "Fisiologia do Sono",
+          "conteudo": "O sono é um processo ativo e complexo, essencial para a restauração das funções cognitivas:\n\n**Estágios do sono:**\n\n**NREM (Non-Rapid Eye Movement):**\n• **Estágio 1 (N1)**: Transição vigília-sono — leve, fácil de acordar — dura ~5 min\n• **Estágio 2 (N2)**: Sono leve — desaceleração cardíaca e temperatura — dura ~20 min\n• **Estágio 3 (N3)**: Sono profundo (slow-wave sleep) — restauração física — difícil acordar\n\n**REM (Rapid Eye Movement):**\n• Sonhos vívidos\n• Consolidação da memória e aprendizado\n• Paralisia muscular (atonia)\n• Importante para funções cognitivas\n\n**Ciclo do sono:**\n• Cada ciclo completo: ~90 minutos\n• Uma noite completa: 4 a 6 ciclos\n• Sono profundo (N3): predomina na primeira metade da noite\n• Sono REM: predomina na segunda metade da noite\n\n**Necessidade de sono:**\n• Adultos: 7 a 9 horas por noite\n• Pilotos: mesma necessidade — regulamentação limita o período de serviço, não elimina a necessidade de sono\n\n**Débito de sono (Sleep Debt):**\n• Acúmulo de privação de sono ao longo do tempo\n• Exemplo: dormir 6h quando precisa de 8h = 2h de débito por noite\n• Acumula e não é compensado facilmente\n• 2 semanas com 6h/noite = desempenho equivalente a 48h sem dormir\n\n**Microssonos:**\n• Episódios involuntários de sono de 1 a 30 segundos\n• Ocorrem sem que a pessoa perceba\n• Extremamente perigosos em operação de aeronaves\n• Aumentam com a fadiga e privação de sono\n\n**Qualidade vs. quantidade de sono:**\n• Sono fragmentado não restaura adequadamente\n• Ambiente (ruído, temperatura, luz) afeta a qualidade\n• Álcool fragmenta o sono — reduz a qualidade mesmo que a quantidade pareça adequada"
+        },
+        {
+          "titulo": "Ritmo Circadiano",
+          "conteudo": "O ritmo circadiano é o 'relógio biológico interno' que regula os ciclos fisiológicos do organismo:\n\n**Definição:**\nCiclo biológico de aproximadamente 24 horas que regula temperatura corporal, produção hormonal, vigilância, metabolismo e ciclo sono-vigília.\n\n**Regulador central:**\n• Núcleo supraquiasmático (NSQ) no hipotálamo\n• Sincronizado principalmente pela luz (zeitgeber)\n• Melatonina: hormônio que sinaliza o 'anoitecer' ao organismo\n\n**Padrão típico de alerta ao longo do dia:**\n\n| Período | Nível de alerta |\n|---------|------------------|\n| 02h–06h | **Mínimo absoluto** — pior desempenho |\n| 06h–08h | Subida rápida após despertar |\n| 10h–12h | **Pico matinal** |\n| 14h–16h | **Queda pós-prandial** (post-lunch dip) — natural |\n| 17h–20h | **Pico vespertino** — melhor desempenho |\n| 22h–02h | Queda progressiva |\n\n**Implicações para a aviação:**\n• Voos entre 02h e 06h: máximo risco de fadiga e microssonos\n• Queda pós-prandial (14h–16h): segundo período de risco\n• Decisões críticas devem considerar a fase circadiana do piloto\n\n**Jet Lag:**\n• Dessincronização do ritmo circadiano por cruzamento rápido de fusos horários\n• Ritmo interno ≠ horário local\n• Sintomas: insônia, sonolência diurna, déficit cognitivo, problemas digestivos\n• Taxa de resincronização: ~1 hora de fuso por dia\n• Voo para leste: mais difícil de adaptar (adiantar o relógio)\n• Voo para oeste: mais fácil (atrasar o relógio)\n\n**Trabalho em turnos (Shift Work):**\n• Pilotos frequentemente operam contra o ritmo circadiano\n• Turnos noturnos cronicamente conflitam com o relógio biológico\n• Acumulação de débito de sono + dessincronização circadiana = alto risco\n\n**Contramedidas ao Jet Lag:**\n• Exposição estratégica à luz para reajuste do NSQ\n• Melatonina exógena (curto prazo)\n• Hidratação e dieta adequadas\n• Adaptação gradual ao novo fuso antes da viagem"
+        },
+        {
+          "titulo": "Regulamentação de Fadiga — RBAC 117",
+          "conteudo": "A regulamentação brasileira de gerenciamento de fadiga é baseada no RBAC 117 da ANAC:\n\n**RBAC 117 — Gerenciamento de Risco de Fadiga:**\n• Baseado no Anexo 6 da ICAO\n• Aplica-se a operadores de transporte aéreo regular (RBAC 121)\n• Estabelece limites de tempo de voo, jornada e repouso\n\n**Conceitos fundamentais:**\n\n**Período de Serviço de Voo (PSV):**\n• Tempo total desde que o tripulante se apresenta ao serviço até o término das responsabilidades\n• Inclui: briefing, voo, debriefing\n\n**Tempo de Voo:**\n• Apenas o tempo de roda a roda (block time)\n\n**Período de Repouso:**\n• Período livre de toda responsabilidade operacional\n• Deve ocorrer em condições adequadas de descanso\n\n**Limites típicos (RBAC 117):**\n• Máximo de horas de voo por dia: variável conforme número de pilotos e período\n• Máximo PSV: varia com hora de início e número de setores\n• Repouso mínimo: pelo menos igual ao PSV anterior ou 10h (o maior)\n\n**SGRF — Sistema de Gerenciamento de Risco de Fadiga:**\n• Obrigatório para operadores RBAC 121\n• Abordagem científica e baseada em dados\n• Complementa os limites prescritivos\n• Inclui: monitoramento, relatórios, contramedidas\n\n**Responsabilidades:**\n• **Operador**: cumprir os limites e implementar o SGRF\n• **Piloto**: responsabilidade pessoal — reportar quando fatigado\n• **Piloto em comando**: autoridade para recusar voo por fadiga\n\n**Contramedidas operacionais:**\n• Cochilos planejados (napping) em voos longos com tripulação aumentada\n• Rotação de turnos estratégica\n• Adequação do repouso pré-voo\n• Uso criterioso de cafeína\n• Ambiente de descanso adequado (dark, quiet, cool)"
+        },
+        {
+          "titulo": "Reconhecimento e Gerenciamento da Fadiga",
+          "conteudo": "O piloto deve ser capaz de reconhecer e gerenciar a fadiga em si mesmo e nos outros:\n\n**Sinais de fadiga — autorreconhecimento:**\n• Dificuldade de concentração\n• Erros simples e repetidos\n• Perda de lugar no check-list\n• Comunicações imprecisas ou ausentes\n• Irritabilidade aumentada\n• Bocejo frequente\n• Visão turva ou sensação de 'peso' nos olhos\n• Pensamentos lentos\n• Microssonos (acordar sem perceber que adormeceu)\n\n**SADIE — Modelo de reconhecimento de fadiga:**\n• **S**leepiness: sonolência excessiva\n• **A**ttention lapses: lapsos de atenção\n• **D**ecision making: julgamento comprometido\n• **I**rritability: irritabilidade\n• **E**nergy: falta de energia física\n\n**Cochilos estratégicos (Strategic Napping):**\n• Cochilo curto de 10 a 20 min: alerta imediato, sem inércia de sono significativa\n• Cochilo de 90 min (ciclo completo): restauração maior, mas inércia de sono\n• **Inércia de sono**: período de ~15-20 min após acordar em que o desempenho está pior — não voar nesse período\n• NASA Power Nap: 26 minutos — melhora alerta em 54% e desempenho em 34%\n\n**Cafeína — uso estratégico:**\n• Bloqueia adenosina (substância que causa sonolência)\n• Início de ação: 15-30 minutos\n• Duração: 3-5 horas\n• Pico plasmático: 30-60 minutos\n• Dose eficaz: 100-200 mg (1-2 cafés espressos)\n• **Não elimina o débito de sono — apenas mascara a sonolência**\n• Evitar nas 6h antes do repouso (prejudica o sono)\n\n**Decisão de voar:**\n• A fadiga é causa legítima para recusar um voo\n• O piloto tem responsabilidade legal e moral de reportar incapacitação por fadiga\n• 'IM SAFE' Checklist inclui Fatigue como item obrigatório de autoavaliação"
+        },
+        {
+          "titulo": "Checklist IM SAFE e Autoavaliação do Piloto",
+          "conteudo": "O piloto deve realizar uma autoavaliação completa antes de cada voo:\n\n**Checklist IM SAFE:**\n\n| Letra | Item | Verificação |\n|-------|------|-------------|\n| **I** | **Illness** (Doença) | Estou com algum sintoma de doença? |\n| **M** | **Medication** (Medicamentos) | Tomei algum medicamento que afeta o desempenho? |\n| **S** | **Stress** (Stress) | Tenho stress pessoal, profissional ou financeiro significativo? |\n| **A** | **Alcohol** (Álcool) | Consumi álcool nas últimas 8 horas (regra mínima)? |\n| **F** | **Fatigue** (Fadiga) | Estou fatigado? Dormi adequadamente? |\n| **E** | **Emotion** (Emoção) | Estou emocionalmente perturbado? |\n\n**Regra do álcool na aviação (RBAC 91):**\n• Mínimo: 8 horas entre consumo de álcool e voo ('8 hours, bottle to throttle')\n• Recomendado: 24 horas\n• Bafômetro: máximo 0,04% de álcool no sangue\n• Ressaca também incapacita — acetaldeído e desidratação\n\n**Stress e o voo:**\n• Stress agudo: ativa o sistema simpático ('fight or flight')\n  - Aumenta frequência cardíaca e pressão\n  - Reduz visão periférica (tunnel vision)\n  - Pode melhorar desempenho em tarefas simples\n  - Piora desempenho em tarefas complexas (voo)\n• Stress crônico: fadiga mental, tomada de decisão comprometida\n• O stress não percebido é especialmente perigoso\n\n**Emoção e o voo:**\n• Notícias graves (morte na família, divórcio, problemas financeiros)\n• Preocupação emocional consome recursos da memória de trabalho\n• Aumenta risco de lapsos, erros e fixação\n• A decisão de não voar é sempre uma opção válida e responsável"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "A característica mais perigosa da fadiga em pilotos é:",
+        "alternativas": [
+          "A dificuldade de realizar cálculos matemáticos complexos durante o voo",
+          "A redução da autocrítica — o piloto fatigado não percebe o quanto seu desempenho está comprometido",
+          "O surgimento de microssonos que são imediatamente percebidos pelo piloto",
+          "A incapacidade física de manipular os comandos da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A fadiga compromete o julgamento e a autocrítica antes de ser reconhecida — o piloto acredita estar bem quando seu desempenho já está seriamente degradado."
+      },
+      {
+        "id": 22,
+        "pergunta": "O período de maior risco de fadiga e microssonos durante o dia corresponde a:",
+        "alternativas": [
+          "10h às 12h — pico matinal de alerta",
+          "02h às 06h — nadir circadiano (mínimo absoluto de alerta)",
+          "14h às 16h — período de melhor desempenho pós-almoço",
+          "17h às 20h — pico vespertino de desempenho"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O nadir circadiano entre 02h e 06h é o período de menor alerta biológico — máximo risco de fadiga operacional e microssonos involuntários."
+      },
+      {
+        "id": 23,
+        "pergunta": "O 'débito de sono' é perigoso na aviação porque:",
+        "alternativas": [
+          "Não pode ser compensado mesmo com sono longo — é permanente",
+          "Acumula progressivamente, e 2 semanas com 6h/noite equivalem em impacto a 48h de privação total de sono",
+          "Só afeta o desempenho físico, não prejudicando as funções cognitivas",
+          "É completamente compensado por uma única noite de sono adequado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O débito de sono acumula — dormir cronicamente menos do que o necessário degrada progressivamente o desempenho cognitivo de forma comparável à privação total."
+      },
+      {
+        "id": 24,
+        "pergunta": "A 'inércia do sono' após um cochilo é relevante para a aviação porque:",
+        "alternativas": [
+          "Impede que o piloto adormeça novamente nos 30 minutos seguintes ao cochilo",
+          "O desempenho fica temporariamente pior (~15-20 min) logo após acordar — o piloto não deve assumir controles imediatamente",
+          "Aumenta a frequência cardíaca e a pressão arterial, contraindicando o voo",
+          "Elimina completamente o benefício do cochilo se durar mais de 30 minutos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inércia do sono causa degradação temporária do desempenho após acordar — o piloto deve aguardar ~15-20 min antes de assumir funções críticas."
+      },
+      {
+        "id": 25,
+        "pergunta": "Em relação ao jet lag, a viagem para leste é mais difícil de adaptar porque:",
+        "alternativas": [
+          "O corpo humano se adapta melhor a atrasar o relógio biológico do que a adiantá-lo",
+          "Os fusos a leste têm maior variação de temperatura, afetando o sono",
+          "A exposição à luz solar é menor nas regiões leste",
+          "A pressurização das aeronaves em voos para leste é inferior"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "O ritmo circadiano humano é ligeiramente maior que 24h — é mais natural atrasar (voos para oeste) do que adiantar (voos para leste) o relógio biológico."
+      },
+      {
+        "id": 26,
+        "pergunta": "Segundo o checklist IM SAFE, a letra 'A' (Álcool) verifica se o piloto:",
+        "alternativas": [
+          "Está completamente sóbrio no momento do voo, sem restrição de tempo",
+          "Consumiu álcool nas últimas 8 horas — o mínimo regulamentado, com recomendação de 24 horas",
+          "Possui histórico de alcoolismo registrado no CANAC",
+          "Tomou qualquer medicamento à base de álcool nas últimas 72 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A regra regulamentada é de 8 horas ('bottle to throttle'), mas a recomendação de segurança é de 24h. A ressaca também incapacita."
+      },
+      {
+        "id": 27,
+        "pergunta": "O sono REM é especialmente importante para os pilotos porque:",
+        "alternativas": [
+          "É o estágio de restauração física — recupera os músculos usados durante o voo",
+          "É responsável pela consolidação da memória e aprendizado — essencial para habilidades de voo",
+          "Ocorre apenas nas primeiras 2 horas de sono — é facilmente prejudicado por ruído",
+          "Regula diretamente a produção de adrenalina e cortisol durante o dia"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O sono REM consolida a memória procedural e declarativa — habilidades de voo, procedimentos e conhecimentos são consolidados nessa fase."
+      },
+      {
+        "id": 28,
+        "pergunta": "A cafeína como contramedida à fadiga possui a seguinte limitação importante:",
+        "alternativas": [
+          "Reduz permanentemente a tolerância ao sono privado após uso regular",
+          "Não elimina o débito de sono — apenas mascara a sonolência temporariamente",
+          "Causa dependência química após uma única dose, tornando-se contraproducente",
+          "É proibida pelo RBAC 117 durante períodos de serviço de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A cafeína bloqueia a adenosina e mascara a sonolência, mas não restaura as funções cognitivas prejudicadas pelo débito de sono — o desempenho real continua comprometido."
+      },
+      {
+        "id": 29,
+        "pergunta": "O RBAC 117 da ANAC estabelece limites de fadiga aplicáveis a:",
+        "alternativas": [
+          "Todos os pilotos, incluindo aviação geral e voos privados",
+          "Operadores de transporte aéreo regular (RBAC 121) — tripulantes de voo e cabine",
+          "Apenas pilotos com mais de 5.000 horas de voo em aviação comercial",
+          "Exclusivamente pilotos em rotas internacionais com cruzamento de fusos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 117 aplica-se às operações de transporte aéreo regular (RBAC 121), estabelecendo limites de PSV, tempo de voo e repouso mínimo."
+      },
+      {
+        "id": 30,
+        "pergunta": "O stress emocional agudo afeta o desempenho do piloto principalmente porque:",
+        "alternativas": [
+          "Aumenta o tempo de reação físico ao reduzir a condução nervosa",
+          "Consome recursos da memória de trabalho, reduzindo a capacidade de processar informações de voo",
+          "Eleva o ritmo circadiano, antecipando o nadir de alerta",
+          "Causa hipóxia histotóxica pela liberação excessiva de cortisol"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Preocupações emocionais ocupam espaço na memória de trabalho (limitada a 7±2 itens) — menos capacidade disponível para processar informações de voo."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Saúde, Medicamentos e Substâncias",
+    "aula": {
+      "introducao": "O estado de saúde do piloto é um fator crítico de segurança operacional. Doenças, medicamentos e substâncias podem comprometer a capacidade de julgamento, o tempo de reação, a percepção sensorial e a tomada de decisão — muitas vezes sem que o próprio piloto perceba. A regulamentação aeronáutica estabelece requisitos médicos rigorosos, e o piloto tem responsabilidade legal e ética de voar apenas quando clinicamente apto.",
+      "subtitulos": [
+        {
+          "titulo": "Certificado Médico Aeronáutico (CMA)",
+          "conteudo": "O Certificado Médico Aeronáutico é a habilitação médica exigida para exercer privilégios de piloto:\n\n**Classes de CMA no Brasil (RBAC 67):**\n\n| Classe | Aplicação | Validade |\n|--------|-----------|----------|\n| **1ª Classe** | Pilotos comerciais (PC, ATPL) | 12 meses (<40 anos), 6 meses (≥40 anos) |\n| **2ª Classe** | Piloto privado (PP) e piloto privado de ultraleve | 24 meses (<40 anos), 12 meses (≥40 anos) |\n| **3ª Classe** | Controladores de tráfego aéreo | 24 meses (<40 anos), 12 meses (≥40 anos) |\n\n**Exames obrigatórios no CMA 1ª Classe:**\n• Clínico geral\n• Cardiovascular (ECG)\n• Audiometria\n• Oftalmológico (acuidade visual, campo visual, visão de cores)\n• Neurológico\n• Psiquiátrico\n• Laboratorial (sangue, urina)\n\n**Aptidão e inaptidão:**\n• **Apto**: pode exercer os privilégios da licença\n• **Apto com restrições**: apto sob condições específicas (ex: correção visual obrigatória)\n• **Inapto temporário**: condição reversível — deve aguardar recuperação\n• **Inapto permanente**: condição irreversível que impede o exercício\n\n**Responsabilidade do piloto:**\n• Não voar com CMA vencido\n• Não voar com condição médica que saiba incapacitá-lo, mesmo com CMA válido\n• Reportar ao médico examinador qualquer condição nova\n• Dúvida: consultar médico antes de voar — não voar com dúvida\n\n**Regra fundamental:**\n'When in doubt, don't fly' — na dúvida, não voe."
+        },
+        {
+          "titulo": "Efeitos do Álcool no Voo",
+          "conteudo": "O álcool é a substância psicoativa mais consumida e uma das mais perigosas para a aviação:\n\n**Mecanismo de ação:**\n• Depressor do SNC — reduz a atividade do sistema nervoso central\n• Afeta o córtex pré-frontal (julgamento, planejamento, autocrítica) primeiro\n• Age no cerebelo (coordenação e equilíbrio) em doses maiores\n\n**Efeitos específicos no piloto:**\n• Redução do julgamento e tomada de decisão\n• Falsa sensação de confiança e competência\n• Redução da visão noturna (afeta os bastonetes)\n• Agrava a desorientação espacial (afeta o sistema vestibular)\n• Aumenta a susceptibilidade à hipóxia\n• Piora a tolerância ao +G\n• Aumenta o tempo de reação\n• Reduz a coordenação motora fina\n\n**Metabolismo do álcool:**\n• Taxa de metabolização: ~0,015% BAC (Blood Alcohol Content) por hora\n• Não acelerado por: café, água, alimento, exercício\n• Varia com: peso corporal, sexo, genética, alimentação\n\n**'8 Hours, Bottle to Throttle':**\n• Regra mínima brasileira (RBAC 91): 8 horas entre última bebida e voo\n• Limite máximo de BAC: 0,04%\n• **Recomendação de segurança**: 24 horas\n• A ressaca também incapacita — acetaldeído causa cefaleia, desidratação e prejuízo cognitivo\n\n**Efeito da altitude no álcool:**\n• Hipóxia potencializa os efeitos do álcool\n• Equivalência aproximada: 1 drinque ao nível do mar ≈ 2 a 3 drinques em altitude\n\n**Tabela de referência BAC:**\n\n| BAC | Efeitos |\n|-----|--------|\n| 0,02–0,04% | Relaxamento, redução da inibição |\n| 0,04–0,08% | Julgamento comprometido, coordenação reduzida |\n| 0,08–0,15% | Fala arrastada, visão dupla, reflexos lentos |\n| 0,15–0,30% | Inconsciência possível |\n| >0,30% | Coma, risco de morte |"
+        },
+        {
+          "titulo": "Medicamentos e o Voo",
+          "conteudo": "Muitos medicamentos de uso comum são incompatíveis com a operação de aeronaves:\n\n**Princípio geral:**\nQualquer medicamento que afete o SNC (sistema nervoso central) pode comprometer o desempenho do piloto — mesmo medicamentos 'sem receita' (OTC).\n\n**Categorias de medicamentos problemáticos:**\n\n**1. Anti-histamínicos (antialérgicos):**\n• Primeira geração (ex: difenidramina, prometazina): sedação significativa\n• Segunda geração (loratadina, cetirizina): menos sedativos, mas ainda podem causar sedação\n• **Regra**: qualquer anti-histamínico com potencial sedativo → não voar\n\n**2. Antibióticos:**\n• A maioria dos antibióticos em si é relativamente segura\n• **A doença que os justifica** frequentemente incapacita o piloto\n• Exceções: alguns têm efeitos no SNC ou no equilíbrio (aminoglicosídeos → ototoxicidade)\n\n**3. Analgésicos:**\n• Paracetamol (acetaminofeno): geralmente aceitável em dose única normal\n• AINEs (ibuprofeno, diclofenaco): cautela — podem mascarar sintomas de doença incapacitante\n• Opioides (codeína, tramadol): **absolutamente contraindicados** em voo\n\n**4. Antidepressivos e ansiolíticos:**\n• Benzodiazepínicos (diazepam, alprazolam): sedação, amnésia, comprometem o julgamento — **proibidos**\n• ISRS (fluoxetina, sertralina): avaliação caso a caso pela autoridade médica\n• A condição psiquiátrica que justifica o uso frequentemente incapacita por si só\n\n**5. Descongestionantes:**\n• Pseudo-efedrina: estimulante — pode causar taquicardia, ansiedade\n• Podem mascarar sintomas de resfriado que incapacitam\n\n**6. Antidiabéticos:**\n• Risco de hipoglicemia — incapacitação súbita\n• Insulina e sulfonilureias: alto risco de hipoglicemia\n• Pilotos diabéticos: avaliação médica rigorosa\n\n**Regra prática — 'One flight rule':**\nAntes de voar com qualquer novo medicamento, usá-lo por pelo menos 24-48 horas em terra para avaliar efeitos adversos pessoais.\n\n**Medicamentos e altitude:**\nAlguns efeitos adversos são amplificados em altitude (pressão reduzida, hipóxia relativa)."
+        },
+        {
+          "titulo": "Outras Substâncias — Drogas e Tabagismo",
+          "conteudo": "Além do álcool, outras substâncias representam riscos específicos na aviação:\n\n**TABAGISMO:**\n\n**Monóxido de carbono (CO):**\n• Principal agente da hipóxia em fumantes\n• CO compete com O₂ na hemoglobina (200x mais afinidade)\n• Fumante tem BAC (Blood Alcohol Content) de carboxihemoglobina elevado cronicamente\n• Um maço por dia → carboxihemoglobina de 5-8% (equivale a voar a 8.000-10.000 pés)\n• Visão noturna prejudicada mesmo em solo\n\n**Outros efeitos do tabagismo:**\n• Reduz a capacidade vital dos pulmões\n• Aumenta a viscosidade do sangue\n• Aumenta a susceptibilidade a doenças respiratórias\n\n**CANNABIS (Maconha):**\n• Efeitos imediatos: alteração da percepção do tempo, prejuízo da coordenação e memória de trabalho\n• **Efeitos residuais**: prejudica o desempenho por 24h ou mais, mesmo após fim da intoxicação\n• Estudo da FAA: pilotos sob efeito residual de cannabis (sem sintomas subjetivos) tiveram pior desempenho em simulador\n• Absolutamente contraindicada em voo\n\n**ESTIMULANTES (anfetaminas, cocaína):**\n• Falsa sensação de alerta e competência\n• Seguida por crash de desempenho quando o efeito passa\n• Arritmias cardíacas\n• Comportamento impulsivo e julgamento comprometido\n• Absolutamente proibidos\n\n**ALUCINÓGENOS:**\n• Completamente incompatíveis com qualquer operação aeronáutica\n• Efeitos imprevisíveis e prolongados\n\n**Medicamentos legais mas problemáticos:**\n• Muitos medicamentos vendidos sem receita têm efeitos no SNC\n• Xaropes para tosse com codeína ou difenidramina: contraindicados\n• Suplementos: alguns contêm substâncias estimulantes não declaradas\n• Regra: sempre consultar o médico examinador antes de usar qualquer substância nova"
+        },
+        {
+          "titulo": "Doenças Incapacitantes e a Decisão de Voar",
+          "conteudo": "Diversas condições médicas podem incapacitar o piloto durante o voo:\n\n**Incapacitação súbita vs. gradual:**\n\n**Incapacitação súbita:**\n• Infarto agudo do miocárdio\n• AVC (Acidente Vascular Cerebral)\n• Convulsão epiléptica\n• Síncope vasovagal\n• Hipoglicemia severa\n• G-LOC\n• Sem aviso — mais perigosa\n\n**Incapacitação gradual:**\n• Hipóxia progressiva\n• Fadiga\n• Hipoglicemia leve\n• Intoxicação por CO\n• Mais tempo para reconhecer e agir\n\n**Condições que sempre incapacitam — não voar:**\n• Febre (acima de 38°C) — afeta julgamento e pode indicar infecção grave\n• Resfriado com congestão nasal — barotrauma\n• Distúrbio gastrointestinal agudo — dor e distração\n• Qualquer cirurgia recente — gases aprisionados expandem em altitude\n• Mergulho com cilindro nas 12-24h anteriores — risco de aeroembolismo\n• Doação de sangue recente — reduz capacidade de transporte de O₂\n\n**Regra pós-mergulho e voo:**\n• Mergulho sem paradas de descompressão: aguardar **mínimo 12 horas** antes do voo\n• Mergulho com paradas de descompressão: aguardar **mínimo 24 horas**\n• Mergulho repetitivo ou sintomas de descompressão: aguardar **mínimo 48 horas** e avaliação médica\n\n**Incapacitação em voo — procedimentos:**\n• Aeronaves monomotoras/single pilot: descida imediata, comunicar ao ATC, priorizar pouso seguro\n• Aeronaves multiequipe: o outro piloto assume controles — padrão de 'incapacitação'\n• Protocolos de incapacitação devem ser praticados em treinamento recorrente\n\n**Piloto em Comando (PIC) — responsabilidade:**\n• O PIC tem autoridade e responsabilidade final\n• Incapacitação do PIC: copiloto assume e declara emergência\n• Incapacitação do Copiloto: PIC continua e informa ATC"
+        },
+        {
+          "titulo": "Hipoglicemia e Nutrição no Voo",
+          "conteudo": "A hipoglicemia (baixo nível de açúcar no sangue) é uma forma de incapacitação súbita que pode afetar qualquer piloto:\n\n**Definição:**\nNível de glicose sanguínea abaixo de 70 mg/dL (sintomas geralmente abaixo de 60 mg/dL).\n\n**Causas em pilotos não diabéticos:**\n• Jejum prolongado antes e durante o voo\n• Refeição rica em carboidratos simples seguida de hipoglicemia reativa\n• Voo prolongado sem alimentação\n• Estresse e exercício sem reposição calórica\n\n**Sintomas:**\n• Iniciais: tremores, sudorese, palpitações, sensação de fome\n• Moderados: dificuldade de concentração, confusão, irritabilidade, visão turva\n• Graves: incoordenação, comportamento irracional, inconsciência\n\n**Tratamento:**\n• Ingestão imediata de carboidratos simples (suco, açúcar)\n• Seguida de carboidratos complexos para estabilização\n• Pousar imediatamente se os sintomas não melhorarem\n\n**Recomendações nutricionais para pilotos:**\n• Não voar em jejum prolongado\n• Preferir refeições leves e equilibradas antes do voo\n• Levar lanche a bordo em voos longos\n• Evitar refeições pesadas (sonolência pós-prandial + gases em altitude)\n• Hidratação adequada — desidratação agrava fadiga e reduz tolerância ao +G\n\n**Desidratação no voo:**\n• Cabine pressurizada tem umidade muito baixa (~10-20%)\n• Perda de 1-2% do peso corporal em água já afeta o desempenho cognitivo\n• Bebida alcoólica e cafeína são diuréticas — agravam a desidratação\n• Recomendação: 250 ml de água a cada hora de voo"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "O Certificado Médico Aeronáutico de 1ª Classe para um piloto com 42 anos de idade tem validade de:",
+        "alternativas": [
+          "24 meses, independente da idade",
+          "6 meses, pois acima de 40 anos a validade é reduzida",
+          "12 meses para todas as idades",
+          "3 meses, pois acima de 40 anos exige avaliação trimestral"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CMA de 1ª Classe tem validade de 12 meses para pilotos com menos de 40 anos e 6 meses para pilotos com 40 anos ou mais (RBAC 67)."
+      },
+      {
+        "id": 32,
+        "pergunta": "O álcool é especialmente perigoso em altitude porque:",
+        "alternativas": [
+          "É metabolizado mais lentamente em altitude, permanecendo mais tempo no sangue",
+          "A hipóxia relativa em altitude potencializa os efeitos do álcool — 1 drinque equivale a 2-3 ao nível do mar",
+          "Reage com o oxigênio suplementar, formando compostos tóxicos",
+          "Aumenta a pressão parcial de CO₂, causando acidose respiratória"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A hipóxia relativa amplifica os efeitos do álcool — o cérebro já com menos O₂ disponível é mais sensível à depressão do SNC pelo álcool."
+      },
+      {
+        "id": 33,
+        "pergunta": "Um piloto com resfriado e congestão nasal deve evitar voar principalmente porque:",
+        "alternativas": [
+          "O vírus do resfriado pode se proliferar mais rapidamente em altitude",
+          "A congestão impede a equalização de pressão, causando barotrauma do ouvido e dos seios da face",
+          "O resfriado reduz a tolerância ao +G, aumentando o risco de G-LOC",
+          "A febre causa expansão do plasma sanguíneo, aumentando o risco de aeroembolismo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Congestão nasal bloqueia a Tuba de Eustáquio e os óstios dos seios da face — impede equalização durante subida/descida → dor severa e possível barotrauma."
+      },
+      {
+        "id": 34,
+        "pergunta": "A 'One Flight Rule' para medicamentos estabelece que o piloto deve:",
+        "alternativas": [
+          "Usar o medicamento por no mínimo um mês antes de retornar ao voo",
+          "Usar o medicamento por 24-48 horas em terra para avaliar efeitos adversos pessoais antes de voar",
+          "Realizar apenas um voo de teste com acompanhante antes de voar sozinho com o medicamento",
+          "Consultar o manual do medicamento para verificar se há contraindicação para voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A 'One Flight Rule' determina que qualquer novo medicamento deve ser testado por 24-48h em terra — efeitos adversos variam entre indivíduos."
+      },
+      {
+        "id": 35,
+        "pergunta": "O risco da cannabis no voo é especialmente relevante porque:",
+        "alternativas": [
+          "Causa dependência imediata após uma dose, comprometendo voos futuros",
+          "Seus efeitos residuais prejudicam o desempenho por 24 horas ou mais, mesmo sem sintomas subjetivos perceptíveis",
+          "Provoca expansão dos vasos sanguíneos pulmonares, causando hipóxia",
+          "É rapidamente detectada por testes de bafômetro usados na aviação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Estudos da FAA demonstraram que pilotos sem sintomas subjetivos de intoxicação, mas com efeito residual de cannabis, tiveram pior desempenho em simulador."
+      },
+      {
+        "id": 36,
+        "pergunta": "Após mergulho com paradas de descompressão, o piloto deve aguardar antes de voar:",
+        "alternativas": [
+          "Mínimo de 4 horas",
+          "Mínimo de 24 horas",
+          "Mínimo de 6 horas",
+          "Não há restrição se o mergulho foi realizado sem intercorrências"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Após mergulho com paradas de descompressão, o mínimo é 24 horas — a altitude reduz a pressão e pode causar formação de bolhas de N₂ (aeroembolismo/bends)."
+      },
+      {
+        "id": 37,
+        "pergunta": "Um fumante de um maço por dia tem nível de carboxihemoglobina equivalente a voar a:",
+        "alternativas": [
+          "Nível do mar — sem impacto fisiológico relevante",
+          "Aproximadamente 8.000 a 10.000 pés de altitude densidade",
+          "5.000 pés de altitude — impacto mínimo na visão noturna",
+          "15.000 pés — comprometimento significativo da consciência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Um maço por dia gera 5-8% de carboxihemoglobina cronicamente — equivalente fisiológico de voar a 8.000-10.000 pés, com visão noturna prejudicada."
+      },
+      {
+        "id": 38,
+        "pergunta": "A hipoglicemia pode afetar pilotos não diabéticos principalmente porque:",
+        "alternativas": [
+          "A hipóxia em altitude reduz a gliconeogênese hepática, causando queda de glicose",
+          "Jejum prolongado ou refeição inadequada antes e durante voos longos podem levar a baixo nível de glicose",
+          "O estresse do voo aumenta o consumo de insulina, reduzindo a glicemia",
+          "A pressurização da cabine interfere na absorção intestinal de glicose"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Qualquer piloto pode desenvolver hipoglicemia por jejum ou alimentação inadequada — o cérebro depende de glicose e a queda causa incapacitação progressiva."
+      },
+      {
+        "id": 39,
+        "pergunta": "Os anti-histamínicos de primeira geração são especialmente contraindicados no voo porque:",
+        "alternativas": [
+          "Causam taquicardia que pode ser confundida com arritmia em altitude",
+          "Causam sedação significativa que compromete a vigilância e o tempo de reação",
+          "Interferem no sistema vestibular, aumentando o risco de desorientação espacial",
+          "Reduzem a visão de cores, comprometendo a leitura de instrumentos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Anti-histamínicos de 1ª geração (difenidramina, prometazina) cruzam a barreira hematoencefálica e causam sedação significativa — incompatíveis com operação de aeronaves."
+      },
+      {
+        "id": 40,
+        "pergunta": "A recomendação de ingestão de água durante o voo é de aproximadamente:",
+        "alternativas": [
+          "500 ml ao total durante um voo de qualquer duração",
+          "250 ml por hora de voo, pois a umidade muito baixa da cabine causa desidratação progressiva",
+          "1 litro apenas antes do voo para pré-hidratar",
+          "Apenas quando sentir sede — o mecanismo de sede é confiável em altitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A umidade da cabine pressurizada é de apenas 10-20% — a desidratação ocorre sem percepção clara de sede. 250 ml/hora mantém a hidratação adequada."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Fatores Psicológicos e Tomada de Decisão",
+    "aula": {
+      "introducao": "A tomada de decisão do piloto é um dos fatores humanos mais estudados na aviação. Diferente de máquinas, o ser humano está sujeito a vieses cognitivos, pressões psicológicas, emoções e limitações de processamento que podem levar a decisões fatais. Estudos de acidentes aeronáuticos mostram que a maioria dos acidentes envolve alguma falha na tomada de decisão — não necessariamente falta de habilidade técnica. Compreender como o cérebro decide, onde ele falha e como melhorar o processo decisório é essencial para a segurança de voo.",
+      "subtitulos": [
+        {
+          "titulo": "Processamento de Informação Humano",
+          "conteudo": "O cérebro humano processa informações de forma limitada e sequencial:\n\n**Modelo de Processamento de Informação:**\n\n**1. Entrada de informação (Input):**\n• Sentidos: visão (~80% da informação em voo), audição, tato, propriocepção, vestibular\n• Atenção seletiva: o cérebro filtra — não processa tudo simultaneamente\n• Limitação: apenas ~7 ±2 itens na memória de trabalho simultaneamente\n\n**2. Percepção:**\n• O cérebro não registra a realidade — ele a interpreta\n• Interpretação baseada em experiências anteriores, expectativas e estado atual\n• **Erros de percepção**: ver o que se espera ver, não o que está lá\n\n**3. Memória de Trabalho (Working Memory):**\n• Capacidade limitada: 7 ±2 itens\n• Curta duração: segundos a minutos\n• Vulnerável a: fadiga, estresse, distração, hipóxia\n• Em alta carga de trabalho: itens são 'derrubados' da memória de trabalho\n\n**4. Memória de Longo Prazo:**\n• Praticamente ilimitada\n• Acesso: recall (recuperação ativa) — pode falhar sob estresse\n• Tipos:\n  - **Declarativa** (fatos e conceitos): 'saber que'\n  - **Procedural** (habilidades): 'saber como' — mais resistente ao estresse\n\n**5. Tomada de Decisão:**\n• Baseada na percepção + memória de trabalho + memória de longo prazo\n• Limitada pela qualidade das informações recebidas e pelo estado do piloto\n\n**6. Ação (Output):**\n• Resposta motora (manipulação dos controles)\n• Resposta verbal (comunicação)\n\n**Carga de Trabalho (Workload):**\n\n| Nível | Estado | Desempenho |\n|-------|--------|------------|\n| **Muito baixo** | Sub-estimulado | Atenção reduz — complacência |\n| **Ótimo** | Alerta ideal | Melhor desempenho |\n| **Alto** | Sobrecarregado | Fixação, erros, omissão |\n| **Muito alto** | Saturado | Incapacitação funcional |\n\n**Lei de Yerkes-Dodson:**\nDesempenho ótimo ocorre em nível intermediário de arousal (ativação) — muito pouco ou muito stress reduz o desempenho."
+        },
+        {
+          "titulo": "Vieses Cognitivos no Voo",
+          "conteudo": "Vieses cognitivos são atalhos mentais que o cérebro usa para decidir mais rápido — mas que podem levar a erros graves:\n\n**1. Continuação do Plano (Plan Continuation Bias / Get-There-Itis):**\n• **O mais letal dos vieses em aviação**\n• Tendência de continuar o plano original mesmo com evidências de que deveria mudar\n• Exemplo: continuar aproximação com tempo deteriorando quando deveria desviar\n• O piloto investe tempo, combustível e expectativa — reluta em 'desperdiçar'\n• Contribui para CFIT (Controlled Flight Into Terrain) e aproximações instabilizadas não interrompidas\n\n**2. Viés de Confirmação:**\n• Tendência de buscar e aceitar informações que confirmam a crença já formada\n• Ignorar evidências contraditórias\n• Exemplo: 'O tempo vai melhorar' — piloto só nota as nuvens que abrem, não as que fecham\n\n**3. Ancoragem:**\n• Fixação no primeiro dado recebido — difícil atualizar com novas informações\n• Exemplo: primeira previsão era 'CAVOK' — piloto não atualiza o modelo mental com deterioração\n\n**4. Complacência:**\n• Redução da vigilância após período sem eventos adversos\n• 'Nunca aconteceu nada antes' → 'não vai acontecer agora'\n• Comum em pilotos experientes em rotas rotineiras\n\n**5. Ilusão de Controle:**\n• Superestimação da capacidade pessoal de controlar a situação\n• 'Sou bom o suficiente para voar nisso'\n• Mais comum em pilotos com alta autoconfiança\n\n**6. Pressão de Autoridade:**\n• Dificuldade de questionar ou contrariar decisões de superiores\n• Copiloto não desafia o capitão mesmo vendo erro\n• Causa de múltiplos acidentes documentados (Korean Air 007, etc.)\n\n**7. Efeito Halo:**\n• A percepção positiva de uma característica generaliza para outras\n• 'É um piloto experiente, logo sua decisão está correta'\n\n**8. Viés de Disponibilidade:**\n• Superestimar a probabilidade de eventos que ocorreram recentemente ou que são lembrados facilmente\n• Piloto que presenciou um acidente recente pode ser excessivamente cauteloso em situações similares\n\n**9. Pensamento de Grupo (Groupthink):**\n• Pressão para conformidade em grupo suprime análise crítica individual\n• Tripulação toda concorda com decisão errada por pressão social"
+        },
+        {
+          "titulo": "Armadilhas do Piloto (Pilot Traps)",
+          "conteudo": "As armadilhas do piloto são padrões de comportamento e situações que frequentemente precedem acidentes:\n\n**Principais armadilhas identificadas pela FAA:**\n\n**1. Get-There-Itis (Pressa de chegar):**\n• Pressão para completar o voo a qualquer custo\n• Origens: compromissos pessoais, pressão da empresa, passageiros, deadlines\n• Derruba análise racional de risco\n• Combate: separar emocionalmente o compromisso da decisão de voar\n\n**2. Duck-Under Syndrome (Síndrome do 'vou embaixo'):**\n• Descer abaixo dos mínimos de aproximação esperando ver a pista\n• 'Só um pouquinho mais baixo e vejo a pista'\n• Os mínimos existem por razão — terreno, obstáculos\n\n**3. Scud Running:**\n• Voar abaixo das nuvens em teto baixo, tentando manter contato visual\n• Gradual deterioração até IMC inadvertido\n• Velocidade + baixa altitude + obstáculos + deterioração = CFIT\n\n**4. Fixação e Channelized Attention:**\n• Fixar toda a atenção em um problema e perder o panorama\n• Enquanto resolve a falha do sistema A, ignora indicação crítica do sistema B\n• Prevenção: manter scan periódico mesmo durante resolução de problemas\n\n**5. Excesso de Confiança:**\n• 'Já fiz isso mil vezes'\n• Reduz vigilância e planejamento\n• Paradoxo: experiência aumenta competência mas também aumenta risco de complacência\n\n**6. Complacência com Automação:**\n• Confiança excessiva no autopiloto e sistemas automatizados\n• Piloto perde a consciência situacional do que a aeronave está fazendo\n• 'Automation Surprise' — piloto não entende o que o sistema está executando\n\n**7. Pressão Subliminar de Passageiros:**\n• Passageiros a bordo alteram o comportamento do piloto\n• Relutância em retornar, desviar ou pousar em alternado com passageiros\n• O piloto deve isolar psicologicamente a decisão da presença de passageiros\n\n**8. Missão Militar Mindset em Aviação Civil:**\n• 'A missão tem que ser completada'\n• Aplicar mentalidade de 'missão crítica' em voos comerciais com alternativas seguras disponíveis"
+        },
+        {
+          "titulo": "Modelos de Tomada de Decisão",
+          "conteudo": "A aviação desenvolveu modelos estruturados para melhorar a tomada de decisão do piloto:\n\n**1. DECIDE (FAA):**\nModelo de 6 etapas para decisão:\n\n| Letra | Etapa | Descrição |\n|-------|-------|-----------|\n| **D** | Detect | Detectar a mudança que requer ação |\n| **E** | Estimate | Estimar a necessidade de reagir |\n| **C** | Choose | Escolher o resultado desejado |\n| **I** | Identify | Identificar as ações para atingir o resultado |\n| **D** | Do | Executar as ações necessárias |\n| **E** | Evaluate | Avaliar o efeito das ações |\n\n**2. FOR-DEC:**\nModelo europeu amplamente usado:\n\n| Letra | Etapa |\n|-------|-------|\n| **F** | Facts — Levantar os fatos da situação |\n| **O** | Options — Identificar as opções disponíveis |\n| **R** | Risks & Benefits — Avaliar riscos e benefícios de cada opção |\n| **D** | Decision — Tomar a decisão |\n| **E** | Execution — Executar a decisão |\n| **C** | Check — Verificar os resultados |\n\n**3. Gestão de Ameaças e Erros (TEM — Threat and Error Management):**\n\n**Ameaças (Threats):**\nCondições adversas externas ao piloto que requerem gerenciamento\n• Meteorologia adversa\n• Pista contaminada\n• Tráfego conflitante\n• Falha de sistema\n\n**Erros:**\nAções ou omissões do piloto que se desviam do esperado\n• Erro de leitura\n• Seleção errada de frequência\n• Omissão de item de checklist\n\n**Estados Indesejados (Undesired Aircraft States — UAS):**\nResultado de ameaças não gerenciadas ou erros não detectados\n• Desvio de altitude\n• Desvio de velocidade\n• Configuração incorreta\n• Posição incorreta\n\n**O objetivo do TEM:**\n• Detectar ameaças antes que se tornem erros\n• Detectar erros antes que se tornem UAS\n• Recuperar UAS antes que se tornem acidentes\n\n**4. Aeronautical Decision Making (ADM):**\nConceito abrangente da FAA que engloba:\n• Consciência situacional\n• Gestão de riscos\n• Tomada de decisão baseada em evidências\n• Autoavaliação contínua"
+        },
+        {
+          "titulo": "Consciência Situacional (SA)",
+          "conteudo": "A Consciência Situacional (Situational Awareness — SA) é a base da tomada de decisão segura:\n\n**Definição (Mica Endsley, 1988):**\nPercepção dos elementos do ambiente dentro de um volume de tempo e espaço, compreensão de seu significado, e projeção de seu status no futuro próximo.\n\n**Os 3 níveis de SA:**\n\n**Nível 1 — Percepção:**\n• Coletar os dados do ambiente\n• 'O que está acontecendo agora?'\n• Exemplo: altitude 5.000 pés, velocidade 180 kt, tempo se deteriorando\n\n**Nível 2 — Compreensão:**\n• Integrar e dar significado aos dados\n• 'O que isso significa?'\n• Exemplo: se continuar nessa trajetória, não tenho combustível para o alternado\n\n**Nível 3 — Projeção:**\n• Antecipar o estado futuro\n• 'O que vai acontecer?'\n• Exemplo: em 20 minutos o tempo no destino estará abaixo dos mínimos\n\n**Fatores que degradam a SA:**\n\n| Fator | Efeito |\n|-------|--------|\n| **Alta carga de trabalho** | Piloto foca no problema imediato, perde o panorama |\n| **Fadiga** | Reduz percepção e processamento |\n| **Hipóxia** | Reduz consciência progressivamente |\n| **Distração** | Quebra o ciclo de scan |\n| **Vieses cognitivos** | Percepção distorcida da realidade |\n| **Fixação** | Atenção monopolizada por um item |\n| **Pressa** | Não há tempo para completar o scan |\n\n**Sinais de perda de SA:**\n• Sensação de confusão ou surpresa\n• 'O que está acontecendo aqui?'\n• Discordância entre o que se espera e o que os instrumentos mostram\n• Perda de noção da posição geográfica\n• Incerteza sobre o próximo passo\n\n**Manutenção da SA:**\n• Scan sistemático e contínuo\n• Comunicação ativa na tripulação\n• Briefings completos\n• 'Staying ahead of the airplane' — antecipar, não reagir\n• Gerenciamento proativo da carga de trabalho"
+        },
+        {
+          "titulo": "Personalidade, Atitude e Comportamento de Risco",
+          "conteudo": "A personalidade e as atitudes do piloto influenciam diretamente a tomada de decisão:\n\n**Perfis de atitude perigosos (FAA — Hazardous Attitudes):**\n\n**1. Anti-Autoridade ('Não me digam o que fazer'):**\n• Ressentimento de regras, procedimentos e orientações\n• 'As regras são para os outros'\n• Antídoto: 'Siga as regras — elas geralmente existem por boas razões'\n\n**2. Impulsividade ('Faça algo — agora!'):**\n• Agir sem pensar diante de qualquer problema\n• Primeira solução que ocorreu sem avaliar alternativas\n• Antídoto: 'Não tão rápido — pense primeiro'\n\n**3. Invulnerabilidade ('Isso não vai acontecer comigo'):**\n• Crença de que acidentes acontecem com outros pilotos\n• Subestima os próprios riscos\n• Antídoto: 'Poderia acontecer comigo'\n\n**4. Machismo ('Posso fazer isso'):**\n• Necessidade de provar capacidade\n• Assumir riscos desnecessários para impressionar ou provar valor\n• Antídoto: 'Tomar riscos desnecessários é tolice'\n\n**5. Resignação ('Não adianta nada'):**\n• Fatalismo — crença de que não tem controle sobre a situação\n• Desistência antes de tentar\n• Antídoto: 'Não vou desistir — há sempre algo a fazer'\n\n**Gestão de Risco Pessoal (PAVE):**\nFerramenta da FAA para avaliação de risco pré-voo:\n\n| Letra | Elemento | Avaliação |\n|-------|----------|----------|\n| **P** | Pilot (Piloto) | Estado físico, mental, proficiência, experiência |\n| **A** | Aircraft (Aeronave) | Estado técnico, equipamentos, performance |\n| **V** | enVironment (Ambiente) | Meteorologia, terreno, aeródromos, NOTAMs |\n| **E** | External Pressures (Pressões externas) | Prazos, passageiros, expectativas, pressão de chegada |\n\n**Se qualquer elemento do PAVE revelar risco alto → avaliar se o voo deve ser realizado.**"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "O viés cognitivo mais letal na aviação — responsável por múltiplos acidentes de CFIT e aproximações não interrompidas — é:",
+        "alternativas": [
+          "Viés de confirmação — o piloto busca informações que confirmam sua crença",
+          "Continuação do plano (Plan Continuation Bias) — tendência de prosseguir com o plano original mesmo com evidências de que deveria mudar",
+          "Viés de disponibilidade — superestimação de eventos recentes",
+          "Efeito halo — generalização de características positivas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A continuação do plano é o viés mais documentado em acidentes — o piloto continua a aproximação, o voo VFR em IMC, ou a rota mesmo com todas as evidências indicando que deveria parar."
+      },
+      {
+        "id": 42,
+        "pergunta": "A memória de trabalho humana é limitada a aproximadamente:",
+        "alternativas": [
+          "3 ±1 itens simultâneos",
+          "7 ±2 itens simultâneos",
+          "12 ±3 itens simultâneos",
+          "Ilimitada — a limitação é apenas na memória de longo prazo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A memória de trabalho (working memory) tem capacidade de 7 ±2 itens — Miller's Law (1956). Em alta carga de trabalho ou fadiga, essa capacidade cai ainda mais."
+      },
+      {
+        "id": 43,
+        "pergunta": "O Nível 3 de Consciência Situacional (Projeção) consiste em:",
+        "alternativas": [
+          "Coletar os dados sensoriais do ambiente — o que está acontecendo agora",
+          "Integrar e dar significado aos dados coletados — o que isso significa",
+          "Antecipar o estado futuro com base na percepção e compreensão atual — o que vai acontecer",
+          "Executar a ação corretiva após identificar o problema"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Os 3 níveis: Nível 1 = Percepção (o que está acontecendo), Nível 2 = Compreensão (o que significa), Nível 3 = Projeção (o que vai acontecer)."
+      },
+      {
+        "id": 44,
+        "pergunta": "No modelo TEM (Threat and Error Management), um 'Estado Indesejado da Aeronave' (UAS) resulta de:",
+        "alternativas": [
+          "Ameaças externas que não puderam ser previstas nem gerenciadas",
+          "Ameaças não gerenciadas ou erros não detectados e corrigidos a tempo",
+          "Falhas mecânicas que excedem a capacidade de resposta da tripulação",
+          "Condições meteorológicas que superam os limites certificados da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No TEM: Ameaça não gerenciada → Erro → UAS (Estado Indesejado) → Acidente. Cada etapa tem uma janela de recuperação antes de escalar para a próxima."
+      },
+      {
+        "id": 45,
+        "pergunta": "A atitude perigosa de 'Machismo' em pilotos é caracterizada por:",
+        "alternativas": [
+          "Resignação fatalista — convicção de que não há o que fazer para evitar o acidente",
+          "Ressentimento de regras e procedimentos estabelecidos",
+          "Necessidade de provar capacidade assumindo riscos desnecessários para impressionar",
+          "Agir impulsivamente sem avaliar alternativas diante de um problema"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O machismo ('Posso fazer isso') leva o piloto a assumir riscos para provar competência — antídoto: 'Tomar riscos desnecessários é tolice, não habilidade'."
+      },
+      {
+        "id": 46,
+        "pergunta": "O modelo FOR-DEC de tomada de decisão começa com 'F — Facts' porque:",
+        "alternativas": [
+          "A velocidade da decisão é o fator mais crítico — agir antes de analisar",
+          "Levantar os fatos reais da situação é o alicerce de qualquer decisão correta — decisão sem fatos é suposição",
+          "Os fatos são obtidos exclusivamente dos instrumentos da aeronave",
+          "A coleta de fatos é a única etapa que pode ser delegada ao copiloto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Sem fatos corretos, todas as etapas seguintes do FOR-DEC são baseadas em premissas erradas. Muitos acidentes começam com percepção incorreta da situação."
+      },
+      {
+        "id": 47,
+        "pergunta": "A 'Duck-Under Syndrome' é especialmente perigosa porque:",
+        "alternativas": [
+          "Causa desorientação espacial ao mudar abruptamente entre IMC e VMC",
+          "O piloto desce abaixo dos mínimos de aproximação esperando ver a pista, ignorando a razão de existência dos mínimos",
+          "Leva o piloto a exceder a velocidade máxima de flap em busca de estabilização rápida",
+          "Causa fixação nos instrumentos de aproximação, perdendo consciência de tráfego conflitante"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Os mínimos existem para garantir separação de obstáculos e terreno. Descer abaixo deles significa voar em espaço onde terreno e obstáculos podem existir."
+      },
+      {
+        "id": 48,
+        "pergunta": "A ferramenta PAVE é usada para:",
+        "alternativas": [
+          "Avaliar o risco do voo considerando Piloto, Aeronave, Ambiente e Pressões externas",
+          "Verificar os sistemas da aeronave antes do voo (Pitot, Altímetro, Velocímetro, Equipment)",
+          "Padronizar a comunicação entre pilotos e controladores em situações de emergência",
+          "Planejar rotas alternativas considerando combustível, altitude, vento e performance"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "PAVE: Pilot (estado do piloto), Aircraft (estado da aeronave), enVironment (ambiente meteorológico e geográfico), External pressures (pressões externas). Avaliação de risco pré-voo."
+      },
+      {
+        "id": 49,
+        "pergunta": "A 'Lei de Yerkes-Dodson' é relevante para a aviação porque demonstra que:",
+        "alternativas": [
+          "A fadiga reduz linearmente o desempenho — cada hora sem dormir piora proporcionalmente",
+          "O desempenho é ótimo em nível intermediário de ativação — muito pouco ou muito stress reduz o desempenho",
+          "Pilotos experientes mantêm desempenho constante independente do nível de stress",
+          "O stress pós-traumático acumula em curva exponencial após acidentes"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A curva de Yerkes-Dodson mostra desempenho em U invertido: pouco arousal = complacência; arousal ótimo = melhor performance; excesso = saturação e colapso."
+      },
+      {
+        "id": 50,
+        "pergunta": "O 'Scud Running' é uma armadilha perigosa porque:",
+        "alternativas": [
+          "Leva o piloto a voar a altitudes onde o gelo é mais provável de se formar",
+          "A combinação de baixa altitude, velocidade de cruzeiro e deterioração gradual do tempo cria alta probabilidade de CFIT",
+          "Força o piloto a usar referências visuais externas em vez dos instrumentos, causando fadiga visual",
+          "A turbulência em baixa altitude em condições de teto baixo excede os limites da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No Scud Running, o piloto vai abaixando conforme o teto cai — chegando a voos rasíssimos com obstáculos, fios e terreno elevado a alta velocidade = CFIT."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Gerenciamento de Recursos da Tripulação (CRM)",
+    "aula": {
+      "introducao": "O CRM — Crew Resource Management — é o conjunto de habilidades não técnicas que permite às tripulações utilizar todos os recursos disponíveis (humanos, tecnológicos e informacionais) para operar com máxima segurança e eficiência. Desenvolvido nas décadas de 1970-80 após investigação de uma série de acidentes onde a tripulação tinha competência técnica suficiente para evitar o acidente, mas falhou em comunicação, liderança e tomada de decisão em grupo. O CRM é hoje reconhecido mundialmente como pilar fundamental da segurança aérea.",
+      "subtitulos": [
+        {
+          "titulo": "História e Evolução do CRM",
+          "conteudo": "O CRM surgiu da análise de acidentes que não eram causados por falha técnica, mas por falha humana na dinâmica da tripulação:\n\n**Acidente catalisador — Tenerife (1977):**\n• Colisão entre dois Boeing 747 no solo\n• 583 mortos — maior acidente da história da aviação\n• Causas: comunicação inadequada, pressão de autoridade, neblina\n• O comandante do KLM iniciou decolagem sem autorização do ATC\n• Copiloto e engenheiro de voo notaram o problema mas não confrontaram efetivamente\n\n**United Airlines 173 (1978):**\n• DC-8 ficou sem combustível enquanto tripulação solucionava problema de trem de pouso\n• 10 mortos\n• O copiloto e engenheiro de voo perceberam o combustível crítico mas não comunicaram com assertividade suficiente ao comandante\n\n**Resposta da indústria:**\n• 1979: NASA realiza workshop sobre 'Cockpit Resource Management'\n• 1981: United Airlines lança o primeiro programa de CRM do mundo\n• Evolução por gerações:\n  - **1ª geração**: foco no comandante (liderança)\n  - **2ª geração**: dinâmica interpessoal (toda a tripulação)\n  - **3ª geração**: treinamento comportamental específico\n  - **4ª geração**: integração com cultura de segurança da empresa\n  - **5ª geração**: TEM (Threat and Error Management) integrado\n  - **6ª geração**: foco em resiliência e adaptação\n\n**CRM hoje:**\n• Obrigatório pela ICAO (Anexo 6) para operações de transporte aéreo\n• Regulamentado pela ANAC no Brasil\n• Parte do treinamento recorrente de todas as tripulações comerciais\n• Reconhecido como um dos maiores avanços em segurança da aviação"
+        },
+        {
+          "titulo": "Comunicação na Tripulação",
+          "conteudo": "A comunicação é o alicerce do CRM — a maioria das falhas de CRM tem uma dimensão de comunicação:\n\n**Tipos de comunicação no cockpit:**\n\n**1. Comunicação de Tarefa:**\n• Transferência de informação operacional\n• Callouts, leitura de checklists, briefings\n• Deve ser precisa, oportuna e verificada\n\n**2. Comunicação Assertiva:**\n• Expressar preocupações e observações com clareza e firmeza\n• Sem agressividade mas sem ambiguidade\n• Essencial quando um membro nota um erro ou risco\n\n**Modelo de comunicação assertiva — '5 etapas' (CUS):**\n\n| Etapa | Ação | Exemplo |\n|-------|------|---------|\n| **1** | Chamar a atenção | 'Capitão, tenho uma preocupação' |\n| **2** | Descrever o problema | 'Estamos abaixo dos mínimos de combustível para o alternado' |\n| **3** | Propor solução | 'Sugiro desviar para o alternado agora' |\n| **4** | Confirmar entendimento | 'Você concorda?' |\n| **5** | Verificar resultado | (aguardar ação ou resposta do PIC) |\n\n**Escalada assertiva:**\nSe não houver resposta adequada, o CRM autoriza escalada progressiva:\n1. Primeira comunicação calma\n2. Segunda comunicação mais direta\n3. Terceira: 'Capitão, preciso que você responda — estamos em situação de perigo'\n4. Em último caso: assumir os controles para evitar acidente iminente\n\n**Barreiras à comunicação:**\n• Gradiente de autoridade elevado (medo de confrontar o superior)\n• Cultura organizacional que pune a assertividade\n• Fadiga e alta carga de trabalho\n• Ambiguidade na linguagem (evitar: 'você pode'... 'talvez'... 'se achar que deve')\n• Diferenças culturais e de idioma\n\n**Padronização das comunicações:**\n• Uso de fraseologia padrão ICAO\n• Readbacks obrigatórios\n• Callouts padronizados em procedimentos normais e anormais\n• Briefings estruturados"
+        },
+        {
+          "titulo": "Liderança e Dinâmica de Tripulação",
+          "conteudo": "O modelo de liderança no cockpit evoluiu de autocrático para participativo:\n\n**Modelo tradicional (problemático):**\n• Comandante como autoridade absoluta e incontestável\n• 'Captain is God' — hierarquia rígida\n• Copiloto como executor passivo\n• Resultado: acidentes por pressão de autoridade (Tenerife, etc.)\n\n**Modelo CRM de liderança:**\n• Comandante como líder facilitador e integrador\n• Ambiente em que todos podem e devem contribuir\n• Assertividade encorajada em todos os membros\n• Decisão final do PIC, mas com input de toda a tripulação\n\n**Papel do Piloto em Comando (PIC) no CRM:**\n• Estabelecer ambiente de comunicação aberta\n• Delegar tarefas adequadamente\n• Solicitar input da tripulação em situações complexas\n• Aceitar críticas e sugestões sem defensividade\n• Manter consciência situacional compartilhada\n• Ser o árbitro final das decisões\n\n**Papel do Copiloto/Segundo Oficial no CRM:**\n• Monitorar ativamente as ações do comandante\n• Comunicar preocupações assertivamente\n• Não assumir passividade por deferência hierárquica\n• 'Speak up' — obrigação de falar\n\n**Gradiente de Autoridade:**\nConceito que descreve a diferença percebida de autoridade entre membros da tripulação.\n\n| Gradiente | Risco |\n|-----------|-------|\n| **Muito alto** | Copiloto não comunica preocupações — comandante decide sozinho sem input |\n| **Ideal** | Copiloto comunica livremente — comandante decide com informação completa |\n| **Muito baixo** | Ausência de liderança clara — conflito de decisões |\n\n**Fatores que aumentam gradiente problemático:**\n• Grande diferença de idade e experiência\n• Primeira viagem juntos\n• Cultura organizacional hierárquica\n• Histórico de punição por assertividade"
+        },
+        {
+          "titulo": "Gerenciamento de Carga de Trabalho",
+          "conteudo": "Gerenciar a carga de trabalho é uma habilidade crítica de CRM:\n\n**Princípio fundamental:**\nA carga de trabalho no cockpit é variável — em fases críticas (decolagem, aproximação, emergências) é alta; em cruzeiro é baixa. O objetivo é distribuir e antecipar para manter a carga dentro da capacidade da tripulação.\n\n**Técnicas de gerenciamento de carga de trabalho:**\n\n**1. Divisão de Tarefas (Task Sharing):**\n• PF (Pilot Flying): foca no controle da aeronave\n• PM (Pilot Monitoring): comunica-se com ATC, lê checklists, monitora sistemas\n• Em emergência: manter clara divisão PF/PM — não abandonar o monitoramento\n\n**2. Priorização:**\nRegra clássica da aviação:\n1. **Aviate** — Voar a aeronave (prioridade máxima)\n2. **Navigate** — Navegar (saber onde está)\n3. **Communicate** — Comunicar (ATC, tripulação de cabine)\n\n**3. Antecipação (Staying Ahead of the Airplane):**\n• Briefings completos para fases futuras\n• Preparação de frequências, altitudes e procedimentos antes de serem necessários\n• Deixar o 'avião de trabalhar para você' em vez de correr atrás\n\n**4. Transferência de Controles:**\nProcedimento padronizado essencial:\n```\nPiloto solicitando: 'Seus controles'\nPiloto recebendo: 'Meus controles'\nPiloto transferindo: 'Seus controles'\n```\nAmbiguidade na transferência já causou acidentes.\n\n**5. Checklist como Ferramenta de CRM:**\n• Challenge-Response: PM lê, PF executa e confirma\n• Nunca pular itens por pressa\n• Em emergência: 'Aviate first, then checklist'\n\n**Saturação de carga de trabalho — sinais:**\n• Itens de checklist esquecidos\n• Comunicações esquecidas ou incorretas\n• Perda de consciência situacional\n• Irritabilidade e comunicação deteriorada\n• 'Head down' excessivo\n\n**Resposta à saturação:**\n• Simplificar: identificar e focar no mais crítico\n• Delegar: usar PM, cabine, passageiros treinados\n• Comunicar: informar ATC sobre a situação\n• Pedir ajuda: não hesitar em declarar PAN ou MAYDAY"
+        },
+        {
+          "titulo": "Automação e CRM",
+          "conteudo": "A automação crescente nas aeronaves modernas cria novos desafios de CRM:\n\n**Níveis de automação:**\n• Manual: piloto controla diretamente\n• Autopiloto: mantém attitude/altitude/heading\n• FMS (Flight Management System): gerencia toda a rota\n• Sistemas de proteção de envelope (fly-by-wire)\n\n**Problemas de CRM com automação:**\n\n**1. Complacência com automação:**\n• Piloto 'entrega' o voo ao sistema e reduz monitoramento\n• 'O computador vai resolver'\n• Resultado: surpresa quando o sistema faz algo inesperado ('Automation Surprise')\n\n**2. Perda de habilidades manuais (Skill Degradation):**\n• Pilotos que voam quase sempre no automático perdem proficiência em voo manual\n• Crítico em emergências que requerem voo manual\n\n**3. Problema de Modo de Automação (Mode Confusion):**\n• Piloto não sabe em que modo o FMS/autopiloto está operando\n• Aeronave faz algo inesperado que o piloto não compreende\n• Contribuiu para vários acidentes (Air France 447, Airbus A320 Strasbourg)\n\n**4. Out-of-the-Loop (Fora do Loop):**\n• Piloto monitorando passivamente a automação perde a consciência situacional\n• Se o sistema falha ou faz algo errado, o piloto não tem modelo mental atualizado para assumir\n\n**Princípios de CRM com automação:**\n• Saber sempre o que o sistema está fazendo e por quê\n• Manter proficiência em voo manual regular\n• Usar o nível de automação adequado — não sempre o mais alto\n• 'If you don't understand what it's doing, turn it off'\n• Comunicar mudanças de modo para toda a tripulação\n\n**Automação no contexto da tomada de decisão:**\n• A automação apoia a decisão — não substitui o julgamento humano\n• O piloto é sempre o último árbitro — 'Pilot in Command, not Autopilot in Command'"
+        },
+        {
+          "titulo": "Cultura de Segurança e Fatores Organizacionais",
+          "conteudo": "O CRM não opera no vácuo — a cultura organizacional determina se as habilidades de CRM são possíveis:\n\n**Modelo de Reason — Queijo Suíço:**\nJames Reason propôs que acidentes ocorrem quando múltiplas 'fatias de queijo' (camadas de defesa) se alinham nos seus buracos:\n• Cada camada é uma barreira (treinamento, procedimentos, equipamentos, supervisão)\n• Cada camada tem falhas ('buracos')\n• Acidente = alinhamento excepcional de buracos em todas as camadas\n\n**Implicação:** acidentes raramente têm uma única causa — são sistemas de falhas que se combinam.\n\n**Fatores latentes vs. ativos:**\n• **Erros ativos**: ações ou omissões da tripulação no momento do acidente\n• **Condições latentes**: falhas organizacionais, de design, de treinamento que residem no sistema antes do acidente\n• Resolver apenas os erros ativos não previne o próximo acidente\n\n**Cultura Just ('Justa'):**\nAmbiente em que:\n• Erros são reportados sem medo de punição injusta\n• Comportamento imprudente ou negligente é tratado de forma diferente de erros honestos\n• O aprendizado organizacional é possível\n\n**Cultura de Safety (Segurança):**\n• Liderança comprometida com segurança (não apenas com produtividade)\n• Comunicação aberta sobre riscos\n• Recursos adequados para treinamento e manutenção\n• Sistema de reporte de incidentes incentivado\n\n**LOSA (Line Operations Safety Audit):**\n• Programa de observação em voo de operações de linha\n• Observadores treinados identificam ameaças e como as tripulações as gerenciam\n• Dados usados para melhorar treinamento e procedimentos\n• Ferramenta de melhoria proativa de segurança\n\n**ASRS (Aviation Safety Reporting System — EUA) / RSIA (Brasil):**\n• Sistema voluntário e confidencial de reporte de incidentes\n• Informações usadas para identificar tendências e melhorar a segurança\n• Pilotos que reportam boa-fé têm proteção contra punição\n• Base da cultura de aprendizado organizacional na aviação"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "O acidente de Tenerife (1977) foi fundamental para o desenvolvimento do CRM porque demonstrou que:",
+        "alternativas": [
+          "Aeronaves grandes demais são impossíveis de operar com segurança em aeroportos pequenos",
+          "Tripulações tecnicamente competentes podem causar acidentes fatais por falhas em comunicação e dinâmica de grupo",
+          "Condições de neblina requerem tecnologia ILS de precisão em todos os aeroportos",
+          "O controle de tráfego aéreo precisa de sistemas de radar em todos os aeroportos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Tenerife mostrou que habilidade técnica não basta — o comandante do KLM era altamente experiente. A causa foi comunicação inadequada, pressão de autoridade e falha de assertividade."
+      },
+      {
+        "id": 52,
+        "pergunta": "A regra de prioridade 'Aviate — Navigate — Communicate' estabelece que em qualquer situação anormal o piloto deve primeiro:",
+        "alternativas": [
+          "Comunicar ao ATC a natureza da emergência para receber instruções",
+          "Manter o controle e a condição de voo segura da aeronave",
+          "Identificar a posição geográfica para planejar a rota de escape",
+          "Executar o checklist de emergência correspondente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Aviate é sempre primeiro — sem controle da aeronave, navigate e communicate são irrelevantes. Vários acidentes ocorreram porque a tripulação focou no problema e perdeu o controle."
+      },
+      {
+        "id": 53,
+        "pergunta": "O 'Gradiente de Autoridade' ideal na tripulação é aquele em que:",
+        "alternativas": [
+          "O comandante tem autoridade absoluta e o copiloto executa sem questionar",
+          "O copiloto comunica preocupações livremente e o comandante decide com informação completa",
+          "Ambos os pilotos têm autoridade igual para tomar decisões independentemente",
+          "O copiloto assume os controles sempre que discordar da decisão do comandante"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Gradiente ideal: copiloto assertivo + comandante receptivo. Gradiente alto demais = copiloto silencioso = comandante decide sem informação completa = risco."
+      },
+      {
+        "id": 54,
+        "pergunta": "O procedimento padrão de transferência de controles ('Seus controles' / 'Meus controles') é crítico porque:",
+        "alternativas": [
+          "Garante que o piloto mais experiente mantenha o controle durante turbulência",
+          "A ambiguidade sobre quem está nos controles já causou acidentes — ambos pensavam que o outro estava controlando",
+          "Registra legalmente a responsabilidade do voo no momento da transferência",
+          "Ativa automaticamente o gravador de voo para documentar a transferência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A falta de confirmação explícita da transferência já causou acidentes onde nenhum dos dois pilotos estava efetivamente nos controles por assumirem que o outro estava."
+      },
+      {
+        "id": 55,
+        "pergunta": "A 'Mode Confusion' (confusão de modo) na automação do cockpit ocorre quando:",
+        "alternativas": [
+          "O piloto seleciona manualmente um modo diferente do recomendado pelo FMS",
+          "O piloto não entende em que modo o autopiloto/FMS está operando e a aeronave faz algo inesperado",
+          "O autopiloto desconecta automaticamente em condições de turbulência severa",
+          "Os sistemas duplicados de automação entram em conflito entre si"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Mode Confusion: piloto pensa que o sistema está em modo X, mas está em modo Y — quando a aeronave age de acordo com Y, o piloto é surpreendido. Contribuiu para AF447, Strasbourg, etc."
+      },
+      {
+        "id": 56,
+        "pergunta": "O Modelo do Queijo Suíço de James Reason explica acidentes aeronáuticos como:",
+        "alternativas": [
+          "Resultado inevitável de operações de alto risco que aceitam casualidades como normal",
+          "Alinhamento excepcional de falhas em múltiplas camadas de defesa — raramente uma única causa",
+          "Consequência direta de erro humano individual sem contribuição do sistema",
+          "Falha exclusiva dos procedimentos de manutenção das aeronaves envolvidas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O Modelo do Queijo Suíço mostra que acidentes ocorrem quando múltiplas barreiras (camadas) falham simultaneamente — nenhum acidente tem uma única causa raiz isolada."
+      },
+      {
+        "id": 57,
+        "pergunta": "A 'Cultura Just' (Justa) em segurança aeronáutica é aquela em que:",
+        "alternativas": [
+          "Todo erro resulta em punição para estabelecer responsabilidade e disciplina",
+          "Erros honestos são tratados diferente de negligência — o ambiente encoraja o reporte sem medo de punição injusta",
+          "Toda a responsabilidade recai sobre o Piloto em Comando como responsável final pelo voo",
+          "A justiça determina que pilotos com mais horas de voo recebem tratamento diferenciado"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Cultura Just: erros honestos são aprendizados — comportamento imprudente é tratado diferente. Sem cultura just, ninguém reporta incidentes e a organização não aprende."
+      },
+      {
+        "id": 58,
+        "pergunta": "Em um voo de linha, o copiloto percebe que o combustível está criticamente baixo mas o comandante não parece ter notado. Pelo CRM, o copiloto deve:",
+        "alternativas": [
+          "Aguardar o comandante perceber por si mesmo para não parecer presunçoso",
+          "Comunicar assertivamente a preocupação ao comandante, propondo desvio para o alternado",
+          "Assumir imediatamente os controles sem avisar, pois é uma emergência",
+          "Comunicar ao ATC diretamente, sem envolver o comandante para não criar conflito"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CRM exige comunicação assertiva — copiloto tem obrigação de 'falar'. Usar o modelo de 5 etapas: chamar atenção, descrever problema, propor solução, confirmar entendimento."
+      },
+      {
+        "id": 59,
+        "pergunta": "O LOSA (Line Operations Safety Audit) é uma ferramenta de:",
+        "alternativas": [
+          "Investigação de acidentes — usado após eventos para identificar causas",
+          "Melhoria proativa de segurança — observação de voos de linha para identificar padrões de TEM",
+          "Certificação de pilotos — avaliação de proficiência para renovação de licença",
+          "Auditoria financeira — verificação de custos operacionais de segurança"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "LOSA é proativo — observadores treinados voam em linha e coletam dados sobre como as tripulações gerenciam ameaças e erros. Os dados melhoram treinamento e procedimentos."
+      },
+      {
+        "id": 60,
+        "pergunta": "A principal lição do acidente com o United Airlines 173 (1978) para o desenvolvimento do CRM foi:",
+        "alternativas": [
+          "A importância de sistemas redundantes de trem de pouso em aeronaves comerciais",
+          "A necessidade de os membros da tripulação comunicarem assertivamente informações críticas ao Piloto em Comando",
+          "A obrigatoriedade de pousos de precaução sempre que houver dúvida sobre o trem de pouso",
+          "A importância de sistemas de alerta automático de baixo combustível mais sensíveis"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "No UA 173, o engenheiro e copiloto perceberam o combustível crítico mas não foram assertivos o suficiente com o comandante — lição direta para o desenvolvimento do CRM e da assertividade."
+      }
+    ]
+  }
+]
 {
-  "materia": "Fatores Humanos",
-  "descricao": "Estudo dos fatores humanos que influenciam a segurança de voo",
-  "topicos": []
+  "questionario_final": {
+    "titulo": "Questionário Final — Conhecimentos Humanos",
+    "descricao": "Avaliação completa dos 6 módulos de Conhecimentos Humanos. São 30 questões cobrindo todos os temas estudados: fisiologia do voo, desorientação espacial, fadiga, saúde, psicologia e CRM.",
+    "tempo_estimado_minutos": 45,
+    "pontuacao_aprovacao": 70,
+    "questoes": [
+      {
+        "id": 1,
+        "modulo_referencia": 1,
+        "tema": "Hipóxia",
+        "dificuldade": "media",
+        "pergunta": "Um piloto voa sem oxigênio suplementar a 18.000 pés por 30 minutos. O principal risco fisiológico dessa situação é:",
+        "alternativas": [
+          "Hipóxia hipobárica — pressão parcial de O₂ insuficiente para saturação adequada da hemoglobina",
+          "Embolia gasosa — expansão de nitrogênio dissolvido no sangue com a redução de pressão",
+          "Hipercapnia — acúmulo de CO₂ por hipoventilação em altitude",
+          "Barotrauma pulmonar — expansão dos alvéolos com a redução da pressão atmosférica"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A hipóxia hipobárica é causada pela queda da pressão parcial de O₂ com o aumento da altitude. A 18.000 pés a pO₂ é insuficiente para manter saturação adequada — o TUC é de apenas 20-30 minutos nessa altitude."
+      },
+      {
+        "id": 2,
+        "modulo_referencia": 1,
+        "tema": "Tempo de Consciência Útil (TUC)",
+        "dificuldade": "media",
+        "pergunta": "A aeronave perde pressurização a 35.000 pés. O TUC (Tempo de Consciência Útil) nessa altitude é de aproximadamente:",
+        "alternativas": [
+          "20 a 30 minutos — tempo suficiente para descida de emergência",
+          "3 a 5 minutos — tempo marginal para ação",
+          "30 a 60 segundos — tempo mínimo para execução dos procedimentos de emergência",
+          "10 a 15 minutos — tempo adequado se o piloto agir sem demora"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A 35.000 pés o TUC é de apenas 30 a 60 segundos. Em altitude de cruzeiro de aeronaves comerciais, a janela de ação é extremamente curta — a máscara de oxigênio deve ser colocada imediatamente."
+      },
+      {
+        "id": 3,
+        "modulo_referencia": 1,
+        "tema": "Hiperventilação",
+        "dificuldade": "media",
+        "pergunta": "Um piloto sob estresse intenso começa a respirar muito rápido e profundo. Logo sente formigamento nas mãos e tontura. Esse quadro é consistente com:",
+        "alternativas": [
+          "Hipóxia aguda — PO₂ insuficiente por altitude elevada",
+          "Hiperventilação — eliminação excessiva de CO₂ causando alcalose respiratória",
+          "Intoxicação por monóxido de carbono — bloqueio da hemoglobina pelo CO",
+          "Síncope vasovagal — queda brusca da pressão arterial por estresse emocional"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Hiperventilação elimina CO₂ em excesso → alcalose respiratória → vasoconstrição cerebral e periférica → formigamento, tontura, espasmos musculares. Tratamento: respirar lentamente ou em saco."
+      },
+      {
+        "id": 4,
+        "modulo_referencia": 1,
+        "tema": "Visão Noturna",
+        "dificuldade": "facil",
+        "pergunta": "A visão noturna do piloto é comprometida principalmente porque:",
+        "alternativas": [
+          "Os cones, responsáveis pela visão em baixa luminosidade, ficam saturados pela luz artificial da cabine",
+          "Os bastonetes, responsáveis pela visão noturna, são insensíveis à luz vermelha e não se adaptam ao escuro em altitude",
+          "Os bastonetes necessitam de 20 a 30 minutos para adaptação ao escuro e são altamente sensíveis à luz branca intensa",
+          "A acuidade visual noturna depende exclusivamente dos cones da fóvea, que são mais lentos que os bastonetes"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Bastonetes levam 20-30 min para adaptação ao escuro (rodopsina). Uma única exposição a luz branca intensa destrói a adaptação. A visão noturna é periférica — a fóvea tem poucos bastonetes."
+      },
+      {
+        "id": 5,
+        "modulo_referencia": 1,
+        "tema": "Efeitos da Altitude",
+        "dificuldade": "media",
+        "pergunta": "A regra 'STOP' — Stop, Think, Oxygen, Protect — é usada quando o piloto suspeita de:",
+        "alternativas": [
+          "Desorientação espacial em condições IMC",
+          "Hipóxia — estado em que o julgamento já pode estar comprometido antes do reconhecimento",
+          "Hiperventilação induzida por estresse em voo noturno",
+          "Intoxicação por CO do aquecedor da cabine"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "STOP é usada para hipóxia porque o piloto hipóxico frequentemente não reconhece seu próprio estado. Parar, pensar, colocar oxigênio e proteger a aeronave antes de agir impulsivamente."
+      },
+      {
+        "id": 6,
+        "modulo_referencia": 2,
+        "tema": "Ilusões Vestibulares",
+        "dificuldade": "media",
+        "pergunta": "O piloto em IMC percebe que está em voo nivelado, mas os instrumentos indicam uma curva prolongada à esquerda. A ilusão que melhor explica esse fenômeno é:",
+        "alternativas": [
+          "Ilusão de Coriolis — movimento da cabeça durante a curva criou sensação de movimento em eixo diferente",
+          "Ilusão Leans — o piloto retornou ao nivelado muito devagar após uma curva prolongada, e o sistema vestibular 'adaptou-se' à curva como 'novo nivelado'",
+          "Graveyard Spin — entrada em parafuso não percebida pelo sistema semicircular",
+          "Ilusão de Somatogravic — aceleração linear interpretada como cabramento"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A ilusão Leans: curva prolongada → canais semicirculares adaptam-se → retorno ao nivelado percebido como curva no sentido oposto → piloto inclina o corpo para referenciar o que sente como 'vertical'."
+      },
+      {
+        "id": 7,
+        "modulo_referencia": 2,
+        "tema": "Desorientação Espacial",
+        "dificuldade": "dificil",
+        "pergunta": "A ilusão 'Graveyard Spiral' (Espiral da Morte) é fatal principalmente porque:",
+        "alternativas": [
+          "O piloto percebe a curva mas acredita que os instrumentos estão com defeito",
+          "A recuperação instintiva (puxar o manche) na curva não percebida aumenta a carga G e aperta a espiral em vez de nivelá-la",
+          "A perda de consciência por hipóxia ocorre simultaneamente à desorientação",
+          "O sistema vestibular entra em colapso total impedindo qualquer percepção de atitude"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na espiral não percebida, o piloto perde altitude → puxa o manche (instinto) → em vez de subir, aperta a espiral → mais G → mais perda de altitude → impacto com terreno."
+      },
+      {
+        "id": 8,
+        "modulo_referencia": 2,
+        "tema": "Prevenção de Desorientação",
+        "dificuldade": "facil",
+        "pergunta": "A regra fundamental para o piloto que entra em IMC e começa a sentir desorientação espacial é:",
+        "alternativas": [
+          "Confiar nas sensações físicas — o corpo é mais confiável que instrumentos em situação de estresse",
+          "Confiar nos instrumentos de voo e ignorar as sensações físicas — o sistema vestibular é enganoso em IMC",
+          "Reduzir a velocidade imediatamente para ter mais tempo de interpretar as sensações",
+          "Sair do IMC em descida controlada para retornar ao voo visual"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em IMC: SEMPRE confiar nos instrumentos. O sistema vestibular foi projetado para ambiente terrestre — em voo em IMC cria ilusões convincentes que matam pilotos que as seguem."
+      },
+      {
+        "id": 9,
+        "modulo_referencia": 2,
+        "tema": "Ilusão Visual",
+        "dificuldade": "media",
+        "pergunta": "Um piloto se aproxima de uma pista com inclinação ascendente (upsloping). A tendência natural é:",
+        "alternativas": [
+          "Pousar além do threshold — a pista parece mais longa do que é",
+          "Pousar aquém do threshold — a pista parece estar mais alta, fazendo o piloto achatar a aproximação",
+          "Corrigir com subida desnecessária — pista inclinada parece estar na trajetória de colisão",
+          "Não há efeito significativo — inclinação de pista não afeta a percepção de trajetória"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Pista upsloping parece 'empinada' → piloto percebe que está 'alto' → baixa demais para compensar a ilusão → pousa aquém. Pista downsloping tem efeito oposto."
+      },
+      {
+        "id": 10,
+        "modulo_referencia": 3,
+        "tema": "Fadiga",
+        "dificuldade": "media",
+        "pergunta": "A característica mais insidiosa da fadiga do piloto é que:",
+        "alternativas": [
+          "Causa sintomas físicos óbvios que qualquer observador pode notar facilmente",
+          "Compromete a autocrítica — o piloto fatigado não percebe o quanto seu desempenho está degradado",
+          "Afeta primariamente as habilidades motoras, preservando o julgamento e a tomada de decisão",
+          "Pode ser completamente mascarada pelo uso estratégico de cafeína sem efeitos residuais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A fadiga compromete o julgamento antes de ser reconhecida — como a hipóxia. O piloto fatigado acredita estar bem quando seu desempenho já está seriamente degradado. É a armadilha fundamental da fadiga."
+      },
+      {
+        "id": 11,
+        "modulo_referencia": 3,
+        "tema": "Sono",
+        "dificuldade": "media",
+        "pergunta": "Dois pilotos foram escalados para um voo às 04h da manhã. O principal fator fisiológico que aumenta o risco dessa operação é:",
+        "alternativas": [
+          "A ausência de luz solar impede a produção de vitamina D, afetando o metabolismo energético",
+          "O nadir circadiano entre 02h-06h representa o ponto de mínimo alerta biológico e maior probabilidade de microssonos",
+          "A temperatura ambiente mais baixa à madrugada reduz a acuidade visual dos pilotos",
+          "O jejum noturno inevitável causa hipoglicemia que compromete a atenção"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O nadir circadiano (02h-06h) é o período de mínima temperatura corporal e mínimo alerta biológico — independente de quanto o piloto dormiu, é o pior horário fisiológico para operar."
+      },
+      {
+        "id": 12,
+        "modulo_referencia": 3,
+        "tema": "Ritmo Circadiano e Jet Lag",
+        "dificuldade": "media",
+        "pergunta": "Um piloto viaja de São Paulo para Tóquio (diferença de ~12 fusos horários para leste). Qual afirmação sobre o jet lag está correta?",
+        "alternativas": [
+          "A recuperação completa levará cerca de 1-2 dias pois o corpo se adapta rapidamente a novos fusos",
+          "A viagem para leste é mais difícil de adaptar — pode levar ~12 dias para ressincronização completa do ritmo circadiano",
+          "Cruzar fusos para leste é mais fácil que para oeste pois segue a direção natural de rotação da Terra",
+          "O jet lag afeta apenas o sono e não compromete o desempenho cognitivo após 24 horas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Regra geral: 1 dia de recuperação por fuso cruzado. 12 fusos para leste = ~12 dias. Leste é mais difícil (adiantar o relógio vai contra o ciclo natural de >24h do organismo)."
+      },
+      {
+        "id": 13,
+        "modulo_referencia": 3,
+        "tema": "Inércia do Sono",
+        "dificuldade": "media",
+        "pergunta": "Após um cochilo de 45 minutos durante voo de longa distância com tripulação ampliada, o piloto deve:",
+        "alternativas": [
+          "Assumir os controles imediatamente — o cochilo já restaurou o alerta necessário",
+          "Aguardar o período de alerta (wake-up period) antes de assumir responsabilidades críticas — a inércia do sono pode durar 15-30 minutos",
+          "Tomar cafeína e assumir os controles em 5 minutos — a cafeína elimina a inércia do sono",
+          "Realizar apenas tarefas de monitoramento por 5 minutos e depois assumir controle total"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A inércia do sono após cochilo pode degradar o desempenho por 15-30 minutos. Um cochilo de 45 min pode entrar em N3 — despertar do sono profundo causa inércia significativa."
+      },
+      {
+        "id": 14,
+        "modulo_referencia": 3,
+        "tema": "RBAC 117",
+        "dificuldade": "facil",
+        "pergunta": "O objetivo principal do RBAC 117 da ANAC é:",
+        "alternativas": [
+          "Estabelecer os requisitos de treinamento periódico para tripulantes de voo",
+          "Regular os limites de jornada, tempo de voo e repouso mínimo para mitigar o risco de fadiga em tripulantes de transporte aéreo regular",
+          "Certificar os sistemas de gerenciamento de fadiga dos fabricantes de aeronaves",
+          "Definir os procedimentos de incapacitação de tripulante em voos comerciais"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O RBAC 117 implementa no Brasil os requisitos de gerenciamento de risco de fadiga da ICAO — limites de horas de voo, jornada máxima e repouso mínimo para tripulantes comerciais."
+      },
+      {
+        "id": 15,
+        "modulo_referencia": 4,
+        "tema": "Álcool",
+        "dificuldade": "media",
+        "pergunta": "Um piloto consumiu 6 doses de bebida alcoólica e dormiu por 8 horas. Ao acordar, não sente os efeitos do álcool. Ele deve:",
+        "alternativas": [
+          "Voar normalmente — passou mais de 8 horas desde o início do consumo",
+          "Não voar — 6 doses em 8 horas provavelmente ainda estão parcialmente no sangue e o efeito residual (hangover) compromete o desempenho",
+          "Verificar o BAC com bafômetro — se abaixo de 0,04% pode voar normalmente",
+          "Voar apenas se for um voo curto em condições VMC sem passageiros"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "6 doses × 0,015% metabolizado/hora = ~4 horas para metabolizar 6 doses. Após 8h o BAC pode estar zerado, MAS o hangover (acetaldeído, desidratação) ainda compromete o desempenho. A regra de 8h é o mínimo absoluto."
+      },
+      {
+        "id": 16,
+        "modulo_referencia": 4,
+        "tema": "Medicamentos",
+        "dificuldade": "media",
+        "pergunta": "Um piloto tem alergia e tomou um anti-histamínico de primeira geração ontem à noite para dormir melhor. Hoje de manhã não sente sonolência. Deve voar?",
+        "alternativas": [
+          "Sim — se não sente sonolência, o medicamento já foi metabolizado",
+          "Não — anti-histamínicos de 1ª geração têm meia-vida longa e efeitos cognitivos residuais podem persistir mesmo sem sonolência perceptível",
+          "Sim — apenas os anti-histamínicos tomados nas 4 horas anteriores ao voo são contraindicados",
+          "Só com restrição — pode voar apenas como copiloto, não como piloto em comando"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Anti-histamínicos de 1ª geração têm meia-vida de 8-12 horas. Efeitos cognitivos residuais persistem mesmo sem sonolência subjetiva — o piloto não sente mas o desempenho está comprometido."
+      },
+      {
+        "id": 17,
+        "modulo_referencia": 4,
+        "tema": "Tabagismo",
+        "dificuldade": "media",
+        "pergunta": "O tabagismo compromete especificamente qual capacidade do piloto mesmo em voos ao nível do mar?",
+        "alternativas": [
+          "A capacidade aeróbica para suportar manobras de alta performance",
+          "A visão noturna — o CO do cigarro cria carboxihemoglobina que reduz o transporte de O₂ para os bastonetes",
+          "A coordenação motora fina necessária para instrumentos analógicos",
+          "A capacidade de equalização do ouvido médio durante variações de pressão"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O CO do cigarro bloqueia hemoglobina → bastonetes (visão noturna) são privados de O₂ → visão noturna comprometida mesmo ao nível do mar. Um maço/dia = equivale fisiologicamente a voar em altitude maior."
+      },
+      {
+        "id": 18,
+        "modulo_referencia": 4,
+        "tema": "Incapacitação",
+        "dificuldade": "media",
+        "pergunta": "A incapacitação parcial é mais perigosa que a incapacitação total em operações monopiloto porque:",
+        "alternativas": [
+          "A incapacitação parcial é mais difícil de tratar medicamente após o pouso",
+          "O piloto parcialmente incapacitado continua operando a aeronave com julgamento e habilidades comprometidos sem reconhecer sua condição",
+          "A incapacitação parcial ocorre exclusivamente em fases críticas como aproximação final",
+          "Sistemas de alerta automático não conseguem detectar incapacitação parcial e não acionam emergência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na incapacitação total, o piloto para de agir — perigoso, mas ao menos não toma decisões erradas. Na incapacitação parcial, age com desempenho comprometido sem perceber — acidente silencioso."
+      },
+      {
+        "id": 19,
+        "modulo_referencia": 4,
+        "tema": "Certificação Médica",
+        "dificuldade": "facil",
+        "pergunta": "Um piloto privado (PPL) com 35 anos deve renovar seu Certificado Médico Aeronáutico de 2ª Classe a cada:",
+        "alternativas": [
+          "6 meses — mesmo intervalo do CMA de 1ª Classe",
+          "24 meses — para pilotos com menos de 40 anos com CMA de 2ª Classe",
+          "12 meses — padrão universal para todas as classes de CMA",
+          "60 meses — a 2ª Classe é válida por 5 anos para pilotos abaixo de 40 anos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CMA de 2ª Classe: validade de 24 meses para pilotos com menos de 40 anos, e 12 meses para pilotos com 40 anos ou mais (RBAC 67)."
+      },
+      {
+        "id": 20,
+        "modulo_referencia": 4,
+        "tema": "Hipoglicemia",
+        "dificuldade": "media",
+        "pergunta": "Durante um voo de 4 horas, o piloto começa a sentir tremores, suor frio e dificuldade de concentração. A causa mais provável e a ação correta são:",
+        "alternativas": [
+          "Hipóxia — colocar oxigênio suplementar e iniciar descida de emergência",
+          "Hipoglicemia — ingerir carboidratos imediatamente e avaliar a necessidade de pouso",
+          "Hiperventilação — respirar mais lentamente ou em saco para elevar o CO₂",
+          "Desorientação espacial — confiar nos instrumentos e fazer descida controlada"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Tremores, suor frio e dificuldade de concentração após horas sem comer = hipoglicemia clássica. Ingestão imediata de açúcar simples + reavaliar condições de voo. Se não melhorar, pousar."
+      },
+      {
+        "id": 21,
+        "modulo_referencia": 5,
+        "tema": "Vieses Cognitivos",
+        "dificuldade": "media",
+        "pergunta": "Um piloto planejou um voo VFR e está em rota. As condições meteorológicas começam a deteriorar, mas ele pensa 'já vai metade do caminho, vou continuar'. Qual viés está operando?",
+        "alternativas": [
+          "Viés de disponibilidade — lembra facilmente de voos bem-sucedidos anteriores em condições similares",
+          "Continuação do plano (Plan Continuation Bias) combinado com a falácia do custo afundado",
+          "Excesso de confiança — superestimação das próprias habilidades em IMC",
+          "Efeito de ancoragem — fixação na previsão meteorológica original"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Dois vieses atuando simultaneamente: continuação do plano (tendência de prosseguir o plano original) + custo afundado ('já voei metade'). Combinação responsável por inúmeros acidentes VFR em IMC."
+      },
+      {
+        "id": 22,
+        "modulo_referencia": 5,
+        "tema": "Atitudes Perigosas",
+        "dificuldade": "facil",
+        "pergunta": "O antídoto correto para a atitude perigosa de RESIGNAÇÃO ('não adianta nada — o acidente vai acontecer de qualquer jeito') é:",
+        "alternativas": [
+          "'Siga as regras — elas existem por uma boa razão'",
+          "'Poderia acontecer comigo também'",
+          "'Não vou desistir — sempre há algo a fazer para melhorar a situação'",
+          "'Não tão rápido — pense antes de agir'"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Resignação é fatalismo — piloto desiste de agir. Antídoto: 'Não vou desistir'. Mesmo em situações críticas, sempre há uma ação possível que pode melhorar as chances de sobrevivência."
+      },
+      {
+        "id": 23,
+        "modulo_referencia": 5,
+        "tema": "Tomada de Decisão",
+        "dificuldade": "media",
+        "pergunta": "No modelo DECIDE, após 'Identify' (identificar as ações disponíveis), a próxima etapa obrigatória é:",
+        "alternativas": [
+          "Estimate — reavaliar a necessidade da ação antes de executar",
+          "Do — executar a melhor ação identificada",
+          "Choose — selecionar o resultado desejado dentre as opções identificadas",
+          "Evaluate — verificar imediatamente o efeito antes de executar"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "DECIDE: Detect → Estimate → Choose → Identify → **Do** → Evaluate. Após identificar as ações, executa-se a melhor delas (Do) e então avalia-se o resultado (Evaluate)."
+      },
+      {
+        "id": 24,
+        "modulo_referencia": 5,
+        "tema": "Consciência Situacional",
+        "dificuldade": "media",
+        "pergunta": "Durante a resolução de uma falha de sistema em cruzeiro, o piloto percebe súbita surpresa ao notar que a aeronave está 2.000 pés abaixo da altitude autorizada. Esse momento indica:",
+        "alternativas": [
+          "Perda momentânea da consciência situacional — o piloto estava em Nível 1 (percepção) mas perdeu os Níveis 2 e 3",
+          "Incapacitação parcial causada pela fixação no problema do sistema",
+          "Falha do sistema de alerta de altitude — problema de equipamento, não de fator humano",
+          "Erro de pilotagem por sobrecarga — o piloto priorizou incorretamente a falha sobre a altitude"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A surpresa ('como estamos aqui?') é o sintoma clássico de perda de SA. A fixação na falha do sistema consumiu toda a atenção — o piloto perdeu o monitoramento da altitude (Nível 1 degradado)."
+      },
+      {
+        "id": 25,
+        "modulo_referencia": 5,
+        "tema": "Carga de Trabalho",
+        "dificuldade": "media",
+        "pergunta": "Em uma aproximação ILS com tráfego intenso, o ATC solicita uma mudança de pista de última hora. O piloto deve:",
+        "alternativas": [
+          "Aceitar imediatamente para não atrasar o tráfego — a mudança de pista é procedimento simples",
+          "Avaliar se tem capacidade de gerenciar a mudança com segurança — se a carga já está alta, solicitar tempo adicional ou recusar",
+          "Transferir controles ao copiloto e gerenciar a comunicação com ATC para dividir a carga",
+          "Aceitar a mudança e aumentar a velocidade para ganhar tempo de reconfiguração"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em carga alta, aceitar mais demanda pode saturar a capacidade de processamento. O piloto tem autoridade e obrigação de recusar ou pedir mais tempo quando a segurança está em risco."
+      },
+      {
+        "id": 26,
+        "modulo_referencia": 6,
+        "tema": "CRM — Fundamentos",
+        "dificuldade": "facil",
+        "pergunta": "O principal objetivo do CRM (Crew Resource Management) é:",
+        "alternativas": [
+          "Treinar os pilotos para voar exclusivamente com instrumentos em todas as condições",
+          "Otimizar o uso de todos os recursos disponíveis — humanos, tecnológicos e informacionais — para maximizar a segurança e eficiência",
+          "Padronizar os procedimentos de comunicação entre pilotos e controladores de tráfego aéreo",
+          "Estabelecer a hierarquia clara de autoridade no cockpit para evitar conflitos de comando"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CRM não é apenas comunicação ou hierarquia — é a otimização de todos os recursos: pessoas (tripulação, ATC, cabine), tecnologia (automação, sistemas), informação (meteorologia, NOTAMs, manuais)."
+      },
+      {
+        "id": 27,
+        "modulo_referencia": 6,
+        "tema": "Comunicação Assertiva",
+        "dificuldade": "media",
+        "pergunta": "O copiloto percebe que a aeronave está descendo abaixo do perfil de descida em aproximação. O comandante não responde à primeira comunicação. Pelo CRM, o copiloto deve:",
+        "alternativas": [
+          "Aguardar — o comandante certamente percebeu e está gerenciando a situação",
+          "Escalar a assertividade na comunicação — segunda comunicação mais direta, chegando ao takeover se necessário para evitar acidente",
+          "Comunicar ao ATC que o comandante não está gerenciando adequadamente o voo",
+          "Registrar o desvio no relatório pós-voo para providências da empresa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CRM exige escalada assertiva quando não há resposta: 1ª comunicação → 2ª mais direta → 3ª urgente → takeover se necessário. Silêncio do copiloto diante de risco iminente é falha de CRM."
+      },
+      {
+        "id": 28,
+        "modulo_referencia": 6,
+        "tema": "TEM",
+        "dificuldade": "media",
+        "pergunta": "No modelo TEM, a sequência correta de evolução de um acidente não gerenciado é:",
+        "alternativas": [
+          "Erro → Ameaça → Estado Indesejado → Acidente",
+          "Ameaça → Erro → Estado Indesejado da Aeronave (UAS) → Acidente",
+          "Estado Indesejado → Ameaça → Erro → Incidente/Acidente",
+          "Ameaça → Estado Indesejado → Erro → Incidente/Acidente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "TEM: Ameaça (não gerenciada) → Erro (não detectado) → UAS — Estado Indesejado da Aeronave (não corrigido) → Acidente. Cada etapa é uma oportunidade de interromper a cadeia."
+      },
+      {
+        "id": 29,
+        "modulo_referencia": 6,
+        "tema": "Automação",
+        "dificuldade": "dificil",
+        "pergunta": "Um piloto em cruzeiro longo nota que o FMS está executando uma trajetória diferente do planejado, mas não consegue identificar em qual modo o autopiloto está operando. A ação mais segura é:",
+        "alternativas": [
+          "Continuar monitorando — o FMS provavelmente está corrigindo um desvio de rota automaticamente",
+          "Desconectar o autopiloto, assumir controle manual e reconfigurar o FMS com compreensão clara do modo selecionado",
+          "Solicitar ao ATC para confirmar a trajetória atual — se estiver correta, o modo do FMS é irrelevante",
+          "Reiniciar o FMS para retornar ao modo padrão e recarregar o plano de voo"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Princípio fundamental de CRM com automação: 'Se não entende o que o sistema está fazendo — desligue-o.' Mode Confusion já causou acidentes. Assumir controle manual e reconhecer a situação é sempre mais seguro."
+      },
+      {
+        "id": 30,
+        "modulo_referencia": 6,
+        "tema": "Cultura de Segurança",
+        "dificuldade": "media",
+        "pergunta": "Um piloto observou uma prática operacional irregular recorrente em sua empresa mas não reportou por medo de punição. Qual elemento da Cultura de Segurança está ausente nessa organização?",
+        "alternativas": [
+          "Cultura Informada — a empresa não possui dados suficientes para tomar decisões de segurança",
+          "Cultura Justa (Just Culture) — ausência de distinção entre erro honesto e negligência impede o reporte sem medo",
+          "Cultura Flexível — a empresa não se adapta a diferentes níveis de demanda operacional",
+          "Cultura de Aprendizado — a organização não realiza treinamentos periódicos de segurança"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Sem Just Culture, os pilotos não reportam por medo de punição indiscriminada → a organização não tem dados reais de segurança → não aprende → acidentes se repetem. Just Culture é o alicerce do sistema de reporte."
+      }
+    ]
+  }
 }
