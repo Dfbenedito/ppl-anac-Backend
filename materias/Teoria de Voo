@@ -1,0 +1,1298 @@
+[
+  {
+    "id": 1,
+    "titulo": "As Quatro Forças do Voo",
+    "aula": {
+      "introducao": "Toda aeronave em voo está sujeita a quatro forças fundamentais: sustentação, peso, tração e arrasto. O entendimento do equilíbrio entre essas forças é a base da teoria de voo e está presente em praticamente todas as questões de prova da ANAC.",
+      "subtitulos": [
+        {
+          "titulo": "Visão Geral das Forças",
+          "conteudo": "As quatro forças do voo atuam simultaneamente sobre a aeronave:\n\n• **Sustentação (Lift)**: força aerodinâmica que atua perpendicularmente ao vento relativo e tende a manter a aeronave no ar.\n• **Peso (Weight)**: força da gravidade, atua verticalmente para baixo, passando pelo centro de gravidade.\n• **Tração (Thrust)**: força produzida pelo motor/hélice ou turbina, impulsiona a aeronave para frente.\n• **Arrasto (Drag)**: resistência do ar ao avanço da aeronave, atua em sentido oposto à tração.\n\nEm voo reto e nivelado, em velocidade constante:\n- Sustentação = Peso\n- Tração = Arrasto\n\nSe houver desequilíbrio, a aeronave acelera, desacelera, sobe ou desce."
+        },
+        {
+          "titulo": "Sustentação",
+          "conteudo": "A sustentação é gerada pela passagem do ar sobre e sob o perfil alar. Ela depende de vários fatores:\n\n**Fatores que aumentam a sustentação**:\n• Maior velocidade do ar\n• Maior densidade do ar\n• Maior área alar\n• Maior coeficiente de sustentação (Cl)\n\nA fórmula simplificada é:\n$$
+\nL = \frac{1}{2} \rho V^2 S C_L \$\$\n\nOnde:\n•
+$$L$$= sustentação\n•$$\\rho$$= densidade do ar\n•$$V$$= velocidade\n•$$S$$= área da asa\n•$$C_L$$
+= coeficiente de sustentação\n\nA sustentação atua perpendicularmente ao vento relativo, e não necessariamente verticalmente." }, { "titulo": "Peso", "conteudo": "O peso é a força exercida pela gravidade sobre a aeronave. Atua sempre em direção ao centro da Terra e é aplicado no centro de gravidade (CG).\n\nCaracterísticas importantes:\n• Quanto maior o peso, maior a sustentação necessária para manter voo nivelado\n• O aumento do peso eleva a velocidade de estol\n• O posicionamento do CG afeta estabilidade e controlabilidade\n• Aeronaves fora dos limites de peso e balanceamento tornam-se perigosas\n\nA fórmula do peso é:\n
+$$\nW = m \cdot g
+\$\$\n\nOnde:\n• $$W$$ = peso\n• $$m$$ = massa\n• $$g$$ = aceleração da gravidade"
+        },
+        {
+          "titulo": "Tração",
+          "conteudo": "A tração é a força que impulsiona a aeronave para frente. Em aeronaves com hélice, resulta da aceleração de massa de ar para trás; em aeronaves a jato, da reação dos gases expelidos.\n\n• Se a tração for maior que o arrasto → a aeronave acelera\n• Se a tração for igual ao arrasto → velocidade constante\n• Se a tração for menor que o arrasto → a aeronave desacelera\n\nEm subida, parte da tração é usada para vencer a componente do peso. Em descida, a gravidade ajuda o movimento."
+        },
+        {
+          "titulo": "Arrasto",
+          "conteudo": "O arrasto é a resistência ao avanço da aeronave no ar. Divide-se principalmente em:\n\n• **Arrasto parasita**: não relacionado à sustentação; aumenta com a velocidade.\n  - Arrasto de forma\n  - Arrasto de atrito\n  - Arrasto de interferência\n\n• **Arrasto induzido**: consequência da produção de sustentação; diminui com o aumento da velocidade.\n\nA soma dos dois gera a curva do arrasto total. Existe uma velocidade em que o arrasto total é mínimo — importante para alcance e planeio."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "Em voo reto e nivelado, com velocidade constante, a relação correta entre as forças é:",
+        "alternativas": [
+          "Tração maior que arrasto; peso maior que sustentação",
+          "Sustentação igual ao peso; tração igual ao arrasto",
+          "Sustentação maior que peso; arrasto maior que tração",
+          "Peso igual à tração; sustentação igual ao arrasto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em voo reto e nivelado com velocidade constante, a aeronave está em equilíbrio: sustentação = peso e tração = arrasto."
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual força atua sempre verticalmente para baixo, passando pelo centro de gravidade?",
+        "alternativas": [
+          "Sustentação",
+          "Arrasto",
+          "Peso",
+          "Tração"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O peso é a força da gravidade e atua sempre em direção ao centro da Terra, aplicado no centro de gravidade da aeronave."
+      },
+      {
+        "id": 3,
+        "pergunta": "O arrasto induzido é:",
+        "alternativas": [
+          "Independente da sustentação",
+          "Maior em altas velocidades",
+          "Consequência da produção de sustentação",
+          "Produzido exclusivamente pelo motor"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O arrasto induzido surge como consequência direta da geração de sustentação e tende a ser maior em baixas velocidades."
+      },
+      {
+        "id": 4,
+        "pergunta": "Se a tração for maior que o arrasto, a aeronave:",
+        "alternativas": [
+          "Desacelera",
+          "Mantém velocidade constante",
+          "Acelera",
+          "Entra em estol"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Quando a tração supera o arrasto, há força resultante para frente, fazendo a aeronave acelerar."
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual fator abaixo aumenta a sustentação?",
+        "alternativas": [
+          "Redução da densidade do ar",
+          "Redução da velocidade",
+          "Aumento da velocidade do ar",
+          "Diminuição da área alar"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A sustentação aumenta com o aumento da velocidade, conforme a relação proporcional a $$V^2$$."
+      },
+      {
+        "id": 6,
+        "pergunta": "O arrasto parasita inclui:",
+        "alternativas": [
+          "Apenas arrasto induzido",
+          "Arrasto de forma, atrito e interferência",
+          "Somente o arrasto causado pelos vórtices de ponta de asa",
+          "Somente o arrasto em curvas"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O arrasto parasita é composto por arrasto de forma, de atrito e de interferência."
+      },
+      {
+        "id": 7,
+        "pergunta": "A sustentação atua:",
+        "alternativas": [
+          "Sempre verticalmente para cima",
+          "Paralela ao vento relativo",
+          "Perpendicularmente ao vento relativo",
+          "Sempre na direção do nariz da aeronave"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A sustentação atua perpendicularmente ao vento relativo, não necessariamente vertical em todas as atitudes de voo."
+      },
+      {
+        "id": 8,
+        "pergunta": "Quanto maior o peso da aeronave:",
+        "alternativas": [
+          "Menor a sustentação necessária",
+          "Maior a sustentação necessária para voo nivelado",
+          "Menor a velocidade de estol",
+          "Menor a influência do CG"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com maior peso, a aeronave precisa gerar mais sustentação para manter voo nivelado."
+      },
+      {
+        "id": 9,
+        "pergunta": "Em aeronaves com hélice, a tração é gerada principalmente:",
+        "alternativas": [
+          "Pela gravidade sobre as asas",
+          "Pela expulsão direta do combustível",
+          "Pela aceleração de massa de ar para trás",
+          "Pelo aumento do arrasto"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "A hélice gera tração ao acelerar o ar para trás, produzindo reação que empurra a aeronave para frente."
+      },
+      {
+        "id": 10,
+        "pergunta": "Existe uma velocidade em que o arrasto total é mínimo. Isso é importante principalmente para:",
+        "alternativas": [
+          "Navegação por instrumentos",
+          "Alcance e planeio",
+          "Apenas decolagem",
+          "Curvas de grande inclinação"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A velocidade de arrasto total mínimo é importante para melhor alcance e melhor desempenho em planeio."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Perfis Alares, Sustentação e Arrasto",
+    "aula": {
+      "introducao": "O perfil alar e a forma como o ar escoa ao redor da asa determinam a geração de sustentação e arrasto. Este módulo aborda conceitos centrais como vento relativo, ângulo de ataque, centro de pressão e eficiência aerodinâmica.",
+      "subtitulos": [
+        {
+          "titulo": "Perfil Alar e Vento Relativo",
+          "conteudo": "O perfil alar é a seção transversal da asa. Seu formato influencia diretamente a capacidade de gerar sustentação.\n\n**Conceitos básicos**:\n• **Bordo de ataque**: parte frontal da asa\n• **Bordo de fuga**: parte traseira\n• **Corda**: linha reta imaginária entre bordo de ataque e bordo de fuga\n• **Vento relativo**: fluxo de ar em sentido oposto ao deslocamento da aeronave\n\nA asa não 'corta' o ar apenas: ela interage com o escoamento, desviando o ar para baixo e gerando reação aerodinâmica."
+        },
+        {
+          "titulo": "Ângulo de Ataque (AoA)",
+          "conteudo": "Ângulo de ataque é o ângulo entre a linha da corda da asa e o vento relativo.\n\nEsse é um dos conceitos mais importantes da teoria de voo:\n• Ao aumentar o ângulo de ataque, a sustentação aumenta até certo ponto\n• Após o ângulo crítico, o escoamento separa-se da asa e ocorre o estol\n• O estol depende do ângulo de ataque, não diretamente da velocidade\n\n**Importante**:\n• Atitude da aeronave não é a mesma coisa que ângulo de ataque\n• É possível estolar em alta velocidade, se o AoA crítico for ultrapassado"
+        },
+        {
+          "titulo": "Como a Sustentação é Gerada",
+          "conteudo": "A sustentação é explicada pela combinação de diferentes princípios aerodinâmicos:\n\n• **Diferença de pressão**: o escoamento sobre o extradorso acelera e a pressão diminui; no intradorso, a pressão relativa é maior\n• **Deflexão do ar para baixo**: a asa acelera uma massa de ar para baixo; pela 3ª lei de Newton, há reação para cima\n\nNa prática, a sustentação é resultado do campo de pressões ao redor da asa e do desvio do fluxo de ar."
+        },
+        {
+          "titulo": "Centro de Pressão e Arrasto",
+          "conteudo": "O centro de pressão é o ponto onde se considera aplicada a resultante aerodinâmica da asa.\n\n• Em alguns perfis e condições, ele se desloca com a variação do ângulo de ataque\n• Esse deslocamento influencia estabilidade e esforço nos comandos\n\nO arrasto, por sua vez, aumenta quando:\n• A velocidade aumenta demais (arrasto parasita)\n• O ângulo de ataque aumenta muito (arrasto induzido)\n\nA eficiência aerodinâmica depende da melhor relação entre sustentação e arrasto."
+        },
+        {
+          "titulo": "Relação L/D e Eficiência Aerodinâmica",
+          "conteudo": "A relação $$L/D$$ representa a razão entre sustentação e arrasto.\n\n• Quanto maior a relação $$L/D$$, mais eficiente é a aeronave\n• A melhor razão $$L/D$$ corresponde à melhor velocidade de planeio\n• Em planadores, essa relação é muito alta; em aeronaves de treinamento, moderada\n\nUma aeronave com relação $$L/D = 10:1$$ pode, teoricamente, percorrer 10 unidades horizontais para cada 1 unidade vertical perdida em planeio sem motor."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 11,
+        "pergunta": "O ângulo de ataque é o ângulo entre:",
+        "alternativas": [
+          "A linha do horizonte e a asa",
+          "A corda da asa e o vento relativo",
+          "O eixo longitudinal e o solo",
+          "A tração e o arrasto"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Ângulo de ataque é o ângulo formado entre a linha da corda do perfil alar e o vento relativo."
+      },
+      {
+        "id": 12,
+        "pergunta": "O estol ocorre quando:",
+        "alternativas": [
+          "A velocidade chega a zero",
+          "O motor perde potência",
+          "O ângulo de ataque crítico é ultrapassado",
+          "A aeronave entra em descida"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O estol acontece quando o ângulo de ataque ultrapassa o valor crítico, causando separação do fluxo de ar sobre a asa."
+      },
+      {
+        "id": 13,
+        "pergunta": "O vento relativo é:",
+        "alternativas": [
+          "O vento meteorológico reportado no METAR",
+          "O fluxo de ar oposto à trajetória da aeronave",
+          "O vento gerado pela hélice",
+          "Sempre um vento de proa"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O vento relativo é o fluxo de ar que se move em sentido oposto ao deslocamento da aeronave."
+      },
+      {
+        "id": 14,
+        "pergunta": "Ao aumentar o ângulo de ataque, a sustentação:",
+        "alternativas": [
+          "Sempre diminui",
+          "Aumenta até um limite crítico",
+          "Permanece constante",
+          "Desaparece imediatamente"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A sustentação aumenta com o ângulo de ataque até o ponto crítico; após isso, ocorre estol e a sustentação cai."
+      },
+      {
+        "id": 15,
+        "pergunta": "A relação $$L/D$$ representa:",
+        "alternativas": [
+          "Peso dividido pela tração",
+          "Sustentação dividida pelo arrasto",
+          "Altitude dividida pela velocidade",
+          "Tração dividida pelo peso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A relação $$L/D$$ é a razão entre sustentação e arrasto, indicando a eficiência aerodinâmica."
+      },
+      {
+        "id": 16,
+        "pergunta": "Uma aeronave com melhor relação $$L/D$$ terá:",
+        "alternativas": [
+          "Pior desempenho em planeio",
+          "Melhor eficiência aerodinâmica",
+          "Maior peso estrutural obrigatoriamente",
+          "Menor sustentação sempre"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Quanto maior a relação $$L/D$$, maior a eficiência aerodinâmica da aeronave."
+      },
+      {
+        "id": 17,
+        "pergunta": "O centro de pressão é:",
+        "alternativas": [
+          "O centro de gravidade da aeronave",
+          "O ponto de aplicação da resultante aerodinâmica",
+          "O ponto onde atua apenas o peso",
+          "O local onde a sustentação deixa de existir"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O centro de pressão é o ponto onde se considera aplicada a resultante das forças aerodinâmicas."
+      },
+      {
+        "id": 18,
+        "pergunta": "É correto afirmar que uma aeronave pode estolar em alta velocidade?",
+        "alternativas": [
+          "Não, estol só ocorre em baixa velocidade",
+          "Sim, se ultrapassar o ângulo de ataque crítico",
+          "Não, desde que o motor esteja em potência máxima",
+          "Sim, mas apenas em voo invertido"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O estol depende do ângulo de ataque, não diretamente da velocidade. Em manobras bruscas, pode ocorrer mesmo em alta velocidade."
+      },
+      {
+        "id": 19,
+        "pergunta": "O bordo de ataque é:",
+        "alternativas": [
+          "A parte traseira da asa",
+          "A linha média da asa",
+          "A parte frontal da asa",
+          "O ponto mais espesso do perfil"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O bordo de ataque é a parte frontal da asa, onde o ar primeiro encontra o perfil."
+      },
+      {
+        "id": 20,
+        "pergunta": "A melhor velocidade de planeio está associada:",
+        "alternativas": [
+          "Ao menor peso possível apenas",
+          "À melhor relação entre sustentação e arrasto",
+          "À máxima potência do motor",
+          "Ao maior arrasto induzido"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A melhor velocidade de planeio ocorre na condição de melhor relação $$L/D$$, ou seja, maior eficiência aerodinâmica."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 3,
+    "titulo": "Estol e Ângulo de Ataque",
+    "aula": {
+      "introducao": "O estol é um dos fenômenos mais importantes e cobrados na teoria de voo. Ao contrário do que muitos iniciantes pensam, ele não ocorre simplesmente por baixa velocidade, mas pelo excesso de ângulo de ataque. Entender isso é essencial para prevenção e recuperação segura.",
+      "subtitulos": [
+        {
+          "titulo": "Conceito de Estol",
+          "conteudo": "Estol é a perda significativa de sustentação causada pela separação do fluxo de ar sobre a asa quando o ângulo de ataque crítico é ultrapassado.\n\nPontos fundamentais:\n• O estol depende do ângulo de ataque, não diretamente da velocidade\n• A baixa velocidade favorece o estol porque exige maior ângulo de ataque para manter sustentação\n• O estol pode ocorrer em qualquer atitude, altitude ou velocidade\n• Durante o estol, o arrasto aumenta e a sustentação cai abruptamente"
+        },
+        {
+          "titulo": "Sinais de Aproximação do Estol",
+          "conteudo": "Antes do estol completo, a aeronave normalmente apresenta sinais característicos:\n\n• Comandos menos efetivos\n• Buffet ou vibração\n• Nariz excessivamente alto\n• Alarme de estol (stall warning)\n• Razão de subida reduzida\n• Tendência de queda de uma asa\n\nReconhecer esses sinais precocemente é essencial para evitar a entrada em estol completo."
+        },
+        {
+          "titulo": "Fatores que Afetam a Velocidade de Estol",
+          "conteudo": "Embora o estol dependa do ângulo de ataque, a velocidade em que ele ocorre varia conforme as condições de voo.\n\n**A velocidade de estol aumenta com**:\n• Maior peso\n• Maior fator de carga\n• Curvas acentuadas\n• Gelo nas asas\n• CG muito dianteiro em algumas situações\n\n**A velocidade de estol diminui com**:\n• Menor peso\n• Uso adequado de flaps (em muitas configurações)\n\nIsso explica por que a mesma aeronave pode estolar em velocidades diferentes."
+        },
+        {
+          "titulo": "Estol em Curva e Fator de Carga",
+          "conteudo": "Em curva, a sustentação total precisa aumentar para compensar o peso e a componente horizontal da curva. Isso eleva o fator de carga.\n\nConsequência:\n• Quanto maior o fator de carga, maior a velocidade de estol\n\nRelação importante:\n$$
+V_{S_{nova}} = V_S \sqrt{n}
+$$\n\nOnde:\n• $$V_S$$ = velocidade de estol em voo reto\n• $$n$$ = fator de carga\n\nExemplo:\nSe $$V_S = 50$$ kt e $$n = 4$$,\n$$
+V_{S_{nova}} = 50 \sqrt{4} = 100 \text{ kt}
+$$"
+        },
+        {
+          "titulo": "Recuperação do Estol",
+          "conteudo": "A recuperação do estol exige reduzir o ângulo de ataque antes de qualquer outra prioridade.\n\nPassos gerais:\n• Diminuir o ângulo de ataque (baixar o nariz)\n• Aplicar potência conforme necessário\n• Nivelar as asas\n• Recuperar gradualmente a altitude perdida\n• Recolher flaps conforme procedimento da aeronave\n\nPrincípio central:\n**Para sair do estol, é preciso primeiro descarregar a asa.**\n\nTentar manter altitude puxando mais o manche agrava o estol."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 21,
+        "pergunta": "O estol ocorre quando:",
+        "alternativas": [
+          "A velocidade chega abaixo de 40 kt obrigatoriamente",
+          "O motor perde toda a potência",
+          "O ângulo de ataque crítico é ultrapassado",
+          "A aeronave entra em descida acentuada"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O estol é causado pelo excesso de ângulo de ataque, que provoca separação do fluxo de ar e perda de sustentação."
+      },
+      {
+        "id": 22,
+        "pergunta": "Qual afirmação está correta sobre estol?",
+        "alternativas": [
+          "Só ocorre em baixa velocidade",
+          "Depende diretamente da altitude do voo",
+          "Pode ocorrer em qualquer velocidade, se o ângulo de ataque crítico for excedido",
+          "Só ocorre com trem de pouso abaixado"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O estol depende do ângulo de ataque. Em manobras bruscas, curvas ou recuperação inadequada, pode ocorrer inclusive em alta velocidade."
+      },
+      {
+        "id": 23,
+        "pergunta": "Um dos sinais típicos de aproximação do estol é:",
+        "alternativas": [
+          "Aumento da eficiência dos comandos",
+          "Buffet ou vibração",
+          "Queda do arrasto",
+          "Diminuição do ângulo de ataque"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O buffet é um sinal clássico de pré-estol, indicando escoamento turbulento e perda de eficiência aerodinâmica."
+      },
+      {
+        "id": 24,
+        "pergunta": "A velocidade de estol tende a aumentar quando:",
+        "alternativas": [
+          "O peso diminui",
+          "O fator de carga aumenta",
+          "Os flaps são usados corretamente",
+          "A aeronave está mais leve"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Com maior fator de carga, a asa precisa gerar mais sustentação, aumentando a velocidade de estol."
+      },
+      {
+        "id": 25,
+        "pergunta": "Em curva acentuada, a velocidade de estol:",
+        "alternativas": [
+          "Diminui",
+          "Permanece a mesma",
+          "Aumenta",
+          "Vai a zero"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Em curva, o fator de carga aumenta. Como consequência, a velocidade de estol também aumenta."
+      },
+      {
+        "id": 26,
+        "pergunta": "A primeira ação para recuperar de um estol é:",
+        "alternativas": [
+          "Puxar mais o manche para não perder altitude",
+          "Reduzir o ângulo de ataque",
+          "Desligar o motor",
+          "Aplicar freios aerodinâmicos"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "A prioridade é descarregar a asa, reduzindo o ângulo de ataque. Sem isso, o estol continua."
+      },
+      {
+        "id": 27,
+        "pergunta": "Se uma aeronave tem velocidade de estol de 60 kt em voo reto e fator de carga 4, a nova velocidade de estol será:",
+        "alternativas": [
+          "60 kt",
+          "80 kt",
+          "100 kt",
+          "120 kt"
+        ],
+        "resposta_correta": 3,
+        "explicacao": "Usando $$V_{S_{nova}} = V_S \\sqrt{n}$$: $$60 \\sqrt{4} = 60 \\times 2 = 120$$ kt."
+      },
+      {
+        "id": 28,
+        "pergunta": "O gelo nas asas tende a:",
+        "alternativas": [
+          "Diminuir a velocidade de estol",
+          "Melhorar o perfil aerodinâmico",
+          "Aumentar a velocidade de estol",
+          "Eliminar o arrasto induzido"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O gelo deforma o perfil alar, reduz a sustentação e aumenta o arrasto, elevando a velocidade de estol."
+      },
+      {
+        "id": 29,
+        "pergunta": "Baixa velocidade favorece o estol porque:",
+        "alternativas": [
+          "Faz o motor parar",
+          "Exige maior ângulo de ataque para manter sustentação",
+          "Elimina a sustentação instantaneamente",
+          "Reduz o peso da aeronave"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em baixa velocidade, para gerar a mesma sustentação, a asa precisa operar com maior ângulo de ataque."
+      },
+      {
+        "id": 30,
+        "pergunta": "Ao tentar manter altitude puxando o manche durante um estol, o piloto:",
+        "alternativas": [
+          "Recupera mais rápido",
+          "Reduz o arrasto",
+          "Agrava o estol",
+          "Aumenta a eficiência da asa"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Puxar o manche aumenta ainda mais o ângulo de ataque, piorando a separação do fluxo e agravando o estol."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Estabilidade e Comandos de Voo",
+    "aula": {
+      "introducao": "A estabilidade da aeronave determina sua tendência de manter ou recuperar uma condição de voo após uma perturbação. Os comandos de voo permitem ao piloto controlar os três eixos de movimento: longitudinal, lateral e vertical.",
+      "subtitulos": [
+        {
+          "titulo": "Os Três Eixos da Aeronave",
+          "conteudo": "A aeronave movimenta-se em torno de três eixos principais:\n\n• **Eixo longitudinal**: vai do nariz à cauda — movimento de rolagem (roll)\n• **Eixo lateral**: vai de ponta de asa a ponta de asa — movimento de arfagem (pitch)\n• **Eixo vertical**: atravessa a aeronave de cima a baixo — movimento de guinada (yaw)\n\nCada eixo possui um comando principal associado."
+        },
+        {
+          "titulo": "Comandos Primários de Voo",
+          "conteudo": "Os comandos primários são:\n\n• **Ailerons**: controlam a rolagem em torno do eixo longitudinal\n• **Profundor (elevator)**: controla a arfagem em torno do eixo lateral\n• **Leme (rudder)**: controla a guinada em torno do eixo vertical\n\nEsses comandos alteram o equilíbrio aerodinâmico da aeronave e permitem curvas, subidas, descidas e correções direcionais."
+        },
+        {
+          "titulo": "Estabilidade Longitudinal, Lateral e Direcional",
+          "conteudo": "A estabilidade pode ser dividida em três tipos:\n\n• **Estabilidade longitudinal**: relacionada à arfagem; influenciada pelo estabilizador horizontal e posição do CG\n• **Estabilidade lateral**: relacionada à rolagem; influenciada por diedro, enflechamento e posição da asa\n• **Estabilidade direcional**: relacionada à guinada; influenciada pela deriva e estabilizador vertical\n\nUma aeronave estável tende a retornar à condição inicial após pequena perturbação."
+        },
+        {
+          "titulo": "Tipos de Estabilidade",
+          "conteudo": "Existem três comportamentos possíveis após uma perturbação:\n\n• **Estabilidade positiva**: a aeronave tende a retornar à posição inicial\n• **Estabilidade neutra**: permanece na nova posição\n• **Estabilidade negativa**: afasta-se ainda mais da posição inicial\n\nPara treinamento básico, deseja-se geralmente estabilidade positiva."
+        },
+        {
+          "titulo": "Fatores que Influenciam a Estabilidade",
+          "conteudo": "Diversos fatores afetam a estabilidade da aeronave:\n\n• Posição do centro de gravidade\n• Tamanho e formato dos estabilizadores\n• Diedro das asas\n• Enflechamento\n• Distribuição de massa\n\n**CG dianteiro**: maior estabilidade longitudinal, porém comandos mais pesados\n**CG traseiro**: menor estabilidade, comandos mais sensíveis e maior risco operacional"
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 31,
+        "pergunta": "Os ailerons controlam o movimento de:",
+        "alternativas": [
+          "Arfagem",
+          "Guinada",
+          "Rolagem",
+          "Subida"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Os ailerons controlam a rolagem em torno do eixo longitudinal da aeronave."
+      },
+      {
+        "id": 32,
+        "pergunta": "O profundor atua sobre o eixo:",
+        "alternativas": [
+          "Vertical",
+          "Longitudinal",
+          "Lateral",
+          "De simetria"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O profundor controla a arfagem em torno do eixo lateral."
+      },
+      {
+        "id": 33,
+        "pergunta": "O leme controla principalmente:",
+        "alternativas": [
+          "A rolagem",
+          "A arfagem",
+          "A guinada",
+          "A sustentação"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O leme atua sobre o eixo vertical, controlando a guinada."
+      },
+      {
+        "id": 34,
+        "pergunta": "Uma aeronave com estabilidade positiva tende a:",
+        "alternativas": [
+          "Afastar-se cada vez mais da posição inicial",
+          "Permanecer na nova posição",
+          "Retornar à condição original após perturbação",
+          "Entrar em estol automaticamente"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Estabilidade positiva significa tendência natural de retornar ao equilíbrio após pequena perturbação."
+      },
+      {
+        "id": 35,
+        "pergunta": "A estabilidade direcional está principalmente associada:",
+        "alternativas": [
+          "À deriva e estabilizador vertical",
+          "Ao profundor",
+          "Ao trem de pouso",
+          "Ao bordo de ataque"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A estabilidade direcional está ligada à capacidade de manter o rumo, influenciada pela deriva e estabilizador vertical."
+      },
+      {
+        "id": 36,
+        "pergunta": "O diedro das asas contribui principalmente para a estabilidade:",
+        "alternativas": [
+          "Longitudinal",
+          "Lateral",
+          "Direcional",
+          "Supersônica"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "O diedro aumenta a estabilidade lateral, ajudando a aeronave a retornar ao voo nivelado após inclinação."
+      },
+      {
+        "id": 37,
+        "pergunta": "Um CG muito traseiro tende a produzir:",
+        "alternativas": [
+          "Maior estabilidade longitudinal",
+          "Menor sensibilidade nos comandos",
+          "Menor estabilidade e maior risco operacional",
+          "Eliminação da tendência ao estol"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "CG traseiro reduz a estabilidade longitudinal, deixa a aeronave mais sensível e dificulta a recuperação de certas condições anormais."
+      },
+      {
+        "id": 38,
+        "pergunta": "O movimento de arfagem corresponde ao eixo:",
+        "alternativas": [
+          "Lateral",
+          "Longitudinal",
+          "Vertical",
+          "Helicoidal"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "Arfagem é o movimento em torno do eixo lateral, controlado pelo profundor."
+      },
+      {
+        "id": 39,
+        "pergunta": "Estabilidade neutra significa que a aeronave:",
+        "alternativas": [
+          "Retorna rapidamente à posição original",
+          "Permanece na nova posição após perturbação",
+          "Afasta-se progressivamente da posição inicial",
+          "Perde o controle"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na estabilidade neutra, a aeronave não retorna nem diverge: permanece na nova condição."
+      },
+      {
+        "id": 40,
+        "pergunta": "Qual condição tende a tornar os comandos mais pesados, porém aumenta a estabilidade longitudinal?",
+        "alternativas": [
+          "CG traseiro",
+          "CG dianteiro",
+          "Diminuição do estabilizador vertical",
+          "Redução do diedro"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "CG dianteiro aumenta a estabilidade longitudinal, mas exige maior esforço nos comandos, especialmente no profundor."
+      }
+    ]
+  }
+]
+[
+  {
+    "id": 5,
+    "titulo": "Curvas, Fator de Carga e Manobras",
+    "aula": {
+      "introducao": "Durante curvas e manobras, a aeronave é submetida a forças adicionais que alteram a sustentação exigida e afetam diretamente a velocidade de estol, o conforto e a integridade estrutural. Entender fator de carga é essencial para operação segura.",
+      "subtitulos": [
+        {
+          "titulo": "Curva Coordenada",
+          "conteudo": "Para realizar uma curva, a aeronave precisa inclinar suas asas, gerando uma componente horizontal da sustentação que fará a mudança de direção.\n\nNuma curva coordenada:\n• O aileron inclina a aeronave\n• O leme corrige a tendência de guinada adversa\n• O profundor ajuda a manter altitude\n\nSe a curva não for coordenada, podem ocorrer derrapagem (skid) ou escorregamento (slip), identificados pela bola do inclinômetro."
+        },
+        {
+          "titulo": "Fator de Carga",
+          "conteudo": "Fator de carga é a razão entre a sustentação total e o peso da aeronave.\n\nFórmula:\n$$
+n = \frac{L}{W}
+$$\n\nOnde:\n• $$n$$ = fator de carga\n• $$L$$ = sustentação\n• $$W$$ = peso\n\nEm voo reto e nivelado: $$n = 1$$\nEm curvas, especialmente com grande inclinação, o fator de carga aumenta.\n\nExemplos típicos:\n• Curva de 60° de inclinação → aproximadamente $$2G$$\n• Quanto maior a inclinação, maior o fator de carga"
+        },
+        {
+          "titulo": "Efeitos do Fator de Carga",
+          "conteudo": "O aumento do fator de carga provoca:\n\n• Maior esforço estrutural\n• Maior velocidade de estol\n• Maior exigência física sobre piloto e passageiros\n• Redução de margem de segurança em manobras\n\nEm curvas acentuadas, o piloto precisa aumentar a sustentação para manter altitude, o que pode levá-lo mais facilmente ao estol se não houver cuidado."
+        },
+        {
+          "titulo": "Velocidade de Estol em Manobras",
+          "conteudo": "A velocidade de estol aumenta com o fator de carga segundo a relação:\n$$
+V_{S_{nova}} = V_S \sqrt{n}
+$$\n\nExemplo:\nSe $$V_S = 50$$ kt e o fator de carga é $$2$$:\n$$
+V_{S_{nova}} = 50 \sqrt{2} \approx 70,7 \text{ kt}
+$$\n\nIsso mostra que uma aeronave pode entrar em estol durante uma curva mesmo acima da velocidade de estol em voo reto."
+        },
+        {
+          "titulo": "Limites Operacionais e Manobras Bruscas",
+          "conteudo": "Cada aeronave possui limites estruturais definidos em G positivo e negativo. Exceder esses limites pode causar danos graves ou falha estrutural.\n\nAlém disso:\n• Comandos bruscos em alta velocidade podem gerar excesso de carga\n• Turbulência severa aumenta as cargas estruturais\n• A velocidade de manobra $$V_A$$ é importante porque abaixo dela a asa tende a estolar antes de sofrer dano estrutural por comando brusco\n\nMesmo assim, $$V_A$$ não autoriza manobras violentas sem critério."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 41,
+        "pergunta": "Durante uma curva coordenada, a mudança de direção ocorre devido principalmente:",
+        "alternativas": [
+          "Ao aumento do peso",
+          "À componente horizontal da sustentação",
+          "À redução do arrasto",
+          "À ação exclusiva do leme"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Na curva, a sustentação inclinada gera uma componente horizontal que faz a aeronave mudar de direção."
+      },
+      {
+        "id": 42,
+        "pergunta": "O fator de carga é definido como:",
+        "alternativas": [
+          "Peso dividido pelo arrasto",
+          "Tração dividida pela sustentação",
+          "Sustentação total dividida pelo peso",
+          "Velocidade dividida pela altitude"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O fator de carga é a razão entre a sustentação total e o peso da aeronave: $$n = \\frac{L}{W}$$."
+      },
+      {
+        "id": 43,
+        "pergunta": "Em voo reto e nivelado, o fator de carga é normalmente:",
+        "alternativas": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em voo reto e nivelado, a sustentação iguala o peso, logo o fator de carga é $$1G$$."
+      },
+      {
+        "id": 44,
+        "pergunta": "Uma curva de 60° de inclinação gera aproximadamente:",
+        "alternativas": [
+          "0,5G",
+          "1G",
+          "2G",
+          "4G"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Em curva coordenada com 60° de inclinação, o fator de carga é aproximadamente $$2G$$."
+      },
+      {
+        "id": 45,
+        "pergunta": "Quando o fator de carga aumenta, a velocidade de estol:",
+        "alternativas": [
+          "Diminui",
+          "Permanece igual",
+          "Aumenta",
+          "Torna-se irrelevante"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Quanto maior o fator de carga, maior a sustentação necessária e maior a velocidade de estol."
+      },
+      {
+        "id": 46,
+        "pergunta": "A velocidade de manobra $$V_A$$ é importante porque:",
+        "alternativas": [
+          "Acima dela a aeronave sempre entra em estol antes de quebrar",
+          "Abaixo dela a asa tende a estolar antes que comandos bruscos causem dano estrutural",
+          "É a velocidade ideal para pouso",
+          "É a maior velocidade em qualquer condição de turbulência"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Abaixo de $$V_A$$, uma deflexão brusca de comando tende a causar estol antes de ultrapassar limites estruturais."
+      },
+      {
+        "id": 47,
+        "pergunta": "Se a curva não for coordenada, pode ocorrer:",
+        "alternativas": [
+          "Somente aumento da tração",
+          "Slip ou skid",
+          "Desaparecimento do fator de carga",
+          "Eliminação do arrasto induzido"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Curvas descoordenadas produzem slip ou skid, observáveis pela posição da bola do inclinômetro."
+      },
+      {
+        "id": 48,
+        "pergunta": "Além do risco estrutural, o aumento do fator de carga provoca:",
+        "alternativas": [
+          "Redução da velocidade de estol",
+          "Redução do esforço físico sobre o piloto",
+          "Aumento da velocidade de estol",
+          "Aumento automático da potência"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O aumento do fator de carga eleva a velocidade de estol e aumenta os esforços na estrutura e nas pessoas a bordo."
+      },
+      {
+        "id": 49,
+        "pergunta": "Em uma curva, o profundor ajuda principalmente a:",
+        "alternativas": [
+          "Controlar a guinada",
+          "Aumentar a rolagem",
+          "Manter altitude",
+          "Acionar os flaps"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Em curva, o profundor é usado para aumentar a sustentação e ajudar a manter altitude."
+      },
+      {
+        "id": 50,
+        "pergunta": "Comandos bruscos em alta velocidade podem:",
+        "alternativas": [
+          "Diminuir as cargas estruturais",
+          "Produzir excesso de carga e dano estrutural",
+          "Eliminar a possibilidade de estol",
+          "Melhorar a estabilidade longitudinal"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Em alta velocidade, comandos abruptos podem gerar cargas aerodinâmicas excessivas e comprometer a estrutura."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Desempenho e Limites Operacionais",
+    "aula": {
+      "introducao": "O desempenho da aeronave varia conforme peso, altitude, temperatura, vento e configuração. Esse conhecimento é fundamental para decolagem, subida, cruzeiro, descida e pouso seguros, além do respeito aos limites operacionais impostos pelo projeto.",
+      "subtitulos": [
+        {
+          "titulo": "Fatores que Afetam o Desempenho",
+          "conteudo": "O desempenho é influenciado por diversos fatores:\n\n• **Peso**: maior peso piora decolagem, subida e pouso\n• **Altitude densidade**: quanto maior, pior o desempenho\n• **Temperatura elevada**: reduz densidade do ar\n• **Umidade**: também reduz a densidade do ar\n• **Vento**: vento de proa ajuda na decolagem e pouso; vento de cauda prejudica\n• **Configuração**: uso de flaps, trem e potência afeta desempenho\n\nEm geral, ar menos denso reduz sustentação, potência e eficiência da hélice."
+        },
+        {
+          "titulo": "Desempenho na Decolagem e Subida",
+          "conteudo": "Na decolagem, os principais pontos são:\n\n• Distância de corrida no solo\n• Distância total para ultrapassar obstáculo\n• Razão de subida\n• Gradiente de subida\n\nFatores que aumentam a distância de decolagem:\n• Peso elevado\n• Pista contaminada ou em subida\n• Temperatura alta\n• Altitude elevada\n• Vento de cauda\n\nA subida depende do excesso de potência e/ou excesso de tração disponível."
+        },
+        {
+          "titulo": "Desempenho em Cruzeiro e Planeio",
+          "conteudo": "No cruzeiro, busca-se equilíbrio entre velocidade, consumo e autonomia.\n\nConceitos importantes:\n• **Autonomia**: tempo máximo de voo\n• **Alcance**: distância máxima percorrida\n• **Melhor velocidade de planeio**: associada à melhor relação $$L/D$$\n• **Melhor razão de subida**: velocidade $$V_Y$$\n• **Melhor ângulo de subida**: velocidade $$V_X$$\n\n$$V_X$$ permite ganhar mais altitude em menor distância horizontal.\n$$V_Y$$ permite ganhar altitude no menor tempo."
+        },
+        {
+          "titulo": "Desempenho no Pouso",
+          "conteudo": "No pouso, influenciam:\n\n• Peso da aeronave\n• Vento\n• Condição da pista\n• Temperatura\n• Técnica de aproximação\n\nVento de proa reduz a distância de pouso.\nVento de cauda aumenta significativamente a distância necessária.\nPistas molhadas, contaminadas ou curtas exigem atenção extra.\n\nUma aproximação desestabilizada pode comprometer todo o pouso."
+        },
+        {
+          "titulo": "Limites Operacionais",
+          "conteudo": "Toda aeronave possui limites que não podem ser excedidos:\n\n• Peso máximo de decolagem e pouso\n• Envelope de CG\n• Limites de velocidade (ex.: $$V_{NE}$$, $$V_A$$, $$V_{FE}$$)\n• Limites estruturais de carga\n• Limites de operação com vento cruzado\n\nRespeitar o manual da aeronave é obrigatório. Operar fora dos limites reduz a segurança e pode invalidar margens estruturais e de desempenho."
+        }
+      ]
+    },
+    "questoes": [
+      {
+        "id": 51,
+        "pergunta": "Qual fator abaixo piora o desempenho da aeronave?",
+        "alternativas": [
+          "Baixa altitude densidade",
+          "Temperatura baixa",
+          "Peso elevado",
+          "Vento de proa"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Peso elevado exige mais sustentação, aumenta distâncias de decolagem e pouso e reduz desempenho de subida."
+      },
+      {
+        "id": 52,
+        "pergunta": "Altitude densidade elevada tende a:",
+        "alternativas": [
+          "Melhorar a sustentação e a potência",
+          "Piorar o desempenho da aeronave",
+          "Reduzir a distância de decolagem",
+          "Aumentar a eficiência da hélice"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Quanto maior a altitude densidade, menos denso é o ar, piorando sustentação, potência e eficiência propulsiva."
+      },
+      {
+        "id": 53,
+        "pergunta": "A velocidade $$V_X$$ corresponde à:",
+        "alternativas": [
+          "Melhor razão de subida",
+          "Melhor ângulo de subida",
+          "Melhor velocidade de cruzeiro econômico",
+          "Velocidade de estol em curva"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "$$V_X$$ é a velocidade de melhor ângulo de subida, útil para ultrapassar obstáculos."
+      },
+      {
+        "id": 54,
+        "pergunta": "A velocidade $$V_Y$$ corresponde à:",
+        "alternativas": [
+          "Melhor razão de subida",
+          "Melhor ângulo de subida",
+          "Velocidade nunca exceder",
+          "Velocidade de operação de flaps"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "$$V_Y$$ é a velocidade que proporciona o maior ganho de altitude no menor tempo."
+      },
+      {
+        "id": 55,
+        "pergunta": "Vento de cauda na decolagem tende a:",
+        "alternativas": [
+          "Reduzir a distância necessária",
+          "Melhorar a razão de subida",
+          "Aumentar a distância de decolagem",
+          "Eliminar o efeito do peso"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "Vento de cauda aumenta a velocidade de solo necessária e, consequentemente, a distância de decolagem."
+      },
+      {
+        "id": 56,
+        "pergunta": "A melhor velocidade de planeio está associada à:",
+        "alternativas": [
+          "Melhor relação entre sustentação e arrasto",
+          "Maior potência do motor",
+          "Menor altitude possível",
+          "Maior fator de carga"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "A melhor velocidade de planeio corresponde à condição de melhor relação $$L/D$$."
+      },
+      {
+        "id": 57,
+        "pergunta": "Qual condição tende a aumentar a distância de pouso?",
+        "alternativas": [
+          "Vento de proa",
+          "Pista seca e longa",
+          "Vento de cauda",
+          "Peso reduzido"
+        ],
+        "resposta_correta": 2,
+        "explicacao": "O vento de cauda aumenta a energia e a distância necessárias para o pouso."
+      },
+      {
+        "id": 58,
+        "pergunta": "O alcance de uma aeronave refere-se a:",
+        "alternativas": [
+          "Tempo máximo de voo",
+          "Distância máxima percorrida",
+          "Altitude máxima operacional",
+          "Capacidade de subida"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "Alcance é a distância máxima que a aeronave pode percorrer."
+      },
+      {
+        "id": 59,
+        "pergunta": "O envelope de CG define:",
+        "alternativas": [
+          "Os limites permitidos de posicionamento do centro de gravidade",
+          "A pressão mínima dos pneus",
+          "O consumo máximo de combustível",
+          "A potência mínima do motor"
+        ],
+        "resposta_correta": 0,
+        "explicacao": "O envelope de CG estabelece os limites seguros de posicionamento do centro de gravidade."
+      },
+      {
+        "id": 60,
+        "pergunta": "Operar acima de $$V_{NE}$$ significa:",
+        "alternativas": [
+          "Voar na melhor velocidade de subida",
+          "Ultrapassar a velocidade nunca exceder",
+          "Estar dentro da faixa normal de operação",
+          "Entrar automaticamente em parafuso"
+        ],
+        "resposta_correta": 1,
+        "explicacao": "$$V_{NE}$$ é a velocidade nunca exceder. Acima dela, há sério risco estrutural."
+      }
+    ]
+  }
+]
+{
+  "id": 7,
+  "titulo": "Questionário Final — Teoria de Voo",
+  "aula": {
+    "introducao": "Este questionário final revisa os principais conceitos de teoria de voo abordados nos módulos anteriores: forças do voo, sustentação, arrasto, estol, ângulo de ataque, estabilidade, comandos, fator de carga e desempenho.",
+    "subtitulos": [
+      {
+        "titulo": "Instruções",
+        "conteudo": "Responda às questões buscando identificar os princípios fundamentais da aerodinâmica e do desempenho da aeronave. O objetivo é consolidar o conteúdo em formato semelhante ao cobrado em provas teóricas."
+      }
+    ]
+  },
+  "questoes": [
+    {
+      "id": 61,
+      "pergunta": "Em voo reto e nivelado, com velocidade constante:",
+      "alternativas": [
+        "Tração é maior que arrasto",
+        "Peso é maior que sustentação",
+        "Sustentação é igual ao peso e tração é igual ao arrasto",
+        "Arrasto é igual ao peso"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "No voo reto e nivelado com velocidade constante, há equilíbrio de forças: sustentação = peso e tração = arrasto."
+    },
+    {
+      "id": 62,
+      "pergunta": "O ângulo de ataque é formado entre:",
+      "alternativas": [
+        "O eixo longitudinal e o solo",
+        "A corda da asa e o vento relativo",
+        "A tração e o arrasto",
+        "O bordo de ataque e o CG"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O ângulo de ataque é o ângulo entre a linha da corda do perfil alar e o vento relativo."
+    },
+    {
+      "id": 63,
+      "pergunta": "O estol ocorre quando:",
+      "alternativas": [
+        "O ângulo de ataque crítico é ultrapassado",
+        "A velocidade é sempre inferior a 50 kt",
+        "O motor para de funcionar",
+        "A aeronave entra em curva"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "O estol é causado pelo excesso de ângulo de ataque, que leva à separação do fluxo de ar."
+    },
+    {
+      "id": 64,
+      "pergunta": "A sustentação atua:",
+      "alternativas": [
+        "Sempre verticalmente para cima",
+        "Paralela ao vento relativo",
+        "Perpendicularmente ao vento relativo",
+        "Sempre para frente"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "A sustentação atua perpendicularmente ao vento relativo."
+    },
+    {
+      "id": 65,
+      "pergunta": "O arrasto induzido é:",
+      "alternativas": [
+        "Produzido apenas pelo motor",
+        "Resultado da produção de sustentação",
+        "Independente da velocidade",
+        "O mesmo que arrasto de atrito"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O arrasto induzido surge como consequência da geração de sustentação."
+    },
+    {
+      "id": 66,
+      "pergunta": "Em uma curva coordenada, a mudança de direção ocorre devido:",
+      "alternativas": [
+        "À componente horizontal da sustentação",
+        "Ao aumento do peso",
+        "Ao deslocamento do CG",
+        "À ação exclusiva do leme"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "A sustentação inclinada gera uma componente horizontal que provoca a curva."
+    },
+    {
+      "id": 67,
+      "pergunta": "O fator de carga em voo reto e nivelado é:",
+      "alternativas": [
+        "0G",
+        "1G",
+        "2G",
+        "4G"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Em voo reto e nivelado, a sustentação iguala o peso, resultando em $$1G$$."
+    },
+    {
+      "id": 68,
+      "pergunta": "Em curva acentuada, a velocidade de estol:",
+      "alternativas": [
+        "Diminui",
+        "Permanece igual",
+        "Aumenta",
+        "Vai a zero"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "O aumento do fator de carga eleva a velocidade de estol."
+    },
+    {
+      "id": 69,
+      "pergunta": "Os ailerons controlam:",
+      "alternativas": [
+        "A guinada",
+        "A arfagem",
+        "A rolagem",
+        "A potência"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "Os ailerons controlam a rolagem em torno do eixo longitudinal."
+    },
+    {
+      "id": 70,
+      "pergunta": "O profundor controla:",
+      "alternativas": [
+        "A rolagem",
+        "A arfagem",
+        "A guinada",
+        "O arrasto"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O profundor controla a arfagem em torno do eixo lateral."
+    },
+    {
+      "id": 71,
+      "pergunta": "O leme atua principalmente no controle de:",
+      "alternativas": [
+        "Guinada",
+        "Rolagem",
+        "Arfagem",
+        "Sustentação"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "O leme controla a guinada em torno do eixo vertical."
+    },
+    {
+      "id": 72,
+      "pergunta": "A estabilidade longitudinal é fortemente influenciada por:",
+      "alternativas": [
+        "Ailerons",
+        "Estabilizador horizontal e posição do CG",
+        "Trem de pouso",
+        "Velocidade do vento na pista"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "A estabilidade longitudinal depende bastante do estabilizador horizontal e da posição do centro de gravidade."
+    },
+    {
+      "id": 73,
+      "pergunta": "Um CG muito traseiro tende a causar:",
+      "alternativas": [
+        "Maior estabilidade longitudinal",
+        "Menor sensibilidade nos comandos",
+        "Menor estabilidade e maior risco operacional",
+        "Menor velocidade de estol em todas as condições"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "CG traseiro reduz estabilidade longitudinal e aumenta sensibilidade da aeronave."
+    },
+    {
+      "id": 74,
+      "pergunta": "A primeira ação na recuperação de um estol é:",
+      "alternativas": [
+        "Reduzir o ângulo de ataque",
+        "Puxar o manche",
+        "Baixar o trem de pouso",
+        "Desligar os flaps"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "A prioridade é descarregar a asa, reduzindo o ângulo de ataque."
+    },
+    {
+      "id": 75,
+      "pergunta": "O buffet antes do estol indica:",
+      "alternativas": [
+        "Maior eficiência aerodinâmica",
+        "Aproximação da perda de sustentação",
+        "Falha de motor",
+        "Diminuição do arrasto"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O buffet é sinal típico de aproximação do estol."
+    },
+    {
+      "id": 76,
+      "pergunta": "A relação $$L/D$$ representa:",
+      "alternativas": [
+        "Tração sobre peso",
+        "Sustentação sobre arrasto",
+        "Altitude sobre tempo",
+        "Peso sobre sustentação"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "A relação $$L/D$$ mede a eficiência aerodinâmica da aeronave."
+    },
+    {
+      "id": 77,
+      "pergunta": "A melhor velocidade de planeio está associada:",
+      "alternativas": [
+        "À melhor relação $$L/D$$",
+        "À máxima potência do motor",
+        "Ao maior arrasto parasita",
+        "Ao menor ângulo de ataque possível"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "A melhor velocidade de planeio coincide com a melhor relação entre sustentação e arrasto."
+    },
+    {
+      "id": 78,
+      "pergunta": "A velocidade $$V_X$$ é a de:",
+      "alternativas": [
+        "Melhor razão de subida",
+        "Melhor ângulo de subida",
+        "Velocidade nunca exceder",
+        "Velocidade de aproximação final"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "$$V_X$$ é a velocidade de melhor ângulo de subida."
+    },
+    {
+      "id": 79,
+      "pergunta": "A velocidade $$V_Y$$ é a de:",
+      "alternativas": [
+        "Melhor razão de subida",
+        "Melhor ângulo de subida",
+        "Melhor planeio",
+        "Nunca exceder"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "$$V_Y$$ é a velocidade de melhor razão de subida."
+    },
+    {
+      "id": 80,
+      "pergunta": "Altitude densidade elevada:",
+      "alternativas": [
+        "Melhora o desempenho",
+        "Não afeta a decolagem",
+        "Piora o desempenho",
+        "Aumenta a potência disponível"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "Altitude densidade elevada significa ar menos denso, prejudicando sustentação, potência e eficiência da hélice."
+    },
+    {
+      "id": 81,
+      "pergunta": "Peso elevado tende a:",
+      "alternativas": [
+        "Melhorar subida e decolagem",
+        "Piorar desempenho",
+        "Diminuir a velocidade de estol",
+        "Reduzir a distância de pouso"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Maior peso piora desempenho geral e aumenta exigências aerodinâmicas."
+    },
+    {
+      "id": 82,
+      "pergunta": "Vento de proa na decolagem geralmente:",
+      "alternativas": [
+        "Prejudica a corrida",
+        "Ajuda a reduzir a distância necessária",
+        "Não produz efeito",
+        "Aumenta o vento de cauda"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Vento de proa ajuda na decolagem ao reduzir a velocidade de solo necessária."
+    },
+    {
+      "id": 83,
+      "pergunta": "Vento de cauda no pouso tende a:",
+      "alternativas": [
+        "Reduzir a distância de pouso",
+        "Aumentar a distância de pouso",
+        "Melhorar a frenagem",
+        "Reduzir a velocidade de aproximação indicada"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Vento de cauda aumenta a energia no toque e a distância necessária para parar."
+    },
+    {
+      "id": 84,
+      "pergunta": "A velocidade $$V_A$$ é importante porque:",
+      "alternativas": [
+        "É sempre a melhor velocidade de cruzeiro",
+        "Abaixo dela a asa tende a estolar antes de sofrer dano por comando brusco",
+        "É a velocidade máxima com flap baixado",
+        "É a velocidade de aproximação para qualquer aeronave"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "$$V_A$$ fornece margem para que a asa estole antes de exceder limites estruturais em comando brusco."
+    },
+    {
+      "id": 85,
+      "pergunta": "O centro de pressão é:",
+      "alternativas": [
+        "O centro de gravidade",
+        "O ponto de aplicação da resultante aerodinâmica",
+        "O ponto onde atua o peso",
+        "O centro geométrico da fuselagem"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O centro de pressão é o ponto onde se considera aplicada a força aerodinâmica resultante."
+    },
+    {
+      "id": 86,
+      "pergunta": "O diedro contribui principalmente para a estabilidade:",
+      "alternativas": [
+        "Direcional",
+        "Lateral",
+        "Longitudinal",
+        "Vertical"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O diedro ajuda a aeronave a recuperar-se de inclinações laterais."
+    },
+    {
+      "id": 87,
+      "pergunta": "A estabilidade positiva significa que a aeronave:",
+      "alternativas": [
+        "Permanece na nova posição",
+        "Afasta-se da posição inicial",
+        "Tende a retornar à condição original",
+        "Sempre sobe após uma perturbação"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "Estabilidade positiva é a tendência natural de voltar ao equilíbrio."
+    },
+    {
+      "id": 88,
+      "pergunta": "Gelo nas asas tende a:",
+      "alternativas": [
+        "Melhorar o perfil aerodinâmico",
+        "Aumentar a velocidade de estol",
+        "Reduzir o arrasto",
+        "Aumentar a eficiência do profundor"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "O gelo degrada o perfil alar, reduz sustentação e aumenta a velocidade de estol."
+    },
+    {
+      "id": 89,
+      "pergunta": "Em uma curva não coordenada, podem ocorrer:",
+      "alternativas": [
+        "Slip ou skid",
+        "Apenas estol reto",
+        "Apenas falha estrutural",
+        "Desaparecimento da sustentação"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "Curvas descoordenadas podem resultar em escorregamento (slip) ou derrapagem (skid)."
+    },
+    {
+      "id": 90,
+      "pergunta": "Operar acima de $$V_{NE}$$ representa:",
+      "alternativas": [
+        "Operação normal",
+        "Velocidade ideal de manobra",
+        "Sério risco estrutural",
+        "Condição de melhor alcance"
+      ],
+      "resposta_correta": 2,
+      "explicacao": "$$V_{NE}$$ é a velocidade nunca exceder; ultrapassá-la compromete a segurança estrutural."
+    }
+  ]
+}
